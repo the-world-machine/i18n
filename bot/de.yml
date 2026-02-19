@@ -1,7 +1,6 @@
 generic:
-  loading: "[ Laden... {loading, emoji} ]"
-  loading_hint: "[ {loading, emoji} ]"
-  command_cooldown: "[ Bitte spam diese command nicht. Du kannset es noch benutzen in [timestamp_relative]. ]"
+  command_cooldown: "[ Bitte spam diese command nicht. Du kannset es noch benutzen in [timestamp_relative].
+    ]"
 
   buttons:
     yes: "Ja"
@@ -23,7 +22,6 @@ generic:
     err: "‼️ Error:"
 
   select:
-    empty: hallo, english (original) übersetztung war gemacht bei @meqativ und @axiinyaa #  :3
     multiple: ([current]/[total])
 
   responses:
@@ -44,7 +42,6 @@ misc:
     title: "Du hast gefunden..."
     finding:
       noik: Niko!
-      footer: 1 in 100 chance! Glückwunsch!
       cat: Eine Katze!
 
   roll:
@@ -54,9 +51,11 @@ misc:
     multi: "Insgesamt **[total]**."
 
   welcome:
-    placeholder_text: "[ Willkommen zu [server_name], [user_name]! hier sind jetzt [member_count] benutzern hier! ]"
+    placeholder_text: "[ Willkommen zu [server_name], [user_name]! hier sind jetzt [member_count] benutzern
+      hier! ]"
 
-  wikipedia: "[ [Hier]([link]) ist deine randomisierte wikipedia Artikel. es ist über [title]... ich denke ... ]"
+  wikipedia: "[ [Hier]([link]) ist deine randomisierte wikipedia Artikel. es ist über [title]... ich denke
+    ... ]"
 
 # ---------------------------------------------------------------
 
@@ -90,11 +89,10 @@ about:
     translate: Translate
     website: Website
     weblate: Weblate
-    Discord: Discord
-
   mes:
-    - "a discord bot based off oneshot"
-    - "a testing build for The World Machine, do not invite this bot if you want The World Machine in your server"
+  - "a discord bot based off oneshot"
+  - "a testing build for The World Machine, do not invite this bot if you want The World Machine in your
+    server"
 
 # ---------------------------------------------------------------
 
@@ -117,16 +115,19 @@ wool:
         [mention] war gegeben {wool, emoji}**[balance]** ]
     twm:
       none: "[ Ich probiere nicht die wirtschaft beeinflussen, so ich habe **no{wool, emoji}Wool** ]"
-      some: "[ Ich probiere nicht die wirtschaft beeinflussen, aber ich habe {wool, emoji}**[balance]** ]"
+      some: "[ Ich probiere nicht die wirtschaft beeinflussen, aber ich habe {wool, emoji}**[balance]**
+        ]"
   transfer:
     errors:
       self_transfer: "[ Fertig... ]"
-      not_enough: "[ Du hast nicht so viel {wool, emoji} wool! (du hast nur {wool, emoji}**[balance]**) ]"
+      not_enough: "[ Du hast nicht so viel {wool, emoji} wool! (du hast nur {wool, emoji}**[balance]**)
+        ]"
     to:
       bot:
         none: "[user_one] verschenkt {wool, emoji}**[amount]** to [user_two], nicht sehr großzügig!"
         some: "[user_one] verschenkt {wool, emoji}**[amount]** to [user_two], wie großzügig..."
-        confirmation: "[ Bist du sicherer das du will woole geben zu ein bot...? Du kannst es nicht wieder haben, du weißt dass...? ]"
+        confirmation: "[ Bist du sicherer das du will woole geben zu ein bot...? Du kannst es nicht wieder
+          haben, du weißt dass...? ]"
       user:
         none: "[user_one] verschenkt {wool, emoji}**[amount]** to [user_two], nicht sehr großzügig schließlich..."
         some: "[user_one] verschenkt {wool, emoji}**[amount]** to [user_two], wie großzügig!"
@@ -140,7 +141,8 @@ wool:
       despise: "...und sie hassen die... zu schlect..."
       ogie: "...und sie sehen das du bist okay."
       yippie: "...und sie sind glücklich mir dir! Lob sei die Welt Maschine!"
-      devoted: "...und sie sehen du bist ein echetr they see you're truly a devoted follower. Lob sei die Welt maschine!"
+      devoted: "...und sie sehen du bist ein echetr they see you're truly a devoted follower. Lob sei
+        die Welt maschine!"
     title: "Du betete zu die Welt maschine..."
     Change:
       gain: "Du also hast bekommen {wool, emoji}**[amount]** wool!"
@@ -156,14 +158,20 @@ transmit:
 
 settings:
   errors:
-    weird_edgecase_number_0: Ober du bist {twm, user, mention} nicht in der server. Wenn du bist der server Manager bitte nochmal {twm, user, mention} zu dem Server einladen.
+    weird_edgecase_number_0: Ober du bist {twm, user, mention} nicht in der server. Wenn du bist der
+      server Manager bitte nochmal {twm, user, mention} zu dem Server einladen.
     missing_permissions: '[ Du musst die "Manage Server" Erlaubnis haben bevor du die Einstellungen verändert]'
     channel_not_messageable: "[ Ich kann nicht eine Nachricht in diesem Kanal senden. ]"
-    channel_insufficient_perms: "[ Ich hab nicht genug erlaubnisse für diesem Kannal. stell doch sicher ich habe alle von diesem: **Send Messages**, **View Channel** und **Attach Files**. ]"
+    channel_insufficient_perms: "[ Ich hab nicht genug erlaubnisse für diesem Kannal. stell doch sicher
+      ich habe alle von diesem: **Send Messages**, **View Channel** und **Attach Files**. ]"
     invalid_server_id: "[ Invaliden server ID. ]"
     uncached_server: "-# Ich konnte nicht den server namen finden (ich bin nicht drin)"
-    get_server_id: "(Discord Einstellungen -> Erweitert-> 'Entwicklermodus' aktivieren, dann guck unterm von der Server menü )"
-    channel_lost_warn: "Etwas ist kaputt gegangen leste mal och probierte eine willkommen textbox in der Kanal du hast ausgewählt. stell fich sicher ich habe genug Erlaubnisse in dem Kanal und es existiert. Du kannst den Kanal verändern indem du benutzt `/settings welcome channel`, ober in den Server Einstellungen -> Overview -> ꜱʏꜱᴛᴇᴍ ᴍᴇꜱꜱᴀɢᴇꜱ ᴄʜᴀɴɴᴇʟ"
+    get_server_id: "(Discord Einstellungen -> Erweitert-> 'Entwicklermodus' aktivieren, dann guck unterm
+      von der Server menü )"
+    channel_lost_warn: "Etwas ist kaputt gegangen leste mal och probierte eine willkommen textbox in der
+      Kanal du hast ausgewählt. stell fich sicher ich habe genug Erlaubnisse in dem Kanal und es existiert.
+      Du kannst den Kanal verändern indem du benutzt `/settings welcome channel`, ober in den Server Einstellungen
+      -> Overview -> ꜱʏꜱᴛᴇᴍ ᴍᴇꜱꜱᴀɢᴇꜱ ᴄʜᴀɴɴᴇʟ"
 
   welcome:
     enabled:
@@ -181,10 +189,6 @@ settings:
       input: "Willkommen Nachricht"
       placeholder: "Du kannst die Variablen benutzen: [user_name] [server_name] [member_count]"
       done: "[ Erfolgreich Verändert die Willkommen Nachricht ]"
-      debug: |
-        Previous: [old_text]
-
-        New (current): [new_text]
       disabled_note: "don't forget to enable them with `/settings welcome enabled value:True`" # note:
   transmissions:
     enabled:
@@ -213,7 +217,8 @@ profile:
     loading: "[ Laden [user]'s Profil... {loading, emoji} ]"
 
     image:
-      alt_nodescription: "in der Bilder ist der profil von [username] in der Welt Machine system. Sie besitzen: Sonnen [suns], Woolen [wool]"
+      alt_nodescription: "in der Bilder ist der profil von [username] in der Welt Machine system. Sie
+        besitzen: Sonnen [suns], Woolen [wool]"
 
       # you may also still use any of the variables from above, if your language requires some rewording (try not to use [alt_nodescription] at all if you do)
       alt_cont: "[alt_nodescription]. Dieser Beschreibung sagt: [description]"
@@ -229,11 +234,11 @@ profile:
 explode:
   dialogue:
     why:
-      - "[ Warum? ]"
-      - "[ Ich muss wieder waschen wenn jemand macht dass.]"
-      - "[ Wow... Echt? ]"
-      - "[  ]"
-      - ~ # don't touch this one, the bot inserts a random amount of dots here
+    - "[ Warum? ]"
+    - "[ Ich muss wieder waschen wenn jemand macht dass.]"
+    - "[ Wow... Echt? ]"
+    - "[  ]"
+    -     # don't touch this one, the bot inserts a random amount of dots here
 
     sixninefourtwo: nice 👍
     nineninenineninenine: |
@@ -265,10 +270,13 @@ shop:
   main_title: Willkommen!
 
   main: >
-    Hey, Hey! Willkommen zum mein emporium, Ich bin's breit zu verkaufen sehr viel glänzen und färbliche Schatzen, Hintergründe, Kapseln und mehr für deine woolen {wool, emoji}**Wool**... Denk es als Euros kannst du?
+    Hey, Hey! Willkommen zum mein emporium, Ich bin's breit zu verkaufen sehr viel glänzen und färbliche
+    Schatzen, Hintergründe, Kapseln und mehr für deine woolen {wool, emoji}**Wool**... Denk es als Euros
+    kannst du?
 
 
-    Um zu starten, offene mal die Kategorien unten und dann verkaufe! wiss das welche Sachen verändern **täglich**, Soo.. besser eine Auge halten für diese!
+    Um zu starten, offene mal die Kategorien unten und dann verkaufe! wiss das welche Sachen verändern
+    **täglich**, Soo.. besser eine Auge halten für diese!
 
 
     [motd]
@@ -277,12 +285,17 @@ shop:
     [user_wool]
 
   motds:
-    - "Der wool Markt verändert sich täglich, wir Vogel-Menschen haben eine gute Intuition darüber und mit intuition ich meinte Ich manchal Zunahm ober verringern die Preise.. Ich Weiß das ohne Fleiß kein Preis aber, wer will mich stoppen?"
-    - "Ich habe vielleicht den wool markt gebrochen einmal or zwei.. Aber bitte sag es Niemanden."
-    - "Wörter der Weisheit als ein Freund: wenn du kaufst hoch und Verkaufst niedrig, Glück erwartet..! überprüfe das nicht.. bitte?"
-    - "Meine Schätze und Schmuckstücke sind verloren... Kannst du mir mehr finden für mich?"
-    - "Du willst wissen was ist passiert über der Händler bevor mich?	Ich würde es nicht wissen.. *ich würde es nicht wissen*" # während der welt Maschine edition AMA Nightmargin hat scherzhaft gesagt das Magpie hat eine Körper versteckt der würder nicht gefunden noch, in Anbetracht der Tatsache das der violette Händler ist nie gefunden in der Neuauflage, es it höchstwahrscheinlich das der ist der Opfer von dieser mutmaßliches Mörder.
-    - Gefällt dir meine flasche Kollektion? Ich mag meine Flasche Kollektion. Was meinst du es ist alles \"Hard Liquor\"? Ist das was es sagt?" # Magpie's drink of choice is hard liquor, but only so he can collect the bottles afterwards.
+  - "Der wool Markt verändert sich täglich, wir Vogel-Menschen haben eine gute Intuition darüber und mit
+    intuition ich meinte Ich manchal Zunahm ober verringern die Preise.. Ich Weiß das ohne Fleiß kein
+    Preis aber, wer will mich stoppen?"
+  - "Ich habe vielleicht den wool markt gebrochen einmal or zwei.. Aber bitte sag es Niemanden."
+  - "Wörter der Weisheit als ein Freund: wenn du kaufst hoch und Verkaufst niedrig, Glück erwartet..!
+    überprüfe das nicht.. bitte?"
+  - "Meine Schätze und Schmuckstücke sind verloren... Kannst du mir mehr finden für mich?"
+  - "Du willst wissen was ist passiert über der Händler bevor mich?\tIch würde es nicht wissen.. *ich
+    würde es nicht wissen*"                                                                                                    # während der welt Maschine edition AMA Nightmargin hat scherzhaft gesagt das Magpie hat eine Körper versteckt der würder nicht gefunden noch, in Anbetracht der Tatsache das der violette Händler ist nie gefunden in der Neuauflage, es it höchstwahrscheinlich das der ist der Opfer von dieser mutmaßliches Mörder.
+  - Gefällt dir meine flasche Kollektion? Ich mag meine Flasche Kollektion. Was meinst du es ist 
+    alles \"Hard Liquor\"? Ist das was es sagt?"                                                                                                # Magpie's drink of choice is hard liquor, but only so he can collect the bottles afterwards.
 
   traded: '> Erfolgreich gekauft "[item_name]" für [amount]' # [price] is also available here
   traded_sell: '> Erfolgreich "[item_name]" Verkauft für [price] Wool!'
@@ -299,13 +312,15 @@ shop:
     main: >
       Ich sehe das du bist interessiert in diesem seltsamen Kapseln Dingen!..
       Wenn ich nicht dumm bin, diese kapseln sind zu **Nikogotchis**! entsperren!
-      Was sind *Nikogotchis* fragst du? *Nikogotchis* sind irgendwie einfache Tiere (nicht wilde Tiere), das du kannst kümmern um.
+      Was sind *Nikogotchis* fragst du? *Nikogotchis* sind irgendwie einfache Tiere (nicht wilde Tiere),
+      das du kannst kümmern um.
 
 
       ...
 
 
-      *AHEM* existenziell Furcht beiseite, füttern sie mit Pfannkuchen und gut um sie kümmern, erlaubt dir um zu Schatzen zu suchen! und dann kannst du dir mir verkaufen! cool ober?
+      *AHEM* existenziell Furcht beiseite, füttern sie mit Pfannkuchen und gut um sie kümmern, erlaubt
+      dir um zu Schatzen zu suchen! und dann kannst du dir mir verkaufen! cool ober?
 
 
       So warum nicht jetzt eine Kapsel kaufen? nur für {wool, emoji}**[cost]**!
@@ -355,7 +370,9 @@ shop:
     buy:
       title: Schätze
       message: >
-        Du willst deine {wool, emoji}**Wool** verkaufen für Schatzen!? Dann bist du hier richtig! Ich habe sehr viele Schatzen das ich habe gefunden ober andere verkauft bei mir! obwohl ich bin der einzige Verkäufer hier..
+        Du willst deine {wool, emoji}**Wool** verkaufen für Schatzen!? Dann bist du hier richtig! Ich
+        habe sehr viele Schatzen das ich habe gefunden ober andere verkauft bei mir! obwohl ich bin der
+        einzige Verkäufer hier..
         [stock_market]
         [selected_treasure]
         [user_wool]
@@ -366,7 +383,8 @@ shop:
       title: Schatze verkaufen
       message: >
         Ah... du bist interessiert zum deine Schatze zu verkaufen! Das ist gut!
-        Immer wann du verkaufst deine Schatzen, ich kann es zu anderen Leuten verkaufen, so stellen Sie sicher das sie es echt verkaufen will!
+        Immer wann du verkaufst deine Schatzen, ich kann es zu anderen Leuten verkaufen, so stellen Sie
+        sicher das sie es echt verkaufen will!
         [stock_market]
         [selected_treasure]
         [user_wool]
@@ -464,136 +482,122 @@ items:
 # ---------------------------------------------------------------
 
 interact:
-  selected: "Wahl eine Action zum durchführen an [user]"
-  selected_self: "Choose an action to perform"
   errors:
-    no_path: "Couldn't find the interaction, try running the command again. If the error persists, please report it in my support server (you can find it in /about)"
-    500: "Unexpected error, try running the command again. If the error persists, please report it in my community server (an invite to it is in /about)"
+    no_path: "Couldn't find the interaction, try running the command again. If the error persists, please
+      report it in my support server (you can find it in /about)"
+    500: "Unexpected error, try running the command again. If the error persists, please report it in
+      my community server (an invite to it is in /about)"
     fail: Failed to send the interaction
 
   phrases:
-    - name: Boop
+  - name: Boop
+    phrases:
+    - name: Basic
       phrases:
-        - name: Basic
-          phrases:
-            - "[user_one] booped [user_two]"
-        - name: Playful
-          phrases:
-            - "[user_one] sticht in die Nase von[user_two]!"
-            - "[user_one] reicht und boops [user_two]!"
-            - "[user_one] Gefühlt silly und booped [user_two]!"
-            - "[user_one] playfully boops [user_two]!"
-        - name: Delicate
-          phrases:
-            - "[user_one] zart boops und streichelt die nase von [user_two]"
-            - "[user_one] delivers a dainty boop to [user_two]"
-            - "[user_one] gently taps [user_two]'s nose"
-            - "[user_one] places a delicate boop on [user_two]'s nose"
-        - name: Frustrated
-          phrases:
-            - "[user_one] aggressiv booped [user_two]"
-            - "[user_one] booped [user_two] out of frustration"
-            - "[user_one] huffs and boops [user_two] in irritation"
-            - "[user_one] lets out their frustration with a firm boop on [user_two]"
-        - name: Irresistible
-          phrases:
-            - "[user_one] fühlte das Bedürfnis zu geben [user_two] ein boop!"
-            - "[user_one] Wollte nur [user_two] ein boop geben!"
-            - "[user_one] konnte nicht widerstehen booping [user_two]"
-            - "[user_one] gives in to the urge and boops [user_two]"
-        - name: Confused
-          phrases:
-            - "[user_one] hatte [user_two] in Verwirrung gelassen über ein boop!"
-            - "[user_one] gibt [user_two] ein unerwarteter boop!"
-            - "[user_one] lasst [user_two] sprachlos mit einen post-boop!"
-            - "[user_one] leaves [user_two] wondering why they were booped"
-        - name: They're Cute
-          phrases:
-            - "[user_one] gives [user_two] the cutest little boop!"
-            - "[user_one] boops [user_two]'s nose and giggles cutely!"
-            - "[user_one] can't handle how adorable [user_two] is and boops them!"
-            - "[user_one] with a smile, delivers a heart-melting boop to [user_two]!"
-    - name: Schlagen
+      - "[user_one] booped [user_two]"
+    - name: Playful
       phrases:
-        - name: Basic
-          phrases:
-            - "[user_one] hat [user_two] geschlagen, wahrscheinlich verdient."
-    - name: Streichlen
+      - "[user_one] sticht in die Nase von[user_two]!"
+      - "[user_one] reicht und boops [user_two]!"
+      - "[user_one] Gefühlt silly und booped [user_two]!"
+      - "[user_one] playfully boops [user_two]!"
+    - name: Delicate
       phrases:
-        - name: Basic
-          phrases:
-            - "[user_one] streichelt [user_two]!"
-    - name: Kopf streichel
+      - "[user_one] zart boops und streichelt die nase von [user_two]"
+      - "[user_one] delivers a dainty boop to [user_two]"
+      - "[user_one] gently taps [user_two]'s nose"
+      - "[user_one] places a delicate boop on [user_two]'s nose"
+    - name: Frustrated
       phrases:
-        - name: Basic
-          phrases:
-            - "[user_one] gibt [user_two] ein Kopf streicheln!"
-    - name: Kitzeln
+      - "[user_one] aggressiv booped [user_two]"
+      - "[user_one] booped [user_two] out of frustration"
+      - "[user_one] huffs and boops [user_two] in irritation"
+      - "[user_one] lets out their frustration with a firm boop on [user_two]"
+    - name: Irresistible
       phrases:
-        - name: Basic
-          phrases:
-            - "[user_one] startet [user_two] zu kitzel!"
-            - "[user_one] gibt [user_two] ein Überraschung kitzel!"
-            - "[user_one] kitzelte [user_two] und startete ein kitzel kämpf!"
-            - "[user_one] went for a tickle attack towards [user_two]!"
-    - name: Umarmung
+      - "[user_one] fühlte das Bedürfnis zu geben [user_two] ein boop!"
+      - "[user_one] Wollte nur [user_two] ein boop geben!"
+      - "[user_one] konnte nicht widerstehen booping [user_two]"
+      - "[user_one] gives in to the urge and boops [user_two]"
+    - name: Confused
       phrases:
-        - name: Basic
-          phrases:
-            - "[user_one] Umarmte [user_two]!"
-    - name: kuscheln
+      - "[user_one] hatte [user_two] in Verwirrung gelassen über ein boop!"
+      - "[user_one] gibt [user_two] ein unerwarteter boop!"
+      - "[user_one] lasst [user_two] sprachlos mit einen post-boop!"
+      - "[user_one] leaves [user_two] wondering why they were booped"
+    - name: They're Cute
       phrases:
-        - name: Basic
-          phrases:
-            - "[user_one] kuschelte mit [user_two]!"
-    - name: Küssen
+      - "[user_one] gives [user_two] the cutest little boop!"
+      - "[user_one] boops [user_two]'s nose and giggles cutely!"
+      - "[user_one] can't handle how adorable [user_two] is and boops them!"
+      - "[user_one] with a smile, delivers a heart-melting boop to [user_two]!"
+  - name: Schlagen
+    phrases:
+    - phrases: []
+  - name: Streichlen
+    phrases:
+    - phrases: []
+  - name: Kopf streichel
+    phrases:
+    - phrases: []
+  - name: Kitzeln
+    phrases:
+    - phrases:
+      - "[user_one] gibt [user_two] ein Überraschung kitzel!"
+      - "[user_one] went for a tickle attack towards [user_two]!"
+  - name: Umarmung
+    phrases:
+    - phrases: []
+  - name: kuscheln
+    phrases:
+    - phrases: []
+  - name: Küssen
+    phrases:
+    - name: Basic
       phrases:
-        - name: Basic
-          phrases:
-            - "[user_one] hat [user_two] geküsst! ❤️"
-        - name: Warm
-          phrases:
-            - "[user_one] gibt [user_two] ein warmes küssen ❤️"
-        - name: Romantic
-          phrases:
-            - "[user_one] pulls [user_two] close and shares a slow, tender kiss"
-        - name: Cheek Kiss
-          phrases:
-            - "[user_one] plants a sweet peck on [user_two]'s cheek"
-            - "[user_one] leaves [user_two] blushing with an affectionate cheek kiss!"
-    - name: Attack
+      - "[user_one] hat [user_two] geküsst! ❤️"
+    - name: Warm
       phrases:
-        - name: Basic Punch
-          phrases:
-            - "[user_one] Schlägte [user_two], das würd ein blaues fleck lassen."
-        - name: Random Combo
-          phrases:
-            - "[user_one] delivers a rapid 1-2 punch combo to [user_two]!"
-            - "[user_one] lands three quick jabs followed by an overhand right on [user_two]!"
-            - "[user_one] goes full flurry mode on [user_two]!"
-        - name: Pillow
-          phrases:
-            - "[user_one] hits [user_two] behind their head with a fluffy pillow!"
-            - "[user_one] launches a pillow barrage at [user_two]! No feathers left!"
-            - "[user_one] swings a cushion at [user_two] in a soft attack!"
-    - name: 🔥
+      - "[user_one] gibt [user_two] ein warmes küssen ❤️"
+    - name: Romantic
       phrases:
-        - name: Small Rock
-          phrases:
-            - "[user_one] threw a small rock at [user_two]!"
-        - name: Molotov
-          phrases:
-            - "[user_one] wirft eine Molotov Cocktail in Richtung [user_two] ‼️"
-        - name: Empty Bottle (ow)
+      - "[user_one] pulls [user_two] close and shares a slow, tender kiss"
+    - name: Cheek Kiss
+      phrases:
+      - "[user_one] plants a sweet peck on [user_two]'s cheek"
+      - "[user_one] leaves [user_two] blushing with an affectionate cheek kiss!"
+  - name: Attack
+    phrases:
+    - name: Basic Punch
+      phrases:
+      - "[user_one] Schlägte [user_two], das würd ein blaues fleck lassen."
+    - name: Random Combo
+      phrases:
+      - "[user_one] delivers a rapid 1-2 punch combo to [user_two]!"
+      - "[user_one] lands three quick jabs followed by an overhand right on [user_two]!"
+      - "[user_one] goes full flurry mode on [user_two]!"
+    - name: Pillow
+      phrases:
+      - "[user_one] hits [user_two] behind their head with a fluffy pillow!"
+      - "[user_one] launches a pillow barrage at [user_two]! No feathers left!"
+      - "[user_one] swings a cushion at [user_two] in a soft attack!"
+  - name: 🔥
+    phrases:
+    - name: Small Rock
+      phrases:
+      - "[user_one] threw a small rock at [user_two]!"
+    - name: Molotov
+      phrases:
+      - "[user_one] wirft eine Molotov Cocktail in Richtung [user_two] ‼️"
+    - name: Empty Bottle (ow)
           #type: bottle
           #no_bottles: "[user_one] ran out of {treasures.bottle, emoji} bottles!"
-          phrases:
-            - "[user_one] threw an empty bottle at [user_two]'s head"
+      phrases:
+      - "[user_one] threw an empty bottle at [user_two]'s head"
 
 # ---------------------------------------------------------------
 
 treasure:
-  bots: "[ [bot] hat keine Schätze ]"
   item: "**`[amount]`** [icon] [name]"
   message: >
     ### [user]'s Schätze
@@ -630,10 +634,10 @@ nikogotchi:
   other:
     you_invalid: "[ Du hast kein Nikogotchi. ]"
     other_invalid: "[ Dieser person hat kein Nikogotchi. ]"
-    rename_you_invalid: "[ Du hast kein Nikogotchi. Was machst du...? ]"
     error:
       description: > # Kelvin was a nikogotchi before
-        [ Dein Nikogotchi (`[id]`) nicht mehr existiert. Du kannst eine neues haben Sie können ein neues mit den gleichen seltenheit bekommen ober schick es weg. ]
+        [ Dein Nikogotchi (`[id]`) nicht mehr existiert. Du kannst eine neues haben Sie können ein neues
+        mit den gleichen seltenheit bekommen ober schick es weg. ]
 
 
         [ Was willst du machen? ]
@@ -642,7 +646,8 @@ nikogotchi:
         rotate: drehen
 
     send_away:
-      description: "[ Bist du sicher das du willst [name] weg schicken so dass du kannst ein neues Nikogotchi adoptierten? ]"
+      description: "[ Bist du sicher das du willst [name] weg schicken so dass du kannst ein neues Nikogotchi
+        adoptierten? ]"
       success: "[ Erfolgreich weg geschickt [name]. genieße deine Zukunft Nikogotchi! ]"
 
     renaming:
@@ -680,7 +685,8 @@ nikogotchi:
     dirty: "🛀 [name] will geputzt sein!"
     hungry: "🥞 [name] ist hungrig..."
     treasure: "🎒 [name] ist derzeit auf der Suche nach Schätzen!"
-    danger: 🚨 [name] ist am niedrige gesundheit! benutz Goldene Pfannkuchen um ihre Gesundheit wiederherzustellen!
+    danger: 🚨 [name] ist am niedrige gesundheit! benutz Goldene Pfannkuchen um ihre Gesundheit 
+      wiederherzustellen!
 
   components:
     pet: Streicheln
@@ -695,10 +701,12 @@ nikogotchi:
       golden_pancakes: Futtern Goldene Pfannkuchen (x[amount])
       glitched_pancakes: Futtern ??? (x[amount])
 
-      glitched_powerup: "Dein Nikogotchi has wurde deutlich verstärkt nachdem dein Nikogotchi hat diese Chaos von einem Pfannkuchen gegessen..."
+      glitched_powerup: "Dein Nikogotchi has wurde deutlich verstärkt nachdem dein Nikogotchi hat diese
+        Chaos von einem Pfannkuchen gegessen..."
 
       no_food: "Kein essen... Du kannst welche kaufen in den Laden!"
-      invalid: Du kannst nicht dein Nikogotchi futtern dass! bitte aktualisieren mit {refresh, emoji}!
+      invalid: Du kannst nicht dein Nikogotchi futtern dass! bitte aktualisieren mit {refresh, 
+        emoji}!
 
   died:
     title: "🪦 [name] ist gestorben..."
@@ -709,7 +717,8 @@ nikogotchi:
       - Stunden seit der letzten Betreuung: **[time_difference]**
 
 
-      Nikogotchis verlassen Sie sich auf Ihre Liebe und aufmerksamkeit, so probiert mal besser um dein Nikogotchi zu kümmern nächstes mal!
+      Nikogotchis verlassen Sie sich auf Ihre Liebe und aufmerksamkeit, so probiert mal besser um dein
+      Nikogotchi zu kümmern nächstes mal!
 
 
       R.I.P....
@@ -738,158 +747,161 @@ nikogotchi:
   dialogue:
     niko:
       fed:
-        - "Ah... Pfannkuchen!"
-        - "Wow, diese sind so gut wie meine mama macht!"
-        - "Bitte sag mir hier sind Haselnüsse in diesen!"
-        - "PFANNKUCHEN!!!"
-        - "Yummy!"
+      - "Ah... Pfannkuchen!"
+      - "Wow, diese sind so gut wie meine mama macht!"
+      - "Bitte sag mir hier sind Haselnüsse in diesen!"
+      - "PFANNKUCHEN!!!"
+      - "Yummy!"
       pet:
-        - "Wow... Danke!"
-        - "Aw, das fühlt sich schön an!"
-        - "*purr*"
+      - "Wow... Danke!"
+      - "Aw, das fühlt sich schön an!"
+      - "*purr*"
       cleaned:
-        - "Fühlt sich schön erfrischt!"
-        - "Squeaky clean!"
-        - "Meine fell is all schön un fluffig!"
+      - "Fühlt sich schön erfrischt!"
+      - "Squeaky clean!"
+      - "Meine fell is all schön un fluffig!"
     nikonlanger:
       fed:
-        - "yum"
+      - "yum"
       pet:
-        - ","
+      - ","
       cleaned:
-        - "so waskh so ueppik"
+      - "so waskh so ueppik"
     prophet_bot:
       fed:
-        - "[ Mein ziel is nicht zu essen. Aber danke. ]"
-        - "[ Danke für deine geste. ]"
+      - "[ Mein ziel is nicht zu essen. Aber danke. ]"
+      - "[ Danke für deine geste. ]"
       pet:
-        - "[ ... ]"
-        - "[ Ich freue mich über Ihre Aufmerksamkeit. ]"
+      - "[ ... ]"
+      - "[ Ich freue mich über Ihre Aufmerksamkeit. ]"
       cleaned:
-        - "[ Instandhaltung ist wichtig für mein ziel. Dankeschön. ]"
+      - "[ Instandhaltung ist wichtig für mein ziel. Dankeschön. ]"
     silver:
       fed:
-        - "[ Essen is nicht mehr wichtig für mich, aber danke für die Geste. ]"
+      - "[ Essen is nicht mehr wichtig für mich, aber danke für die Geste. ]"
       pet:
-        - "[ Your Deine Berührung tröstet mir, aber mir fehlt die Fähigkeit zu fühlen. ]"
+      - "[ Your Deine Berührung tröstet mir, aber mir fehlt die Fähigkeit zu fühlen. ]"
       cleaned:
-        - "[ Ich schätze Ihre Bemühungen meine Funktion aufrechtzuerhalten, Dankeschön. ]"
+      - "[ Ich schätze Ihre Bemühungen meine Funktion aufrechtzuerhalten, Dankeschön. ]"
     alula:
       fed:
-        - "Yum! Ich allerdings mag fisch mehr!"
-        - "Delicious! Ich war schon hungrig!"
-        - "Yum!"
+      - "Yum! Ich allerdings mag fisch mehr!"
+      - "Delicious! Ich war schon hungrig!"
+      - "Yum!"
       pet:
-        - "Hee hee, dass kitzelt!"
+      - "Hee hee, dass kitzelt!"
       cleaned:
-        - "Ich fühle mich so erfrischt und sauber! Whee!"
+      - "Ich fühle mich so erfrischt und sauber! Whee!"
     calamus:
       fed:
-        - "Oh, Pfannkuchen? Danke sehr."
+      - "Oh, Pfannkuchen? Danke sehr."
       pet:
-        - "Das ist ganz nett. Danke fürfür die aufmerksamkeit."
+      - "Das ist ganz nett. Danke fürfür die aufmerksamkeit."
       cleaned:
-        - "Ich richtig brauchte das, diese Ruinen konnen staubig sein."
+      - "Ich richtig brauchte das, diese Ruinen konnen staubig sein."
     magpie:
       fed:
-        - "Ah, pfannkuchen! Genau die, die ich habe dir verkauft!"
-        - "Ah Dankeschön! Es ist interessant um ein Nikogotchi werden, aber immer Pfannkuchen essen kann schon langweilig sein."
+      - "Ah, pfannkuchen! Genau die, die ich habe dir verkauft!"
+      - "Ah Dankeschön! Es ist interessant um ein Nikogotchi werden, aber immer Pfannkuchen essen kann
+        schon langweilig sein."
       pet:
-        - "A eine sanfte Berührung, nur was ich mag!"
-        - "Na, bist du nicht ein freundliche? Ein Streich an meine feder immer macht mein tag besser."
+      - "A eine sanfte Berührung, nur was ich mag!"
+      - "Na, bist du nicht ein freundliche? Ein Streich an meine feder immer macht mein tag besser."
       cleaned:
-        - "Ah, ein kleine Verschönerung, Ich schätze es! (das andere schätze ich hab schon genug)"
+      - "Ah, ein kleine Verschönerung, Ich schätze es! (das andere schätze ich hab schon genug)"
     lamplighter:
       fed:
-        - "Oh, danke. kaffee ist mein übliches, aber ich kann ein Veränderung benutzen. Schätze es."
-        - "Pfannkuchen? Danke. Ich kann jetzt ein bisschen mehr Energie benutzen"
+      - "Oh, danke. kaffee ist mein übliches, aber ich kann ein Veränderung benutzen. Schätze es."
+      - "Pfannkuchen? Danke. Ich kann jetzt ein bisschen mehr Energie benutzen"
       pet:
-        - "Oh, uh, danke. nicht daran gewöhnt... Aber ist nicht schlecht."
-        - "Oh, uh, danke. I, um, Schätze dir geste."
+      - "Oh, uh, danke. nicht daran gewöhnt... Aber ist nicht schlecht."
+      - "Oh, uh, danke. I, um, Schätze dir geste."
       cleaned:
-        - "Echt? Ich meine, sicher, Ich schätze es. Danke."
-        - "Sauberkeit ist... wichtig. Danke."
+      - "Echt? Ich meine, sicher, Ich schätze es. Danke."
+      - "Sauberkeit ist... wichtig. Danke."
     ling:
       fed:
-        - "Oh, danke! du bist zu nett. Normalerweise wäre ich derjenige serviert diese!"
+      - "Oh, danke! du bist zu nett. Normalerweise wäre ich derjenige serviert diese!"
       pet:
-        - "Ah, das ist schon angenehm. Danke für die kleine Muntermacher."
+      - "Ah, das ist schon angenehm. Danke für die kleine Muntermacher."
       cleaned:
-        - "Ich fühle schön erfrischt. Dankeschön."
+      - "Ich fühle schön erfrischt. Dankeschön."
     kip:
       fed:
-        - "Mmm, Pfannkuchen! du weiß der weg zum einen Ingenieurs herz. Danke!"
+      - "Mmm, Pfannkuchen! du weiß der weg zum einen Ingenieurs herz. Danke!"
       pet:
-        - "Du hast ein knack für das, mein Freund.. ober freundinnen?"
+      - "Du hast ein knack für das, mein Freund.. ober freundinnen?"
       cleaned:
-        - "Ein kleines verhübschung, eh? Ich fühle mich bereit eine ganze Montagelinie zu übernehmen!"
+      - "Ein kleines verhübschung, eh? Ich fühle mich bereit eine ganze Montagelinie zu übernehmen!"
     penguin:
       fed:
-        - "HALLO."
+      - "HALLO."
       pet:
-        - "HALLO."
+      - "HALLO."
       cleaned:
-        - "HALLO."
+      - "HALLO."
     george:
       fed:
-        - "George akzeptieren der Angebot von fluffige pfannkuchen. George Herz ist zufrieden."
-        - "Ich denke pfannkuchhen sind gut. Erwarte nicht das ich alles Sonnenschien und Regenbogen bin über es"
-        - "Oh, Pfannkuchen... Ich vermute die sind essbar. Nichts ist sowieso wirklich wichtig really."
-        - "Wow, Pfannkuchen! Ich kann nicht helfen aber zu lächeln. Dankeschön sehr viel!"
-        - "Oh Liebling, du solltest nicht. Aber danke, sweetie. Ich schätze es."
-        - "Pfannkuchen? Rad wahl, mein freund ober freundin! Ich bin alles für das."
+      - "George akzeptieren der Angebot von fluffige pfannkuchen. George Herz ist zufrieden."
+      - "Ich denke pfannkuchhen sind gut. Erwarte nicht das ich alles Sonnenschien und Regenbogen bin
+        über es"
+      - "Oh, Pfannkuchen... Ich vermute die sind essbar. Nichts ist sowieso wirklich wichtig really."
+      - "Wow, Pfannkuchen! Ich kann nicht helfen aber zu lächeln. Dankeschön sehr viel!"
+      - "Oh Liebling, du solltest nicht. Aber danke, sweetie. Ich schätze es."
+      - "Pfannkuchen? Rad wahl, mein freund ober freundin! Ich bin alles für das."
       pet:
-        - "Dein Streichen gefällt George. George schätzs das."
-        - "Was fass du mich an für? halt deine hände für dich."
-        - "Warum streichelst du mich? Ich verdiene es gar nicht."
-        - "Awww, du bist der beste! ober die beste? Ich fühle all warm und verschwommen."
-        - "Du bist so fürsorglich. Danke mein liebling!"
-        - "Chill vibes, digga! dein streichel spiel ist auf den Punkt."
+      - "Dein Streichen gefällt George. George schätzs das."
+      - "Was fass du mich an für? halt deine hände für dich."
+      - "Warum streichelst du mich? Ich verdiene es gar nicht."
+      - "Awww, du bist der beste! ober die beste? Ich fühle all warm und verschwommen."
+      - "Du bist so fürsorglich. Danke mein liebling!"
+      - "Chill vibes, digga! dein streichel spiel ist auf den Punkt."
       cleaned:
-        - "George ist glücklich mit den sauberkeit. es reflektiert gut an George."
-        - "Endlich ,jemand macht etwas richtig."
-        - "Putzen nach mir macht keine Veränderung in diesem trostlose Welt."
-        - "Du bist sehr nachdenklich! Mit einen sauberen raum, Ich kann alles machen!"
-        - "Danke liebling, dass du ordnung haltest. es macht mein leben so viel einfacher!"
-        - "Danke das du halts es chill und sauber hie. Ich respektiere das."
+      - "George ist glücklich mit den sauberkeit. es reflektiert gut an George."
+      - "Endlich ,jemand macht etwas richtig."
+      - "Putzen nach mir macht keine Veränderung in diesem trostlose Welt."
+      - "Du bist sehr nachdenklich! Mit einen sauberen raum, Ich kann alles machen!"
+      - "Danke liebling, dass du ordnung haltest. es macht mein leben so viel einfacher!"
+      - "Danke das du halts es chill und sauber hie. Ich respektiere das."
     rue:
       fed:
-        - "Mmm, diese Pfannkuchen seind köstlich. Dankeschön!"
-        - "Pfannkuchen? Mein Lieblingsessen! Du bist zu nett."
+      - "Mmm, diese Pfannkuchen seind köstlich. Dankeschön!"
+      - "Pfannkuchen? Mein Lieblingsessen! Du bist zu nett."
       pet:
-        - "Ah, das trifft den Punkt! du bist gut an das, bist du nicht?"
-        - "A ein kleiner Kratzer hinter die Ohren ist immer geschätzt."
+      - "Ah, das trifft den Punkt! du bist gut an das, bist du nicht?"
+      - "A ein kleiner Kratzer hinter die Ohren ist immer geschätzt."
       cleaned:
-        - "Oh, du musstest nicht, aber ich schätze die bemühung."
-        - "Ich bin ein bisschen staubig, aber es it nicht was ich kann nicht bewältigen. Danke für kummern"
+      - "Oh, du musstest nicht, aber ich schätze die bemühung."
+      - "Ich bin ein bisschen staubig, aber es it nicht was ich kann nicht bewältigen. Danke für kummern"
     prototype:
       fed:
-        - "[Das ist... Überraschend. Dankeschön.]"
+      - "[Das ist... Überraschend. Dankeschön.]"
       pet:
-        - "[Hm, nicht schlect, Mensch. Dein berührung ist nicht als kalt as deine Technologie.]"
-        - "[Ich kann es nicht fühlenit, aber ich schätze die geste.]"
+      - "[Hm, nicht schlect, Mensch. Dein berührung ist nicht als kalt as deine Technologie.]"
+      - "[Ich kann es nicht fühlenit, aber ich schätze die geste.]"
       cleaned:
-        - "[Ich vermute das eine machine wie ich braucht etwa sorgung. Mach weiter.]"
-        - "[Sorgung ist wichtig auch für eine zurückgezogen Roboter. Ich vermute bin hier für kleine pflege.]"
+      - "[Ich vermute das eine machine wie ich braucht etwa sorgung. Mach weiter.]"
+      - "[Sorgung ist wichtig auch für eine zurückgezogen Roboter. Ich vermute bin hier für kleine pflege.]"
     cedric:
       fed:
-        - "Ah, ein köstliches Angebot! Mein danke, lieblings freund ober freundin."
-        - "Diese pfannkuchen sind ein köstliches Genuss. Du hast mein Dankbarkeit"
+      - "Ah, ein köstliches Angebot! Mein danke, lieblings freund ober freundin."
+      - "Diese pfannkuchen sind ein köstliches Genuss. Du hast mein Dankbarkeit"
       pet:
-        - "dein Nettigkeite wärmt mein herz. Ein sanftes berühren in schwierigen Zeiten."
-        - "Ein moment der Ruhe, Ich schätze unsere freundschaft."
+      - "dein Nettigkeite wärmt mein herz. Ein sanftes berühren in schwierigen Zeiten."
+      - "Ein moment der Ruhe, Ich schätze unsere freundschaft."
       cleaned:
-        - "Ein fleck von sorgung, sehr geschätz! Ein gepflegt flüg-machine ist zuverlässige eine."
-        - "Du ehrst mich mit deinem Fleiß. Ein saubers Apparatus funktioniert optimal."
+      - "Ein fleck von sorgung, sehr geschätz! Ein gepflegt flüg-machine ist zuverlässige eine."
+      - "Du ehrst mich mit deinem Fleiß. Ein saubers Apparatus funktioniert optimal."
     the_world_machine:
       fed:
-        - "[Ah... Dankeschön.]"
-        - "[Oh, Pfannkuchen? Ich habe niemals gedacht dass ich wurde etwas essen wie das.]"
+      - "[Ah... Dankeschön.]"
+      - "[Oh, Pfannkuchen? Ich habe niemals gedacht dass ich wurde etwas essen wie das.]"
       pet:
-        - "[Ich kann es nicht fühlen in der gleichen weg wie du, aber ich spüre deine FreundlichkeitI. Es ist bequem in eine einzigartige Weise.]"
+      - "[Ich kann es nicht fühlen in der gleichen weg wie du, aber ich spüre deine FreundlichkeitI. Es
+        ist bequem in eine einzigartige Weise.]"
       cleaned:
-        - "[Mich Putzen? das ist überraschend, aber es fühlt sich... erfrischend.]"
-        - "[Ich vermute auch digitale Entitäten brauchen ein bisschen sorge. Du hast mein dankbarkeit.]"
+      - "[Mich Putzen? das ist überraschend, aber es fühlt sich... erfrischend.]"
+      - "[Ich vermute auch digitale Entitäten brauchen ein bisschen sorge. Du hast mein dankbarkeit.]"
 
 # ---------------------------------------------------------------
 
@@ -899,14 +911,15 @@ textbox:
     no_char: Character not found...
     no_faces: No faces found...
     no_faces_for_char: Faces not found for this character...
-    failed_to_render: "[ I failed to render the image, please report this in our [support discord server]([discord_invite]). State ID: [sid] ]"
-    unknown_state: State [id] not found. Please try again, or report this in our [support discord server]([discord_invite]) if the issue persists.
+    failed_to_render: "[ I failed to render the image, please report this in our [support discord server]([discord_invite]).
+      State ID: [sid] ]"
     unknown_frame: "Frame №[index] not found. Total frames: [total]"
     invalid_character: The character "[character_name]" is not real
     invalid_face: The face "[face_name]" is not real for "[character_name]"
     cutoff: "This text has been truncated to fit within Discord's limitations." # TODO: implemen
     failed_to_send: "[ Failed to send for some reason :[ ]"
-    failed_to_send_dm: "[ Couldn't send message to our dms, are your dms open or have you [added me](https://discord.com/oauth2/authorize?client_id={twm, user, id}) yet? ]"
+    failed_to_send_dm: "[ Couldn't send message to our dms, are your dms open or have you [added me](https://discord.com/oauth2/authorize?client_id={twm,
+      user, id}) yet? ]"
     apng_preview_warn: | # warn:
       Discord doesn't show or let you download `.png`s as APNG.
       You can open the attachment in the browser, and it should animate (if there's any animation).
@@ -922,7 +935,6 @@ textbox:
   button:
     render: Render [type]
     rendersend: "Render [type] & Send"
-    opts: Options
     text:
       edit: Edit Text
       add: Add Text
@@ -955,7 +967,8 @@ textbox:
   monologue:
     char: "[ Pick a character for the textbox ]"
     face: "[ Pick a face ]"
-    press_notext: "[ Make sure you put some text... if you want. Press the green button whenever you're ready ]"
+    press_notext: "[ Make sure you put some text... if you want. Press the green button whenever you're
+      ready ]"
     press: "[ Press the green button whenever you're ready ]"
     rendering: "[ {loading, emoji} Rendering... ]"
     sending: "[ {loading, emoji} Sending... ]"
@@ -967,75 +980,8 @@ textbox:
     single_frame:
       filename: "TWM textbox ([character], [face], [timestamp])"
 
-      character_only:
-        left: "[background_description] with [character_description] on the left"
-        right: "[background_description] with [character_description] on the right"
-
-      with_text:
-        left: "[background_description] with [character_description] on the left saying: [text_with_effects]"
-        right: "[background_description] with [character_description] on the right saying: [text_with_effects]"
-
-      text_only: "[background_description] containing: [text_with_effects]"
-
     multi_frame:
       filename: "TWM textbox ([frames], [timestamp])"
-      intro: "A sequence of OneShot-style dialogue boxes"
-
-      frame:
-        normal: "[character_description] says: [text_with_effects]"
-        no_text: "[character_description] is silent[action_marker]"
-        no_character: "Text reads: [text_with_effects]"
-        empty: "Empty textbox"
-
-        transition:
-          normal: "[previous_frame]; then [next_frame]"
-          style_change: "[previous_frame]; then style changes to [new_style] textbox showing [next_frame]"
-          action_continuation: "[previous_frame][action_marker]; then [next_frame]"
-
-      sequence_builder:
-        start: "First, [first_frame]"
-        middle: "[previous_sequence], [next_frame]"
-        end: "[full_sequence]."
-
-    character_description:
-      default: "[character] ([face])"
-      no_char: "([face])"
-      default_face: "[character]"
-      avatar: "user [username]'s avatar"
-      custom: "[custom_name]"
-
-    background_description:
-      default: "A OneShot-style textbox"
-      default_empty: "An empty OneShot-style textbox"
-      custom: 'A textbox with a style called "[name]"'
-      custom_color: 'A [color] textbox with a style called "[name]"'
-
+      frame: {}
     text_effects:
-      full:
-        bold: "(all of the text is in bold)"
-        italic: "(all of the text is in italics)"
-        color: "([color] text)"
-        shake: "(text shaking)"
-        wave: "(text is wavy)"
-        combination: "([effects_list] throughout)"
-
-      partial:
-        wrap_template: "[text] (with [effects] from here)"
-        end_template: "(regular text now)"
-        combination: "[effect1] and [effect2]"
-
-        individual:
-          bold: "bold"
-          italic: "italics"
-          color: "[color]"
-          shake: "shaking"
-          wave: "wavy movement"
-
-    actions:
-      pause: " (pause)"
-      long_pause: " (long pause)"
-      disappears: " (disappears)"
-
-    error:
-      cutoff: "(text continues beyond visible area)" # TODO: make it scroll
-      remaining_frames: "Due to Discord's limitations, this text has been truncated."
+      partial: {}
