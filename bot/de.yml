@@ -543,8 +543,7 @@ interact:
     - phrases: []
   - name: Kitzeln
     phrases:
-    - phrases:
-      - "[user_one] went for a tickle attack towards [user_two]!"
+    - phrases: []
   - name: Umarmung
     phrases:
     - phrases: []
