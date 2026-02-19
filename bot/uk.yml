@@ -4,6 +4,7 @@ generic:
     generic: "[ {loading, emoji} Завантаження... ]"
     textbox: "[ {loading, emoji} Завантаження редактору текстових вікон... ]"
     evaluating: '[ {loading, emoji} Виконую... ]'
+    checking_developer_status: '[ {loading, emoji} Перевіряю, чи є ви розробником... ]'
   command_cooldown: "[ Будь ласка, не спамте цю команду. Ви зможете використати її {timestamp_relative}.
     ]"
 
