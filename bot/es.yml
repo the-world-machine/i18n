@@ -1,1 +1,22 @@
-{}
+music:
+  loading:
+    search: '[ Buscando... [emoji:loading] ]'
+    file: '[ Cargando tu archivo... [emoji:loading] ]'
+misc:
+  miaou:
+    title: Encontraste...
+    finding:
+      noik: ¡Niko!
+  roll:
+    title: Tirando dado de [amount]d[sides]...
+    desc: '...salió [result].'
+    multi: Para un total de **[total]**.
+  welcome:
+    placeholder_text: '[ ¡Bienvenido a [server_name], [user_name]! ¡Ahora hay [member_count] usuarios!
+      ]'
+  wikipedia: '[ [Aquí]([link]) tienes tu artículo aleatorio de wikipedia. Es sobre [title]... Creo...
+    ]'
+wool:
+  balance:
+    you:
+      some: '[ Tienes **[balance]**[emoji:wool] ]'
