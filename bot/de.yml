@@ -238,7 +238,8 @@ explode:
     - "[ Ich muss wieder waschen wenn jemand macht dass.]"
     - "[ Wow... Echt? ]"
     - "[  ]"
-    -     # don't touch this one, the bot inserts a random amount of dots here
+    - 
+          # don't touch this one, the bot inserts a random amount of dots here
 
     sixninefourtwo: nice 👍
     nineninenineninenine: |
@@ -543,7 +544,6 @@ interact:
   - name: Kitzeln
     phrases:
     - phrases:
-      - "[user_one] gibt [user_two] ein Überraschung kitzel!"
       - "[user_one] went for a tickle attack towards [user_two]!"
   - name: Umarmung
     phrases:
