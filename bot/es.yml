@@ -127,6 +127,8 @@ profile:
     image:
       unlocked:
         stamps: 'Estampillas desbloqueadas:'
+      alt_nodescription: 'En la imágen está el perfil del usuario [username] en el sistema de la Máquina
+        del Mundo. Tiene: Soles [suns], Lana [wool]'
   edit:
     text: ¡Puedes editar tu perfil en la página web!
 explode:
