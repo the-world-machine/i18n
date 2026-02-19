@@ -68,8 +68,6 @@ misc:
 
   wikipedia: "[ [Here]({link}) is your random wikipedia article. It's about {title}... I think... ]"
   ship:
-
-  ship:
     errors:
       idk: "[ I dont know how to handle that... ]"
       failed_mention: "[ Could you type out their names instead? ]"
