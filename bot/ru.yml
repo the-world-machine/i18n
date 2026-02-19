@@ -1,6 +1,6 @@
 generic:
   loading:
-    hint: "[ {loading, emoji} ]"
+    hint: "[ Загрузка... {loading, emoji} ]"
     generic: "[ Загрузка... {loading, emoji} ]"
     textbox: "[ {loading, emoji} Загрузка редактора диалоговых окон... ]"
     checking_developer_status: "[ {loading, emoji} Проверка статуса разработчика... ]"
