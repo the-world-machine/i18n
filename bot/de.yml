@@ -226,7 +226,7 @@ profile:
 
       # you may also still use any of the variables from above, if your language requires some rewording (try not to use [alt_nodescription] at all if you do)
       name: "{target_id} profil"
-      title: "[username]'s Profil"
+      title: "{target_id, user, display_name}'s (@{target_id, user, username}) Profil"
       unlocked:
         stamps: "Entsperrte Stempeln:"
   edit:
@@ -244,19 +244,19 @@ explode:
     - 
           # don't touch this one, the bot inserts a random amount of dots here
 
-    sixninefourtwo: nice 👍
+    sixninefourtwo: nice
     nineninenineninenine: |
       [ Das reicht jetzt, wie in der Gottes grüne welt hast du dieser nummer erreicht?! Verstehst du wie viele Welten hast du zerstört?! ]
 
       ⚠️ warnung: Unglaublich von dir.
 
-  info: "Shatter zahl: [amount]"
+  info: "Shatter zahl: {amount, pretty_num}"
   YouKilledNiko: "[ Du hast Niko getötet. ]"
 
 # ---------------------------------------------------------------
 
 shop:
-  loading: "[ Laden Laden?... {loading, emoji} ]"
+  loading: "[ {loading, emoji} Laden Laden?... ]"
 
   user_wool: "**Ihr Guthaben: {wool, emoji}[wool]**"
   owned: "du hast **[amount]**"
