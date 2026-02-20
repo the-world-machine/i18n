@@ -185,6 +185,7 @@ settings:
       default_tip: "du kannst die textbox message verändern mit {/settings/welcome/edit}" # tip:
     channel:
       auto: "[ Welcome textboxes channel has been reset ]"
+      Changed: ''
     ping:
       yah: "[ Welcome textboxes should now ping the newcomers ]"
       nah: "[ Welcome textboxes will no longer ping the newcomers ]"
@@ -220,8 +221,8 @@ profile:
     loading: "[ {loading, emoji} Laden {target_id, user, mention}'s Profil… ]"
 
     image:
-      alt_nodescription: "in der Bilder ist der profil von [username] in der Welt Machine system. Sie
-        besitzen: Sonnen [suns], Woolen [wool]"
+      alt_nodescription: "in der Bilder ist der profil von {username} in der Welt Machine system. Sie
+        besitzen: Sonnen {suns}, Woolen {wool}"
 
       # you may also still use any of the variables from above, if your language requires some rewording (try not to use [alt_nodescription] at all if you do)
       alt_cont: "[alt_nodescription]. Dieser Beschreibung sagt: [description]"
