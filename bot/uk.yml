@@ -253,7 +253,6 @@ profile:
         є {suns} шт Сонець та {wool} шт Вовни"
 
       # you may also still use any of the variables from above, if your language requires some rewording (try not to use {alt_nodescription} at all if you do)
-      alt_cont: "{alt_nodescription}. Їхній опис: {description}"
       name: "профіль {target_id}"
       title: "Профіль {target_id, user, mention+(@username)}"
       unlocked:
