@@ -295,7 +295,7 @@ profile:
     image:
       alt_nodescription: "On the image is profile of user {username} in The World Machine's system. They
         own: Suns {suns}, Wool {wool}{description, select,\n None {} \n other {. Their description says:
-        {description}}\n}"
+        #}\n}"
 
       # you may also still use any of the variables from above, if your language requires some rewording (try not to use {alt_nodescription} at all if you do)
       name: "{target_id} profile"
@@ -305,14 +305,14 @@ profile:
   edit:
     down: "\\s[10]\\@[OneShot/The World Machine/What,][ \\s[1.2]Oh,\\d[500] apologies,\\d[250]\\@[OneShot/The
       World Machine/Upset left],\\d[250],\\d[250] the website is down right now. \\@[OneShot/The World
-      Machine/Speak]As i was finishing up maintenance on it last week, i went out to take a short break
+      Machine/Speak]As i was finishing up maintenance on it last time, i went out to take a short break
       and \\@[OneShot/Robots/Kelvin]\\c[lightcoral]Kelvin\\c[]\\@[OneShot/The World Machine/Looking Left]
       came up asking for help at the factory. A week later, i find out that i got so carried away, that
       i forgot to close the \\@[OneShot/The World Machine/Looking Right]door to the server room… \\d[500]\\
       d[1000]the cats apparently got in there \\@[OneShot/The World Machine/Looking Left]and messed everything
-      up..\\d[1400] \\@[OneShot/The World Machine/Looking Right]My developers will send updates on it
-      in the community server\\@[OneShot/The World Machine/Normal]\\d[200],\\@[OneShot/The World Machine/Speak]
-      so join if you want\\s[1000]. ]  "
+      up..\\d[1400] It's def gonna take some time to fix it all up, \\@[OneShot/The World Machine/Looking
+      Right]my developers will send updates on it in the community server\\@[OneShot/The World Machine/Normal]\\
+      d[200],\\@[OneShot/The World Machine/Speak] so join if you want\\s[1000]. ]"
     text: "You can edit your profile over on the website!"
   notifications:
     badge:
