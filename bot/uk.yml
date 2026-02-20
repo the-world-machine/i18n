@@ -47,7 +47,7 @@ generic:
 
 music:
   loading:
-    search: "[ Шукаю... {loading, emoji} ]"
+    search: "[ {loading, emoji} Шукаю... ]"
     file: "[ Завантажую ваш файл... {loading, emoji} ]"
 
 # ---------------------------------------------------------------
@@ -61,7 +61,7 @@ misc:
 
   roll:
     title: Кидаємо {amount}d{sides}…
-    desc: "... отримали {result}."
+    desc: "... отримали {result, pretty_num}."
     # adds on when more than 1 dice
     multi: "У сумі: **{total, pretty_num}**."
 
@@ -250,7 +250,8 @@ profile:
 
     image:
       alt_nodescription: "На зображенні профіль користувача {username} у системі Мирової Машини. У них
-        є {suns} шт Сонець та {wool} шт Вовни"
+        є {suns} шт Сонець та {wool} шт Вовни{description, select,\n None {} \n other {. Їхній опис: #}\n\
+        }"
 
       # you may also still use any of the variables from above, if your language requires some rewording (try not to use {alt_nodescription} at all if you do)
       name: "профіль {target_id}"
@@ -262,6 +263,18 @@ profile:
 
 # ---------------------------------------------------------------
 
+    down: \s[10]\@[OneShot/The World Machine/What,][ \s[1.2]Ой,\d[500] вибачте,\d[250]\@[OneShot/The
+      World Machine/Upset left],\d[250],\d[250] сайт зараз не працює. \@[OneShot/The World 
+      Machine/Speak]Минулого тижня, коли я завершував тех обслуговування сайту, я вийшов зробити 
+      невелику перерву та \@[OneShot/Robots/Kelvin]\c[lightcoral]Кельвін\c[]\@[OneShot/The World 
+      Machine/Looking Left] підійшов попросити допомоги на заводі. Тиждень спустя, мене озорило, так
+      замахався що аж забув закрити \@[OneShot/The World Machine/Looking Right]двері до серверної 
+      кімнати… \d[500]\d[1000]коти туди дібралися та \@[OneShot/The World Machine/Looking 
+      Left]попортили усе.\d[175] \d[175] \d[175] \d[175] \d[175] \d[175] \d[175] \@[OneShot/The 
+      World Machine/Looking Right]Для виправлення оцього всого мені знадобиться немало часу, мої 
+      розробники надсилатимуть оновлення про сайт на сервері спільноти\@[OneShot/The World 
+      Machine/Normal]\d[200],\@[OneShot/The World Machine/Speak] приєднуйтесь, якщо хочете\s[1000]. 
+      ]
 explode:
   dialogue:
     why:
