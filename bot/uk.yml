@@ -26,9 +26,9 @@ generic:
     bottom: "Донизу"
 
   minis:
-    note: "нотатка:"
-    tip: "підказка:"
-    warn: "увага:"
+    note: "❕ нотатка:"
+    tip: "❔ підказка:"
+    warn: "⚠️ увага:"
     err: "‼️ помилка:"
 
   select:
@@ -120,7 +120,7 @@ wool:
   balance:
     you:
       none: "[ У вас **немає{wool, emoji}Вовни** ]"
-      some: "[ У вас є **{balance}**{wool, emoji} ]"
+      some: "[ У вас є **{balance, pretty_num}**{wool, emoji} ]"
     other:
       none: "[ У **{account_holder_id, user, mention}** **немає{wool, emoji}Вовни** ]"
       some: "[ **{account_holder_id, user, mention}** має **{balance, pretty_num}**{wool, emoji} ]"
@@ -135,12 +135,13 @@ wool:
         {account_holder_id, user, mention} хтось дав **{balance, pretty_num}**{wool, emoji} ]
     twm:
       none: "[ Я намагаюся не впливати на економіку, тому в мене **немає{wool, emoji}Вовни** ]"
-      some: "[ Я намагаюся не впливати на економіку, але мені надали **{balance}**{wool, emoji} ]"
+      some: "[ Я намагаюся не впливати на економіку, але мені надали **{balance, pretty_num}**{wool, emoji}
+        ]"
   transfer:
     errors:
       self_transfer: "[ Готово... ]"
       not_enough: "[ У вас немає стільки {wool, emoji} Вовни! ]"
-      note_nuf: "у вас є **{balance}**{wool, emoji}"
+      note_nuf: "у вас є **{balance, pretty_num}**{wool, emoji}"
 
     to:
       bot:
@@ -182,8 +183,8 @@ transmit:
 
 settings:
   errors:
-    weird_edgecase_number_0: Або ви або {twm, user, id} нема у цьому сервері. Якщо ви менеджер 
-      серверу, будь ласка додайте {twm, user, id} до серверу ще раз.
+    weird_edgecase_number_0: Або ви або {twm, user, mention} нема у цьому сервері. Якщо ви менеджер 
+      серверу, будь ласка додайте {twm, user, mention} до серверу ще раз.
     missing_permissions: '[ Вам потрібен дозвіл "Manage Server" щоб змінювати налаштування боту ]'
     channel_not_messageable: "[ Я не можу віпдправляти повідомлення у тому каналу ]"
     channel_insufficient_perms: "[ В мене немає достатньо дозвілів у тому каналі. Переконайтеся що мені
@@ -210,7 +211,7 @@ settings:
       nah: "[ Вітальні текстові вікна тепер будуть відправлятися без сповіщень ]"
     editor:
       title: "[ Ви редагуєте текст вікна вітального повідомлення... ]"
-      input: "текст..."
+      input: "Вітальний Текст"
       placeholder: "Змінні: {user_name} ім'я користувача, {server_name} назва серверу, {member_count}
         кол-во учасників"
       done: "[ Текст вікна вітального повідомлення успішно оновлений ]"
