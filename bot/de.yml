@@ -32,7 +32,7 @@ generic:
 
 music:
   loading:
-    search: "[ Suchen... {loading, emoji} ]"
+    search: "[ {loading, emoji} Suchen... ]"
     file: "[ Lade deine Daten... {loading, emoji} ]"
 
 # ---------------------------------------------------------------
@@ -220,11 +220,12 @@ profile:
     loading: "[ {loading, emoji} Laden {target_id, user, mention}'s Profil… ]"
 
     image:
-      alt_nodescription: "in der Bilder ist der profil von {username} in der Welt Machine system. Sie
-        besitzen: Sonnen {suns}, Woolen {wool}"
+      alt_nodescription: "In der Bilde ist der profil von {username} in der Welt Machine system. Sie besitzen:
+        Sonnen {suns}, Woolen {wool}{description, select,\n None {} \n other {. Ihre Beschreibung lautet:
+        #}\n}"
 
       # you may also still use any of the variables from above, if your language requires some rewording (try not to use [alt_nodescription] at all if you do)
-      name: "[userid] profil"
+      name: "{target_id} profil"
       title: "[username]'s Profil"
       unlocked:
         stamps: "Entsperrte Stempeln:"
