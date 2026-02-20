@@ -21,53 +21,57 @@ wool:
   balance:
     you:
       some: '[ Tienes **{balance, pretty_num}**{wool, emoji} ]'
-      none: '[ No tienes **[emoji:wool]Lana** ]'
+      none: '[ No tienes **{wool, emoji}Lana** ]'
     other:
-      none: '[ **[mention]** no tiene **[emoji:wool]Wool** ]'
-      some: '[ **[mention]** tiene **[balance]**[emoji:wool] ]'
+      none: '[ **{account_holder_id, user, mention}** no tiene **{wool, emoji}Wool** ]'
+      some: '[ **{account_holder_id, user, mention}** tiene **{balance, pretty_num}**{wool, emoji} ]'
     bot:
       none: |
         [ Bots normalmente no interactúan conmigo, no es que ni puedan,
 
-        así que [mention] no tiene **[emoji:wool]Wool** ]
+        así que {account_holder_id, user, mention} no tiene **{wool, emoji}Wool** ]
       some: |
-        [ Bots normalmente no interactúan conmigo, no es que ni puedan, pero...
+        [ Bots normalmente no interactúan conmigo, no es que ni puedan, pero…
 
-        [mention] ha recibido [emoji:wool]**[balance]** ]
+        {account_holder_id, user, mention} ha recibido {wool, emoji}**{balance, pretty_num}** ]
     twm:
-      none: '[ Intento no influenciar la economía, así que no tengo **[emoji:wool]Wool** ]'
-      some: '[ Intento no incluenciar la economía, pero tengo [emoji:wool]**[balance]** ]'
+      none: '[ Intento no influenciar la economía, así que no tengo **{wool, emoji}Wool** ]'
+      some: '[ Intento no incluenciar la economía, pero tengo {wool, emoji}**{balance, pretty_num}** ]'
   transfer:
     errors:
       self_transfer: '[ Hecho... ]'
-      not_enough: '[ ¡No tienes tanta [emoji:wool] lana! ]'
+      not_enough: '[ ¡No tienes tanta {wool, emoji} lana! ]'
     to:
       bot:
-        none: '[user_one] le dió [emoji:wool]**[amount]** a [user_two], ¡no es muy generoso!'
-        some: '[user_one] le dió [emoji:wool]**[amount]** a [user_two], que generoso...'
+        none: '{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id,
+          user, mention}, ¡no es muy generoso!'
+        some: '{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id,
+          user, mention}, que generoso…'
         confirmation: '[ ¿Estás seguro de que le quieres dar lana... a un bot? ]'
-        notefirmation: sabes, no podrás volver a conseguirla...
+        notefirmation: sabes, no podrás volver a conseguirla…
       user:
-        none: '[user_one] le dió [emoji:wool]**[amount]** a [user_two], en fín, no es muy generoso...'
-        some: '[user_one] le dió [emoji:wool]**[amount]** a [user_two], ¡que generoso!'
-    steal: '[user_one] robó una pieza de lana de [user_two], ¿¡por qué!?'
+        none: '{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id,
+          user, mention}, en fín, no es muy generoso…'
+        some: '{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id,
+          user, mention}, ¡que generoso!'
+    steal: '{sender_id, user, mention} robó una pieza de lana de {receiver_id, user, mention}, ¿¡por qué!?'
   pray:
     errors:
-      timeout: '[ Ya has rezado en las últimas 24 horas. Puedes volver a rezar [timestamp_relative]]'
+      timeout: '[ Ya has rezado en las últimas 24 horas. Puedes volver a rezar {timestamp_relative}]'
     finds:
-      misdeed: '...pero vieron tu malhecho el otro día.'
-      unhappy: '...pero no estan contentos contigo hoy.'
-      despise: '...y hoy te odian... Que pena...'
-      ogie: '...y ven que estás haciendo bien.'
-      yippie: '...y están contentos contigo! ¡Alabado sea La Máquina del Mundo!'
-      devoted: '...y ven que eres un seguidor verdaderamente devoto... ¡Alabado sea La Máquina del Mundo!'
-    title: Rezaste a La Máquina del Mundo...
+      misdeed: …pero vieron tu malhecho el otro día.
+      unhappy: …pero no estan contentos contigo hoy.
+      despise: …y hoy te odian… Que pena…
+      ogie: …y ven que estás haciendo bien.
+      yippie: …y están contentos contigo! ¡Alabado sea La Máquina del Mundo!
+      devoted: …y ven que eres un seguidor verdaderamente devoto… ¡Alabado sea La Máquina del Mundo!
+    title: Rezaste a La Máquina del Mundo…
     Change:
-      gain: ¡también conseguiste [emoji:wool]**[amount]** lana!
-      loss: también perdiste [emoji:wool]**[amount]** lana...
+      gain: ¡también conseguiste {wool, emoji}**{amount, pretty_num}** lana!
+      loss: también perdiste {wool, emoji}**{amount, pretty_num}** lana…
 transmit:
   autocomplete:
-    unknown_server: Desconocido ([server_id])
+    unknown_server: Desconocido ({server_id})
 settings:
   errors:
     missing_permissions: '[ Debes tener el permiso "Gestionar Servidor" para cambiar los ajustes ]'
@@ -80,32 +84,32 @@ settings:
       todo del menú del servidor)
     channel_lost_warn: Algo salió mal la última vez que intenté enviar un cuadro de texto de 
       bienvenida en el canal que seleccionaste. Asegúrate de que tengo los permisos necesarios y que
-      el canal existe. Puedes cambiar el canal usando `/settings welcome channel`. o en Ajustes del 
+      el canal existe. Puedes cambiar el canal usando {/settings/welcome/channel}. o en Ajustes del 
       Servidor ➜ Interacciones ➜ Canal De Mensajes Del Sistema
   welcome:
     enabled:
       yah: '[ Cuadros de texto de bienvenida activados ]'
       nah: '[ Cuadros de texto de bienvenida desactivados ]'
-      default_tip: puedes cambiar el mensaje del cuadro de texto con `/settings welcome edit`
+      default_tip: puedes cambiar el mensaje del cuadro de texto con {/settings/welcome/edit}
     channel:
       auto: '[ El canal de cuadros de texto de bienvenida fue reiniciado ]'
-      Changed: '[ El canal de cuadros de texto de bienvenida ahora es [channel] ]'
+      Changed: '[ El canal de cuadros de texto de bienvenida ahora es {channel} ]'
     ping:
       yah: '[ Cuadros de texto de bienvenida ahora mencionaran a los nuevos usuarios ]'
       nah: '[ Cuadros de texto de bienvenida ya no mencionaran a los nuevos usuarios ]'
     editor:
-      title: Editando el mensaje de cuadro de texto de bienvenida...
+      title: Editando el mensaje de cuadro de texto de bienvenida…
       input: Mensaje de Bienvenida
-      placeholder: 'Variables que puedes usar: [user_name] [server_name] [member_count]'
+      placeholder: 'Variables que puedes usar: {user_name} {server_name} {member_count}'
       done: '[ Se actualizó el mensaje de cuadro de texto de bienvenida con éxito ]'
-      disabled_note: no te olvides de activarlos con `/settings welcome enabled value:True`
+      disabled_note: no te olvides de activarlos con {/settings/welcome/enabled}` value:True`
   transmissions:
     enabled:
       yah: '[ El servidor ahora está cerrado a llamadas ]'
       nah: '[ El servidor ahora está abierto a llamadas ]'
     channel:
       auto: '[ Canal de transmisión fue reiniciado ]'
-      Changed: '[ Canal de transmisión ahora es [channel] ]'
+      Changed: '[ Canal de transmisión ahora es {channel} ]'
     images:
       enabled: '[ Activado imágenes de transmisión ]'
       disabled: '[ Desactivado imágenes de transmisión ]'
@@ -113,13 +117,13 @@ settings:
       enabled: '[ Activado modo anónimo ]'
       disabled: '[ Desactivado modo anónimo ]'
     blocked:
-      yah: '[ El servidor `[server_name]` fue bloqueado ]'
+      yah: '[ El servidor `{server_name}` fue bloqueado ]'
       nah: '[ El servidor fue desbloqueado ]'
 profile:
   view:
-    message: Viendo el perfil de [usermention]
+    message: Viendo el perfil de {target_id, user, mention}
     bots: '[ ¡Los bots no tienen perfiles! ]'
-    loading: '[ Cargando el perfil de [user]... [emoji:loading] ]'
+    loading: '[ {loading, emoji} Cargando el perfil de {target_id, user, mention}… ]'
     image:
       unlocked:
         stamps: 'Estampillas desbloqueadas:'
