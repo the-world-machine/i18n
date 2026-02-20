@@ -1,12 +1,12 @@
 generic:
   loading:
     hint: "[ {loading, emoji} ]"
-    generic: "[ {loading, emoji} Loading... ]"
-    textbox: "[ {loading, emoji} Loading textbox editor... ]"
-    evaluating: "[ {loading, emoji} Evaluating... ]"
-    checking_developer_status: "[ {loading, emoji} Checking developer status... ]"
+    generic: "[ {loading, emoji} Loading… ]"
+    textbox: "[ {loading, emoji} Loading textbox editor… ]"
+    evaluating: "[ {loading, emoji} Evaluating… ]"
+    checking_developer_status: "[ {loading, emoji} Checking developer status… ]"
   errors:
-    not_a_developer: "Sorry, you are not one of my developers, can't letcha in"
+    not_a_developer: "[ Sorry, you are not one of my developers, can't letcha in ]"
     expired: "This interaction has expired. Run the command again, or report this error in our community
       discord server if it keeps happening. (you can find an invite to it in {/about})"
   command_cooldown: "[ Please do not spam this command. You can use it again {timestamp_relative}. ]"
@@ -45,28 +45,28 @@ generic:
 
 music:
   loading:
-    search: "[ {loading, emoji} Searching... ]"
-    file: "[ {loading, emoji} Loading your file... ]"
+    search: "[ {loading, emoji} Searching… ]"
+    file: "[ {loading, emoji} Loading your file… ]"
 
 # ---------------------------------------------------------------
 
 misc:
   miaou:
-    title: "You found..."
+    title: "You found…"
     finding:
       noik: Niko!
       note: a 1% chance! Lucky!
       cat: a cat!
 
   roll:
-    title: Rolling {amount}d{sides}...
-    desc: "...got {result, pretty_num}."
+    title: Rolling {amount}d{sides}…
+    desc: "…got {result, pretty_num}."
     # adds on when more than 1 dice
     multi: "Totaling at **{total, pretty_num}**."
 
   welcome:
-    placeholder_text: "[ Welcome to {server_name}, {user_name}! There is now {member_count, pretty_num}
-      users here! ]"
+    placeholder_text: "[ Welcome \\c[#c386ff]{user_name}\\c to \\c[#c386ff]{server_name}\\c! This server
+      now has {member_count, plural, \n  one {# person} \n  other {# people}\n} here! ]"
 
   wikipedia: "[ [Here]({link}) is your random wikipedia article. It's about {title}… I think… ]"
   ship:
@@ -242,13 +242,13 @@ settings:
       of the server menu)"
     channel_lost_warn: "Something broke last time i tried to send a welcome textbox in the channel you
       chose. Make sure i have enough permissions in it and it exists. You can change the channel using
-      {/setting_welcome_channel}, or in Server Settings -> Overview -> ꜱʏꜱᴛᴇᴍ ᴍᴇꜱꜱᴀɢᴇꜱ ᴄʜᴀɴɴᴇʟ"
+      {/settings/welcome/channel}, or in Server Settings → Overview → ꜱʏꜱᴛᴇᴍ ᴍᴇꜱꜱᴀɢᴇꜱ ᴄʜᴀɴɴᴇʟ"
 
   welcome:
     enabled:
       yah: "[ Welcome textboxes have been enabled ]"
       nah: "[ Welcome textboxes have been disabled ]"
-      default_tip: "you can change the textbox message with {/settings/welcome_edit}" # tip:
+      default_tip: "you can change the textbox message with {/settings/welcome/edit}" # tip:
     channel:
       auto: "[ Welcome textboxes channel has been reset ]"
       Changed: "[ Welcome textboxes channel has been set to {channel} ]"
@@ -343,7 +343,8 @@ explode:
     - "[ I have to clean up everytime someone does this. ]"
     - "[ Wow… really? ]"
     - "[  ]"
-    -     # don't touch this one, the bot inserts a random amount of dots here
+    - 
+          # don't touch this one, the bot inserts a random amount of dots here
 
     sixninefourtwo: nice 👍
     nineninenineninenine: |
@@ -438,7 +439,7 @@ shop:
 
       > He gives you a {capsule_name}!
 
-    result_footer: Use [ /nikogotchi check ] to see your new Nikogotchi!
+    result_footer: Use {/nikogotchi/check} to see your new Nikogotchi!
 
   pancakes:
     title: Pancakes
@@ -847,20 +848,19 @@ nikogotchi:
       {name} lived a full life which lasted for: {age}.
 
 
-      - You haven't interacted with your nikogotchi for **{time_difference} {time_difference, select,
-      
-        1 {hour}
-        other {hours}
+      - You haven't interacted with your nikogotchi for **{time_difference, plural, 
+        one {# hour} 
+        other {# hours}
       }**… They rely on your love and attention, so keep trying to give them the best care possible!
 
 
-      R.I.P….
+      R.I.P……
   treasured:
     title: 🎉 Your Nikogotchi found some treasures!
     message: >
       {treasures}
 
-      Total Treasures: **{total}**
+      Total Treasures: **{total, pretty_num}**
 
       Time Spent Looking: {time}.
 
