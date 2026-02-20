@@ -241,7 +241,7 @@ settings:
       disabled: "[ Успешно выключен режим инкогнито ]"
     blocked:
       yah: "[ Успешно заблокирован сервер `{server_name}` ]"
-      nah: "[ Успешно разблокирован сервер `{server_name}` ]" # you can use server_name here also if you wish
+      nah: "[ Сервер успешно разблокирован ]"                 # you can use server_name here also if you wish
 # ---------------------------------------------------------------
 profile:
   view:
@@ -254,8 +254,8 @@ profile:
         есть: {suns} шт Солнц, {wool} Шерсти{description, select,\n None {}\n other {. В их описании написано:
         #}\n}"
       # you may also still use any of the variables from above, if your language requires some rewording (try not to use {alt_nodescription} at all if you do)
-      name: "{userid} профиль"
-      title: "Профиль {username}"
+      name: "{target_id} профиль"
+      title: "Профиль {target_id, user, display_name}'s (@{target_id, user, username})"
       unlocked:
         stamps: "Разблокированные Штампы:"
   edit:
@@ -286,11 +286,11 @@ explode:
       [ Хватит. Как ты, '#####', вообще добрался до этого числа?! Ты хоть знаешь, сколько миров ты уничтожил? ]
 
       ⚠️ warning: Это просто отвратительно.
-  info: "Солнце расколото {amount} раз"
+  info: "Солнце расколото {amount, pretty_num} раз"
   YouKilledNiko: "[ Вы убили Нико. ]"
 # ---------------------------------------------------------------
 shop:
-  loading: "[ Загрузка Магазина... {loading, emoji} ]"
+  loading: "[ {loading, emoji} Загрузка Магазина... ]"
   user_wool: "**Ваш Баланс: {wool, emoji}{wool}**"
   owned: "у вас **{amount}**"
   buttons:
