@@ -54,20 +54,21 @@ music:
 
 misc:
   miaou:
-    title: "Ви знайшли..."
+    title: "Ви знайшли…"
     finding:
       noik: Ніко!
       cat: кота!
 
   roll:
-    title: Кидаємо {amount}d{sides}...
+    title: Кидаємо {amount}d{sides}…
     desc: "... отримали {result}."
     # adds on when more than 1 dice
     multi: "У сумі: **{total, pretty_num}**."
 
   welcome:
-    placeholder_text: "[ Ласкаво просимо до {server_name}, {user_name}! Тут вже людин: {member_count}!
-      ]"
+    placeholder_text: "[ Ласкаво просимо до {server_name}, {user_name}! У цьому сервері вже {member_count,
+      plural, \n  one {# учасник} \n  few {# учасника} \n  many {# учасників} \n  other {# учасника}\n\
+      }! ]"
 
   wikipedia: "[ [Ось]({link}) що знайшлось... Це «{title}» ]"
 
@@ -150,7 +151,7 @@ wool:
         some: "{sender_id, user, mention} передали **{amount, pretty_num}**{wool, emoji} користувачу {receiver_id,
           user, mention}, як щедро…"
         confirmation: "[ Ви впевнені що бажаєте передати вовну... боту? ]"
-        notefirmation: "вона до вас ж не повернеться..."
+        notefirmation: "ви ж не зможете її повернути…"
       user:
         none: "{sender_id, user, mention} передав {wool, emoji}**{amount, pretty_num}** користувачу {receiver_id,
           user, mention}, все-таки не дуже щедро…"
@@ -164,14 +165,14 @@ wool:
     finds:
       misdeed: "...але вони недавно бачили ваші погані вчинки."
       unhappy: "...але сьогодні вони вами незадоволені."
-      despise: "...та вони вас сьогодні зневажають... Шкода..."
+      despise: "…та вони вас сьогодні зневажають… Шкода…"
       ogie: "...та вони бачать, що з вами все добре."
       yippie: "...та вони щасливі з вами! Хай живе Світова Машина!"
       devoted: "...та вони бачать, що ви справжній відданий послідовник. Перемога! Хай живе Світова Машина!"
-    title: "Ви помолилися до Світової Машини..."
+    title: "Ви помолилися до Світової Машини…"
     Change:
       gain: "ви також здобули **{amount, pretty_num}**{wool, emoji}!"
-      loss: "ви також втратили **{amount}**{wool, emoji}..."
+      loss: "ви також втратили **{amount, pretty_num}**{wool, emoji}…"
 
 # ---------------------------------------------------------------
 
@@ -210,7 +211,7 @@ settings:
       yah: "[ Вітальні текстові вікна тепер будуть відправлятися з сповіщенням ]"
       nah: "[ Вітальні текстові вікна тепер будуть відправлятися без сповіщень ]"
     editor:
-      title: "[ Ви редагуєте текст вікна вітального повідомлення... ]"
+      title: "Ви редагуєте текст вікна вітального повідомлення…"
       input: "Вітальний Текст"
       placeholder: "Змінні: {user_name} ім'я користувача, {server_name} назва серверу, {member_count}
         кол-во учасників"
@@ -254,7 +255,7 @@ profile:
       # you may also still use any of the variables from above, if your language requires some rewording (try not to use {alt_nodescription} at all if you do)
       alt_cont: "{alt_nodescription}. Їхній опис: {description}"
       name: "профіль {target_id}"
-      title: "Профіль {username}"
+      title: "Профіль {target_id, user, mention+(@username)}"
       unlocked:
         stamps: "Розблоковані Бейджи:"
   edit:
@@ -320,7 +321,7 @@ shop:
     інтуїтивне чуття, ..ну, під інтуїтивним.. я маю на увазі що випадково збільшую або зменшую ціни 
     як мені хочеця.
   - Я, можливо, *зламав* ринок вовни кілька разів. Але давай це залишимо секретом між нами.
-  - "Слова мудрості як від друга: Якщо купуєте дорого та продаєте дешево, вас чекає удача...! Не перевіряйте
+  - "Слова мудрості як від друга: Якщо купуєте дорого та продаєте дешево, вас чекає удача…! Не перевіряйте
     це!"
   - Мої брошки та скарби змилися у воді... можливо, ви зможете знайти більше для мене?
   - Ви запитуєте про те, що сталося з тим торговцем який був до мене? Я не знаю. *Зовсім не знаю...*   # During the World Machine Edition AMA Nightmargin jokingly said that Magpie hid a body which has not been found yet. Considering the fact that the purple trader is nowhere to be found in the remake, it is the most likely victim of this alleged crime.
@@ -362,11 +363,16 @@ shop:
       {user_wool}
 
     result: >
-      > Ви надали Магпію вовну, він крутить гашапон-машину та...
+      > Ви надали Магпію {amount, plural, 
+       one {# вовну} 
+       few {# вовни} 
+       many {# вовен} 
+       other {# вовни}
+      }, він крутить гашапон-машину та…
 
       > Він вручає вам {capsule_name}!
 
-    result_footer: Використайте  [ /nikogotchi check ] щоб побачити свого нового Нікоґотчі!
+    result_footer: Використайте {/nikogotchi/check} щоб побачити свого нового Нікоґотчі!
 
   pancakes:
     title: Млинці
@@ -419,7 +425,7 @@ shop:
         {user_wool}
       #not_selected: "*Ви не обрали ніяких скарбів для придбання...*"
       placeholder: Оберіть скарб для обміну...
-      no_treasures: У вас нема скарбів для обміну...
+      no_treasures: У вас нема скарбів для обміну…
       option: "«{name}» (x{amount})"
 
     selection: >
@@ -878,7 +884,7 @@ nikogotchi:
       - "Млинці? Дякую. Мені зараз не завадить трохи додаткової енергії."
       pet:
       - "О, дякую. Я не звик до цього... але це не погано."
-      - "О, дякую. Я, ...ціную цей жест."
+      - "О, дякую. Я, …ціную цей жест."
       cleaned:
       - "Справді? Ну, добре, я це ціную. Дякую."
       - "Чистота — це... важливо. Дякую."
@@ -958,7 +964,7 @@ nikogotchi:
     the_world_machine:
       fed:
       - "[О, дякую.]"
-      - "[О, млинці? Нажаль я не думаю, що зможу спробувати щось таке...]"
+      - "[О, млинці? Нажаль я не думаю, що зможу спробувати щось таке…]"
       pet:
       - "[Я не можу відчути це так, як ви, але я відчуваю вашу доброту. Вона заспокоює по-своєму.]"
       cleaned:
