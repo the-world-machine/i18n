@@ -185,7 +185,6 @@ settings:
       default_tip: "du kannst die textbox message verändern mit {/settings/welcome/edit}" # tip:
     channel:
       auto: "[ Welcome textboxes channel has been reset ]"
-      Changed: ""
     ping:
       yah: "[ Welcome textboxes should now ping the newcomers ]"
       nah: "[ Welcome textboxes will no longer ping the newcomers ]"
@@ -194,7 +193,6 @@ settings:
       input: "Willkommen Nachricht"
       placeholder: "Du kannst die Variablen benutzen: {user_name} {server_name} {member_count}"
       done: "[ Erfolgreich Verändert die Willkommen Nachricht ]"
-      disabled_note: ""                                                                        # note:
   transmissions:
     enabled:
       yah: "[ This server is now closed for calls ]"
