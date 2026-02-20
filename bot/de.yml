@@ -45,10 +45,10 @@ misc:
       cat: Eine Katze!
 
   roll:
-    title: Rollen [amount]d[sides]...
-    desc: "...gerollt eine [result]."
+    title: Rollen {amount}d{sides}…
+    desc: "…gerollt eine {result, pretty_num}."
     # adds on when more than 1 dice
-    multi: "Insgesamt **[total]**."
+    multi: "Insgesamt **{total, pretty_num}**."
 
   welcome:
     placeholder_text: "[ Willkommen zu [server_name], [user_name]! hier sind jetzt [member_count] benutzern
