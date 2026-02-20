@@ -185,7 +185,6 @@ settings:
       default_tip: "du kannst die textbox message verändern mit {/settings/welcome/edit}" # tip:
     channel:
       auto: "[ Welcome textboxes channel has been reset ]"
-      Changed: ''
     ping:
       yah: "[ Welcome textboxes should now ping the newcomers ]"
       nah: "[ Welcome textboxes will no longer ping the newcomers ]"
