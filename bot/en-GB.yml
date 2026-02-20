@@ -297,7 +297,6 @@ profile:
         own: Suns {suns}, Wool {wool}"
 
       # you may also still use any of the variables from above, if your language requires some rewording (try not to use {alt_nodescription} at all if you do)
-      alt_cont: "{alt_nodescription}. Their description says: {description}"
       name: "{target_id} profile"
       title: "{target_id, user, display_name}'s (@{target_id, user, username}) Profile"
       unlocked:
