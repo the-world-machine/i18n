@@ -1,10 +1,10 @@
 generic:
   loading:
     hint: "[ {loading, emoji} ]"
-    generic: "[ {loading, emoji} Завантаження... ]"
-    textbox: "[ {loading, emoji} Завантаження редактору текстових вікон... ]"
-    evaluating: '[ {loading, emoji} Виконую... ]'
-    checking_developer_status: '[ {loading, emoji} Перевіряю, чи є ви розробником... ]'
+    generic: "[ {loading, emoji} Завантаження… ]"
+    textbox: "[ {loading, emoji} Завантаження редактору текстових вікон… ]"
+    evaluating: '[ {loading, emoji} Виконую… ]'
+    checking_developer_status: '[ {loading, emoji} Перевіряю, чи є ви розробником… ]'
   command_cooldown: "[ Будь ласка, не спамте цю команду. Ви зможете використати її {timestamp_relative}.
     ]"
 
@@ -91,7 +91,7 @@ about:
 
   values:
     time: "**{sec}** с."
-    percent: "**{num}**%"
+    percent: "**{percentage, number, percent}**"
     failed_commit_hash: "N/A"
 
   buttons:
@@ -122,17 +122,17 @@ wool:
       none: "[ У вас **немає{wool, emoji}Вовни** ]"
       some: "[ У вас є **{balance}**{wool, emoji} ]"
     other:
-      none: "[ **{mention}** **не має{wool, emoji}Вовни** ]"
-      some: "[ **{mention}** має **{balance}**{wool, emoji} ]"
+      none: "[ У **{account_holder_id, user, mention}** **немає{wool, emoji}Вовни** ]"
+      some: "[ **{account_holder_id, user, mention}** має **{balance, pretty_num}**{wool, emoji} ]"
     bot:
       none: |
-        [ Боти зазвичай зі мною не взаємодіють, вони не можуть, такби мовити,
+        [ Боти зазвичай зі мною не взаємодіють, вони якби взагалі не можуть мовити,
 
-        тому у {mention} **немає{wool, emoji}Вовни** ]
+        тому у {account_holder_id, user, mention} **немає{wool, emoji}Вовни** ]
       some: |
-        [ Боти зазвичай зі мною не взаємодіють, вони не можуть, такби мовити, але...
+        [ Боти зазвичай зі мною не взаємодіють, вони якби взагалі не можуть мовити, але…
 
-        {mention} хтось дав **{balance}**{wool, emoji} ]
+        {account_holder_id, user, mention} хтось дав **{balance, pretty_num}**{wool, emoji} ]
     twm:
       none: "[ Я намагаюся не впливати на економіку, тому в мене **немає{wool, emoji}Вовни** ]"
       some: "[ Я намагаюся не впливати на економіку, але мені надали **{balance}**{wool, emoji} ]"
@@ -144,14 +144,19 @@ wool:
 
     to:
       bot:
-        none: "{user_one} передали **{amount}**{wool} до {user_two, emoji}, не дуже щедро!"
-        some: "{user_one} передали **{amount}**{wool} to {user_two, emoji}, як щедро..."
+        none: "{sender_id, user, mention} передали **{amount, pretty_num}**{wool, emoji} користувачу {receiver_id,
+          user, mention}, не дуже щедро!"
+        some: "{sender_id, user, mention} передали **{amount, pretty_num}**{wool, emoji} користувачу {receiver_id,
+          user, mention}, як щедро…"
         confirmation: "[ Ви впевнені що бажаєте передати вовну... боту? ]"
         notefirmation: "вона до вас ж не повернеться..."
       user:
-        none: "{user_one} передав {wool}**{amount}** to {user_two, emoji}, все-таки не дуже щедро..."
-        some: "{user_one} передав {wool}**{amount}** to {user_two, emoji}, як щедро!"
-    steal: "{user_one} вкрали один шматок вовни у {user_two}, навіщо!?"
+        none: "{sender_id, user, mention} передав {wool, emoji}**{amount, pretty_num}** користувачу {receiver_id,
+          user, mention}, все-таки не дуже щедро…"
+        some: "{sender_id, user, mention} передав {wool, emoji}**{amount, pretty_num}** користувачу {receiver_id,
+          user, mention}, як щедро!"
+    steal: "Користувач {sender_id, user, mention} вкрав один шматок вовни у {receiver_id, user, mention},
+      навіщо!?"
   pray:
     errors:
       timeout: "[ Ви вже молились за останні 24 години. Наступний раз ви сможете {timestamp_relative}]"
@@ -164,7 +169,7 @@ wool:
       devoted: "...та вони бачать, що ви справжній відданий послідовник. Перемога! Хай живе Світова Машина!"
     title: "Ви помолилися до Світової Машини..."
     Change:
-      gain: "ви також здобули **{amount}**{wwoo, emoji}!"
+      gain: "ви також здобули **{amount, pretty_num}**{wool, emoji}!"
       loss: "ви також втратили **{amount}**{wool, emoji}..."
 
 # ---------------------------------------------------------------
@@ -189,14 +194,14 @@ settings:
       появиться опція 'Копіювати ID сервера' у контекстному меню серверу)"
     channel_lost_warn: "Щось зламалося в останній раз коли я намагався відправити вітальне текстове вікно,
       у канал котрий ви обрали. Переконайтеся що в мене є достатньо дозволів у тому каналі та він ще існує.
-      Ви можете змінити канал використовуючи `/settings welcome channel`, чи у Налаштуваннях Серверу ->
+      Ви можете змінити канал використовуючи {/settings/welcome/channel}, чи у Налаштуваннях Серверу ->
       Залучення -> Канал Системних Повідомлень"
 
   welcome:
     enabled:
       yah: "[ Вітальні текстові вікна увімкнені ]"
       nah: "[ Вітальні текстові вікна вимкнені ]"
-      default_tip: "ви можете змінити текст цього вікна за допомогою `/settings welcome edit`"
+      default_tip: "ви можете змінити текст цього вікна за допомогою {/settings/welcome/edit}"
     channel:
       auto: "[ Канал вітальних текстових вікон зкинутий ]"
       Changed: "[ Канал вітальних текстових вікон було встановлено на {channel} ]"
@@ -214,7 +219,7 @@ settings:
         Попередній: {old_text}
 
         Новий (поточний): {new_text}
-      disabled_note: "не забудьте увімкнути їх використовуючи `/settings welcome enabled value:True`"
+      disabled_note: "не забудьте увімкнути їх використовуючи {/settings/welcome/enabled}` value:True`"
   transmissions:
     enabled:
       yah: "[ Міжсерверні дзвінки тепер приймаються у цьому сервері ]"
@@ -236,10 +241,10 @@ settings:
 
 profile:
   view:
-    message: "Переглядуємо профіль {usermention}"
+    message: "Переглядуємо профіль {target_id, user, mention}"
     button: "Редагувати Свій Профіль"
     bots: "[ Боти не мають профілів! ]"
-    loading: "[ Завантаження профіля {user}... {loading, emoji} ]"
+    loading: "[ {loading, emoji} Завантаження профіля {target_id, user, mention}… ]"
 
     image:
       alt_nodescription: "На зображенні профіль користувача {username} у системі Мирової Машини. У них
@@ -247,7 +252,7 @@ profile:
 
       # you may also still use any of the variables from above, if your language requires some rewording (try not to use {alt_nodescription} at all if you do)
       alt_cont: "{alt_nodescription}. Їхній опис: {description}"
-      name: "профіль {userid}"
+      name: "профіль {target_id}"
       title: "Профіль {username}"
       unlocked:
         stamps: "Розблоковані Бейджи:"
