@@ -38,7 +38,7 @@ generic:
 # ---------------------------------------------------------------
 music:
   loading:
-    search: "[ Поиск... {loading, emoji} ]"
+    search: "[ {loading, emoji} Поиск... ]"
     file: "[ Загрузка вашего файла... {loading, emoji} ]"
 # ---------------------------------------------------------------
 misc:
@@ -50,7 +50,7 @@ misc:
       cat: кота!
   roll:
     title: Бросаем {amount}d{sides}…
-    desc: "...выпало {result}."
+    desc: "...выпало {result, pretty_num}."
     # adds on when more than 1 dice
     multi: "Суммарно **{total}**."
   welcome:
@@ -251,7 +251,8 @@ profile:
     loading: "[ {loading, emoji} Загрузка профиля {target_id, user, mention}… ]"
     image:
       alt_nodescription: "На изображение изображен профиль {username} в системе Мировой Машины. У них
-        есть: {suns} шт Солнц, {wool} Шерсти"
+        есть: {suns} шт Солнц, {wool} Шерсти{description, select,\n None {}\n other {. В их описании написано:
+        #}\n}"
       # you may also still use any of the variables from above, if your language requires some rewording (try not to use {alt_nodescription} at all if you do)
       name: "{userid} профиль"
       title: "Профиль {username}"
