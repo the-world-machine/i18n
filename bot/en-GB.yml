@@ -321,7 +321,7 @@ profile:
       description: "{target_id, user, mention} {badge_message}"
       settings_note: "You can change this notification using {/settings/badge_notifications}"
       types:
-        times_shattered: |
+        times_shattered: |-
           shatterred a lightbulb **{amount, pretty_num}** {amount, select,
             1 {time}
             other {times}
