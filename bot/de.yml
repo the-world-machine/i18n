@@ -77,7 +77,7 @@ about:
 
   values:
     time: "**[sec]** sek."
-    percent: "**[num]**%"
+    percent: "**{percentage, number, percent}**"
     failed_commit_hash: "N/A"
 
   buttons:
@@ -102,21 +102,21 @@ wool:
       none: "[ Du hast **no{wool, emoji}Wool** ]"
       some: "[ Du hast **[balance]**{wool, emoji} ]"
     other:
-      none: "[ **[mention]** hat **no{wool, emoji}Wool** ]"
-      some: "[ **[mention]** hat **[balance]**{wool, emoji} ]"
+      none: "[ **{account_holder_id, user, mention}** hat **no{wool, emoji}Wool** ]"
+      some: "[ **{account_holder_id, user, mention}** hat **{balance, pretty_num}**{wool, emoji} ]"
     bot:
       none: |
         [ Bots normalerweise interaktiern nicht mit mir, nicht das sie können mal.
 
-        so [mention] hat keine {wool, emoji}**Wool** ]
+        so {account_holder_id, user, mention} hat keine {wool, emoji}**Wool** ]
       some: |
-        [ Bots normalerweise interaktiern nicht mit mir, nicht das sie können mal, aber...
+        [ Bots normalerweise interaktiern nicht mit mir, nicht das sie können mal, aber…
 
-        [mention] war gegeben {wool, emoji}**[balance]** ]
+        {account_holder_id, user, mention} war gegeben {wool, emoji}**{balance, pretty_num}** ]
     twm:
       none: "[ Ich probiere nicht die wirtschaft beeinflussen, so ich habe **no{wool, emoji}Wool** ]"
-      some: "[ Ich probiere nicht die wirtschaft beeinflussen, aber ich habe {wool, emoji}**[balance]**
-        ]"
+      some: "[ Ich probiere nicht die wirtschaft beeinflussen, aber ich habe {wool, emoji}**{balance,
+        pretty_num}** ]"
   transfer:
     errors:
       self_transfer: "[ Fertig... ]"
@@ -124,35 +124,40 @@ wool:
         ]"
     to:
       bot:
-        none: "[user_one] verschenkt {wool, emoji}**[amount]** to [user_two], nicht sehr großzügig!"
-        some: "[user_one] verschenkt {wool, emoji}**[amount]** to [user_two], wie großzügig..."
+        none: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id,
+          user, mention}, nicht sehr großzügig!"
+        some: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id,
+          user, mention}, wie großzügig…"
         confirmation: "[ Bist du sicherer das du will woole geben zu ein bot...? Du kannst es nicht wieder
           haben, du weißt dass...? ]"
       user:
-        none: "[user_one] verschenkt {wool, emoji}**[amount]** to [user_two], nicht sehr großzügig schließlich..."
-        some: "[user_one] verschenkt {wool, emoji}**[amount]** to [user_two], wie großzügig!"
-    steal: "[user_one] hat eine singulare stück wool gestohlen von [user_two], warum!?"
+        none: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id,
+          user, mention}, nicht sehr großzügig schließlich…"
+        some: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id,
+          user, mention}, wie großzügig!"
+    steal: "{sender_id, user, mention} hat eine singulare stück wool gestohlen von {receiver_id, user,
+      mention}, warum!?"
   pray:
     errors:
-      timeout: "[ Du hast schon gebetet in der 24. Du kannst nochmal beten [timestamp_relative]]" # example: in a day, in 5 hours # discord automatically translates
+      timeout: "[ Du hast schon gebetet in der 24. Du kannst nochmal beten {timestamp_relative}]" # example: in a day, in 5 hours # discord automatically translates
     finds:
-      misdeed: "... aber Sie sahen deine Missetat der andere tage."
-      unhappy: "...aber sie sind nicht glücklich mit dir heute."
-      despise: "...und sie hassen die... zu schlect..."
-      ogie: "...und sie sehen das du bist okay."
-      yippie: "...und sie sind glücklich mir dir! Lob sei die Welt Maschine!"
-      devoted: "...und sie sehen du bist ein echetr they see you're truly a devoted follower. Lob sei
-        die Welt maschine!"
-    title: "Du betete zu die Welt maschine..."
+      misdeed: "…aber Sie sahen deine Missetat der andere tage."
+      unhappy: "…aber sie sind nicht glücklich mit dir heute."
+      despise: "…und sie hassen die… zu schlect…"
+      ogie: "…und sie sehen das du bist okay."
+      yippie: "…und sie sind glücklich mir dir! Lob sei die Welt Maschine!"
+      devoted: "…und sie sehen du bist ein echetr they see you're truly a devoted follower. Lob sei die
+        Welt maschine!"
+    title: "Du betete zu die Welt maschine…"
     Change:
-      gain: "Du also hast bekommen {wool, emoji}**[amount]** wool!"
-      loss: "Du also hast verloren {wool, emoji}**[amount]** wool..."
+      gain: "Du also hast bekommen {wool, emoji}**{amount, pretty_num}** wool!"
+      loss: "Du also hast verloren {wool, emoji}**{amount, pretty_num}** wool…"
 
 # ---------------------------------------------------------------
 
 transmit:
   autocomplete:
-    unknown_server: Unerkannt ([server_id])
+    unknown_server: Unerkannt ({server_id})
 
 # ---------------------------------------------------------------
 
@@ -170,33 +175,33 @@ settings:
       von der Server menü )"
     channel_lost_warn: "Etwas ist kaputt gegangen leste mal och probierte eine willkommen textbox in der
       Kanal du hast ausgewählt. stell fich sicher ich habe genug Erlaubnisse in dem Kanal und es existiert.
-      Du kannst den Kanal verändern indem du benutzt `/settings welcome channel`, ober in den Server Einstellungen
+      Du kannst den Kanal verändern indem du benutzt {/settings/welcome/channel}, ober in den Server Einstellungen
       -> Overview -> ꜱʏꜱᴛᴇᴍ ᴍᴇꜱꜱᴀɢᴇꜱ ᴄʜᴀɴɴᴇʟ"
 
   welcome:
     enabled:
       yah: "[ Willkommen textboxen sind aktiviert ]"
       nah: "[ Willkommen textboxen sind Deaktiviert ]"
-      default_tip: "du kannst die textbox message verändern mit `/settings welcome edit`" # tip:
+      default_tip: "du kannst die textbox message verändern mit {/settings/welcome/edit}" # tip:
     channel:
       auto: "[ Welcome textboxes channel has been reset ]"
-      Changed: "[ Welcome textboxes channel has been set to [channel] ]"
+      Changed: ""
     ping:
       yah: "[ Welcome textboxes should now ping the newcomers ]"
       nah: "[ Welcome textboxes will no longer ping the newcomers ]"
     editor:
-      title: "Du verändert die Willkommen Nachricht ..."
+      title: "Du verändert die Willkommen Nachricht…"
       input: "Willkommen Nachricht"
-      placeholder: "Du kannst die Variablen benutzen: [user_name] [server_name] [member_count]"
+      placeholder: "Du kannst die Variablen benutzen: {user_name} {server_name} {member_count}"
       done: "[ Erfolgreich Verändert die Willkommen Nachricht ]"
-      disabled_note: "don't forget to enable them with `/settings welcome enabled value:True`" # note:
+      disabled_note: ""                                                                        # note:
   transmissions:
     enabled:
       yah: "[ This server is now closed for calls ]"
       nah: "[ This server is now open for calls ]"
     channel:
       auto: "[ Übertragungs kanal zurücksetzet]"
-      Changed: "[Übertragungs Kanal wurde eingestellt auf [channel] ]"
+      Changed: "[Übertragungs Kanal wurde eingestellt auf {channel} ]"
     images:
       enabled: "[ Aktiviert Übertragungs Bilder ]"
       disabled: "[ Deaktiviert Übertragungs Bilder ]"
@@ -204,17 +209,17 @@ settings:
       enabled: "[ Erfolgreich aktiviert anonymer modus ]"
       disabled: "[ Erfolgreich deaktiviert anonymer modus ]"
     blocked:
-      yah: "[ Erfolgreich `[server_name]` blockiert ]"
+      yah: "[ Erfolgreich `{server_name}` blockiert ]"
       nah: "[ Erfolgreich `[server_name]` Blockierung aufgehebt]" # you can use server_name here also if you wish
 
 # ---------------------------------------------------------------
 
 profile:
   view:
-    message: v Anzeige [usermention]'s profil
+    message: v Anzeige {target_id, user, mention}'s profil
     button: "Verändere deine Profil"
     bots: "[ Bots haben keine profilen! ]"
-    loading: "[ Laden [user]'s Profil... {loading, emoji} ]"
+    loading: "[ {loading, emoji} Laden {target_id, user, mention}'s Profil… ]"
 
     image:
       alt_nodescription: "in der Bilder ist der profil von [username] in der Welt Machine system. Sie
@@ -337,7 +342,7 @@ shop:
 
       > Er gibt dir eine [capsule_name]!
 
-    result_footer: Benutz [ /nikogotchi check ] um dein neuen Nikogotchi zu sehen
+    result_footer: Benutz {/nikogotchi/check} um dein neuen Nikogotchi zu sehen!
 
   pancakes:
     title: Pfannkuchen
@@ -811,7 +816,7 @@ nikogotchi:
     lamplighter:
       fed:
       - "Oh, danke. kaffee ist mein übliches, aber ich kann ein Veränderung benutzen. Schätze es."
-      - "Pfannkuchen? Danke. Ich kann jetzt ein bisschen mehr Energie benutzen"
+      - "Pfannkuchen? Danke. Ich kann jetzt ein bisschen mehr Energie benutzen."
       pet:
       - "Oh, uh, danke. nicht daran gewöhnt... Aber ist nicht schlecht."
       - "Oh, uh, danke. I, um, Schätze dir geste."
