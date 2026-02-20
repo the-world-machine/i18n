@@ -22,7 +22,7 @@ generic:
     err: "‼️ Error:"
 
   select:
-    multiple: ([current]/[total])
+    multiple: ({current, pretty_num}/{total, pretty_num})
 
   responses:
     timeout:
@@ -39,7 +39,7 @@ music:
 
 misc:
   miaou:
-    title: "Du hast gefunden..."
+    title: "Du hast gefunden…"
     finding:
       noik: Niko!
       cat: Eine Katze!
@@ -54,8 +54,8 @@ misc:
     placeholder_text: "[ Willkommen zu [server_name], [user_name]! hier sind jetzt [member_count] benutzern
       hier! ]"
 
-  wikipedia: "[ [Hier]([link]) ist deine randomisierte wikipedia Artikel. es ist über [title]... ich denke
-    ... ]"
+  wikipedia: "[ [Hier]({link}) ist deine randomisierte wikipedia Artikel. es ist über {title}… ich denke
+    … ]"
 
 # ---------------------------------------------------------------
 
