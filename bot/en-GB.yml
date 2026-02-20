@@ -294,7 +294,8 @@ profile:
 
     image:
       alt_nodescription: "On the image is profile of user {username} in The World Machine's system. They
-        own: Suns {suns}, Wool {wool}"
+        own: Suns {suns}, Wool {wool}{description, select,\n None {} \n other {. Their description says:
+        {description}}\n}"
 
       # you may also still use any of the variables from above, if your language requires some rewording (try not to use {alt_nodescription} at all if you do)
       name: "{target_id} profile"
