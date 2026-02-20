@@ -253,7 +253,6 @@ profile:
       alt_nodescription: "На изображение изображен профиль {username} в системе Мировой Машины. У них
         есть: {suns} шт Солнц, {wool} Шерсти"
       # you may also still use any of the variables from above, if your language requires some rewording (try not to use {alt_nodescription} at all if you do)
-      alt_cont: "{alt_nodescription}. Их описание гласит: {description}"
       name: "{userid} профиль"
       title: "Профиль {username}"
       unlocked:
