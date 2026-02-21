@@ -307,8 +307,8 @@ profile:
 
     image:
       alt: "Profile of user {username} in The World Machine's system. They
-        own: Suns {suns}, Wool {wool}. {description, notempty, Their description says:
-        {description}}"
+        own: Suns {suns}, Wool {wool}. {description, notempty, 'Their description says:
+        {description}'}"
       name: "{target_id} profile"
       title: "{target_id, user, display_name}'s (@{target_id, user, username}) Profile"
       unlocked:
