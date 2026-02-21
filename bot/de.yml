@@ -1,6 +1,5 @@
 generic:
-  command_cooldown: "[ Bitte spam diese command nicht. Du kannset es noch benutzen in [timestamp_relative].
-    ]"
+  command_cooldown: "[ Bitte spam diese command nicht. Du kannset es noch benutzen in [timestamp_relative]. ]"
 
   buttons:
     yes: "Ja"
@@ -51,11 +50,9 @@ misc:
     multi: "Insgesamt **{total, pretty_num}**."
 
   welcome:
-    placeholder_text: "[ Willkommen zu [server_name], [user_name]! hier sind jetzt [member_count] benutzern
-      hier! ]"
+    placeholder_text: "[ Willkommen zu [server_name], [user_name]! hier sind jetzt [member_count] benutzern hier! ]"
 
-  wikipedia: "[ [Hier]({link}) ist deine randomisierte wikipedia Artikel. es ist über {title}… ich denke
-    … ]"
+  wikipedia: "[ [Hier]({link}) ist deine randomisierte wikipedia Artikel. es ist über {title}… ich denke … ]"
 
 # ---------------------------------------------------------------
 
@@ -91,8 +88,7 @@ about:
     weblate: Weblate
   mes:
   - "a discord bot based off oneshot"
-  - "a testing build for The World Machine, do not invite this bot if you want The World Machine in your
-    server"
+  - "a testing build for The World Machine, do not invite this bot if you want The World Machine in your server"
 
 # ---------------------------------------------------------------
 
@@ -115,28 +111,20 @@ wool:
         {account_holder_id, user, mention} war gegeben {wool, emoji}**{balance, pretty_num}** ]
     twm:
       none: "[ Ich probiere nicht die wirtschaft beeinflussen, so ich habe **no{wool, emoji}Wool** ]"
-      some: "[ Ich probiere nicht die wirtschaft beeinflussen, aber ich habe {wool, emoji}**{balance,
-        pretty_num}** ]"
+      some: "[ Ich probiere nicht die wirtschaft beeinflussen, aber ich habe {wool, emoji}**{balance, pretty_num}** ]"
   transfer:
     errors:
       self_transfer: "[ Fertig... ]"
-      not_enough: "[ Du hast nicht so viel {wool, emoji} wool! (du hast nur {wool, emoji}**[balance]**)
-        ]"
+      not_enough: "[ Du hast nicht so viel {wool, emoji} wool! (du hast nur {wool, emoji}**[balance]**) ]"
     to:
       bot:
-        none: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id,
-          user, mention}, nicht sehr großzügig!"
-        some: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id,
-          user, mention}, wie großzügig…"
-        confirmation: "[ Bist du sicherer das du will woole geben zu ein bot...? Du kannst es nicht wieder
-          haben, du weißt dass...? ]"
+        none: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, nicht sehr großzügig!"
+        some: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, wie großzügig…"
+        confirmation: "[ Bist du sicherer das du will woole geben zu ein bot...? Du kannst es nicht wieder haben, du weißt dass...? ]"
       user:
-        none: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id,
-          user, mention}, nicht sehr großzügig schließlich…"
-        some: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id,
-          user, mention}, wie großzügig!"
-    steal: "{sender_id, user, mention} hat eine singulare stück wool gestohlen von {receiver_id, user,
-      mention}, warum!?"
+        none: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, nicht sehr großzügig schließlich…"
+        some: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, wie großzügig!"
+    steal: "{sender_id, user, mention} hat eine singulare stück wool gestohlen von {receiver_id, user, mention}, warum!?"
   pray:
     errors:
       timeout: "[ Du hast schon gebetet in der 24. Du kannst nochmal beten {timestamp_relative}]" # example: in a day, in 5 hours # discord automatically translates
@@ -146,8 +134,7 @@ wool:
       despise: "…und sie hassen die… zu schlect…"
       ogie: "…und sie sehen das du bist okay."
       yippie: "…und sie sind glücklich mir dir! Lob sei die Welt Maschine!"
-      devoted: "…und sie sehen du bist ein echetr they see you're truly a devoted follower. Lob sei die
-        Welt maschine!"
+      devoted: "…und sie sehen du bist ein echetr they see you're truly a devoted follower. Lob sei die Welt maschine!"
     title: "Du betete zu die Welt maschine…"
     Change:
       gain: "Du also hast bekommen {wool, emoji}**{amount, pretty_num}** wool!"
@@ -163,20 +150,14 @@ transmit:
 
 settings:
   errors:
-    weird_edgecase_number_0: Ober du bist {twm, user, mention} nicht in der server. Wenn du bist der
-      server Manager bitte nochmal {twm, user, mention} zu dem Server einladen.
+    weird_edgecase_number_0: Ober du bist {twm, user, mention} nicht in der server. Wenn du bist der server Manager bitte nochmal {twm, user, mention} zu dem Server einladen.
     missing_permissions: '[ Du musst die "Manage Server" Erlaubnis haben bevor du die Einstellungen verändert]'
     channel_not_messageable: "[ Ich kann nicht eine Nachricht in diesem Kanal senden. ]"
-    channel_insufficient_perms: "[ Ich hab nicht genug erlaubnisse für diesem Kannal. stell doch sicher
-      ich habe alle von diesem: **Send Messages**, **View Channel** und **Attach Files**. ]"
+    channel_insufficient_perms: "[ Ich hab nicht genug erlaubnisse für diesem Kannal. stell doch sicher ich habe alle von diesem: **Send Messages**, **View Channel** und **Attach Files**. ]"
     invalid_server_id: "[ Invaliden server ID. ]"
     uncached_server: "-# Ich konnte nicht den server namen finden (ich bin nicht drin)"
-    get_server_id: "(Discord Einstellungen -> Erweitert-> 'Entwicklermodus' aktivieren, dann guck unterm
-      von der Server menü )"
-    channel_lost_warn: "Etwas ist kaputt gegangen leste mal och probierte eine willkommen textbox in der
-      Kanal du hast ausgewählt. stell fich sicher ich habe genug Erlaubnisse in dem Kanal und es existiert.
-      Du kannst den Kanal verändern indem du benutzt {/settings/welcome/channel}, ober in den Server Einstellungen
-      -> Overview -> ꜱʏꜱᴛᴇᴍ ᴍᴇꜱꜱᴀɢᴇꜱ ᴄʜᴀɴɴᴇʟ"
+    get_server_id: "(Discord Einstellungen -> Erweitert-> 'Entwicklermodus' aktivieren, dann guck unterm von der Server menü )"
+    channel_lost_warn: "Etwas ist kaputt gegangen leste mal och probierte eine willkommen textbox in der Kanal du hast ausgewählt. stell fich sicher ich habe genug Erlaubnisse in dem Kanal und es existiert. Du kannst den Kanal verändern indem du benutzt {/settings/welcome/channel}, ober in den Server Einstellungen -> Overview -> ꜱʏꜱᴛᴇᴍ ᴍᴇꜱꜱᴀɢᴇꜱ ᴄʜᴀɴɴᴇʟ"
 
   welcome:
     enabled:
@@ -220,11 +201,6 @@ profile:
     loading: "[ {loading, emoji} Laden {target_id, user, mention}'s Profil… ]"
 
     image:
-      alt_nodescription: "In der Bilde ist der profil von {username} in der Welt Machine system. Sie besitzen:
-        Sonnen {suns}, Woolen {wool}{description, select,\n None {} \n other {. Ihre Beschreibung lautet:
-        #}\n}"
-
-      # you may also still use any of the variables from above, if your language requires some rewording (try not to use [alt_nodescription] at all if you do)
       name: "{target_id} profil"
       title: "{target_id, user, display_name}'s (@{target_id, user, username}) Profil"
       unlocked:
@@ -289,17 +265,12 @@ shop:
     [user_wool]
 
   motds:
-  - "Der wool Markt verändert sich täglich, wir Vogel-Menschen haben eine gute Intuition darüber und mit
-    intuition ich meinte Ich manchal Zunahm ober verringern die Preise.. Ich Weiß das ohne Fleiß kein
-    Preis aber, wer will mich stoppen?"
+  - "Der wool Markt verändert sich täglich, wir Vogel-Menschen haben eine gute Intuition darüber und mit intuition ich meinte Ich manchal Zunahm ober verringern die Preise.. Ich Weiß das ohne Fleiß kein Preis aber, wer will mich stoppen?"
   - "Ich habe vielleicht den wool markt gebrochen einmal or zwei.. Aber bitte sag es Niemanden."
-  - "Wörter der Weisheit als ein Freund: wenn du kaufst hoch und Verkaufst niedrig, Glück erwartet..!
-    überprüfe das nicht.. bitte?"
+  - "Wörter der Weisheit als ein Freund: wenn du kaufst hoch und Verkaufst niedrig, Glück erwartet..! überprüfe das nicht.. bitte?"
   - "Meine Schätze und Schmuckstücke sind verloren... Kannst du mir mehr finden für mich?"
-  - "Du willst wissen was ist passiert über der Händler bevor mich?\tIch würde es nicht wissen.. *ich
-    würde es nicht wissen*"                                                                                                    # während der welt Maschine edition AMA Nightmargin hat scherzhaft gesagt das Magpie hat eine Körper versteckt der würder nicht gefunden noch, in Anbetracht der Tatsache das der violette Händler ist nie gefunden in der Neuauflage, es it höchstwahrscheinlich das der ist der Opfer von dieser mutmaßliches Mörder.
-  - Gefällt dir meine flasche Kollektion? Ich mag meine Flasche Kollektion. Was meinst du es ist 
-    alles \"Hard Liquor\"? Ist das was es sagt?"                                                                                                # Magpie's drink of choice is hard liquor, but only so he can collect the bottles afterwards.
+  - "Du willst wissen was ist passiert über der Händler bevor mich?\tIch würde es nicht wissen.. *ich würde es nicht wissen*"  # während der welt Maschine edition AMA Nightmargin hat scherzhaft gesagt das Magpie hat eine Körper versteckt der würder nicht gefunden noch, in Anbetracht der Tatsache das der violette Händler ist nie gefunden in der Neuauflage, es it höchstwahrscheinlich das der ist der Opfer von dieser mutmaßliches Mörder.
+  - Gefällt dir meine flasche Kollektion? Ich mag meine Flasche Kollektion. Was meinst du es ist alles \"Hard Liquor\"? Ist das was es sagt?"   # Magpie's drink of choice is hard liquor, but only so he can collect the bottles afterwards.
 
   traded: '> Erfolgreich gekauft "[item_name]" für [amount]' # [price] is also available here
   traded_sell: '> Erfolgreich "[item_name]" Verkauft für [price] Wool!'
@@ -487,10 +458,8 @@ items:
 
 interact:
   errors:
-    no_path: "Couldn't find the interaction, try running the command again. If the error persists, please
-      report it in my support server (you can find it in /about)"
-    500: "Unexpected error, try running the command again. If the error persists, please report it in
-      my community server (an invite to it is in /about)"
+    no_path: "Couldn't find the interaction, try running the command again. If the error persists, please report it in my support server (you can find it in /about)"
+    500: "Unexpected error, try running the command again. If the error persists, please report it in my community server (an invite to it is in /about)"
     fail: Failed to send the interaction
 
   phrases:
@@ -648,8 +617,7 @@ nikogotchi:
         rotate: drehen
 
     send_away:
-      description: "[ Bist du sicher das du willst [name] weg schicken so dass du kannst ein neues Nikogotchi
-        adoptierten? ]"
+      description: "[ Bist du sicher das du willst [name] weg schicken so dass du kannst ein neues Nikogotchi adoptierten? ]"
       success: "[ Erfolgreich weg geschickt [name]. genieße deine Zukunft Nikogotchi! ]"
 
     renaming:
@@ -687,8 +655,7 @@ nikogotchi:
     dirty: "🛀 [name] will geputzt sein!"
     hungry: "🥞 [name] ist hungrig..."
     treasure: "🎒 [name] ist derzeit auf der Suche nach Schätzen!"
-    danger: 🚨 [name] ist am niedrige gesundheit! benutz Goldene Pfannkuchen um ihre Gesundheit 
-      wiederherzustellen!
+    danger: 🚨 [name] ist am niedrige gesundheit! benutz Goldene Pfannkuchen um ihre Gesundheit wiederherzustellen!
 
   components:
     pet: Streicheln
@@ -703,12 +670,10 @@ nikogotchi:
       golden_pancakes: Futtern Goldene Pfannkuchen (x[amount])
       glitched_pancakes: Futtern ??? (x[amount])
 
-      glitched_powerup: "Dein Nikogotchi has wurde deutlich verstärkt nachdem dein Nikogotchi hat diese
-        Chaos von einem Pfannkuchen gegessen..."
+      glitched_powerup: "Dein Nikogotchi has wurde deutlich verstärkt nachdem dein Nikogotchi hat diese Chaos von einem Pfannkuchen gegessen..."
 
       no_food: "Kein essen... Du kannst welche kaufen in den Laden!"
-      invalid: Du kannst nicht dein Nikogotchi futtern dass! bitte aktualisieren mit {refresh, 
-        emoji}!
+      invalid: Du kannst nicht dein Nikogotchi futtern dass! bitte aktualisieren mit {refresh, emoji}!
 
   died:
     title: "🪦 [name] ist gestorben..."
@@ -804,8 +769,7 @@ nikogotchi:
     magpie:
       fed:
       - "Ah, pfannkuchen! Genau die, die ich habe dir verkauft!"
-      - "Ah Dankeschön! Es ist interessant um ein Nikogotchi werden, aber immer Pfannkuchen essen kann
-        schon langweilig sein."
+      - "Ah Dankeschön! Es ist interessant um ein Nikogotchi werden, aber immer Pfannkuchen essen kann schon langweilig sein."
       pet:
       - "A eine sanfte Berührung, nur was ich mag!"
       - "Na, bist du nicht ein freundliche? Ein Streich an meine feder immer macht mein tag besser."
@@ -845,8 +809,7 @@ nikogotchi:
     george:
       fed:
       - "George akzeptieren der Angebot von fluffige pfannkuchen. George Herz ist zufrieden."
-      - "Ich denke pfannkuchhen sind gut. Erwarte nicht das ich alles Sonnenschien und Regenbogen bin
-        über es"
+      - "Ich denke pfannkuchhen sind gut. Erwarte nicht das ich alles Sonnenschien und Regenbogen bin über es"
       - "Oh, Pfannkuchen... Ich vermute die sind essbar. Nichts ist sowieso wirklich wichtig really."
       - "Wow, Pfannkuchen! Ich kann nicht helfen aber zu lächeln. Dankeschön sehr viel!"
       - "Oh Liebling, du solltest nicht. Aber danke, sweetie. Ich schätze es."
@@ -899,8 +862,7 @@ nikogotchi:
       - "[Ah... Dankeschön.]"
       - "[Oh, Pfannkuchen? Ich habe niemals gedacht dass ich wurde etwas essen wie das.]"
       pet:
-      - "[Ich kann es nicht fühlen in der gleichen weg wie du, aber ich spüre deine FreundlichkeitI. Es
-        ist bequem in eine einzigartige Weise.]"
+      - "[Ich kann es nicht fühlen in der gleichen weg wie du, aber ich spüre deine FreundlichkeitI. Es ist bequem in eine einzigartige Weise.]"
       cleaned:
       - "[Mich Putzen? das ist überraschend, aber es fühlt sich... erfrischend.]"
       - "[Ich vermute auch digitale Entitäten brauchen ein bisschen sorge. Du hast mein dankbarkeit.]"
@@ -913,15 +875,13 @@ textbox:
     no_char: Character not found...
     no_faces: No faces found...
     no_faces_for_char: Faces not found for this character...
-    failed_to_render: "[ I failed to render the image, please report this in our [support discord server]([discord_invite]).
-      State ID: [sid] ]"
+    failed_to_render: "[ I failed to render the image, please report this in our [support discord server]([discord_invite]). State ID: [sid] ]"
     unknown_frame: "Frame №[index] not found. Total frames: [total]"
     invalid_character: The character "[character_name]" is not real
     invalid_face: The face "[face_name]" is not real for "[character_name]"
     cutoff: "This text has been truncated to fit within Discord's limitations." # TODO: implemen
     failed_to_send: "[ Failed to send for some reason :[ ]"
-    failed_to_send_dm: "[ Couldn't send message to our dms, are your dms open or have you [added me](https://discord.com/oauth2/authorize?client_id={twm,
-      user, id}) yet? ]"
+    failed_to_send_dm: "[ Couldn't send message to our dms, are your dms open or have you [added me](https://discord.com/oauth2/authorize?client_id={twm, user, id}) yet? ]"
     apng_preview_warn: | # warn:
       Discord doesn't show or let you download `.png`s as APNG.
       You can open the attachment in the browser, and it should animate (if there's any animation).
@@ -969,8 +929,7 @@ textbox:
   monologue:
     char: "[ Pick a character for the textbox ]"
     face: "[ Pick a face ]"
-    press_notext: "[ Make sure you put some text... if you want. Press the green button whenever you're
-      ready ]"
+    press_notext: "[ Make sure you put some text... if you want. Press the green button whenever you're ready ]"
     press: "[ Press the green button whenever you're ready ]"
     rendering: "[ {loading, emoji} Rendering... ]"
     sending: "[ {loading, emoji} Sending... ]"

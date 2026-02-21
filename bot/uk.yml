@@ -277,9 +277,6 @@ profile:
     loading: "[ {loading, emoji} Завантаження профіля {target_id, user, mention}… ]"
 
     image:
-      alt_nodescription: "На зображенні профіль користувача {username} у системі Мирової Машини. У них є {suns} шт Сонець та {wool} шт Вовни{description, select,\n None {} \n other {. Їхній опис: #}\n}"
-
-      # you may also still use any of the variables from above, if your language requires some rewording (try not to use {alt_nodescription} at all if you do)
       name: "профіль {target_id}"
       title: "Профіль {target_id, user, mention+(@username)}"
       unlocked:

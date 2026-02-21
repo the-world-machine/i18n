@@ -14,8 +14,7 @@ misc:
     desc: …salió {result, pretty_num}.
     multi: Para un total de **{total, pretty_num}**.
   welcome:
-    placeholder_text: '[ ¡Bienvenido a {server_name}, {user_name}! ¡Ahora hay {member_count, pretty_num}
-      usuarios! ]'
+    placeholder_text: '[ ¡Bienvenido a {server_name}, {user_name}! ¡Ahora hay {member_count, pretty_num} usuarios! ]'
   wikipedia: '[ [Aquí]({link}) tienes tu artículo aleatorio de wikipedia. Es sobre {title}… Creo… ]'
 wool:
   balance:
@@ -43,17 +42,13 @@ wool:
       not_enough: '[ ¡No tienes tanta {wool, emoji} lana! ]'
     to:
       bot:
-        none: '{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id,
-          user, mention}, ¡no es muy generoso!'
-        some: '{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id,
-          user, mention}, que generoso…'
+        none: '{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id, user, mention}, ¡no es muy generoso!'
+        some: '{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id, user, mention}, que generoso…'
         confirmation: '[ ¿Estás seguro de que le quieres dar lana... a un bot? ]'
         notefirmation: sabes, no podrás volver a conseguirla…
       user:
-        none: '{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id,
-          user, mention}, en fín, no es muy generoso…'
-        some: '{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id,
-          user, mention}, ¡que generoso!'
+        none: '{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id, user, mention}, en fín, no es muy generoso…'
+        some: '{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id, user, mention}, ¡que generoso!'
     steal: '{sender_id, user, mention} robó una pieza de lana de {receiver_id, user, mention}, ¿¡por qué!?'
   pray:
     errors:
@@ -76,16 +71,11 @@ settings:
   errors:
     missing_permissions: '[ Debes tener el permiso "Gestionar Servidor" para cambiar los ajustes ]'
     channel_not_messageable: '[ I cannot send messages in that channel ]'
-    channel_insufficient_perms: '[ No tengo los permisos suficientes para ese canal. Asegúrate de que
-      tengó todos estos: **Enviar Mensajes**, **Ver canal** and **Adjuntar archivos**. ]'
+    channel_insufficient_perms: '[ No tengo los permisos suficientes para ese canal. Asegúrate de que tengó todos estos: **Enviar Mensajes**, **Ver canal** and **Adjuntar archivos**. ]'
     invalid_server_id: '[ ID del servidor inválida. ]'
     uncached_server: no pude encontrar el nombre del servidor (quizás fui expulsado de él)
-    get_server_id: (Ajustes de Discord -> Avanzado -> activar 'Modo desarrollador', y mira abajo del
-      todo del menú del servidor)
-    channel_lost_warn: Algo salió mal la última vez que intenté enviar un cuadro de texto de 
-      bienvenida en el canal que seleccionaste. Asegúrate de que tengo los permisos necesarios y que
-      el canal existe. Puedes cambiar el canal usando {/settings/welcome/channel}. o en Ajustes del 
-      Servidor → Interacciones → Canal De Mensajes Del Sistema
+    get_server_id: (Ajustes de Discord -> Avanzado -> activar 'Modo desarrollador', y mira abajo del todo del menú del servidor)
+    channel_lost_warn: Algo salió mal la última vez que intenté enviar un cuadro de texto de bienvenida en el canal que seleccionaste. Asegúrate de que tengo los permisos necesarios y que el canal existe. Puedes cambiar el canal usando {/settings/welcome/channel}. o en Ajustes del Servidor → Interacciones → Canal De Mensajes Del Sistema
   welcome:
     enabled:
       yah: '[ Cuadros de texto de bienvenida activados ]'
@@ -127,9 +117,6 @@ profile:
     image:
       unlocked:
         stamps: 'Estampillas desbloqueadas:'
-      alt_nodescription: "En la imágen está el perfil del usuario {username} en el sistema de la Máquina
-        del Mundo. Tiene: Soles {suns}, Lana {wool}{description, select,\n None {} \n other {. Su descripción
-        dice: #}\n}"
       name: perfil de {target_id}
   edit:
     text: ¡Puedes editar tu perfil en la página web!
@@ -158,16 +145,12 @@ shop:
     owned: Ya lo tienes
   main_title: ¡Bienvenido!
   motds:
-  - The wool market changes everyday. Honestly, we bird people have a good intuition about it, and 
-    by intuition I mean I randomly increase it or decrease it to whatever I feel like.
+  - The wool market changes everyday. Honestly, we bird people have a good intuition about it, and by intuition I mean I randomly increase it or decrease it to whatever I feel like.
   - I may have *broken* the wool market once or twice. Let's keep that between us.
-  - "Words of wisdom as a friend: If you buy high and sell low, good fortune awaits..! Don't fact check
-    that!"
+  - "Words of wisdom as a friend: If you buy high and sell low, good fortune awaits..! Don't fact check that!"
   - My poor trinket and treasures were washed away... perhaps you could find more for me?
-  - You're asking about what happened to that one trader before me? I wouldn't know. *I wouldn't 
-    know at all...*
-  - Do you like my bottle collection? I like my bottle collection. What do you mean it's all "Hard 
-    Liquor"? Is that what it says?
+  - You're asking about what happened to that one trader before me? I wouldn't know. *I wouldn't know at all...*
+  - Do you like my bottle collection? I like my bottle collection. What do you mean it's all "Hard Liquor"? Is that what it says?
   traded_fail: '> You cannot trade for this.'
   nikogotchi:
     title: Capsules
@@ -299,8 +282,7 @@ nikogotchi:
     call_back: Call Back
     feed:
       placeholder: Choose food to feed with...
-      glitched_powerup: Your Nikogotchi has been significantly powered up after eating this mess of 
-        a pancake...
+      glitched_powerup: Your Nikogotchi has been significantly powered up after eating this mess of a pancake...
       no_food: No Food... you can get some at the shop!
   treasured:
     title: 🎉 Your Nikogotchi found some treasures!
@@ -366,8 +348,7 @@ nikogotchi:
     magpie:
       fed:
       - Ah, pancakes! Exactly the ones I sold you!
-      - Ah thank you! It is interesting becoming a Nikogotchi, but eating pancakes does get a little
-        tiring.
+      - Ah thank you! It is interesting becoming a Nikogotchi, but eating pancakes does get a little tiring.
       pet:
       - A gentle touch, just what I like!
       - Well, aren't you a friendly one? A pat on the feathers always brightens my day.
@@ -460,8 +441,7 @@ nikogotchi:
       - '[Ah... Thank you.]'
       - "[Oh, pancakes? I never thought I'd get to taste something like this.]"
       pet:
-      - "[I can't feel it in the same way you do, but I sense your kindness. It's comforting in its own
-        unique way.]"
+      - "[I can't feel it in the same way you do, but I sense your kindness. It's comforting in its own unique way.]"
       cleaned:
       - "[Cleaning me up? That's unexpected, but it feels... refreshing.]"
       - '[I suppose even digital entities need a bit of care sometimes. You have my gratitude.]'
