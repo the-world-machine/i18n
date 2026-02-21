@@ -306,12 +306,9 @@ profile:
     loading: "[ {loading, emoji} Loading {target_id, user, mention}'s profile… ]"
 
     image:
-      alt_nodescription:
-        "On the image is profile of user {username} in The World Machine's system. They
-        own: Suns {suns}, Wool {wool}{description, select,\n None {} \n other {. Their description says:
-        #}\n}"
-
-      # you may also still use any of the variables from above, if your language requires some rewording (try not to use {alt_nodescription} at all if you do)
+      alt: "Profile of user {username} in The World Machine's system. They
+        own: Suns {suns}, Wool {wool}. {description, notempty, Their description says:
+        {description}}"
       name: "{target_id} profile"
       title: "{target_id, user, display_name}'s (@{target_id, user, username}) Profile"
       unlocked:
