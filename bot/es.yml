@@ -118,6 +118,7 @@ profile:
       unlocked:
         stamps: 'Estampillas desbloqueadas:'
       name: perfil de {target_id}
+      alt: "а зображенні профіль користувача {username} у системі Мирової Машини. У них є {suns} шт Сонець та {wool} шт Вовни. {description, notempty, 'Їхній опис: {description}'}"
   edit:
     text: ¡Puedes editar tu perfil en la página web!
 explode:
