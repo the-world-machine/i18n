@@ -810,9 +810,8 @@ nikogotchi:
 
         Do you want to trade your Nikogotchi ({name_two}) with them?
 
-      waiting:
-        "[ Sent {user_id, user, mention} a trade offer! {loading, emoji} Waiting for their response…
-        ]"
+      waiting: "[ Sent {user_id, user, mention} a trade offer!
+        {loading, emoji} Waiting for their response… ]"
       declined: "[ Your trade request has been declined… ]"
       success_decline: "[ Trade request successfully declined. ]"
       success: "[ Successfully traded with {user_id, user, mention}! Say hello to **{name}**! ]"
@@ -1080,7 +1079,7 @@ textbox:
       animated though. # TODO: warn:
     recovering:
       message: "[ State not found, trying to recover… ]"
-      success: "[ Successfully recovered the state, loading editor… {loading, emoji} ]"
+      success: "[ {loading, emoji} Successfully recovered the state, loading editor… ]"
   filetypes:
     GIF: gif
     WEBP: webp
