@@ -556,7 +556,7 @@ treasure:
   empty: '[ У {user_id, user, mention} нет ни единого сокровища ]'
 nikogotchi:
   owned: Принадлежит {user}
-  loading: "[ Загрузка Никоготчи... {loading, emoji} ]"
+  loading: "[ {loading, emoji} Загрузка Никоготчи... ]"
   invalid: "[ Вы не имеете Никоготчи! ]"
   tipnvalid: "вы можете купить капсулу с Никоготчи в магазине" # tip:
   name:
@@ -611,7 +611,7 @@ nikogotchi:
         Успешно поменяны местоимения вашего Никоготчи! "{old_pronouns}" → "{new_pronouns}"
     trade:
       request: >
-        ### **{user}** хочет обменять вам ({name_one})! Хотите ли вы обменять своего ({name_two}) с ними?
+        ### **{user_id, user, mention}** хочет обменять вам ({name_one})! Хотите ли вы обменять своего ({name_two}) с ними?
       waiting: "[ Предложение было отправлено {user}! Ожидание ответа... {loading, emoji} ]"
       declined: "[ Ваше предложение было отклонено... ]"
       success_decline: "[ Предложение успешно отклонено. ]"
