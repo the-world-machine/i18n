@@ -281,6 +281,7 @@ profile:
       title: "Профіль {target_id, user, mention+(@username)}"
       unlocked:
         stamps: "Розблоковані Бейджи:"
+      alt: "En la imágen está el perfil del usuario {username} en el sistema de la Máquina del Mundo. Tiene: Soles {suns}, Lana {wool}{description, notempty, 'Su descripción dice: {description}'}"
   edit:
     text: "Ви можете редагувати свій профіль на нашому сайті!"
 
