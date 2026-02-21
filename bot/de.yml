@@ -581,7 +581,7 @@ treasure:
 
 nikogotchi:
   owned: "Besitzt von [user]"
-  loading: "[ Laden Nikogotchi... {loading, emoji} ]"
+  loading: "[ {loading, emoji} Laden Nikogotchi... ]"
   invalid: "[ Du hast kein Nikogotchi! ]"
   tipnvalid: "du kannst eine Kapsel kaufen von den laden un entsperrt eine" # tip:
 
@@ -619,7 +619,7 @@ nikogotchi:
 
     send_away:
       description: "[ Bist du sicher das du willst [name] weg schicken so dass du kannst ein neues Nikogotchi adoptierten? ]"
-      success: "[ Erfolgreich weg geschickt [name]. genieße deine Zukunft Nikogotchi! ]"
+      success: "[ Erfolgreich weg geschickt {name}… genieße deine Zukunft Nikogotchi! ]"
 
     renaming:
       title: Gibt dein Nikogotchi eine neue name!
@@ -633,14 +633,14 @@ nikogotchi:
 
     trade:
       request: >
-        ### **[user]** will handeln sein Nikogotchi ([name_one]) mit dir!
+        ### **{user_id, user, mention}** will handeln sein Nikogotchi ({name_one}) mit dir!
 
-        Willst du deine Nikogotchi handeln ([name_two]) mit ihnen?
+        Willst du deine Nikogotchi handeln ({name_two}) mit ihnen?
 
-      waiting: "[ Senden [user] ein Handel Anfrage! Warten für ihre Antwort... {loading, emoji} ]"
+      waiting: "[ Senden {user_id, user, mention} ein Handel Anfrage! Warten für ihre Antwort... {loading, emoji} ]"
       declined: "[ Deine Handel Anfrage wurde abgelehnt... ]"
       success_decline: "[ Handel anfrage erfolgreich abgelehnt. ]"
-      success: "[ Erfolgreich gehandelt mit [user]! Sag hallo zu **[name]**! ]"
+      success: "[ Erfolgreich gehandelt mit {user_id, user, mention}! Sag hallo zu **{name}**! ]"
 
   found:
     title: Du hast gefunden [name]!
