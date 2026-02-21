@@ -205,6 +205,7 @@ profile:
       title: "{target_id, user, display_name}'s (@{target_id, user, username}) Profil"
       unlocked:
         stamps: "Entsperrte Stempeln:"
+      alt: "In der Bilde ist der profil von {username} in der Welt Machine system. Sie besitzen: Sonnen {suns}, Woolen {wool}. {description, notempty, 'Ihre Beschreibung lautet: {description}'}"
   edit:
     text: "Du kannst dein Profil verändern über diese Website!"
 
