@@ -240,6 +240,7 @@ profile:
       title: "Профиль {target_id, user, display_name}'s (@{target_id, user, username})"
       unlocked:
         stamps: "Разблокированные Штампы:"
+      alt: "На изображение изображен профиль {username} в системе Мировой Машины. У них есть: {suns} шт Солнц, {wool} Шерсти. {description, notempty, 'В их описании написано: {description}'}"
   edit:
     text: "Вы можете изменить свой профиль на сайте!"
   notifications:
