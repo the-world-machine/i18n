@@ -710,7 +710,7 @@ nikogotchi:
       Hier sind die stat Veränderungen:
 
       [stats]
-    stat: "- [icon] +**[increase]** ([old_value] → [new_value])"
+    stat: "- {icon} +**{increase, pretty_num}** ({old_value, pretty_num} → {new_value, pretty_num})"
 
   dialogue:
     niko:
