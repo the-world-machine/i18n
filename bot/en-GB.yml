@@ -223,9 +223,13 @@ wool:
           {slot_values}
           Points are added up and then multiplied by your bet.
           You also get double the points when you hit a jackpot
-        values:
-          reduction: "- {icon} **{value} pt. reduction**"
-          normal: "- {icon} **{value} pt.**"
+        value_entry: "- {icon} **{value} {value, selectordinal,
+          one {point}
+          other {points}
+          } {value_sign, select,
+          negative {reduction}
+          positive {}
+          }**"
 
 # ---------------------------------------------------------------
 
@@ -459,7 +463,7 @@ shop:
     title: Backgrounds
 
     main: >
-      Do you want to trade {wool, emoji}**{amount}** for this background?
+      Do you want to trade {wool, emoji}**{amount, pretty_num}** for this background?
 
 
       {user_wool}
@@ -481,7 +485,7 @@ shop:
         {selected_treasure}
         {user_wool}
       placeholder: Choose a treasure to trade…
-      option: '"{name}" - {price} Wool'
+      option: '"{name}" - {price, pretty_num} Wool'
 
     sell:
       title: Trade in Treasures
@@ -722,7 +726,7 @@ interact:
 
 treasure:
   empty: "[ {user_id, user, mention} doesn't have any treasure ]"
-  item: "**`{amount}`** {icon} {name}"
+  item: "**`{spacer}{amount, pretty_num}`** {icon} {name}"
   message: >
     ### {user}'s treasures
 
