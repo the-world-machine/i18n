@@ -211,9 +211,6 @@ wool:
           {slot_values}
           Очки додаються, а потім множаться на вашу ставку.
           Ви також отримуєте вдвічі більше очок, якщо виб'єте джекпот!
-        values:
-          reduction: '- {icon} **зменшення на {value} очок **'
-          normal: '- {icon} **{value} очків**'
 transmit:
   autocomplete:
     unknown_server: Невідомий ({server_id})
