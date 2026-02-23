@@ -283,7 +283,7 @@ profile:
       name: "профіль {target_id}"
       title: "Профіль {target_id, user, mention+(@username)}"
       unlocked:
-        stamps: "Розблоковані Бейджи:"
+        stamps: "Розблоковані Значки:"
       alt: "En la imágen está el perfil del usuario {username} en el sistema de la Máquina del Mundo. Tiene: Soles {suns}, Lana {wool}{description, notempty, 'Su descripción dice: {description}'}"
   edit:
     text: "Ви можете редагувати свій профіль на нашому сайті!"
@@ -319,7 +319,7 @@ explode:
   dialogue:
     why:
     - "[ Чому? ]"
-    - "[ Мені треба ще й прибиратися кожен раз ]"
+    - "[ Мені треба ще й прибиратися кожен раз. ]"
     - "[ Воу... серйозно?]"
     - "[  ]"
     - 
@@ -339,7 +339,7 @@ explode:
 shop:
   loading: "[ {loading, emoji} Завантаження Крамниці... ]"
 
-  user_wool: "**Ваш Баланс: {wool}**{wool, emoji}"
+  user_wool: "**Ваш Баланс: {wool, pretty_num}**{wool, emoji}"
   owned: "ви маєте **{amount, pretty_num}**"
 
   buttons:
@@ -369,7 +369,7 @@ shop:
     {user_wool}
 
   motds:
-  - Ринок вовни змінюється щодня. Чесно кажучи, у нас, пташиних людях, є до нього дуже хороше інтуїтивне чуття, ..ну, під інтуїтивним.. я маю на увазі що випадково збільшую або зменшую ціни як мені хочеця.
+  - Ринок вовни змінюється щодня. Чесно кажучи, в нас, пташиних людей, є до нього дуже хороше інтуїтивне чуття, ..ну, під інтуїтивним.. я маю на увазі що випадково збільшую або зменшую ціни як мені хочеця.
   - Я, можливо, *зламав* ринок вовни кілька разів. Але давай це залишимо секретом між нами.
   - "Слова мудрості як від друга: Якщо купуєте дорого та продаєте дешево, вас чекає удача…! Не перевіряйте це!"
   - Мої брошки та скарби змилися у воді... можливо, ви зможете знайти більше для мене?
@@ -377,13 +377,13 @@ shop:
   - 'Тобі подобається моя колекція пляшок? Мені подобається моя колекція пляшок. Що? Там дійсно усюди написано "Тверді напої"? Ви впевнені, що це те, що там написано?'   # Magpie's drink of choice is hard liquor, but only so he can collect the bottles afterwards.
 
   traded: "> Успішно отримано {amount, pretty_num} {item_name} за {price} Вовни!"
-  traded_sell: "> Успішно обмінено {amount} {item_name} на {price} Вовни!"
+  traded_sell: "> Успішно обмінено {amount, pretty_num} {item_name} на {price, pretty_num} Вовни!"
   traded_fail: "> Ви це вже не можете придбати або обміняти."
 
   stocks: >
-    ```Акції придбання: {value}
+    ```Акції придбання: {value, pretty_num}
 
-    Акції обмінювання: {price}```
+    Акції обмінювання: {price, pretty_num}```
 
   nikogotchi:
     title: Капсули
@@ -438,13 +438,13 @@ shop:
     title: Фони
 
     main: >
-      Хочеш придбати цей фон за **{amount}**{wool, emoji}?
+      Хочеш придбати цей фон за **{amount, pretty_num}**{wool, emoji}?
 
 
       {user_wool}
 
     newly_owned: >
-      Дякую! Відтепер ви щасливий власник цього фону
+      Дякую! Відтепер ви щасливий власник цього фону.
 
 
       {user_wool}
@@ -474,7 +474,7 @@ shop:
       #not_selected: "*Ви не обрали ніяких скарбів для придбання...*"
       placeholder: Оберіть скарб для обміну…
       no_treasures: У вас нема скарбів для обміну.
-      option: "«{name}» (x{amount})"
+      option: "«{name}» (x{amount, pretty_num})"
 
     selection: >
       **Обраний скарб:**
@@ -482,9 +482,9 @@ shop:
       - {treasure_icon}«**{treasure_name}**» - {owned}
 
 
-      **За Один**: **{price_one}**{wool, emoji}
+      **За Один**: **{price_one, pretty_num}**{wool, emoji}
 
-      **За {amount} (усі): **{price_all}**{wool, emoji}
+      **За {amount} (усі): **{price_all, pretty_num}**{wool, emoji}
 
 # ---------------------------------------------------------------
 
@@ -581,7 +581,7 @@ interact:
       - "{user_one} тикнув {user_two}"
     - name: Грайливо
       phrases:
-      - "{user_one} тикнув ніса {user_two}!"
+      - "{user_one} тикнув носа {user_two}!"
       - "{user_one} потягнувся та тикнув {user_two}!"
       - "{user_one} кумедно тикнув {user_two}!"
       - "{user_one} грайливо тиснув носик {user_two}!"
@@ -691,7 +691,7 @@ interact:
       - "{user_one} залоскотав ухо {user_two} маленькою щіпкою вовни"
       flags: вовна    # do not translate
   modifiers:
-    no_item: "у {user_one} закінчилась {item} для використання над {user_two}!"
+    no_item: "у {user_one} закінчились \"{item}\" для використання над {user_two}!"
 # ---------------------------------------------------------------
 
 treasure:
@@ -715,7 +715,7 @@ nikogotchi:
   name:
     niko: Ніко
     nikonlanger: Ніконланґер
-    prophet_bot: Пророк
+    prophet_bot: Пророк Бот
     silver: Сілвер
     alula: Алула
     calamus: Каламус
@@ -746,7 +746,7 @@ nikogotchi:
         rotate: Отримати іншого
 
     send_away:
-      description: "[ Ви впевнені що бажаєте відпустити вашого {name}, щоб ви могли отримати нову Нікоґотчі? ]"
+      description: "[ Ви впевнені що бажаєте відпустити {name}, щоб ви могли отримати нового Нікоґотчі? ]"
       success: "[ Успішно відпущено {name}… Насолоджуйтесь вашим наступним Нікоґотчі! ]"
 
     renaming:
@@ -808,9 +808,9 @@ nikogotchi:
     feed:
       placeholder: "Оберіть їжу якою накормити…"
 
-      pancakes: Покормити Млинцями ({amount} шт.)
-      golden_pancakes: Покормити Золотими Млинцями ({amount} шт.)
-      glitched_pancakes: Покормити ??? ({amount} шт.)
+      pancakes: Покормити Млинцями ({amount, pretty_num} шт.)
+      golden_pancakes: Покормити Золотими Млинцями ({amount, pretty_num} шт.)
+      glitched_pancakes: Покормити ??? ({amount, pretty_num} шт.)
 
       glitched_powerup: "Ваш Нікоґотчі значно підсилився після того, як з'їв цей безладний млинець…"
 
