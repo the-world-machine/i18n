@@ -569,7 +569,6 @@ nikogotchi:
 
   died:
     title: "🪦 {name} ist gestorben…"
-    description: >
   treasured:
     title: 🎉 Dein Nikogotchi hat welche Schätze gefunden!
     message: >
@@ -748,14 +747,6 @@ nikogotchi:
 
 textbox:
   errors:
-    no_chars: ''
-    no_char: ''
-    no_faces: ''
-    no_faces_for_char: ''
-    failed_to_render: ""
-    unknown_frame: ""
-    invalid_character: ''
-    invalid_face: ''
     apng_preview_warn: | # warn:
       Discord doesn't show or let you download `.png`s as APNG.
       You can open the attachment in the browser, and it should animate (if there's any animation).
@@ -765,33 +756,14 @@ textbox:
     JPEG: jpeg
 
   button:
-    render: ''
-    rendersend: ""
     text:
       add: Add Text
-  select:
-    chars: ''
-    faces: ''
-    styles: ''
-
-  modal:
-    edit_text:
-      title: ""
-      response: >
-
+  modal: {}
   monologue:
     press_notext: "[ Make sure you put some text… if you want. Press the green button whenever you're ready ]"
     press: "[ Press the green button whenever you're ready ]"
-    rendering: ""
-    sending: ""
-    debug: ""
-
   alt:
-    single_frame:
-      filename: ""
-
     multi_frame:
-      filename: ""
       frame: {}
     text_effects:
       partial: {}
