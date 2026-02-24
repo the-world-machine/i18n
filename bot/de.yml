@@ -320,8 +320,6 @@ shop:
       message: >
         Du willst deine {wool, emoji}**Wool** verkaufen für Schatzen!? Dann bist du hier richtig! Ich habe sehr viele Schatzen das ich habe gefunden ober andere verkauft bei mir! obwohl ich bin der einzige Verkäufer hier.. {stock_market} {selected_treasure} {user_wool}
       placeholder: Wählen eine Schatz zu verkaufen…
-      option: ''
-
     sell:
       title: Schatze verkaufen
       message: >
@@ -434,8 +432,7 @@ interact:
       - "{user_one} hatte {user_two} in Verwirrung gelassen über ein boop!"
       - "{user_one} gibt {user_two} ein unerwarteter boop!"
       - "{user_one} lasst {user_two} sprachlos mit einen post-boop!"
-    - name: ''
-      phrases: []
+    - phrases: []
   - name: Schlagen
     phrases:
     - phrases: []
@@ -469,8 +466,7 @@ interact:
     - phrases: []
   - name: 🔥
     phrases:
-    - name: ''
-      phrases: []
+    - phrases: []
     - phrases:
       - "{user_one} wirft eine Molotov Cocktail in Richtung {user_two} ‼️"
     - phrases: []
@@ -746,20 +742,12 @@ nikogotchi:
 # ---------------------------------------------------------------
 
 textbox:
-  errors:
-    apng_preview_warn: | # warn:
-
   filetypes:
     PNG: png
     JPEG: jpeg
 
-  button:
-    text:
-      add: ''
+  button: {}
   modal: {}
-  monologue:
-    press_notext: ""
-    press: ""
   alt:
     multi_frame:
       frame: {}
