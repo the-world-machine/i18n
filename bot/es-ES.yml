@@ -143,9 +143,9 @@ shop:
     owned: Ya lo tienes
   main_title: ¡Bienvenido!
   motds:
-  - ''
   - My poor trinket and treasures were washed away... perhaps you could find more for me?
-  - 
+  - My poor trinket and treasures were washed away... perhaps you could find more for me?
+  - My poor trinket and treasures were washed away... perhaps you could find more for me?
   - My poor trinket and treasures were washed away... perhaps you could find more for me?
   - You're asking about what happened to that one trader before me? I wouldn't know. *I wouldn't know at all...*
   treasures: {}
