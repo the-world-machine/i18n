@@ -47,7 +47,7 @@ misc:
     multi: "Insgesamt **{total, pretty_num}**."
 
   welcome:
-    placeholder_text: "[ Willkommen zu [server_name], [user_name]! hier sind jetzt [member_count] benutzern hier! ]"
+    placeholder_text: "[ Willkommen zu \\c[#c386ff]{server_name}\\c, \\c[#c386ff]{user_name}\\c! hier sind jetzt {member_count} benutzern hier! ]"
 
   wikipedia: "[ [Hier]({link}) ist deine randomisierte wikipedia Artikel. es ist über {title}… ich denke … ]"
 
@@ -419,21 +419,21 @@ interact:
   - phrases:
     - phrases: []
     - phrases:
-      - "[user_one] sticht in die Nase von[user_two]!"
-      - "[user_one] reicht und boops [user_two]!"
-      - "[user_one] Gefühlt silly und booped [user_two]!"
+      - "{user_one} sticht in die Nase von {user_two}!"
+      - "{user_one} reicht und boops {user_two}!"
+      - "{user_one} Gefühlt silly und booped {user_two}!"
     - phrases:
-      - "[user_one] zart boops und streichelt die nase von [user_two]"
+      - "{user_one} zart boops und streichelt die nase von {user_two}"
     - phrases:
-      - "[user_one] aggressiv booped [user_two]"
+      - "{user_one} aggressiv booped {user_two}"
     - phrases:
-      - "[user_one] fühlte das Bedürfnis zu geben [user_two] ein boop!"
-      - "[user_one] Wollte nur [user_two] ein boop geben!"
-      - "[user_one] konnte nicht widerstehen booping [user_two]"
+      - "{user_one} fühlte das Bedürfnis zu geben {user_two} ein boop!"
+      - "{user_one} Wollte nur {user_two} ein boop geben!"
+      - "{user_one} konnte nicht widerstehen booping {user_two}"
     - phrases:
-      - "[user_one] hatte [user_two] in Verwirrung gelassen über ein boop!"
-      - "[user_one] gibt [user_two] ein unerwarteter boop!"
-      - "[user_one] lasst [user_two] sprachlos mit einen post-boop!"
+      - "{user_one} hatte {user_two} in Verwirrung gelassen über ein boop!"
+      - "{user_one} gibt {user_two} ein unerwarteter boop!"
+      - "{user_one} lasst {user_two} sprachlos mit einen post-boop!"
     - name: They're Cute
       phrases: []
   - name: Schlagen
@@ -457,14 +457,14 @@ interact:
   - name: Küssen
     phrases:
     - phrases:
-      - "[user_one] hat [user_two] geküsst! ❤️"
+      - "{user_one} hat {user_two} geküsst! ❤️"
     - phrases:
-      - "[user_one] gibt [user_two] ein warmes küssen ❤️"
+      - "{user_one} gibt {user_two} ein warmes küssen ❤️"
     - phrases: []
     - phrases: []
   - phrases:
     - phrases:
-      - "[user_one] Schlägte [user_two], das würd ein blaues fleck lassen."
+      - "{user_one} Schlägte {user_two}, das würd ein blaues fleck lassen."
     - phrases: []
     - phrases: []
   - name: 🔥
@@ -472,7 +472,7 @@ interact:
     - name: Small Rock
       phrases: []
     - phrases:
-      - "[user_one] wirft eine Molotov Cocktail in Richtung [user_two] ‼️"
+      - "{user_one} wirft eine Molotov Cocktail in Richtung {user_two} ‼️"
     - phrases: []
 treasure:
   message: >
@@ -596,7 +596,7 @@ nikogotchi:
       none_found: "Dein Nikogotchi hat gar nichts gefunden... Vielleicht gibt ihnen mehr zeit?"
 
   levelupped:
-    title: 🏆 Sie haben aufgestiegen zu level [level]!
+    title: 🏆 Sie haben aufgestiegen zu level {level, pretty_num}!
     message: >
       Hier sind die stat Veränderungen:
 
@@ -780,7 +780,7 @@ textbox:
     rendersend: "Render [type] & Send"
     text:
       add: Add Text
-  frame_position: "editing frame [current] of [total] total"
+  frame_position: ""
 
   select:
     chars: Characters...
