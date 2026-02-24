@@ -155,7 +155,6 @@ shop:
   traded_fail: '> You cannot trade for this.'
   nikogotchi:
     title: Capsules
-    result_footer: ''
   pancakes:
     title: Pancakes
   backgrounds:
@@ -164,7 +163,6 @@ shop:
   treasures:
     buy:
       title: Treasures
-      placeholder: ''
     sell:
       title: Trade in Treasures
       placeholder: Choose a treasure to trade in...
