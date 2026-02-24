@@ -78,11 +78,7 @@ about:
     support server: Support Server
     website: Website
     weblate: Weblate
-  mes:
-  - ""
-
-# ---------------------------------------------------------------
-
+  mes: []
 wool:
   balance:
     you:
@@ -428,10 +424,8 @@ interact:
       - "[user_one] Gefühlt silly und booped [user_two]!"
     - phrases:
       - "[user_one] zart boops und streichelt die nase von [user_two]"
-      - ""
     - phrases:
       - "[user_one] aggressiv booped [user_two]"
-      - ""
     - phrases:
       - "[user_one] fühlte das Bedürfnis zu geben [user_two] ein boop!"
       - "[user_one] Wollte nur [user_two] ein boop geben!"
@@ -442,7 +436,6 @@ interact:
       - "[user_one] lasst [user_two] sprachlos mit einen post-boop!"
     - name: They're Cute
       phrases:
-      - ""
       - ""
   - name: Schlagen
     phrases:
@@ -469,15 +462,12 @@ interact:
     - phrases:
       - "[user_one] gibt [user_two] ein warmes küssen ❤️"
     - phrases: []
-    - phrases:
-      - ""
+    - phrases: []
   - phrases:
     - phrases:
       - "[user_one] Schlägte [user_two], das würd ein blaues fleck lassen."
-    - phrases:
-      - ""
-    - phrases:
-      - ""
+    - phrases: []
+    - phrases: []
   - name: 🔥
     phrases:
     - name: Small Rock
