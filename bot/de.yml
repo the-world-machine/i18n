@@ -200,7 +200,7 @@ explode:
     - 
           # don't touch this one, the bot inserts a random amount of dots here
 
-    sixninefourtwo: nice
+    sixninefourtwo: nice 👍
     nineninenineninenine: |
       [ Das reicht jetzt, wie in der Gottes grüne welt hast du dieser nummer erreicht?! Verstehst du wie viele Welten hast du zerstört?! ]
 
@@ -320,7 +320,7 @@ shop:
       message: >
         Du willst deine {wool, emoji}**Wool** verkaufen für Schatzen!? Dann bist du hier richtig! Ich habe sehr viele Schatzen das ich habe gefunden ober andere verkauft bei mir! obwohl ich bin der einzige Verkäufer hier.. {stock_market} {selected_treasure} {user_wool}
       placeholder: Wählen eine Schatz zu verkaufen…
-      option: '"{name}" - {price, pretty_num} Wool'
+      option: ''
 
     sell:
       title: Schatze verkaufen
@@ -434,7 +434,7 @@ interact:
       - "{user_one} hatte {user_two} in Verwirrung gelassen über ein boop!"
       - "{user_one} gibt {user_two} ein unerwarteter boop!"
       - "{user_one} lasst {user_two} sprachlos mit einen post-boop!"
-    - name: They're Cute
+    - name: ''
       phrases: []
   - name: Schlagen
     phrases:
@@ -469,7 +469,7 @@ interact:
     - phrases: []
   - name: 🔥
     phrases:
-    - name: Small Rock
+    - name: ''
       phrases: []
     - phrases:
       - "{user_one} wirft eine Molotov Cocktail in Richtung {user_two} ‼️"
@@ -748,8 +748,6 @@ nikogotchi:
 textbox:
   errors:
     apng_preview_warn: | # warn:
-      Discord doesn't show or let you download `.png`s as APNG.
-      You can open the attachment in the browser, and it should animate (if there's any animation).
 
   filetypes:
     PNG: png
@@ -757,11 +755,11 @@ textbox:
 
   button:
     text:
-      add: Add Text
+      add: ''
   modal: {}
   monologue:
-    press_notext: "[ Make sure you put some text… if you want. Press the green button whenever you're ready ]"
-    press: "[ Press the green button whenever you're ready ]"
+    press_notext: ""
+    press: ""
   alt:
     multi_frame:
       frame: {}
