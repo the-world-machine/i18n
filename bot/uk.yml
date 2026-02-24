@@ -1094,7 +1094,7 @@ textbox:
     sending: "[ {loading, emoji} Відправляю… ]"
     done: "[ Готово ]"
 
-    debug: "(Зайняло: **{time}**мс., Sid: **{sid}**)"
+    debug: "(Зайняло: **{time, pretty_num}**мс., Sid: **{sid}**)"
 
   alt:
     single_frame:
