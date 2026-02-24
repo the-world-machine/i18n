@@ -183,8 +183,8 @@ nikogotchi:
     niko:
       fed:
       - Ah... Pancakes!
-      - ''
       - 
+      - PANCAKES!
       - PANCAKES!
       pet:
       - Wow... thank you!
@@ -239,13 +239,11 @@ nikogotchi:
       - HELLO.
     george:
       fed:
-      - ''
       - 
       - 'Oh, pancakes... I suppose they''re alright. Nothing really matters anyway.'
-      pet:
-      - ''
-      cleaned:
-      - ''
+      - 'Oh, pancakes... I suppose they''re alright. Nothing really matters anyway.'
+      pet: []
+      cleaned: []
     rue:
       fed: []
       pet: []
