@@ -211,6 +211,7 @@ wool:
           {slot_values}
           Очки додаються, а потім множаться на вашу ставку.
           Ви також отримуєте вдвічі більше очок, якщо виб'єте джекпот!
+        value_entry: '- {icon} **{value_sign, select, negative {зменшення на } other {}}{value, plural, one {# очко} few {# очка} many {# очок} other {# очка}}**'
 transmit:
   autocomplete:
     unknown_server: Невідомий ({server_id})
@@ -690,7 +691,7 @@ interact:
 # ---------------------------------------------------------------
 
 treasure:
-  item: "**`{amount}`** {icon} {name}"
+  item: "**`{spacer}{amount, pretty_num}`** {icon} {name}"
   message: >
     ### Скарби {user}
 
