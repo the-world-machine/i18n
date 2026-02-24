@@ -29,8 +29,8 @@ generic:
 
 music:
   loading:
-    search: "[ {loading, emoji} Suchen... ]"
-    file: "[ Lade deine Daten... {loading, emoji} ]"
+    search: "[ {loading, emoji} Suchen… ]"
+    file: "[ {loading, emoji} Lade deine Daten… ]"
 
 # ---------------------------------------------------------------
 
@@ -101,13 +101,13 @@ wool:
       some: "[ Ich probiere nicht die wirtschaft beeinflussen, aber ich habe {wool, emoji}**{balance, pretty_num}** ]"
   transfer:
     errors:
-      self_transfer: "[ Fertig... ]"
+      self_transfer: "[ Fertig… ]"
       not_enough: "[ Du hast nicht so viel {wool, emoji} wool! (du hast nur {wool, emoji}**[balance]**) ]"
     to:
       bot:
         none: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, nicht sehr großzügig!"
         some: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, wie großzügig…"
-        confirmation: "[ Bist du sicherer das du will woole geben zu ein bot...? Du kannst es nicht wieder haben, du weißt dass...? ]"
+        confirmation: "[ Bist du sicherer das du will woole geben zu ein bot…? Du kannst es nicht wieder haben, du weißt dass…? ]"
       user:
         none: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, nicht sehr großzügig schließlich…"
         some: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, wie großzügig!"
@@ -195,7 +195,7 @@ explode:
     why:
     - "[ Warum? ]"
     - "[ Ich muss wieder waschen wenn jemand macht dass.]"
-    - "[ Wow... Echt? ]"
+    - "[ Wow… Echt? ]"
     - "[  ]"
     - 
           # don't touch this one, the bot inserts a random amount of dots here
@@ -212,7 +212,7 @@ explode:
 # ---------------------------------------------------------------
 
 shop:
-  loading: "[ {loading, emoji} Laden Laden?... ]"
+  loading: "[ {loading, emoji} Laden Laden?… ]"
 
   user_wool: "**Ihr Guthaben: {wool, emoji}[wool]**"
   owned: "du hast **{amount, pretty_num}**"
@@ -230,7 +230,7 @@ shop:
   main_title: Willkommen!
 
   main: >
-    Hey, Hey! Willkommen zum mein emporium, Ich bin's breit zu verkaufen sehr viel glänzen und färbliche Schatzen, Hintergründe, Kapseln und mehr für deine woolen {wool, emoji}**Wool**... Denk es als Euros kannst du?
+    Hey, Hey! Willkommen zum mein emporium, Ich bin's breit zu verkaufen sehr viel glänzen und färbliche Schatzen, Hintergründe, Kapseln und mehr für deine woolen {wool, emoji}**Wool**… Denk es als Euros kannst du?
 
 
     Um zu starten, offene mal die Kategorien unten und dann verkaufe! wiss das welche Sachen verändern **täglich**, Soo.. besser eine Auge halten für diese!
@@ -245,7 +245,7 @@ shop:
   - "Der wool Markt verändert sich täglich, wir Vogel-Menschen haben eine gute Intuition darüber und mit intuition ich meinte Ich manchal Zunahm ober verringern die Preise.. Ich Weiß das ohne Fleiß kein Preis aber, wer will mich stoppen?"
   - "Ich habe vielleicht den wool markt gebrochen einmal or zwei.. Aber bitte sag es Niemanden."
   - "Wörter der Weisheit als ein Freund: wenn du kaufst hoch und Verkaufst niedrig, Glück erwartet..! überprüfe das nicht.. bitte?"
-  - "Meine Schätze und Schmuckstücke sind verloren... Kannst du mir mehr finden für mich?"
+  - "Meine Schätze und Schmuckstücke sind verloren… Kannst du mir mehr finden für mich?"
   - "Du willst wissen was ist passiert über der Händler bevor mich?\tIch würde es nicht wissen.. *ich würde es nicht wissen*"  # während der welt Maschine edition AMA Nightmargin hat scherzhaft gesagt das Magpie hat eine Körper versteckt der würder nicht gefunden noch, in Anbetracht der Tatsache das der violette Händler ist nie gefunden in der Neuauflage, es it höchstwahrscheinlich das der ist der Opfer von dieser mutmaßliches Mörder.
   - Gefällt dir meine flasche Kollektion? Ich mag meine Flasche Kollektion. Was meinst du es ist alles "Hard Liquor"? Ist das was es sagt?"     # Magpie's drink of choice is hard liquor, but only so he can collect the bottles afterwards.
 
@@ -265,7 +265,7 @@ shop:
       Ich sehe das du bist interessiert in diesem seltsamen Kapseln Dingen!.. Wenn ich nicht dumm bin, diese kapseln sind zu **Nikogotchis**! entsperren! Was sind *Nikogotchis* fragst du? *Nikogotchis* sind irgendwie einfache Tiere (nicht wilde Tiere), das du kannst kümmern um.
 
 
-      ...
+      …
 
 
       *AHEM* existenziell Furcht beiseite, füttern sie mit Pfannkuchen und gut um sie kümmern, erlaubt dir um zu Schatzen zu suchen! und dann kannst du dir mir verkaufen! cool ober?
@@ -280,7 +280,7 @@ shop:
       {user_wool}
 
     result: >
-      > Du gibst Magpie {amount} Woole, dann er dreht sich um zum die gatchapon Maschine und...
+      > Du gibst Magpie {amount} Woole, dann er dreht sich um zum die gatchapon Maschine und…
 
       > Er gibt dir eine {capsule_name}!
 
@@ -325,7 +325,7 @@ shop:
     sell:
       title: Schatze verkaufen
       message: >
-        Ah... du bist interessiert zum deine Schatze zu verkaufen! Das ist gut! Immer wann du verkaufst deine Schatzen, ich kann es zu anderen Leuten verkaufen, so stellen Sie sicher das sie es echt verkaufen will! {stock_market} {selected_treasure} {user_wool}
+        Ah… du bist interessiert zum deine Schatze zu verkaufen! Das ist gut! Immer wann du verkaufst deine Schatzen, ich kann es zu anderen Leuten verkaufen, so stellen Sie sicher das sie es echt verkaufen will! {stock_market} {selected_treasure} {user_wool}
       #not_selected: "*Du hast nicht gewählt welche Schatze zu verkaufen...*"
       placeholder: Wähl ein Schatz zu verkaufen…
       no_treasures: Du hast keine Schatze zu verkaufen.
@@ -476,16 +476,16 @@ interact:
     - phrases: []
 treasure:
   message: >
-    ### [user]'s Schätze
+    ### {user}'s Schätze
 
-    [treasures]
+    {treasures}
   tip: du kannst mehr Schätze bekommen in den Laden ober mit Nikogotchis!
 
 # ---------------------------------------------------------------
 
 nikogotchi:
-  owned: "Besitzt von [user]"
-  loading: "[ {loading, emoji} Laden Nikogotchi... ]"
+  owned: "Besitzt von {owner_id, user, displayname+(@username)}"
+  loading: "[ {loading, emoji} Laden Nikogotchi… ]"
   invalid: "[ Du hast kein Nikogotchi! ]"
   tipnvalid: "du kannst eine Kapsel kaufen von den laden un entsperrt eine" # tip:
 
@@ -500,8 +500,7 @@ nikogotchi:
     other_invalid: "[ Dieser person hat kein Nikogotchi. ]"
     error:
       description: > # Kelvin was a nikogotchi before
-        [ Dein Nikogotchi (`[id]`) nicht mehr existiert. Du kannst eine neues haben Sie können ein neues
-        mit den gleichen seltenheit bekommen ober schick es weg. ]
+        [ Dein Nikogotchi (`{id}`) nicht mehr existiert. Du kannst eine neues haben Sie können ein neues mit den gleichen seltenheit bekommen ober schick es weg. ]
 
 
         [ Was willst du machen? ]
@@ -510,17 +509,18 @@ nikogotchi:
         rotate: drehen
 
     send_away:
-      description: "[ Bist du sicher das du willst [name] weg schicken so dass du kannst ein neues Nikogotchi adoptierten? ]"
+      description: "[ Bist du sicher das du willst {name} weg schicken so dass du kannst ein neues Nikogotchi adoptierten? ]"
       success: "[ Erfolgreich weg geschickt {name}… genieße deine Zukunft Nikogotchi! ]"
 
     renaming:
       title: Gibt dein Nikogotchi eine neue name!
       input:
         label: Name
-        placeholder: Geben Sie einen neuen Namen ein für dein Nikogotchi...
+        placeholder: Geben Sie einen neuen Namen ein für dein Nikogotchi…
       response: >
         Erfolgreich umbenannt dein Nikogotchi!
-        "[old_name]" → "[new_name]"
+
+        "{old_name}" → "{new_name}"
 
     trade:
       request: >
@@ -528,26 +528,26 @@ nikogotchi:
 
         Willst du deine Nikogotchi handeln ({name_two}) mit ihnen?
 
-      waiting: "[ Senden {user_id, user, mention} ein Handel Anfrage! Warten für ihre Antwort... {loading, emoji} ]"
-      declined: "[ Deine Handel Anfrage wurde abgelehnt... ]"
+      waiting: "[ Senden {user_id, user, mention} ein Handel Anfrage! {loading, emoji} Warten für ihre Antwort… ]"
+      declined: "[ Deine Handel Anfrage wurde abgelehnt… ]"
       success_decline: "[ Handel anfrage erfolgreich abgelehnt. ]"
       success: "[ Erfolgreich gehandelt mit {user_id, user, mention}! Sag hallo zu **{name}**! ]"
 
   found:
-    title: Du hast gefunden [name]!
+    title: Du hast gefunden {name}!
     description: Willst du ihnen eine andere name geben?
-    renamenote: du kann immer sie umbenennen mit `/nikogotchi rename` # note:
+    renamenote: du kann immer sie umbenennen mit {/nikogotchi/rename} # note:
 
   status:
-    template: "*[status]*"
+    template: "*{status}*"
 
     normal: "👍 Geht es derzeit gut."
-    normal-rare: "🙂 Wartet für etwas zu passieren"
-    pet: "🥺 [name] will Aufmerksamkeit!"
-    dirty: "🛀 [name] will geputzt sein!"
-    hungry: "🥞 [name] ist hungrig..."
-    treasure: "🎒 [name] ist derzeit auf der Suche nach Schätzen!"
-    danger: 🚨 [name] ist am niedrige gesundheit! benutz Goldene Pfannkuchen um ihre Gesundheit wiederherzustellen!
+    normal-rare: "🙂 Wartet für etwas zu passieren?"
+    pet: "🥺 {name} will Aufmerksamkeit!"
+    dirty: "🛀 {name} will geputzt sein!"
+    hungry: "🥞 {name} ist hungrig…"
+    treasure: "🎒 {name} ist derzeit auf der Suche nach Schätzen!"
+    danger: 🚨 {name} ist am niedrige gesundheit! benutz Goldene Pfannkuchen um ihre Gesundheit wiederherzustellen!
 
   components:
     pet: Streicheln
@@ -556,62 +556,51 @@ nikogotchi:
     call_back: Wieder rufen
 
     feed:
-      placeholder: "Wahl essen zum futtern mit..."
+      placeholder: "Wahl essen zum futtern mit…"
 
-      pancakes: Futtern Pfannkuchen (x[amount])
-      golden_pancakes: Futtern Goldene Pfannkuchen (x[amount])
-      glitched_pancakes: Futtern ??? (x[amount])
+      pancakes: Futtern Pfannkuchen (x{amount, pretty_num})
+      golden_pancakes: Futtern Goldene Pfannkuchen (x{amount, pretty_num})
+      glitched_pancakes: Futtern ??? (x{amount, pretty_num})
 
-      glitched_powerup: "Dein Nikogotchi has wurde deutlich verstärkt nachdem dein Nikogotchi hat diese Chaos von einem Pfannkuchen gegessen..."
+      glitched_powerup: "Dein Nikogotchi has wurde deutlich verstärkt nachdem dein Nikogotchi hat diese Chaos von einem Pfannkuchen gegessen…"
 
-      no_food: "Kein essen... Du kannst welche kaufen in den Laden!"
+      no_food: "Kein essen… Du kannst welche kaufen in den Laden!"
       invalid: Du kannst nicht dein Nikogotchi futtern dass! bitte aktualisieren mit {refresh, emoji}!
 
   died:
-    title: "🪦 [name] ist gestorben..."
+    title: "🪦 {name} ist gestorben…"
     description: >
-      [name] hat ein ganzes leben gelebt das dauerte: [age].
-
-
-      - Stunden seit der letzten Betreuung: **[time_difference]**
-
-
-      Nikogotchis verlassen Sie sich auf Ihre Liebe und aufmerksamkeit, so probiert mal besser um dein
-      Nikogotchi zu kümmern nächstes mal!
-
-
-      R.I.P....
   treasured:
     title: 🎉 Dein Nikogotchi hat welche Schätze gefunden!
     message: >
-      [treasures]
+      {treasures}
 
-      Totale Schatzen: **[total]**
+      Totale Schatzen: **{total, pretty_num}**
 
-      Zeitaufwand beim Suchen: [time].
+      Zeitaufwand beim Suchen: {time}.
 
     dialogues:
       sent: "Dein Nikogotchi war weg geschickt zum Schatzen zu find!"
       senote: "ihre stats will sinken schnell als normal, so vergiss nicht ihn zurück rufen" # note:
-      none_found: "Dein Nikogotchi hat gar nichts gefunden... Vielleicht gibt ihnen mehr zeit?"
+      none_found: "Dein Nikogotchi hat gar nichts gefunden… Vielleicht gibt ihnen mehr zeit?"
 
   levelupped:
     title: 🏆 Sie haben aufgestiegen zu level {level, pretty_num}!
     message: >
       Hier sind die stat Veränderungen:
 
-      [stats]
+      {stats}
     stat: "- {icon} +**{increase, pretty_num}** ({old_value, pretty_num} → {new_value, pretty_num})"
 
   dialogue:
     niko:
       fed:
-      - "Ah... Pfannkuchen!"
+      - "Ah… Pfannkuchen!"
       - "Wow, diese sind so gut wie meine mama macht!"
       - "Bitte sag mir hier sind Haselnüsse in diesen!"
       - "PFANNKUCHEN!!!"
       pet:
-      - "Wow... Danke!"
+      - "Wow… Danke!"
       - "Aw, das fühlt sich schön an!"
       cleaned:
       - "Fühlt sich schön erfrischt!"
@@ -662,17 +651,17 @@ nikogotchi:
       - "A eine sanfte Berührung, nur was ich mag!"
       - "Na, bist du nicht ein freundliche? Ein Streich an meine feder immer macht mein tag besser."
       cleaned:
-      - "Ah, ein kleine Verschönerung, Ich schätze es! (das andere schätze ich hab schon genug)"
+      - "Ah, ein kleine Verschönerung, Ich schätze es!"
     lamplighter:
       fed:
       - "Oh, danke. kaffee ist mein übliches, aber ich kann ein Veränderung benutzen. Schätze es."
       - "Pfannkuchen? Danke. Ich kann jetzt ein bisschen mehr Energie benutzen."
       pet:
-      - "Oh, uh, danke. nicht daran gewöhnt... Aber ist nicht schlecht."
+      - "Oh, uh, danke. nicht daran gewöhnt… Aber ist nicht schlecht."
       - "Oh, uh, danke. I, um, Schätze dir geste."
       cleaned:
       - "Echt? Ich meine, sicher, Ich schätze es. Danke."
-      - "Sauberkeit ist... wichtig. Danke."
+      - "Sauberkeit ist… wichtig. Danke."
     ling:
       fed:
       - "Oh, danke! du bist zu nett. Normalerweise wäre ich derjenige serviert diese!"
@@ -697,8 +686,8 @@ nikogotchi:
     george:
       fed:
       - "George akzeptieren der Angebot von fluffige pfannkuchen. George Herz ist zufrieden."
-      - "Ich denke pfannkuchhen sind gut. Erwarte nicht das ich alles Sonnenschien und Regenbogen bin über es"
-      - "Oh, Pfannkuchen... Ich vermute die sind essbar. Nichts ist sowieso wirklich wichtig really."
+      - "Ich denke pfannkuchhen sind gut. Erwarte nicht das ich alles Sonnenschien und Regenbogen bin über es."
+      - "Oh, Pfannkuchen… Ich vermute die sind essbar. Nichts ist sowieso wirklich wichtig really."
       - "Wow, Pfannkuchen! Ich kann nicht helfen aber zu lächeln. Dankeschön sehr viel!"
       - "Oh Liebling, du solltest nicht. Aber danke, sweetie. Ich schätze es."
       - "Pfannkuchen? Rad wahl, mein freund ober freundin! Ich bin alles für das."
@@ -728,7 +717,7 @@ nikogotchi:
       - "Ich bin ein bisschen staubig, aber es it nicht was ich kann nicht bewältigen. Danke für kummern"
     prototype:
       fed:
-      - "[Das ist... Überraschend. Dankeschön.]"
+      - "[Das ist… Überraschend. Dankeschön.]"
       pet:
       - "[Hm, nicht schlect, Mensch. Dein berührung ist nicht als kalt as deine Technologie.]"
       - "[Ich kann es nicht fühlenit, aber ich schätze die geste.]"
@@ -738,7 +727,7 @@ nikogotchi:
     cedric:
       fed:
       - "Ah, ein köstliches Angebot! Mein danke, lieblings freund ober freundin."
-      - "Diese pfannkuchen sind ein köstliches Genuss. Du hast mein Dankbarkeit"
+      - "Diese pfannkuchen sind ein köstliches Genuss. Du hast mein Dankbarkeit."
       pet:
       - "dein Nettigkeite wärmt mein herz. Ein sanftes berühren in schwierigen Zeiten."
       - "Ein moment der Ruhe, Ich schätze unsere freundschaft."
@@ -747,26 +736,26 @@ nikogotchi:
       - "Du ehrst mich mit deinem Fleiß. Ein saubers Apparatus funktioniert optimal."
     the_world_machine:
       fed:
-      - "[Ah... Dankeschön.]"
+      - "[Ah… Dankeschön.]"
       - "[Oh, Pfannkuchen? Ich habe niemals gedacht dass ich wurde etwas essen wie das.]"
       pet:
       - "[Ich kann es nicht fühlen in der gleichen weg wie du, aber ich spüre deine FreundlichkeitI. Es ist bequem in eine einzigartige Weise.]"
       cleaned:
-      - "[Mich Putzen? das ist überraschend, aber es fühlt sich... erfrischend.]"
+      - "[Mich Putzen? das ist überraschend, aber es fühlt sich… erfrischend.]"
       - "[Ich vermute auch digitale Entitäten brauchen ein bisschen sorge. Du hast mein dankbarkeit.]"
 
 # ---------------------------------------------------------------
 
 textbox:
   errors:
-    no_chars: No characters found...
-    no_char: Character not found...
-    no_faces: No faces found...
-    no_faces_for_char: Faces not found for this character...
-    failed_to_render: "[ I failed to render the image, please report this in our [support discord server]([discord_invite]). State ID: [sid] ]"
-    unknown_frame: "Frame №[index] not found. Total frames: [total]"
-    invalid_character: The character "[character_name]" is not real
-    invalid_face: The face "[face_name]" is not real for "[character_name]"
+    no_chars: ''
+    no_char: ''
+    no_faces: ''
+    no_faces_for_char: ''
+    failed_to_render: ""
+    unknown_frame: ""
+    invalid_character: ''
+    invalid_face: ''
     apng_preview_warn: | # warn:
       Discord doesn't show or let you download `.png`s as APNG.
       You can open the attachment in the browser, and it should animate (if there's any animation).
@@ -776,38 +765,33 @@ textbox:
     JPEG: jpeg
 
   button:
-    render: Render [type]
-    rendersend: "Render [type] & Send"
+    render: ''
+    rendersend: ""
     text:
       add: Add Text
   select:
-    chars: Characters...
-    faces: Faces...
-    styles: Styles...
+    chars: ''
+    faces: ''
+    styles: ''
 
   modal:
     edit_text:
-      title: "Editing text for frame #[index]!"
+      title: ""
       response: >
-        Text changed!
-
-        New text: [new_text]
-
-        Old text: [old_text]
 
   monologue:
-    press_notext: "[ Make sure you put some text... if you want. Press the green button whenever you're ready ]"
+    press_notext: "[ Make sure you put some text… if you want. Press the green button whenever you're ready ]"
     press: "[ Press the green button whenever you're ready ]"
-    rendering: "[ {loading, emoji} Rendering... ]"
-    sending: "[ {loading, emoji} Sending... ]"
-    debug: "(Took: **[time]**ms., Sid: **[sid]**)"
+    rendering: ""
+    sending: ""
+    debug: ""
 
   alt:
     single_frame:
-      filename: "TWM textbox ([character], [face], [timestamp])"
+      filename: ""
 
     multi_frame:
-      filename: "TWM textbox ([frames], [timestamp])"
+      filename: ""
       frame: {}
     text_effects:
       partial: {}
