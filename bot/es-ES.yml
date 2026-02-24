@@ -70,7 +70,6 @@ transmit:
 settings:
   errors:
     missing_permissions: '[ Debes tener el permiso "Gestionar Servidor" para cambiar los ajustes ]'
-    channel_not_messageable: ''
     channel_insufficient_perms: '[ No tengo los permisos suficientes para ese canal. Asegúrate de que tengó todos estos: **Enviar Mensajes**, **Ver canal** and **Adjuntar archivos**. ]'
     invalid_server_id: '[ ID del servidor inválida. ]'
     uncached_server: no pude encontrar el nombre del servidor (quizás fui expulsado de él)
@@ -118,7 +117,6 @@ profile:
       unlocked:
         stamps: 'Estampillas desbloqueadas:'
       name: perfil de {target_id}
-      alt: ""
   edit:
     text: ¡Puedes editar tu perfil en la página web!
 explode:
@@ -128,7 +126,6 @@ explode:
     - '[ Tengo que limpiar cada vez que alguien hace esto. ]'
     - '[ Wow... ¿en serio? ]'
     - '[  ]'
-    sixninefourtwo: ''
     nineninenineninenine: |
       [ Eso es suficiente. ¿¡Cómo `#######` llegaste hasta este número!? ¿Entiendes cuántos mundos has destruído? ]
 
@@ -147,141 +144,40 @@ shop:
   main_title: ¡Bienvenido!
   motds:
   - ''
+  - My poor trinket and treasures were washed away... perhaps you could find more for me?
   - ''
-  - ""
   - My poor trinket and treasures were washed away... perhaps you could find more for me?
   - You're asking about what happened to that one trader before me? I wouldn't know. *I wouldn't know at all...*
-  - ''
-  traded_fail: ''
-  nikogotchi:
-    title: ''
-  pancakes:
-    title: ''
-  backgrounds:
-    title: ''
-    traded: ''
-  treasures:
-    buy:
-      title: ''
-    sell:
-      title: ''
-      placeholder: ''
-      no_treasures: ''
+  treasures: {}
 items:
   treasures:
-    amber:
-      name: ''
-      description: ''
-    bottle:
-      name: ''
-      description: ''
-    card:
-      name: ''
-      description: ''
-    clover:
-      name: ''
-      description: ''
-    die:
-      name: ''
-      description: ''
-    journal:
-      name: ''
-      description: ''
-    pen:
-      name: ''
-      description: ''
-    shirt:
-      name: ''
-      description: ''
     sun:
       name: The Sun
-      description: ''
   pancakes:
-    normal:
-      name: ''
-      description: |
-    golden:
-      name: ''
-      description: |
     glitched:
       name: ???
-      description: ''
-  capsules:
-    blue: ''
-    green: ''
-    red: ''
-    yellow: ''
   backgrounds:
-    Alula and Calamus: ''
-    Barrens: ''
     Glens: Glens
-    Refuge: ''
-    Pancakes: ''
-    Magpie: ''
-    Catwalk: ''
-    Ruins: ''
-    Factory: ''
-    Lamplighter: ''
-    Library: ''
     The World Machine: The World Machine
     The Author: The Author
-treasure:
-  tip: ''
 nikogotchi:
-  invalid: ""
-  tipnvalid: ''
   name:
-    niko: ''
-    nikonlanger: ''
-    prophet_bot: ''
     silver: Silver
-    alula: ''
-    calamus: ''
-    magpie: ''
-    lamplighter: ''
-    ling: ''
     kip: Kip
-    penguin: ''
     george: George
-    rue: ''
-    prototype: ''
-    cedric: ''
     the_world_machine: The World Machine
   other:
-    you_invalid: ""
-    other_invalid: ""
-    error:
-      buttons:
-        send_away: ''
-        rotate: ''
+    error: {}
     renaming:
-      title: ''
       input:
         label: Name
-        placeholder: ''
-      button: ''
     trade:
       declined: '[ Your trade request has been declined... ]'
-      success_decline: ''
-  found:
-    description: ''
-  status:
-    normal: ''
-    normal-rare: ''
   components:
-    pet: ''
-    clean: ''
-    find_treasure: ''
-    call_back: ''
     feed:
-      placeholder: ''
-      glitched_powerup: ''
       no_food: No Food... you can get some at the shop!
   treasured:
-    title: ''
     dialogues:
-      sent: ''
-      senote: ''
       none_found: Your Nikogotchi didn't find any treasures... Maybe you should give them more time?
   dialogue:
     niko:
@@ -290,87 +186,57 @@ nikogotchi:
       - ''
       - ''
       - PANCAKES!
-      - ''
       pet:
       - Wow... thank you!
       - ''
-      - ''
       cleaned:
-      - ''
-      - ''
       - ''
     nikonlanger:
-      fed:
-      - ''
+      fed: []
       pet:
       - ','
-      cleaned:
-      - ''
+      cleaned: []
     prophet_bot:
       fed:
       - ''
-      - ''
       pet:
       - '[…]'
-      - ''
-      cleaned:
-      - ''
+      cleaned: []
     silver:
-      fed:
-      - ''
-      pet:
-      - ''
-      cleaned:
-      - ''
+      fed: []
+      pet: []
+      cleaned: []
     alula:
       fed:
       - ''
-      - ''
-      - ''
-      pet:
-      - ''
-      cleaned:
-      - ''
+      pet: []
+      cleaned: []
     calamus:
-      fed:
-      - ''
-      pet:
-      - ''
-      cleaned:
-      - ''
+      fed: []
+      pet: []
+      cleaned: []
     magpie:
       fed:
       - ''
-      - ''
       pet:
       - ''
-      - ''
-      cleaned:
-      - ''
+      cleaned: []
     lamplighter:
       fed:
       - ''
-      - ''
       pet:
       - Oh, uh, thanks. Not used to this... but it's not bad.
-      - ''
       cleaned:
-      - ''
+      - Cleanliness is... important. Thanks.
       - Cleanliness is... important. Thanks.
     ling:
-      fed:
-      - ''
-      pet:
-      - ''
-      cleaned:
-      - ''
+      fed: []
+      pet: []
+      cleaned: []
     kip:
-      fed:
-      - ''
-      pet:
-      - ''
-      cleaned:
-      - ''
+      fed: []
+      pet: []
+      cleaned: []
     penguin:
       fed:
       - HELLO.
@@ -382,59 +248,38 @@ nikogotchi:
       fed:
       - ''
       - ''
-      - Oh, pancakes... I suppose they're alright. Nothing really matters anyway.
-      - ''
-      - ''
-      - ''
+      - 'Oh, pancakes... I suppose they''re alright. Nothing really matters anyway.'
       pet:
       - ''
       - ''
       - ''
-      - ''
-      - ''
-      - ''
       cleaned:
-      - ''
-      - ''
-      - ''
       - ''
       - ''
       - ''
     rue:
       fed:
       - ''
-      - ''
       pet:
       - ''
-      - ''
       cleaned:
-      - ''
       - ''
     prototype:
-      fed:
-      - ''
+      fed: []
       pet:
-      - ""
       - ''
       cleaned:
-      - ''
       - ""
     cedric:
       fed:
       - ''
-      - ''
       pet:
       - ''
-      - ''
       cleaned:
-      - ''
       - ''
     the_world_machine:
       fed:
-      - ''
       - ""
-      pet:
-      - ""
+      pet: []
       cleaned:
-      - ""
       - ''
