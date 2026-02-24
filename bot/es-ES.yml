@@ -1,7 +1,7 @@
 music:
   loading:
-    search: '[ Buscando… {loading, emoji} ]'
-    file: '[ Cargando tu archivo… {loading, emoji} ]'
+    search: '[ {loading, emoji} Buscando… ]'
+    file: '[ {loading, emoji} Cargando tu archivo… ]'
 misc:
   miaou:
     title: Encontraste…
@@ -70,7 +70,7 @@ transmit:
 settings:
   errors:
     missing_permissions: '[ Debes tener el permiso "Gestionar Servidor" para cambiar los ajustes ]'
-    channel_not_messageable: '[ I cannot send messages in that channel ]'
+    channel_not_messageable: ''
     channel_insufficient_perms: '[ No tengo los permisos suficientes para ese canal. Asegúrate de que tengó todos estos: **Enviar Mensajes**, **Ver canal** and **Adjuntar archivos**. ]'
     invalid_server_id: '[ ID del servidor inválida. ]'
     uncached_server: no pude encontrar el nombre del servidor (quizás fui expulsado de él)
@@ -118,7 +118,7 @@ profile:
       unlocked:
         stamps: 'Estampillas desbloqueadas:'
       name: perfil de {target_id}
-      alt: "а зображенні профіль користувача {username} у системі Мирової Машини. У них є {suns} шт Сонець та {wool} шт Вовни. {description, notempty, 'Їхній опис: {description}'}"
+      alt: ""
   edit:
     text: ¡Puedes editar tu perfil en la página web!
 explode:
@@ -128,7 +128,7 @@ explode:
     - '[ Tengo que limpiar cada vez que alguien hace esto. ]'
     - '[ Wow... ¿en serio? ]'
     - '[  ]'
-    sixninefourtwo: nice 👍
+    sixninefourtwo: ''
     nineninenineninenine: |
       [ Eso es suficiente. ¿¡Cómo `#######` llegaste hasta este número!? ¿Entiendes cuántos mundos has destruído? ]
 
@@ -146,237 +146,231 @@ shop:
     owned: Ya lo tienes
   main_title: ¡Bienvenido!
   motds:
-  - The wool market changes everyday. Honestly, we bird people have a good intuition about it, and by intuition I mean I randomly increase it or decrease it to whatever I feel like.
-  - I may have *broken* the wool market once or twice. Let's keep that between us.
-  - "Words of wisdom as a friend: If you buy high and sell low, good fortune awaits..! Don't fact check that!"
+  - ''
+  - ''
+  - ""
   - My poor trinket and treasures were washed away... perhaps you could find more for me?
   - You're asking about what happened to that one trader before me? I wouldn't know. *I wouldn't know at all...*
-  - Do you like my bottle collection? I like my bottle collection. What do you mean it's all "Hard Liquor"? Is that what it says?
-  traded_fail: '> You cannot trade for this.'
+  - ''
+  traded_fail: ''
   nikogotchi:
-    title: Capsules
+    title: ''
   pancakes:
-    title: Pancakes
+    title: ''
   backgrounds:
-    title: Backgrounds
-    traded: '> Successfully traded for this background!'
+    title: ''
+    traded: ''
   treasures:
     buy:
-      title: Treasures
+      title: ''
     sell:
-      title: Trade in Treasures
-      placeholder: Choose a treasure to trade in...
-      no_treasures: You have no treasures to trade in.
+      title: ''
+      placeholder: ''
+      no_treasures: ''
 items:
   treasures:
     amber:
-      name: Glowing Amber
-      description: It has a three-leaf clover pattern.
+      name: ''
+      description: ''
     bottle:
-      name: Bottle of Alcohol
-      description: A bottle of alcohol. Perfect for making molotov cocktails.
+      name: ''
+      description: ''
     card:
-      name: '"Real" Library Card'
-      description: Niko's own photo is glued on.
+      name: ''
+      description: ''
     clover:
-      name: Glowing Clover
-      description: A glowing clover.
+      name: ''
+      description: ''
     die:
-      name: Glowing Die
-      description: A die with glowing dots.
+      name: ''
+      description: ''
     journal:
-      name: Mysterious Journal
-      description: It's written in an unknown language.
+      name: ''
+      description: ''
     pen:
-      name: Glowing Feather
-      description: A long and slender feather with glowing edges.
+      name: ''
+      description: ''
     shirt:
-      name: Novelty Shirt
-      description: '"I herded rams and all I got was this lousy T-shirt!"'
+      name: ''
+      description: ''
     sun:
       name: The Sun
-      description: A large lightbulb. It's the sun.
+      description: ''
   pancakes:
     normal:
-      name: Pancakes
+      name: ''
       description: |
-        The bare minimum for feeding a Nikogotchi.
-        *+25 🥞*
-        *+1 ❤️*
     golden:
-      name: Golden Pancakes
+      name: ''
       description: |
-        Expensive, but worth it.
-        *MAX 🥞*
-        *+25 ❤️*
     glitched:
       name: ???
-      description: I don't even know how this got here.
+      description: ''
   capsules:
-    blue: Barrens Capsule
-    green: Glens Capsule
-    red: Refuge Capsule
-    yellow: Solstice Capsule
+    blue: ''
+    green: ''
+    red: ''
+    yellow: ''
   backgrounds:
-    Alula and Calamus: Alula and Calamus
-    Barrens: Barrens
+    Alula and Calamus: ''
+    Barrens: ''
     Glens: Glens
-    Refuge: Refuge
-    Pancakes: Pancakes
-    Magpie: Magpie
-    Catwalk: Catwalk
-    Ruins: Ruins
-    Factory: Factory
-    Lamplighter: Lamplighter
-    Library: Library
+    Refuge: ''
+    Pancakes: ''
+    Magpie: ''
+    Catwalk: ''
+    Ruins: ''
+    Factory: ''
+    Lamplighter: ''
+    Library: ''
     The World Machine: The World Machine
     The Author: The Author
 treasure:
-  tip: you can get more treasure by trading in the shop or sending Nikogotchis to find some!
+  tip: ''
 nikogotchi:
-  invalid: "[ You don't have a Nikogotchi! ]"
-  tipnvalid: you can buy a capsule with one in the shop
+  invalid: ""
+  tipnvalid: ''
   name:
-    niko: Niko
-    nikonlanger: Nikonlanger
-    prophet_bot: Prophet Bot
+    niko: ''
+    nikonlanger: ''
+    prophet_bot: ''
     silver: Silver
-    alula: Alula
-    calamus: Calamus
-    magpie: Magpie
-    lamplighter: Lamplighter
-    ling: Ling
+    alula: ''
+    calamus: ''
+    magpie: ''
+    lamplighter: ''
+    ling: ''
     kip: Kip
-    penguin: Penguin
+    penguin: ''
     george: George
-    rue: Rue
-    prototype: Prototype
-    cedric: Cedric
+    rue: ''
+    prototype: ''
+    cedric: ''
     the_world_machine: The World Machine
   other:
-    you_invalid: "[ You don't have a Nikogotchi. ]"
-    other_invalid: "[ This person doesn't seem to have a Nikogotchi. ]"
+    you_invalid: ""
+    other_invalid: ""
     error:
       buttons:
-        send_away: Send Away
-        rotate: Rotate
+        send_away: ''
+        rotate: ''
     renaming:
-      title: Give your Nikogotchi a new name!
+      title: ''
       input:
         label: Name
-        placeholder: Enter the new name for your Nikogotchi...
-      button: Rename
+        placeholder: ''
+      button: ''
     trade:
       declined: '[ Your trade request has been declined... ]'
-      success_decline: '[ Trade request successfully declined. ]'
+      success_decline: ''
   found:
-    description: Want to give them a different a name?
+    description: ''
   status:
-    normal: 👍 Currently doing fine.
-    normal-rare: 🙂 Waiting for something to happen?
+    normal: ''
+    normal-rare: ''
   components:
-    pet: Pet
-    clean: Clean
-    find_treasure: Find Treasure
-    call_back: Call Back
+    pet: ''
+    clean: ''
+    find_treasure: ''
+    call_back: ''
     feed:
-      placeholder: Choose food to feed with...
-      glitched_powerup: Your Nikogotchi has been significantly powered up after eating this mess of a pancake...
+      placeholder: ''
+      glitched_powerup: ''
       no_food: No Food... you can get some at the shop!
   treasured:
-    title: 🎉 Your Nikogotchi found some treasures!
+    title: ''
     dialogues:
-      sent: Your Nikogotchi was sent to find treasures!
-      senote: their stats will decrease faster than normal, so don't forget to call them back
+      sent: ''
+      senote: ''
       none_found: Your Nikogotchi didn't find any treasures... Maybe you should give them more time?
   dialogue:
     niko:
       fed:
       - Ah... Pancakes!
-      - Wow, these are just a good as the ones my mama makes!
-      - Please tell me there are hazelnuts in this one!
+      - ''
+      - ''
       - PANCAKES!
-      - Yummy!
+      - ''
       pet:
       - Wow... thank you!
-      - Aw, that feels nice!
-      - '*purr*'
+      - ''
+      - ''
       cleaned:
-      - Feeling pretty refreshed!
-      - Squeaky clean!
-      - My fur's all nice and fluffy!
+      - ''
+      - ''
+      - ''
     nikonlanger:
       fed:
-      - yum
+      - ''
       pet:
       - ','
       cleaned:
-      - so qlean so lush
+      - ''
     prophet_bot:
       fed:
-      - '[My purpose is not to eat. But thank you.]'
-      - '[Thank you for the gesture.]'
+      - ''
+      - ''
       pet:
       - '[…]'
-      - '[I appreciate your attention.]'
+      - ''
       cleaned:
-      - '[Maintenance is necessary for my purpose. Thank you.]'
+      - ''
     silver:
       fed:
-      - '[Food is no longer necessary for me, but thank you for the gesture.]'
+      - ''
       pet:
-      - '[Your touch is comforting, though I lack the ability to feel.]'
+      - ''
       cleaned:
-      - '[I appreciate your efforts to maintain my function. Thank you.]'
+      - ''
     alula:
       fed:
-      - Yum! I much prefer fish though!
-      - Delicious! I was pretty hungry!
-      - Yum!
+      - ''
+      - ''
+      - ''
       pet:
-      - Hee hee, that tickles!
+      - ''
       cleaned:
-      - I feel so refreshed and clean! Whee!
+      - ''
     calamus:
       fed:
-      - Oh, pancakes? Thank you so much.
+      - ''
       pet:
-      - That's quite nice. Thanks for the attention.
+      - ''
       cleaned:
-      - I really needed that. These ruins can get quite dusty.
+      - ''
     magpie:
       fed:
-      - Ah, pancakes! Exactly the ones I sold you!
-      - Ah thank you! It is interesting becoming a Nikogotchi, but eating pancakes does get a little tiring.
+      - ''
+      - ''
       pet:
-      - A gentle touch, just what I like!
-      - Well, aren't you a friendly one? A pat on the feathers always brightens my day.
+      - ''
+      - ''
       cleaned:
-      - Ah, a little sprucing up, I appreciate it!
+      - ''
     lamplighter:
       fed:
-      - Oh, thanks. Coffee's my usual, but I could use a change. Appreciate it.
-      - Pancakes? Thanks. I could use a little extra fuel right now.
+      - ''
+      - ''
       pet:
       - Oh, uh, thanks. Not used to this... but it's not bad.
-      - Oh, uh, thanks. I, um, appreciate the gesture.
+      - ''
       cleaned:
-      - Really? I mean, sure, I appreciate it. Thanks.
+      - ''
       - Cleanliness is... important. Thanks.
     ling:
       fed:
-      - Oh, thank you! You're too kind. Usually I'd be the one serving these!
+      - ''
       pet:
-      - Ah, that's quite pleasant. Thank you for the little pick-me-up.
+      - ''
       cleaned:
-      - I'm feeling quite refreshed. Thank you.
+      - ''
     kip:
       fed:
-      - Mmm, pancakes! You know the way to an engineer's heart. Thanks!
+      - ''
       pet:
-      - You've got a knack for this, my friend.
+      - ''
       cleaned:
-      - A little sprucing up, eh? I feel ready to take on a whole assembly line now!
+      - ''
     penguin:
       fed:
       - HELLO.
@@ -386,61 +380,61 @@ nikogotchi:
       - HELLO.
     george:
       fed:
-      - George graciously accepts the offering of fluffy pancakes. George's heart is content.
-      - I guess pancakes are fine. Don't expect me to be all sunshine and rainbows about it.
+      - ''
+      - ''
       - Oh, pancakes... I suppose they're alright. Nothing really matters anyway.
-      - Wow, pancakes! I can't help but smile. Thanks a bunch!
-      - Oh dear, you shouldn't have. But thank you, sweetie. I appreciate it.
-      - Pancakes? Rad choice, my friend! I'm all about that.
+      - ''
+      - ''
+      - ''
       pet:
-      - Your gentle touch pleases George greatly. George appreciates it.
-      - What are you touching me for? Keep your hands to yourself.
-      - Why bother petting me? I don't deserve it.
-      - Awww, you're the best! I feel all warm and fuzzy now.
-      - You're so caring. Thank you my dear!
-      - Chill vibes, dude! Your petting game is on point.
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
       cleaned:
-      - George is pleased with the tidiness. It reflects well upon George.
-      - Finally, someone does something right. About time.
-      - Cleaning up after me won't make a difference in this bleak world.
-      - You're so thoughtful! With a clean space, I can do anything!
-      - Thank you dear for keeping things tidy. It makes my life much easier!
-      - Thanks for keeping it chill and clean around here. I respect that.
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
     rue:
       fed:
-      - Mmm, these pancakes are delightful. Thank you!
-      - Pancakes? My favorite! You're too kind.
+      - ''
+      - ''
       pet:
-      - Ah, that's the spot! You're quite good at this, aren't you?
-      - A little scratch behind the ears is always appreciated.
+      - ''
+      - ''
       cleaned:
-      - Oh, you really didn't have to, but I appreciate the effort.
-      - I may be a bit dusty, but it's nothing I can't handle. Thanks for caring
+      - ''
+      - ''
     prototype:
       fed:
-      - '[This is...unexpected. Thank you.]'
+      - ''
       pet:
-      - "[Hm, not bad, human. Your touch isn't as cold as your technology.]"
-      - '[I may not feel it, but I appreciate the gesture.]'
+      - ""
+      - ''
       cleaned:
-      - '[I suppose even a machine like me needs some maintenance now and then. Carry on.]'
-      - "[Maintenance is necessary, even for a reclusive robot. I suppose I'm due for a little care.]"
+      - ''
+      - ""
     cedric:
       fed:
-      - Ah, a delectable offering! My thanks, dear friend.
-      - These pancakes are a delightful treat. You have my gratitude.
+      - ''
+      - ''
       pet:
-      - Your kindness warms my heart. A gentle touch in trying times.
-      - A moment of respite, I appreciate your companionship.
+      - ''
+      - ''
       cleaned:
-      - A spot of maintenance, much appreciated! A well-tended flying machine is a reliable one.
-      - You honor me with your diligence. A clean apparatus functions optimally.
+      - ''
+      - ''
     the_world_machine:
       fed:
-      - '[Ah... Thank you.]'
-      - "[Oh, pancakes? I never thought I'd get to taste something like this.]"
+      - ''
+      - ""
       pet:
-      - "[I can't feel it in the same way you do, but I sense your kindness. It's comforting in its own unique way.]"
+      - ""
       cleaned:
-      - "[Cleaning me up? That's unexpected, but it feels... refreshing.]"
-      - '[I suppose even digital entities need a bit of care sometimes. You have my gratitude.]'
+      - ""
+      - ''
