@@ -544,7 +544,7 @@ interact:
     no_item: "У {user_one} кончились все {item} для кидания в {user_two}!"
 # ---------------------------------------------------------------
 treasure:
-  item: "**`{amount}`** {icon} {name}"
+  item: "**`{spacer}{amount, pretty_num}`** {icon} {name}"
   message: >
     ### сокровища {user} {treasures}
   tip: вы можете получить больше сокровищ торговлей в магазине или отправкой Никоготчи на поиски таковых! # tip:
