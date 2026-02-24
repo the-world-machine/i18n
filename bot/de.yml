@@ -12,8 +12,6 @@ generic:
     next: "Nächste"
     previous: "Zurück"
     open_site: "Seite öffene"
-    dont_show_again: ""
-
   minis:
     note: "❕ Notierung(en):"
     tip: "❔ tip:"
@@ -40,7 +38,6 @@ misc:
   miaou:
     title: "Du hast gefunden…"
     finding:
-      noik: ''
       cat: Eine Katze!
 
   roll:
@@ -60,7 +57,6 @@ about:
   names:
     shards: "Scherben"
     avg_ping: "Durchschnittlich ping"
-    latency: ""
     commit_hash: "Commit hash"
     server_count: "Server zahl"
     user_installs: "User installiert"
@@ -78,16 +74,11 @@ about:
     failed_commit_hash: "N/A"
 
   buttons:
-    dev server: ''
-    community: ''
-    community server: ''
     support: Support
     support server: Support Server
-    translate: ''
     website: Website
     weblate: Weblate
   mes:
-  - ""
   - ""
 
 # ---------------------------------------------------------------
@@ -164,20 +155,12 @@ settings:
       yah: "[ Willkommen textboxen sind aktiviert ]"
       nah: "[ Willkommen textboxen sind Deaktiviert ]"
       default_tip: "du kannst die textbox message verändern mit {/settings/welcome/edit}" # tip:
-    channel:
-      auto: ""
-    ping:
-      yah: ""
-      nah: ""
     editor:
       title: "Du verändert die Willkommen Nachricht…"
       input: "Willkommen Nachricht"
       placeholder: "Du kannst die Variablen benutzen: {user_name} {server_name} {member_count}"
       done: "[ Erfolgreich Verändert die Willkommen Nachricht ]"
   transmissions:
-    enabled:
-      yah: ""
-      nah: ""
     channel:
       auto: "[ Übertragungs kanal zurücksetzet]"
       Changed: "[Übertragungs Kanal wurde eingestellt auf {channel} ]"
@@ -388,7 +371,6 @@ items:
       name: Leuchtendes Feder
       description: Ein langes Feder mit Leuchtenden Kanten.
     shirt:
-      name: ''
       description: '"Ich have widder gehüttet und alles was ich kriege ist diese lousy T-shirt?"'
     sun:
       name: Die Sonne
@@ -424,12 +406,8 @@ items:
     yellow: Solstice Kapseln
 
   backgrounds:
-    Alula and Calamus: ''
-    Barrens: ''
     Glens: Glens
-    Refuge: ''
     Pancakes: Pfannkuchen
-    Magpie: ''
     Catwalk: Laufsteg
     Ruins: Ruinen
     Factory: Kraftwerk
@@ -441,51 +419,29 @@ items:
 # ---------------------------------------------------------------
 
 interact:
-  errors:
-    no_path: ""
-    500: ""
-    fail: ''
-
   phrases:
-  - name: ''
-    phrases:
-    - name: ''
-      phrases:
-      - ""
-    - name: ''
-      phrases:
+  - phrases:
+    - phrases: []
+    - phrases:
       - "[user_one] sticht in die Nase von[user_two]!"
       - "[user_one] reicht und boops [user_two]!"
       - "[user_one] Gefühlt silly und booped [user_two]!"
-      - ""
-    - name: ''
-      phrases:
+    - phrases:
       - "[user_one] zart boops und streichelt die nase von [user_two]"
       - ""
-      - ""
-      - ""
-    - name: ''
-      phrases:
+    - phrases:
       - "[user_one] aggressiv booped [user_two]"
       - ""
-      - ""
-      - ""
-    - name: ''
-      phrases:
+    - phrases:
       - "[user_one] fühlte das Bedürfnis zu geben [user_two] ein boop!"
       - "[user_one] Wollte nur [user_two] ein boop geben!"
       - "[user_one] konnte nicht widerstehen booping [user_two]"
-      - ""
-    - name: ''
-      phrases:
+    - phrases:
       - "[user_one] hatte [user_two] in Verwirrung gelassen über ein boop!"
       - "[user_one] gibt [user_two] ein unerwarteter boop!"
       - "[user_one] lasst [user_two] sprachlos mit einen post-boop!"
-      - ""
     - name: They're Cute
       phrases:
-      - ""
-      - ""
       - ""
       - ""
   - name: Schlagen
@@ -508,52 +464,28 @@ interact:
     - phrases: []
   - name: Küssen
     phrases:
-    - name: ''
-      phrases:
+    - phrases:
       - "[user_one] hat [user_two] geküsst! ❤️"
-    - name: ''
-      phrases:
+    - phrases:
       - "[user_one] gibt [user_two] ein warmes küssen ❤️"
-    - name: ''
-      phrases:
+    - phrases: []
+    - phrases:
       - ""
-    - name: ''
-      phrases:
-      - ""
-      - ""
-  - name: ''
-    phrases:
-    - name: ''
-      phrases:
+  - phrases:
+    - phrases:
       - "[user_one] Schlägte [user_two], das würd ein blaues fleck lassen."
-    - name: ''
-      phrases:
+    - phrases:
       - ""
-      - ""
-      - ""
-    - name: ''
-      phrases:
-      - ""
-      - ""
+    - phrases:
       - ""
   - name: 🔥
     phrases:
     - name: Small Rock
-      phrases:
-      - ""
-    - name: ''
-      phrases:
+      phrases: []
+    - phrases:
       - "[user_one] wirft eine Molotov Cocktail in Richtung [user_two] ‼️"
-    - name: ''
-          #type: bottle
-          #no_bottles: "[user_one] ran out of {treasures.bottle, emoji} bottles!"
-      phrases:
-      - ""
-
-# ---------------------------------------------------------------
-
+    - phrases: []
 treasure:
-  item: ""
   message: >
     ### [user]'s Schätze
 
@@ -569,21 +501,9 @@ nikogotchi:
   tipnvalid: "du kannst eine Kapsel kaufen von den laden un entsperrt eine" # tip:
 
   name:
-    niko: ''
-    nikonlanger: ''
-    prophet_bot: ''
     silver: Silver
-    alula: ''
-    calamus: ''
-    magpie: ''
-    lamplighter: ''
-    ling: ''
     kip: Kip
-    penguin: ''
     george: George
-    rue: ''
-    prototype: ''
-    cedric: ''
     the_world_machine: The World Machine
 
   other:
@@ -609,7 +529,6 @@ nikogotchi:
       input:
         label: Name
         placeholder: Geben Sie einen neuen Namen ein für dein Nikogotchi...
-      button: ''     # used when you use a nikogotchi capsule
       response: >
         Erfolgreich umbenannt dein Nikogotchi!
         "[old_name]" → "[new_name]"
@@ -702,18 +621,15 @@ nikogotchi:
       - "Wow, diese sind so gut wie meine mama macht!"
       - "Bitte sag mir hier sind Haselnüsse in diesen!"
       - "PFANNKUCHEN!!!"
-      - ""
       pet:
       - "Wow... Danke!"
       - "Aw, das fühlt sich schön an!"
-      - ""
       cleaned:
       - "Fühlt sich schön erfrischt!"
-      - ""
+      - "Meine fell is all schön un fluffig!"
       - "Meine fell is all schön un fluffig!"
     nikonlanger:
-      fed:
-      - ""
+      fed: []
       pet:
       - ","
       cleaned:
@@ -738,7 +654,6 @@ nikogotchi:
       fed:
       - "Yum! Ich allerdings mag fisch mehr!"
       - "Delicious! Ich war schon hungrig!"
-      - ""
       pet:
       - "Hee hee, dass kitzelt!"
       cleaned:
@@ -863,18 +778,11 @@ textbox:
     unknown_frame: "Frame №[index] not found. Total frames: [total]"
     invalid_character: The character "[character_name]" is not real
     invalid_face: The face "[face_name]" is not real for "[character_name]"
-    cutoff: ""                                                                  # TODO: implemen
-    failed_to_send: ""
-    failed_to_send_dm: ""
     apng_preview_warn: | # warn:
       Discord doesn't show or let you download `.png`s as APNG.
       You can open the attachment in the browser, and it should animate (if there's any animation).
 
   filetypes:
-    GIF: ''
-    WEBP: ''
-    APNG: ''
-
     PNG: png
     JPEG: jpeg
 
@@ -882,14 +790,7 @@ textbox:
     render: Render [type]
     rendersend: "Render [type] & Send"
     text:
-      edit: ''
       add: Add Text
-    frame:
-      next: ''
-      add: ''
-      previous: ''
-      manual: ''
-
   frame_position: "editing frame [current] of [total] total"
 
   select:
@@ -900,9 +801,6 @@ textbox:
   modal:
     edit_text:
       title: "Editing text for frame #[index]!"
-      input:
-        label: ''
-        placeholder: ''
       response: >
         Text changed!
 
@@ -911,14 +809,10 @@ textbox:
         Old text: [old_text]
 
   monologue:
-    char: ""
-    face: ""
     press_notext: "[ Make sure you put some text... if you want. Press the green button whenever you're ready ]"
     press: "[ Press the green button whenever you're ready ]"
     rendering: "[ {loading, emoji} Rendering... ]"
     sending: "[ {loading, emoji} Sending... ]"
-    done: ""
-
     debug: "(Took: **[time]**ms., Sid: **[sid]**)"
 
   alt:
