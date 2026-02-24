@@ -1,5 +1,5 @@
 generic:
-  command_cooldown: "[ Bitte spam diese command nicht. Du kannset es noch benutzen in [timestamp_relative]. ]"
+  command_cooldown: "[ Bitte spam diese command nicht. Du kannset es noch benutzen in {timestamp_relative}. ]"
 
   buttons:
     yes: "Ja"
@@ -12,7 +12,7 @@ generic:
     next: "Nächste"
     previous: "Zurück"
     open_site: "Seite öffene"
-    dont_show_again: "Don't Show Again"
+    dont_show_again: ""
 
   minis:
     note: "❕ Notierung(en):"
@@ -40,7 +40,7 @@ misc:
   miaou:
     title: "Du hast gefunden…"
     finding:
-      noik: Niko!
+      noik: ''
       cat: Eine Katze!
 
   roll:
@@ -60,7 +60,7 @@ about:
   names:
     shards: "Scherben"
     avg_ping: "Durchschnittlich ping"
-    latency: "Response latency"
+    latency: ""
     commit_hash: "Commit hash"
     server_count: "Server zahl"
     user_installs: "User installiert"
@@ -73,22 +73,22 @@ about:
     uptime: "Betriebzeit"
 
   values:
-    time: "**[sec]** sek."
+    time: "**{sec}** sek."
     percent: "**{percentage, number, percent}**"
     failed_commit_hash: "N/A"
 
   buttons:
-    dev server: Dev Server
-    community: Community
-    community server: Community Server
+    dev server: ''
+    community: ''
+    community server: ''
     support: Support
     support server: Support Server
-    translate: Translate
+    translate: ''
     website: Website
     weblate: Weblate
   mes:
-  - "a discord bot based off oneshot"
-  - "a testing build for The World Machine, do not invite this bot if you want The World Machine in your server"
+  - ""
+  - ""
 
 # ---------------------------------------------------------------
 
@@ -96,7 +96,7 @@ wool:
   balance:
     you:
       none: "[ Du hast **no{wool, emoji}Wool** ]"
-      some: "[ Du hast **[balance]**{wool, emoji} ]"
+      some: "[ Du hast **{balance, pretty_num}**{wool, emoji} ]"
     other:
       none: "[ **{account_holder_id, user, mention}** hat **no{wool, emoji}Wool** ]"
       some: "[ **{account_holder_id, user, mention}** hat **{balance, pretty_num}**{wool, emoji} ]"
@@ -165,10 +165,10 @@ settings:
       nah: "[ Willkommen textboxen sind Deaktiviert ]"
       default_tip: "du kannst die textbox message verändern mit {/settings/welcome/edit}" # tip:
     channel:
-      auto: "[ Welcome textboxes channel has been reset ]"
+      auto: ""
     ping:
-      yah: "[ Welcome textboxes should now ping the newcomers ]"
-      nah: "[ Welcome textboxes will no longer ping the newcomers ]"
+      yah: ""
+      nah: ""
     editor:
       title: "Du verändert die Willkommen Nachricht…"
       input: "Willkommen Nachricht"
@@ -176,8 +176,8 @@ settings:
       done: "[ Erfolgreich Verändert die Willkommen Nachricht ]"
   transmissions:
     enabled:
-      yah: "[ This server is now closed for calls ]"
-      nah: "[ This server is now open for calls ]"
+      yah: ""
+      nah: ""
     channel:
       auto: "[ Übertragungs kanal zurücksetzet]"
       Changed: "[Übertragungs Kanal wurde eingestellt auf {channel} ]"
@@ -236,7 +236,7 @@ shop:
   loading: "[ {loading, emoji} Laden Laden?... ]"
 
   user_wool: "**Ihr Guthaben: {wool, emoji}[wool]**"
-  owned: "du hast **[amount]**"
+  owned: "du hast **{amount, pretty_num}**"
 
   buttons:
     buy: Kaufen
@@ -251,19 +251,16 @@ shop:
   main_title: Willkommen!
 
   main: >
-    Hey, Hey! Willkommen zum mein emporium, Ich bin's breit zu verkaufen sehr viel glänzen und färbliche
-    Schatzen, Hintergründe, Kapseln und mehr für deine woolen {wool, emoji}**Wool**... Denk es als Euros
-    kannst du?
+    Hey, Hey! Willkommen zum mein emporium, Ich bin's breit zu verkaufen sehr viel glänzen und färbliche Schatzen, Hintergründe, Kapseln und mehr für deine woolen {wool, emoji}**Wool**... Denk es als Euros kannst du?
 
 
-    Um zu starten, offene mal die Kategorien unten und dann verkaufe! wiss das welche Sachen verändern
-    **täglich**, Soo.. besser eine Auge halten für diese!
+    Um zu starten, offene mal die Kategorien unten und dann verkaufe! wiss das welche Sachen verändern **täglich**, Soo.. besser eine Auge halten für diese!
 
 
-    [motd]
+    {motd}
 
 
-    [user_wool]
+    {user_wool}
 
   motds:
   - "Der wool Markt verändert sich täglich, wir Vogel-Menschen haben eine gute Intuition darüber und mit intuition ich meinte Ich manchal Zunahm ober verringern die Preise.. Ich Weiß das ohne Fleiß kein Preis aber, wer will mich stoppen?"
@@ -271,46 +268,42 @@ shop:
   - "Wörter der Weisheit als ein Freund: wenn du kaufst hoch und Verkaufst niedrig, Glück erwartet..! überprüfe das nicht.. bitte?"
   - "Meine Schätze und Schmuckstücke sind verloren... Kannst du mir mehr finden für mich?"
   - "Du willst wissen was ist passiert über der Händler bevor mich?\tIch würde es nicht wissen.. *ich würde es nicht wissen*"  # während der welt Maschine edition AMA Nightmargin hat scherzhaft gesagt das Magpie hat eine Körper versteckt der würder nicht gefunden noch, in Anbetracht der Tatsache das der violette Händler ist nie gefunden in der Neuauflage, es it höchstwahrscheinlich das der ist der Opfer von dieser mutmaßliches Mörder.
-  - Gefällt dir meine flasche Kollektion? Ich mag meine Flasche Kollektion. Was meinst du es ist alles \"Hard Liquor\"? Ist das was es sagt?"   # Magpie's drink of choice is hard liquor, but only so he can collect the bottles afterwards.
+  - Gefällt dir meine flasche Kollektion? Ich mag meine Flasche Kollektion. Was meinst du es ist alles "Hard Liquor"? Ist das was es sagt?"     # Magpie's drink of choice is hard liquor, but only so he can collect the bottles afterwards.
 
-  traded: '> Erfolgreich gekauft "[item_name]" für [amount]' # [price] is also available here
-  traded_sell: '> Erfolgreich "[item_name]" Verkauft für [price] Wool!'
+  traded: '> Erfolgreich gekauft "{item_name}" für {amount, pretty_num}!' # [price] is also available here
+  traded_sell: '> Erfolgreich {amount, pretty_num}x "{item_name}" Verkauft für {price, pretty_num} Wool!'
   traded_fail: "> Du kannst nicht das kaufen."
 
   stocks: >
-    ```Stock Wert: [value]
+    ```Stock Wert: {value, pretty_num}
 
-    Stock Preis: [price]```
+    Stock Preis: {price, pretty_num}```
 
   nikogotchi:
     title: Kapseln
 
     main: >
-      Ich sehe das du bist interessiert in diesem seltsamen Kapseln Dingen!..
-      Wenn ich nicht dumm bin, diese kapseln sind zu **Nikogotchis**! entsperren!
-      Was sind *Nikogotchis* fragst du? *Nikogotchis* sind irgendwie einfache Tiere (nicht wilde Tiere),
-      das du kannst kümmern um.
+      Ich sehe das du bist interessiert in diesem seltsamen Kapseln Dingen!.. Wenn ich nicht dumm bin, diese kapseln sind zu **Nikogotchis**! entsperren! Was sind *Nikogotchis* fragst du? *Nikogotchis* sind irgendwie einfache Tiere (nicht wilde Tiere), das du kannst kümmern um.
 
 
       ...
 
 
-      *AHEM* existenziell Furcht beiseite, füttern sie mit Pfannkuchen und gut um sie kümmern, erlaubt
-      dir um zu Schatzen zu suchen! und dann kannst du dir mir verkaufen! cool ober?
+      *AHEM* existenziell Furcht beiseite, füttern sie mit Pfannkuchen und gut um sie kümmern, erlaubt dir um zu Schatzen zu suchen! und dann kannst du dir mir verkaufen! cool ober?
 
 
-      So warum nicht jetzt eine Kapsel kaufen? nur für {wool, emoji}**[cost]**!
+      So warum nicht jetzt eine Kapsel kaufen? nur für {wool, emoji}**{cost, pretty_num}**!
 
 
       * Denken Sie daran das du kannst nur **eine Kapsel** per Nikogotchi.*
 
 
-      [user_wool]
+      {user_wool}
 
     result: >
-      > Du gibst Magpie [amount] Woole, dann er dreht sich um zum die gatchapon Maschine und...
+      > Du gibst Magpie {amount} Woole, dann er dreht sich um zum die gatchapon Maschine und...
 
-      > Er gibt dir eine [capsule_name]!
+      > Er gibt dir eine {capsule_name}!
 
     result_footer: Benutz {/nikogotchi/check} um dein neuen Nikogotchi zu sehen!
 
@@ -321,63 +314,53 @@ shop:
       Nikogotchis absolut mögen Pfannkuchen , und dank gottes Wille für dich weil ich sie hier verkaufe!
 
 
-      [items]
+      {items}
 
 
-      [user_wool]
+      {user_wool}
 
   backgrounds:
     title: Hintergründe
 
     main: >
-      Willst du diese Hintergrund für {wool, emoji}**[amount]**?
+      Willst du diese Hintergrund für {wool, emoji}**{amount, pretty_num}**?
 
 
-      [user_wool]
+      {user_wool}
 
     newly_owned: >
       Danke! Jetzt bist du der Stolz Besitzer von dieser Hintergrund.
 
 
-      [user_wool]
+      {user_wool}
     traded: "> Erfolgreich diese Hintergrund gekauft!"
 
   treasures:
     buy:
       title: Schätze
       message: >
-        Du willst deine {wool, emoji}**Wool** verkaufen für Schatzen!? Dann bist du hier richtig! Ich
-        habe sehr viele Schatzen das ich habe gefunden ober andere verkauft bei mir! obwohl ich bin der
-        einzige Verkäufer hier..
-        [stock_market]
-        [selected_treasure]
-        [user_wool]
-      placeholder: Wählen eine Schatz zu verkaufen...
-      option: '"[name]" - [price] Wool'
+        Du willst deine {wool, emoji}**Wool** verkaufen für Schatzen!? Dann bist du hier richtig! Ich habe sehr viele Schatzen das ich habe gefunden ober andere verkauft bei mir! obwohl ich bin der einzige Verkäufer hier.. {stock_market} {selected_treasure} {user_wool}
+      placeholder: Wählen eine Schatz zu verkaufen…
+      option: '"{name}" - {price, pretty_num} Wool'
 
     sell:
       title: Schatze verkaufen
       message: >
-        Ah... du bist interessiert zum deine Schatze zu verkaufen! Das ist gut!
-        Immer wann du verkaufst deine Schatzen, ich kann es zu anderen Leuten verkaufen, so stellen Sie
-        sicher das sie es echt verkaufen will!
-        [stock_market]
-        [selected_treasure]
-        [user_wool]
+        Ah... du bist interessiert zum deine Schatze zu verkaufen! Das ist gut! Immer wann du verkaufst deine Schatzen, ich kann es zu anderen Leuten verkaufen, so stellen Sie sicher das sie es echt verkaufen will! {stock_market} {selected_treasure} {user_wool}
       #not_selected: "*Du hast nicht gewählt welche Schatze zu verkaufen...*"
-      placeholder: Wähl ein Schatz zu verkaufen...
+      placeholder: Wähl ein Schatz zu verkaufen…
       no_treasures: Du hast keine Schatze zu verkaufen.
-      option: '"[name]" (x[amount])'
+      option: '"{name}" (x{amount, pretty_num})'
 
     selection: >
       **Aktuell ausgewählt:**
 
-      - [treasure_icon] "**[treasure_name]**" - [owned]
+      - {treasure_icon} "**{treasure_name}**" - {owned}
 
 
-      **Verkauf ein**: {wool, emoji}**[price_one]**
+      **Verkauf ein**: {wool, emoji}**{price_one, pretty_num}**
 
-      **Verkauf alles**: {wool, emoji}**[price_all]** (x[amount])
+      **Verkauf alles**: {wool, emoji}**{price_all, pretty_num}** (x{amount, pretty_num})
 
 # ---------------------------------------------------------------
 
@@ -405,7 +388,7 @@ items:
       name: Leuchtendes Feder
       description: Ein langes Feder mit Leuchtenden Kanten.
     shirt:
-      name: Novelty Shirt
+      name: ''
       description: '"Ich have widder gehüttet und alles was ich kriege ist diese lousy T-shirt?"'
     sun:
       name: Die Sonne
@@ -441,12 +424,12 @@ items:
     yellow: Solstice Kapseln
 
   backgrounds:
-    Alula and Calamus: Alula and Calamus
-    Barrens: Barrens
+    Alula and Calamus: ''
+    Barrens: ''
     Glens: Glens
-    Refuge: Refuge
+    Refuge: ''
     Pancakes: Pfannkuchen
-    Magpie: Magpie
+    Magpie: ''
     Catwalk: Laufsteg
     Ruins: Ruinen
     Factory: Kraftwerk
@@ -459,52 +442,52 @@ items:
 
 interact:
   errors:
-    no_path: "Couldn't find the interaction, try running the command again. If the error persists, please report it in my support server (you can find it in /about)"
-    500: "Unexpected error, try running the command again. If the error persists, please report it in my community server (an invite to it is in /about)"
-    fail: Failed to send the interaction
+    no_path: ""
+    500: ""
+    fail: ''
 
   phrases:
-  - name: Boop
+  - name: ''
     phrases:
-    - name: Basic
+    - name: ''
       phrases:
-      - "[user_one] booped [user_two]"
-    - name: Playful
+      - ""
+    - name: ''
       phrases:
       - "[user_one] sticht in die Nase von[user_two]!"
       - "[user_one] reicht und boops [user_two]!"
       - "[user_one] Gefühlt silly und booped [user_two]!"
-      - "[user_one] playfully boops [user_two]!"
-    - name: Delicate
+      - ""
+    - name: ''
       phrases:
       - "[user_one] zart boops und streichelt die nase von [user_two]"
-      - "[user_one] delivers a dainty boop to [user_two]"
-      - "[user_one] gently taps [user_two]'s nose"
-      - "[user_one] places a delicate boop on [user_two]'s nose"
-    - name: Frustrated
+      - ""
+      - ""
+      - ""
+    - name: ''
       phrases:
       - "[user_one] aggressiv booped [user_two]"
-      - "[user_one] booped [user_two] out of frustration"
-      - "[user_one] huffs and boops [user_two] in irritation"
-      - "[user_one] lets out their frustration with a firm boop on [user_two]"
-    - name: Irresistible
+      - ""
+      - ""
+      - ""
+    - name: ''
       phrases:
       - "[user_one] fühlte das Bedürfnis zu geben [user_two] ein boop!"
       - "[user_one] Wollte nur [user_two] ein boop geben!"
       - "[user_one] konnte nicht widerstehen booping [user_two]"
-      - "[user_one] gives in to the urge and boops [user_two]"
-    - name: Confused
+      - ""
+    - name: ''
       phrases:
       - "[user_one] hatte [user_two] in Verwirrung gelassen über ein boop!"
       - "[user_one] gibt [user_two] ein unerwarteter boop!"
       - "[user_one] lasst [user_two] sprachlos mit einen post-boop!"
-      - "[user_one] leaves [user_two] wondering why they were booped"
+      - ""
     - name: They're Cute
       phrases:
-      - "[user_one] gives [user_two] the cutest little boop!"
-      - "[user_one] boops [user_two]'s nose and giggles cutely!"
-      - "[user_one] can't handle how adorable [user_two] is and boops them!"
-      - "[user_one] with a smile, delivers a heart-melting boop to [user_two]!"
+      - ""
+      - ""
+      - ""
+      - ""
   - name: Schlagen
     phrases:
     - phrases: []
@@ -525,52 +508,52 @@ interact:
     - phrases: []
   - name: Küssen
     phrases:
-    - name: Basic
+    - name: ''
       phrases:
       - "[user_one] hat [user_two] geküsst! ❤️"
-    - name: Warm
+    - name: ''
       phrases:
       - "[user_one] gibt [user_two] ein warmes küssen ❤️"
-    - name: Romantic
+    - name: ''
       phrases:
-      - "[user_one] pulls [user_two] close and shares a slow, tender kiss"
-    - name: Cheek Kiss
+      - ""
+    - name: ''
       phrases:
-      - "[user_one] plants a sweet peck on [user_two]'s cheek"
-      - "[user_one] leaves [user_two] blushing with an affectionate cheek kiss!"
-  - name: Attack
+      - ""
+      - ""
+  - name: ''
     phrases:
-    - name: Basic Punch
+    - name: ''
       phrases:
       - "[user_one] Schlägte [user_two], das würd ein blaues fleck lassen."
-    - name: Random Combo
+    - name: ''
       phrases:
-      - "[user_one] delivers a rapid 1-2 punch combo to [user_two]!"
-      - "[user_one] lands three quick jabs followed by an overhand right on [user_two]!"
-      - "[user_one] goes full flurry mode on [user_two]!"
-    - name: Pillow
+      - ""
+      - ""
+      - ""
+    - name: ''
       phrases:
-      - "[user_one] hits [user_two] behind their head with a fluffy pillow!"
-      - "[user_one] launches a pillow barrage at [user_two]! No feathers left!"
-      - "[user_one] swings a cushion at [user_two] in a soft attack!"
+      - ""
+      - ""
+      - ""
   - name: 🔥
     phrases:
     - name: Small Rock
       phrases:
-      - "[user_one] threw a small rock at [user_two]!"
-    - name: Molotov
+      - ""
+    - name: ''
       phrases:
       - "[user_one] wirft eine Molotov Cocktail in Richtung [user_two] ‼️"
-    - name: Empty Bottle (ow)
+    - name: ''
           #type: bottle
           #no_bottles: "[user_one] ran out of {treasures.bottle, emoji} bottles!"
       phrases:
-      - "[user_one] threw an empty bottle at [user_two]'s head"
+      - ""
 
 # ---------------------------------------------------------------
 
 treasure:
-  item: "**`[amount]`** [icon] [name]"
+  item: ""
   message: >
     ### [user]'s Schätze
 
@@ -586,21 +569,21 @@ nikogotchi:
   tipnvalid: "du kannst eine Kapsel kaufen von den laden un entsperrt eine" # tip:
 
   name:
-    niko: Niko
-    nikonlanger: Nikonlanger
-    prophet_bot: Prophet Bot
+    niko: ''
+    nikonlanger: ''
+    prophet_bot: ''
     silver: Silver
-    alula: Alula
-    calamus: Calamus
-    magpie: Magpie
-    lamplighter: Lamplighter
-    ling: Ling
+    alula: ''
+    calamus: ''
+    magpie: ''
+    lamplighter: ''
+    ling: ''
     kip: Kip
-    penguin: Penguin
+    penguin: ''
     george: George
-    rue: Rue
-    prototype: Prototype
-    cedric: Cedric
+    rue: ''
+    prototype: ''
+    cedric: ''
     the_world_machine: The World Machine
 
   other:
@@ -626,7 +609,7 @@ nikogotchi:
       input:
         label: Name
         placeholder: Geben Sie einen neuen Namen ein für dein Nikogotchi...
-      button: Rename # used when you use a nikogotchi capsule
+      button: ''     # used when you use a nikogotchi capsule
       response: >
         Erfolgreich umbenannt dein Nikogotchi!
         "[old_name]" → "[new_name]"
@@ -719,18 +702,18 @@ nikogotchi:
       - "Wow, diese sind so gut wie meine mama macht!"
       - "Bitte sag mir hier sind Haselnüsse in diesen!"
       - "PFANNKUCHEN!!!"
-      - "Yummy!"
+      - ""
       pet:
       - "Wow... Danke!"
       - "Aw, das fühlt sich schön an!"
-      - "*purr*"
+      - ""
       cleaned:
       - "Fühlt sich schön erfrischt!"
-      - "Squeaky clean!"
+      - ""
       - "Meine fell is all schön un fluffig!"
     nikonlanger:
       fed:
-      - "yum"
+      - ""
       pet:
       - ","
       cleaned:
@@ -755,7 +738,7 @@ nikogotchi:
       fed:
       - "Yum! Ich allerdings mag fisch mehr!"
       - "Delicious! Ich war schon hungrig!"
-      - "Yum!"
+      - ""
       pet:
       - "Hee hee, dass kitzelt!"
       cleaned:
@@ -880,17 +863,17 @@ textbox:
     unknown_frame: "Frame №[index] not found. Total frames: [total]"
     invalid_character: The character "[character_name]" is not real
     invalid_face: The face "[face_name]" is not real for "[character_name]"
-    cutoff: "This text has been truncated to fit within Discord's limitations." # TODO: implemen
-    failed_to_send: "[ Failed to send for some reason :[ ]"
-    failed_to_send_dm: "[ Couldn't send message to our dms, are your dms open or have you [added me](https://discord.com/oauth2/authorize?client_id={twm, user, id}) yet? ]"
+    cutoff: ""                                                                  # TODO: implemen
+    failed_to_send: ""
+    failed_to_send_dm: ""
     apng_preview_warn: | # warn:
       Discord doesn't show or let you download `.png`s as APNG.
       You can open the attachment in the browser, and it should animate (if there's any animation).
 
   filetypes:
-    GIF: gif
-    WEBP: webp
-    APNG: apng
+    GIF: ''
+    WEBP: ''
+    APNG: ''
 
     PNG: png
     JPEG: jpeg
@@ -899,13 +882,13 @@ textbox:
     render: Render [type]
     rendersend: "Render [type] & Send"
     text:
-      edit: Edit Text
+      edit: ''
       add: Add Text
     frame:
-      next: Next Frame
-      add: Add Frame
-      previous: Previous Frame
-      manual: Input Frame
+      next: ''
+      add: ''
+      previous: ''
+      manual: ''
 
   frame_position: "editing frame [current] of [total] total"
 
@@ -918,8 +901,8 @@ textbox:
     edit_text:
       title: "Editing text for frame #[index]!"
       input:
-        label: Text
-        placeholder: Text goes here i think
+        label: ''
+        placeholder: ''
       response: >
         Text changed!
 
@@ -928,13 +911,13 @@ textbox:
         Old text: [old_text]
 
   monologue:
-    char: "[ Pick a character for the textbox ]"
-    face: "[ Pick a face ]"
+    char: ""
+    face: ""
     press_notext: "[ Make sure you put some text... if you want. Press the green button whenever you're ready ]"
     press: "[ Press the green button whenever you're ready ]"
     rendering: "[ {loading, emoji} Rendering... ]"
     sending: "[ {loading, emoji} Sending... ]"
-    done: "[ Done ]"
+    done: ""
 
     debug: "(Took: **[time]**ms., Sid: **[sid]**)"
 
