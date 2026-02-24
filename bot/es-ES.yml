@@ -168,24 +168,24 @@ nikogotchi:
     error: {}
     renaming:
       input:
-        label: Name
+        label: ''
     trade:
-      declined: '[ Your trade request has been declined... ]'
+      declined: ''
   components:
     feed:
-      no_food: No Food... you can get some at the shop!
+      no_food: ''
   treasured:
     dialogues:
-      none_found: Your Nikogotchi didn't find any treasures... Maybe you should give them more time?
+      none_found: ''
   dialogue:
     niko:
       fed:
-      - Ah... Pancakes!
+      - ''
       - 
       - PANCAKES!
-      - PANCAKES!
+      - ''
       pet:
-      - Wow... thank you!
+      - ''
       cleaned: []
     nikonlanger:
       fed: []
@@ -216,10 +216,10 @@ nikogotchi:
     lamplighter:
       fed: []
       pet:
-      - Oh, uh, thanks. Not used to this... but it's not bad.
+      - ''
       cleaned:
       - Cleanliness is... important. Thanks.
-      - Cleanliness is... important. Thanks.
+      - ''
     ling:
       fed: []
       pet: []
@@ -230,16 +230,16 @@ nikogotchi:
       cleaned: []
     penguin:
       fed:
-      - HELLO.
+      - ''
       pet:
-      - HELLO.
+      - ''
       cleaned:
-      - HELLO.
+      - ''
     george:
       fed:
       - 
       - 'Oh, pancakes... I suppose they''re alright. Nothing really matters anyway.'
-      - 'Oh, pancakes... I suppose they''re alright. Nothing really matters anyway.'
+      - ''
       pet: []
       cleaned: []
     rue:
