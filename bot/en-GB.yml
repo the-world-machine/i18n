@@ -1141,7 +1141,7 @@ textbox:
     char: "[ Pick a character for the textbox ]"
     face: "[ Pick a face ]"
     press_notext: "[ Make sure you put some text… if you want ]"
-    press: "[ Press the green button whenever you're ready ]"
+    press: "[ Press the Render button whenever you're ready ]"
     rendering: "[ {loading, emoji} Rendering… ]"
     sending: "[ {loading, emoji} Sending… ]"
     done: "[ Done ]"
