@@ -223,13 +223,7 @@ wool:
           {slot_values}
           Points are added up and then multiplied by your bet.
           You also get double the points when you hit a jackpot
-        value_entry: "- {icon} **{value} {value, selectordinal,
-          one {point}
-          other {points}
-          } {value_sign, select,
-          negative {reduction}
-          positive {}
-          }**"
+        value_entry: "- {icon} **{value, plural, one {# point} other {# points}}{value_sign, select, negative { reduction} positive {}}**"
 
 # ---------------------------------------------------------------
 
