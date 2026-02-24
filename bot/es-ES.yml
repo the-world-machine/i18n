@@ -143,9 +143,9 @@ shop:
     owned: Ya lo tienes
   main_title: ¡Bienvenido!
   motds:
-  - ''
   - My poor trinket and treasures were washed away... perhaps you could find more for me?
-  - ''
+  - 'My poor trinket and treasures were washed away... perhaps you could find more for me?'
+  - You're asking about what happened to that one trader before me? I wouldn't know. *I wouldn't know at all...*
   - My poor trinket and treasures were washed away... perhaps you could find more for me?
   - You're asking about what happened to that one trader before me? I wouldn't know. *I wouldn't know at all...*
   treasures: {}
@@ -184,21 +184,18 @@ nikogotchi:
       fed:
       - Ah... Pancakes!
       - ''
-      - ''
+      - 
       - PANCAKES!
       pet:
       - Wow... thank you!
-      - ''
-      cleaned:
-      - ''
+      cleaned: []
     nikonlanger:
       fed: []
       pet:
       - ','
       cleaned: []
     prophet_bot:
-      fed:
-      - ''
+      fed: []
       pet:
       - '[…]'
       cleaned: []
@@ -207,8 +204,7 @@ nikogotchi:
       pet: []
       cleaned: []
     alula:
-      fed:
-      - ''
+      fed: []
       pet: []
       cleaned: []
     calamus:
@@ -216,14 +212,11 @@ nikogotchi:
       pet: []
       cleaned: []
     magpie:
-      fed:
-      - ''
-      pet:
-      - ''
+      fed: []
+      pet: []
       cleaned: []
     lamplighter:
-      fed:
-      - ''
+      fed: []
       pet:
       - Oh, uh, thanks. Not used to this... but it's not bad.
       cleaned:
@@ -247,39 +240,25 @@ nikogotchi:
     george:
       fed:
       - ''
-      - ''
+      - 
       - 'Oh, pancakes... I suppose they''re alright. Nothing really matters anyway.'
       pet:
       - ''
-      - ''
-      - ''
       cleaned:
-      - ''
-      - ''
       - ''
     rue:
-      fed:
-      - ''
-      pet:
-      - ''
-      cleaned:
-      - ''
+      fed: []
+      pet: []
+      cleaned: []
     prototype:
       fed: []
-      pet:
-      - ''
-      cleaned:
-      - ""
-    cedric:
-      fed:
-      - ''
-      pet:
-      - ''
-      cleaned:
-      - ''
-    the_world_machine:
-      fed:
-      - ""
       pet: []
-      cleaned:
-      - ''
+      cleaned: []
+    cedric:
+      fed: []
+      pet: []
+      cleaned: []
+    the_world_machine:
+      fed: []
+      pet: []
+      cleaned: []
