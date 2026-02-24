@@ -544,7 +544,7 @@ interact:
     no_item: "У {user_one} кончились все {item} для кидания в {user_two}!"
 # ---------------------------------------------------------------
 treasure:
-  item: "**`{spacer}{amount, pretty_num}`** {icon} {name}"
+  item: ""
   message: >
     ### сокровища {user} {treasures}
   tip: вы можете получить больше сокровищ торговлей в магазине или отправкой Никоготчи на поиски таковых! # tip:
@@ -557,7 +557,7 @@ nikogotchi:
   tipnvalid: "вы можете купить капсулу с Никоготчи в магазине" # tip:
   name:
     niko: Нико
-    nikonlanger: Nikonlanger
+    nikonlanger: ''
     prophet_bot: Профетбот
     silver: Сильвер
     alula: Алула
@@ -676,11 +676,11 @@ nikogotchi:
       - "Мой мех такой пушистый и красивый!"
     nikonlanger:
       fed:
-      - "yum"
+      - ""
       pet:
       - ","
       cleaned:
-      - "so qlean so lush"
+      - ""
     prophet_bot:
       fed:
       - "[Я не был создан для того, чтобы употреблять пищу. Но спасибо.]"
@@ -838,9 +838,9 @@ textbox:
       message: "[ Состояние не найдено, попытка восстановления... ]"
       success: "[ {loading, emoji} Успешно восстановлено состояние, загрузка редактора… ]"
   filetypes:
-    GIF: gif
-    WEBP: webp
-    APNG: apng
+    GIF: ''
+    WEBP: ''
+    APNG: ''
     PNG: png
     JPEG: jpeg
   # ↑ those show up ↓ there
