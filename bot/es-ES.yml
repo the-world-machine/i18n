@@ -40,6 +40,7 @@ wool:
     errors:
       self_transfer: '[ Hecho... ]'
       not_enough: '[ ¡No tienes tanta {wool, emoji} lana! ]'
+      note_nuf: ''
     to:
       bot:
         none: '{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id, user, mention}, ¡no es muy generoso!'
@@ -76,6 +77,7 @@ settings:
     uncached_server: no pude encontrar el nombre del servidor (quizás fui expulsado de él)
     get_server_id: (Ajustes de Discord -> Avanzado -> activar 'Modo desarrollador', y mira abajo del todo del menú del servidor)
     channel_lost_warn: Algo salió mal la última vez que intenté enviar un cuadro de texto de bienvenida en el canal que seleccionaste. Asegúrate de que tengo los permisos necesarios y que el canal existe. Puedes cambiar el canal usando {/settings/welcome/channel}. o en Ajustes del Servidor → Interacciones → Canal De Mensajes Del Sistema
+    weird_edgecase_number_0: ''
   welcome:
     enabled:
       yah: '[ Cuadros de texto de bienvenida activados ]'
@@ -119,6 +121,7 @@ profile:
         stamps: 'Estampillas desbloqueadas:'
       name: perfil de {target_id}
       alt: "а зображенні профіль користувача {username} у системі Мирової Машини. У них є {suns} шт Сонець та {wool} шт Вовни. {description, notempty, 'Їхній опис: {description}'}"
+      title: ''
   edit:
     text: ¡Puedes editar tu perfil en la página web!
 explode:
@@ -134,6 +137,7 @@ explode:
 
       ⚠️ advertencia: Completamente despreciable.
   YouKilledNiko: '[ Mataste a Niko. ]'
+  info: ''
 shop:
   buttons:
     buy: Intercambiar
@@ -155,18 +159,33 @@ shop:
   traded_fail: '> You cannot trade for this.'
   nikogotchi:
     title: Capsules
+    main: ''
+    result: ''
   pancakes:
     title: Pancakes
+    main: ''
   backgrounds:
     title: Backgrounds
     traded: '> Successfully traded for this background!'
+    newly_owned: ''
   treasures:
     buy:
       title: Treasures
+      message: ''
     sell:
       title: Trade in Treasures
       placeholder: Choose a treasure to trade in...
       no_treasures: You have no treasures to trade in.
+      message: ''
+      option: ''
+    selection: ''
+  loading: ''
+  user_wool: ''
+  owned: ''
+  main: ''
+  traded: ''
+  traded_sell: ''
+  stocks: ''
 items:
   treasures:
     amber:
@@ -233,6 +252,7 @@ items:
     The Author: The Author
 treasure:
   tip: you can get more treasure by trading in the shop or sending Nikogotchis to find some!
+  message: ''
 nikogotchi:
   invalid: "[ You don't have a Nikogotchi! ]"
   tipnvalid: you can buy a capsule with one in the shop
@@ -260,20 +280,36 @@ nikogotchi:
       buttons:
         send_away: Send Away
         rotate: Rotate
+      description: ''
     renaming:
       title: Give your Nikogotchi a new name!
       input:
         label: Name
         placeholder: Enter the new name for your Nikogotchi...
       button: Rename
+      response: ''
     trade:
       declined: '[ Your trade request has been declined... ]'
       success_decline: '[ Trade request successfully declined. ]'
+      request: ''
+      waiting: ''
+      success: ''
+    send_away:
+      description: ''
+      success: ''
   found:
     description: Want to give them a different a name?
+    title: ''
+    renamenote: ''
   status:
     normal: 👍 Currently doing fine.
     normal-rare: 🙂 Waiting for something to happen?
+    template: ''
+    pet: ''
+    dirty: ''
+    hungry: ''
+    treasure: ''
+    danger: ''
   components:
     pet: Pet
     clean: Clean
@@ -283,12 +319,17 @@ nikogotchi:
       placeholder: Choose food to feed with...
       glitched_powerup: Your Nikogotchi has been significantly powered up after eating this mess of a pancake...
       no_food: No Food... you can get some at the shop!
+      pancakes: ''
+      golden_pancakes: ''
+      glitched_pancakes: ''
+      invalid: ''
   treasured:
     title: 🎉 Your Nikogotchi found some treasures!
     dialogues:
       sent: Your Nikogotchi was sent to find treasures!
       senote: their stats will decrease faster than normal, so don't forget to call them back
       none_found: Your Nikogotchi didn't find any treasures... Maybe you should give them more time?
+    message: ''
   dialogue:
     niko:
       fed:
@@ -444,3 +485,16 @@ nikogotchi:
       cleaned:
       - "[Cleaning me up? That's unexpected, but it feels... refreshing.]"
       - '[I suppose even digital entities need a bit of care sometimes. You have my gratitude.]'
+  owned: ''
+  loading: ''
+  died:
+    title: ''
+    description: ''
+  levelupped:
+    title: ''
+    message: ''
+    stat: ''
+interact:
+  twm_not_being_very_happy: ''
+  twm_questioning_if_youre_stupid_or_not: ''
+  twm_is_fed_up_with_you: ''
