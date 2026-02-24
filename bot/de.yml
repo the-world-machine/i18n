@@ -435,8 +435,7 @@ interact:
       - "[user_one] gibt [user_two] ein unerwarteter boop!"
       - "[user_one] lasst [user_two] sprachlos mit einen post-boop!"
     - name: They're Cute
-      phrases:
-      - ""
+      phrases: []
   - name: Schlagen
     phrases:
     - phrases: []
