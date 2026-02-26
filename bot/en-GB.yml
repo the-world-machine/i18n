@@ -7,9 +7,7 @@ generic:
     checking_developer_status: "[ {loading, emoji} Checking developer status… ]"
   errors:
     not_a_developer: "[ Sorry, you are not one of my developers, can't letcha in ]"
-    expired:
-      "This interaction has expired. Run the command again, or report this error in our community
-      discord server if it keeps happening. (you can find an invite to it in {/about})"
+    expired: "This interaction has expired. Run the command again, or report this error in our community discord server if it keeps happening. (you can find an invite to it in {/about})"
   command_cooldown: "[ Please do not spam this command. You can use it again {timestamp_relative}. ]"
 
   buttons:
@@ -66,9 +64,7 @@ misc:
     multi: "Totaling at **{total, pretty_num}**."
 
   welcome:
-    placeholder_text:
-      "[ Welcome \\c[#c386ff]{user_name}\\c to \\c[#c386ff]{server_name}\\c! This server
-      now has {member_count, plural, \n  one {# person} \n  other {# people}\n} here! ]"
+    placeholder_text: "[ Welcome \\c[#c386ff]{user_name}\\c to \\c[#c386ff]{server_name}\\c! This server now has {member_count, plural, \n  one {# person} \n  other {# people}\n} here! ]"
 
   wikipedia: "[ [Here]({link}) is your random wikipedia article. It's about {title}… I think… ]"
   ship:
@@ -135,9 +131,8 @@ about:
     "DBL": DBL
 
   mes:
-    - "a discord bot based off oneshot"
-    - "a testing build for The World Machine, do not invite this bot if you want The World Machine in your
-      server"
+  - "a discord bot based off oneshot"
+  - "a testing build for The World Machine, do not invite this bot if you want The World Machine in your server"
 
 # ---------------------------------------------------------------
 
@@ -160,9 +155,7 @@ wool:
         {account_holder_id, user, mention} was given {wool, emoji}**{balance, pretty_num}** ]
     twm:
       none: "[ I try not to influence the economy, so i have **no{wool, emoji}Wool** ]"
-      some:
-        "[ I try not to influence the economy, but i've got {wool, emoji}**{balance, pretty_num}**
-        ]"
+      some: "[ I try not to influence the economy, but i've got {wool, emoji}**{balance, pretty_num}** ]"
   transfer:
     errors:
       self_transfer: "[ Done… ]"
@@ -171,24 +164,14 @@ wool:
 
     to:
       bot:
-        none:
-          "{sender_id, user, mention} gave away {wool, emoji}**{amount, pretty_num}** to {receiver_id,
-          user, mention}, not very generous!"
-        some:
-          "{sender_id, user, mention} gave away {wool, emoji}**{amount, pretty_num}** to {receiver_id,
-          user, mention}, how generous…"
+        none: "{sender_id, user, mention} gave away {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, not very generous!"
+        some: "{sender_id, user, mention} gave away {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, how generous…"
         confirmation: "[ Are you sure you want to give wool to… a bot? ]"
         notefirmation: "you won't be able get it back yk…"
       user:
-        none:
-          "{sender_id, user, mention} gave away {wool, emoji}**{amount, pretty_num}** to {receiver_id,
-          user, mention}, not very generous after all…"
-        some:
-          "{sender_id, user, mention} gave away {wool, emoji}**{amount, pretty_num}** to {receiver_id,
-          user, mention}, how generous!"
-    steal:
-      "{sender_id, user, mention} stole a single piece of wool from {receiver_id, user, mention},
-      why!?"
+        none: "{sender_id, user, mention} gave away {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, not very generous after all…"
+        some: "{sender_id, user, mention} gave away {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, how generous!"
+    steal: "{sender_id, user, mention} stole a single piece of wool from {receiver_id, user, mention}, why!?"
   pray:
     errors:
       timeout: "[ You've already prayed in the past 24 hours. You can pray again {timestamp_relative}]"
@@ -241,25 +224,14 @@ transmit:
 
 settings:
   errors:
-    weird_edgecase_number_0:
-      Either you or {twm, user, mention} is not in the server. If you are a
-      server manager, please re-add {twm, user, mention} to the server.
-    missing_permissions:
-      '[ You must have the "Manage Server" permission in order to change the settings
-      ]'
+    weird_edgecase_number_0: Either you or {twm, user, mention} is not in the server. If you are a server manager, please re-add {twm, user, mention} to the server.
+    missing_permissions: '[ You must have the "Manage Server" permission in order to change the settings ]'
     channel_not_messageable: "[ I cannot send messages in that channel ]"
-    channel_insufficient_perms:
-      "[ I do not have enough permissions for that channel. Make sure i have
-      all of these: **Send Messages**, **View Channel** and **Attach Files**. ]"
+    channel_insufficient_perms: "[ I do not have enough permissions for that channel. Make sure i have all of these: **Send Messages**, **View Channel** and **Attach Files**. ]"
     invalid_server_id: "[ Invalid server ID. ]"
     uncached_server: "couldn't find the name of the server (maybe i was kicked from it)"
-    get_server_id:
-      "(Discord Settings -> Advanced -> enable 'Developer Options', then look at the bottom
-      of the server menu)"
-    channel_lost_warn:
-      "Something broke last time i tried to send a welcome textbox in the channel you
-      chose. Make sure i have enough permissions in it and it exists. You can change the channel using
-      {/settings/welcome/channel}, or in Server Settings → Overview → ꜱʏꜱᴛᴇᴍ ᴍᴇꜱꜱᴀɢᴇꜱ ᴄʜᴀɴɴᴇʟ"
+    get_server_id: "(Discord Settings -> Advanced -> enable 'Developer Options', then look at the bottom of the server menu)"
+    channel_lost_warn: "Something broke last time i tried to send a welcome textbox in the channel you chose. Make sure i have enough permissions in it and it exists. You can change the channel using {/settings/welcome/channel}, or in Server Settings → Overview → ꜱʏꜱᴛᴇᴍ ᴍᴇꜱꜱᴀɢᴇꜱ ᴄʜᴀɴɴᴇʟ"
 
   welcome:
     enabled:
@@ -344,11 +316,11 @@ profile:
 explode:
   dialogue:
     why:
-      - "[ Why? ]"
-      - "[ I have to clean up everytime someone does this. ]"
-      - "[ Wow… really? ]"
-      - "[  ]"
-      -
+    - "[ Why? ]"
+    - "[ I have to clean up everytime someone does this. ]"
+    - "[ Wow… really? ]"
+    - "[  ]"
+    - 
 
     sixninefourtwo: nice 👍
     nineninenineninenine: |
@@ -394,18 +366,14 @@ shop:
     {user_wool}
 
   motds:
-    - The wool market changes everyday. Honestly, we bird people have a good intuition about it, and
-      by intuition I mean I randomly increase it or decrease it to whatever I feel like.
-    - I may have *broken* the wool market once or twice. Let's keep that between us.
-    - "Words of wisdom as a friend: If you buy high and sell low, good fortune awaits..! Don't fact check
-      that!"
-    - My poor trinket and treasures were washed away… perhaps you could find more for me?
+  - The wool market changes everyday. Honestly, we bird people have a good intuition about it, and by intuition I mean I randomly increase it or decrease it to whatever I feel like.
+  - I may have *broken* the wool market once or twice. Let's keep that between us.
+  - "Words of wisdom as a friend: If you buy high and sell low, good fortune awaits..! Don't fact check that!"
+  - My poor trinket and treasures were washed away… perhaps you could find more for me?
       # During the World Machine Edition AMA Nightmargin jokingly said that Magpie hid a body which has not been found yet. Considering the fact that the purple trader is nowhere to be found in the remake, it is the most likely victim of this alleged crime.
-    - You're asking about what happened to that one trader before me? I wouldn't know. *I wouldn't
-      know at all…*
+  - You're asking about what happened to that one trader before me? I wouldn't know. *I wouldn't know at all…*
       # Magpie's drink of choice is hard liquor, but only so he can collect the bottles afterwards.
-    - 'Do you like my bottle collection? I like my bottle collection. What do you mean it''s all "Hard Liquor"?
-      Is that what it says?'
+  - 'Do you like my bottle collection? I like my bottle collection. What do you mean it''s all "Hard Liquor"? Is that what it says?'
 
   traded: '> Successfully traded for {amount, pretty_num} of "{item_name}"!' # {price} is also available here
   traded_sell: '> Sucessfully traded in {amount, pretty_num} "{item_name}" for {price, pretty_num} Wool!'
@@ -587,138 +555,131 @@ items:
 
 interact:
   twm_not_being_very_happy: "[ Don't touch me, {user_id, user, mention}. ]"
-  twm_questioning_if_youre_stupid_or_not:
-    "[ {user_id, user, mention}, you can't really interact with
-    bots. ]"
+  twm_questioning_if_youre_stupid_or_not: "[ {user_id, user, mention}, you can't really interact with bots. ]"
   twm_is_fed_up_with_you: "[ *sigh* You cannot interact with yourself, {user_id, user, mention}. ]"
 
   errors:
-    no_path:
-      "Couldn't find the interaction, try running the command again. If the error persists, please
-      report it in my community server (you can an invite to it in {/about})"
-    500:
-      "Unexpected error, try running the command again. If the error persists, please report it in
-      my community server (you can find an invite to it in {/about})"
+    no_path: "Couldn't find the interaction, try running the command again. If the error persists, please report it in my community server (you can an invite to it in {/about})"
+    500: "Unexpected error, try running the command again. If the error persists, please report it in my community server (you can find an invite to it in {/about})"
     fail: Failed to send the interaction
 
   phrases:
-    - name: Boop
+  - name: Boop
+    phrases:
+    - name: Basic
       phrases:
-        - name: Basic
-          phrases:
-            - "{user_one} booped {user_two}"
-        - name: Playful
-          phrases:
-            - "{user_one} pokes the nose of {user_two}!"
-            - "{user_one} reaches out and boops {user_two}!"
-            - "{user_one} felt silly and booped {user_two}!"
-            - "{user_one} playfully boops {user_two}!"
-        - name: Delicate
-          phrases:
-            - "{user_one} delicately boops and brushes the nose of {user_two}"
-            - "{user_one} delivers a dainty boop to {user_two}"
-            - "{user_one} gently taps {user_two}'s nose"
-            - "{user_one} places a delicate boop on {user_two}'s nose"
-        - name: Frustrated
-          phrases:
-            - "{user_one} aggressively booped {user_two}"
-            - "{user_one} booped {user_two} out of frustration"
-            - "{user_one} huffs and boops {user_two} in irritation"
-            - "{user_one} lets out their frustration with a firm boop on {user_two}"
-        - name: Irresistible
-          phrases:
-            - "{user_one} felt the need to give {user_two} a boop!"
-            - "{user_one} just wanted to give {user_two} a boop!"
-            - "{user_one} couldn't resist booping {user_two}"
-            - "{user_one} gives in to the urge and boops {user_two}"
-        - name: Confused
-          phrases:
-            - "{user_one} leaves {user_two} in confusion via a boop!"
-            - "{user_one} gives {user_two} an unexpected boop!"
-            - "{user_one} left {user_two} speechless post-boop!"
-            - "{user_one} leaves {user_two} wondering why they were booped"
-        - name: Cute
-          phrases:
-            - "{user_one} gives {user_two} the cutest little boop!"
-            - "{user_one} boops {user_two}'s nose and giggles cutely!"
-            - "{user_one} can't handle how adorable {user_two} is and boops them!"
-            - "{user_one} with a smile, delivers a heart-melting boop to {user_two}!"
-    - name: Slap
+      - "{user_one} booped {user_two}"
+    - name: Playful
       phrases:
-        - "{user_one} slapped {user_two}, probably deserved."
-        - "{user_one} slaps {user_two}!"
-        - "{user_two} received a sudden slap from {user_one}!"
-    - name: Pet
+      - "{user_one} pokes the nose of {user_two}!"
+      - "{user_one} reaches out and boops {user_two}!"
+      - "{user_one} felt silly and booped {user_two}!"
+      - "{user_one} playfully boops {user_two}!"
+    - name: Delicate
       phrases:
-        - "{user_one} pet {user_two}!"
-    - name: Head Pat
+      - "{user_one} delicately boops and brushes the nose of {user_two}"
+      - "{user_one} delivers a dainty boop to {user_two}"
+      - "{user_one} gently taps {user_two}'s nose"
+      - "{user_one} places a delicate boop on {user_two}'s nose"
+    - name: Frustrated
       phrases:
-        - "{user_one} gave {user_two} a headpat!"
-    - name: Tickle
+      - "{user_one} aggressively booped {user_two}"
+      - "{user_one} booped {user_two} out of frustration"
+      - "{user_one} huffs and boops {user_two} in irritation"
+      - "{user_one} lets out their frustration with a firm boop on {user_two}"
+    - name: Irresistible
       phrases:
-        - "{user_one} started tickling {user_two} a surprise tickle!"
-        - "{user_one} gave {user_two} a surprise tickle!"
-        - "{user_one} tickled {user_two} and sparked a tickle fight!"
-        - "{user_one} went for a tickle attack at {user_two}!"
-    - name: Hug
+      - "{user_one} felt the need to give {user_two} a boop!"
+      - "{user_one} just wanted to give {user_two} a boop!"
+      - "{user_one} couldn't resist booping {user_two}"
+      - "{user_one} gives in to the urge and boops {user_two}"
+    - name: Confused
       phrases:
-        - "{user_one} hugged {user_two}!"
-    - name: Cuddle
+      - "{user_one} leaves {user_two} in confusion via a boop!"
+      - "{user_one} gives {user_two} an unexpected boop!"
+      - "{user_one} left {user_two} speechless post-boop!"
+      - "{user_one} leaves {user_two} wondering why they were booped"
+    - name: Cute
       phrases:
-        - "{user_one} cuddled with {user_two}!"
-    - name: Kiss
+      - "{user_one} gives {user_two} the cutest little boop!"
+      - "{user_one} boops {user_two}'s nose and giggles cutely!"
+      - "{user_one} can't handle how adorable {user_two} is and boops them!"
+      - "{user_one} with a smile, delivers a heart-melting boop to {user_two}!"
+  - name: Slap
+    phrases:
+    - "{user_one} slapped {user_two}, probably deserved."
+    - "{user_one} slaps {user_two}!"
+    - "{user_two} received a sudden slap from {user_one}!"
+  - name: Pet
+    phrases:
+    - "{user_one} pet {user_two}!"
+  - name: Head Pat
+    phrases:
+    - "{user_one} gave {user_two} a headpat!"
+  - name: Tickle
+    phrases:
+    - "{user_one} started tickling {user_two} a surprise tickle!"
+    - "{user_one} gave {user_two} a surprise tickle!"
+    - "{user_one} tickled {user_two} and sparked a tickle fight!"
+    - "{user_one} went for a tickle attack at {user_two}!"
+  - name: Hug
+    phrases:
+    - "{user_one} hugged {user_two}!"
+  - name: Cuddle
+    phrases:
+    - "{user_one} cuddled with {user_two}!"
+  - name: Kiss
+    phrases:
+    - name: Basic
       phrases:
-        - name: Basic
-          phrases:
-            - "{user_one} kissed {user_two}! ❤️"
-        - name: Warm
-          phrases:
-            - "{user_one} gave {user_two} a warm kiss ❤️"
-        - name: Romantic
-          phrases:
-            - "{user_one} pulls {user_two} close and shares a slow, tender kiss"
-        - name: Cheek Kiss
-          phrases:
-            - "{user_one} plants a sweet peck on {user_two}'s cheek"
-            - "{user_one} leaves {user_two} blushing with an affectionate cheek kiss!"
-    - name: Attack
+      - "{user_one} kissed {user_two}! ❤️"
+    - name: Warm
       phrases:
-        - name: Basic Punch
-          phrases:
-            - "{user_one} punched {user_two}, that hurts."
-        - name: Random Combo
-          phrases:
-            - "{user_one} delivers a rapid 1-2 punch combo to {user_two}!"
-            - "{user_one} lands three quick jabs followed by an overhand right on {user_two}!"
-            - "{user_one} goes full flurry mode on {user_two}!"
-        - name: Pillow
-          phrases:
-            - "{user_one} hits {user_two} behind their head with a fluffy pillow!"
-            - "{user_one} launches a pillow barrage at {user_two}! No feathers left!"
-            - "{user_one} swings a cushion at {user_two} in a soft attack!"
-    - name: 🔥
+      - "{user_one} gave {user_two} a warm kiss ❤️"
+    - name: Romantic
       phrases:
-        - name: Rocks
-          phrases:
-            - "{user_one} threw a small rock at {user_two}!"
-            - "{user_one} threw a bunch of pebbles at {user_two}!"
-            - "{user_one} unearthed a giant rock out of the ground and launched it at {user_two} using brain
-              power"
-        - name: Molotov
-          phrases:
-            - "{user_one} threw a Molotov Cocktail towards {user_two} ‼️"
-        - name: Empty Bottle (ow)
-          phrases:
-            - "{user_one} threw an empty bottle at {user_two}'s head"
-            - "{user_one} shattered a bottle on {user_two}'s head"
-          flags: bottle
-        - name: Piece of Wool
-          phrases:
-            - "{user_one} threw a piece of wool at {user_two}, and it fell on the ground mid-way"
-            - "{user_one} released a tiny 🤏 pinch of wool above {user_two}'s head"
-            - "{user_one} rubbed {user_two}'s face with a big clump of wool"
-            - "{user_one} tickled {user_two}'s ear with a small piece of wool"
-          flags: wool
+      - "{user_one} pulls {user_two} close and shares a slow, tender kiss"
+    - name: Cheek Kiss
+      phrases:
+      - "{user_one} plants a sweet peck on {user_two}'s cheek"
+      - "{user_one} leaves {user_two} blushing with an affectionate cheek kiss!"
+  - name: Attack
+    phrases:
+    - name: Basic Punch
+      phrases:
+      - "{user_one} punched {user_two}, that hurts."
+    - name: Random Combo
+      phrases:
+      - "{user_one} delivers a rapid 1-2 punch combo to {user_two}!"
+      - "{user_one} lands three quick jabs followed by an overhand right on {user_two}!"
+      - "{user_one} goes full flurry mode on {user_two}!"
+    - name: Pillow
+      phrases:
+      - "{user_one} hits {user_two} behind their head with a fluffy pillow!"
+      - "{user_one} launches a pillow barrage at {user_two}! No feathers left!"
+      - "{user_one} swings a cushion at {user_two} in a soft attack!"
+  - name: 🔥
+    phrases:
+    - name: Rocks
+      phrases:
+      - "{user_one} threw a small rock at {user_two}!"
+      - "{user_one} threw a bunch of pebbles at {user_two}!"
+      - "{user_one} unearthed a giant rock out of the ground and launched it at {user_two} using brain power"
+    - name: Molotov
+      phrases:
+      - "{user_one} threw a Molotov Cocktail towards {user_two} ‼️"
+    - name: Empty Bottle (ow)
+      phrases:
+      - "{user_one} threw an empty bottle at {user_two}'s head"
+      - "{user_one} shattered a bottle on {user_two}'s head"
+      flags: bottle
+    - name: Piece of Wool
+      phrases:
+      - "{user_one} threw a piece of wool at {user_two}, and it fell on the ground mid-way"
+      - "{user_one} released a tiny 🤏 pinch of wool above {user_two}'s head"
+      - "{user_one} rubbed {user_two}'s face with a big clump of wool"
+      - "{user_one} tickled {user_two}'s ear with a small piece of wool"
+      flags: wool
   modifiers:
     no_item: "{user_one} ran out of {item} to throw at {user_two}!"
 # ---------------------------------------------------------------
@@ -762,12 +723,8 @@ nikogotchi:
   other:
     you_invalid: "[ You don't have a Nikogotchi. ]"
     other_invalid: "[ This person doesn't seem to have a Nikogotchi. ]"
-    you_invalid_get:
-      "[ You don't have a Nikogotchi. Get a capsule for one in the {/shop} before doing
-      this! ]"
-    insufficient_pronouns:
-      "[ Please provide at least two pronoun forms (e.g. 'they/them'), or enter just
-      a slash to hide them ]"
+    you_invalid_get: "[ You don't have a Nikogotchi. Get a capsule for one in the {/shop} before doing this! ]"
+    insufficient_pronouns: "[ Please provide at least two pronoun forms (e.g. 'they/them'), or enter just a slash to hide them ]"
     error:
       description: >
         [ Your Nikogotchi (`{id}`) no longer exists. You can get a new one of the same rarity or send
@@ -780,9 +737,7 @@ nikogotchi:
         rotate: Rotate
 
     send_away:
-      description:
-        "[ Are you sure you want to send away {name} so that you can adopt a new Nikogotchi?
-        ]"
+      description: "[ Are you sure you want to send away {name} so that you can adopt a new Nikogotchi? ]"
       success: "[ Successfully sent away {name}… Enjoy your future Nikogotchi! ]"
 
     renaming:
@@ -799,9 +754,7 @@ nikogotchi:
       title: Change your nikogotchi's pronouns
       input:
         label: Pronouns
-        placeholder:
-          Enter the new pronouns for your nikogotchi… (use just "/" if u want to hide the
-          pronouns)
+        placeholder: Enter the new pronouns for your nikogotchi… (use just "/" if u want to hide the pronouns)
       button: Repronoun
       response: >
         Successfully changed the pronouns of your Nikogotchi!
@@ -813,8 +766,7 @@ nikogotchi:
 
         Do you want to trade your Nikogotchi ({name_two}) with them?
 
-      waiting: "[ Sent {user_id, user, mention} a trade offer!
-        {loading, emoji} Waiting for their response… ]"
+      waiting: "[ Sent {user_id, user, mention} a trade offer! {loading, emoji} Waiting for their response… ]"
       declined: "[ Your trade request has been declined… ]"
       success_decline: "[ Trade request successfully declined. ]"
       success: "[ Successfully traded with {user_id, user, mention}! Say hello to **{name}**! ]"
@@ -848,9 +800,7 @@ nikogotchi:
       golden_pancakes: Feed Golden Pancake (x{amount, pretty_num})
       glitched_pancakes: Feed ??? (x{amount, pretty_num})
 
-      glitched_powerup:
-        "Your Nikogotchi has been significantly powered up after eating this mess of a
-        pancake…"
+      glitched_powerup: "Your Nikogotchi has been significantly powered up after eating this mess of a pancake…"
 
       no_food: "No Food… you can get some at the shop!"
       invalid: You can't feed this to your Nikogotchi! Please refresh using {refresh, emoji}!
@@ -893,160 +843,158 @@ nikogotchi:
   dialogue:
     niko:
       fed:
-        - "Ah… Pancakes!"
-        - "Wow, these are just a good as the ones my mama makes!"
-        - "Please tell me there are hazelnuts in this one!"
-        - "PANCAKES!"
-        - "Yummy!"
+      - "Ah… Pancakes!"
+      - "Wow, these are just a good as the ones my mama makes!"
+      - "Please tell me there are hazelnuts in this one!"
+      - "PANCAKES!"
+      - "Yummy!"
       pet:
-        - "Wow… thank you!"
-        - "Aw, that feels nice!"
-        - "*purr*"
+      - "Wow… thank you!"
+      - "Aw, that feels nice!"
+      - "*purr*"
       cleaned:
-        - "Feeling pretty refreshed!"
-        - "Squeaky clean!"
-        - "My fur's all nice and fluffy!"
+      - "Feeling pretty refreshed!"
+      - "Squeaky clean!"
+      - "My fur's all nice and fluffy!"
     nikonlanger:
       fed:
-        - "yum"
+      - "yum"
       pet:
-        - ","
+      - ","
       cleaned:
-        - "so qlean so lush"
+      - "so qlean so lush"
     prophet_bot:
       fed:
-        - "[My purpose is not to eat. But thank you.]"
-        - "[Thank you for the gesture.]"
+      - "[My purpose is not to eat. But thank you.]"
+      - "[Thank you for the gesture.]"
       pet:
-        - "[…]"
-        - "[I appreciate your attention.]"
+      - "[…]"
+      - "[I appreciate your attention.]"
       cleaned:
-        - "[Maintenance is necessary for my purpose. Thank you.]"
+      - "[Maintenance is necessary for my purpose. Thank you.]"
     silver:
       fed:
-        - "[Food is no longer necessary for me, but thank you for the gesture.]"
+      - "[Food is no longer necessary for me, but thank you for the gesture.]"
       pet:
-        - "[Your touch is comforting, though I lack the ability to feel.]"
+      - "[Your touch is comforting, though I lack the ability to feel.]"
       cleaned:
-        - "[I appreciate your efforts to maintain my function. Thank you.]"
+      - "[I appreciate your efforts to maintain my function. Thank you.]"
     alula:
       fed:
-        - "Yum! I much prefer fish though!"
-        - "Delicious! I was pretty hungry!"
-        - "Yum!"
+      - "Yum! I much prefer fish though!"
+      - "Delicious! I was pretty hungry!"
+      - "Yum!"
       pet:
-        - "Hee hee, that tickles!"
+      - "Hee hee, that tickles!"
       cleaned:
-        - "I feel so refreshed and clean! Whee!"
+      - "I feel so refreshed and clean! Whee!"
     calamus:
       fed:
-        - "Oh, pancakes? Thank you so much."
+      - "Oh, pancakes? Thank you so much."
       pet:
-        - "That's quite nice. Thanks for the attention."
+      - "That's quite nice. Thanks for the attention."
       cleaned:
-        - "I really needed that. These ruins can get quite dusty."
+      - "I really needed that. These ruins can get quite dusty."
     magpie:
       fed:
-        - "Ah, pancakes! Exactly the ones I sold you!"
-        - "Ah thank you! It is interesting becoming a Nikogotchi, but eating pancakes does get a little
-          tiring."
+      - "Ah, pancakes! Exactly the ones I sold you!"
+      - "Ah thank you! It is interesting becoming a Nikogotchi, but eating pancakes does get a little tiring."
       pet:
-        - "A gentle touch, just what I like!"
-        - "Well, aren't you a friendly one? A pat on the feathers always brightens my day."
+      - "A gentle touch, just what I like!"
+      - "Well, aren't you a friendly one? A pat on the feathers always brightens my day."
       cleaned:
-        - "Ah, a little sprucing up, I appreciate it!"
+      - "Ah, a little sprucing up, I appreciate it!"
     lamplighter:
       fed:
-        - "Oh, thanks. Coffee's my usual, but I could use a change. Appreciate it."
-        - "Pancakes? Thanks. I could use a little extra fuel right now."
+      - "Oh, thanks. Coffee's my usual, but I could use a change. Appreciate it."
+      - "Pancakes? Thanks. I could use a little extra fuel right now."
       pet:
-        - "Oh, uh, thanks. Not used to this… but it's not bad."
-        - "Oh, uh, thanks. I, um, appreciate the gesture."
+      - "Oh, uh, thanks. Not used to this… but it's not bad."
+      - "Oh, uh, thanks. I, um, appreciate the gesture."
       cleaned:
-        - "Really? I mean, sure, I appreciate it. Thanks."
-        - "Cleanliness is… important. Thanks."
+      - "Really? I mean, sure, I appreciate it. Thanks."
+      - "Cleanliness is… important. Thanks."
     ling:
       fed:
-        - "Oh, thank you! You're too kind. Usually I'd be the one serving these!"
+      - "Oh, thank you! You're too kind. Usually I'd be the one serving these!"
       pet:
-        - "Ah, that's quite pleasant. Thank you for the little pick-me-up."
+      - "Ah, that's quite pleasant. Thank you for the little pick-me-up."
       cleaned:
-        - "I'm feeling quite refreshed. Thank you."
+      - "I'm feeling quite refreshed. Thank you."
     kip:
       fed:
-        - "Mmm, pancakes! You know the way to an engineer's heart. Thanks!"
+      - "Mmm, pancakes! You know the way to an engineer's heart. Thanks!"
       pet:
-        - "You've got a knack for this, my friend."
+      - "You've got a knack for this, my friend."
       cleaned:
-        - "A little sprucing up, eh? I feel ready to take on a whole assembly line now!"
+      - "A little sprucing up, eh? I feel ready to take on a whole assembly line now!"
     penguin:
       fed:
-        - "HELLO."
+      - "HELLO."
       pet:
-        - "HELLO."
+      - "HELLO."
       cleaned:
-        - "HELLO."
+      - "HELLO."
     george:
       fed:
-        - "George graciously accepts the offering of fluffy pancakes. George's heart is content."
-        - "I guess pancakes are fine. Don't expect me to be all sunshine and rainbows about it."
-        - "Oh, pancakes… I suppose they're alright. Nothing really matters anyway."
-        - "Wow, pancakes! I can't help but smile. Thanks a bunch!"
-        - "Oh dear, you shouldn't have. But thank you, sweetie. I appreciate it."
-        - "Pancakes? Rad choice, my friend! I'm all about that."
+      - "George graciously accepts the offering of fluffy pancakes. George's heart is content."
+      - "I guess pancakes are fine. Don't expect me to be all sunshine and rainbows about it."
+      - "Oh, pancakes… I suppose they're alright. Nothing really matters anyway."
+      - "Wow, pancakes! I can't help but smile. Thanks a bunch!"
+      - "Oh dear, you shouldn't have. But thank you, sweetie. I appreciate it."
+      - "Pancakes? Rad choice, my friend! I'm all about that."
       pet:
-        - "Your gentle touch pleases George greatly. George appreciates it."
-        - "What are you touching me for? Keep your hands to yourself."
-        - "Why bother petting me? I don't deserve it."
-        - "Awww, you're the best! I feel all warm and fuzzy now."
-        - "You're so caring. Thank you my dear!"
-        - "Chill vibes, dude! Your petting game is on point."
+      - "Your gentle touch pleases George greatly. George appreciates it."
+      - "What are you touching me for? Keep your hands to yourself."
+      - "Why bother petting me? I don't deserve it."
+      - "Awww, you're the best! I feel all warm and fuzzy now."
+      - "You're so caring. Thank you my dear!"
+      - "Chill vibes, dude! Your petting game is on point."
       cleaned:
-        - "George is pleased with the tidiness. It reflects well upon George."
-        - "Finally, someone does something right. About time."
-        - "Cleaning up after me won't make a difference in this bleak world."
-        - "You're so thoughtful! With a clean space, I can do anything!"
-        - "Thank you dear for keeping things tidy. It makes my life much easier!"
-        - "Thanks for keeping it chill and clean around here. I respect that."
+      - "George is pleased with the tidiness. It reflects well upon George."
+      - "Finally, someone does something right. About time."
+      - "Cleaning up after me won't make a difference in this bleak world."
+      - "You're so thoughtful! With a clean space, I can do anything!"
+      - "Thank you dear for keeping things tidy. It makes my life much easier!"
+      - "Thanks for keeping it chill and clean around here. I respect that."
     rue:
       fed:
-        - "Mmm, these pancakes are delightful. Thank you!"
-        - "Pancakes? My favorite! You're too kind."
+      - "Mmm, these pancakes are delightful. Thank you!"
+      - "Pancakes? My favorite! You're too kind."
       pet:
-        - "Ah, that's the spot! You're quite good at this, aren't you?"
-        - "A little scratch behind the ears is always appreciated."
+      - "Ah, that's the spot! You're quite good at this, aren't you?"
+      - "A little scratch behind the ears is always appreciated."
       cleaned:
-        - "Oh, you really didn't have to, but I appreciate the effort."
-        - "I may be a bit dusty, but it's nothing I can't handle. Thanks for caring"
+      - "Oh, you really didn't have to, but I appreciate the effort."
+      - "I may be a bit dusty, but it's nothing I can't handle. Thanks for caring"
     prototype:
       fed:
-        - "[This is…unexpected. Thank you.]"
+      - "[This is…unexpected. Thank you.]"
       pet:
-        - "[Hm, not bad, human. Your touch isn't as cold as your technology.]"
-        - "[I may not feel it, but I appreciate the gesture.]"
+      - "[Hm, not bad, human. Your touch isn't as cold as your technology.]"
+      - "[I may not feel it, but I appreciate the gesture.]"
       cleaned:
-        - "[I suppose even a machine like me needs some maintenance now and then. Carry on.]"
-        - "[Maintenance is necessary, even for a reclusive robot. I suppose I'm due for a little care.]"
+      - "[I suppose even a machine like me needs some maintenance now and then. Carry on.]"
+      - "[Maintenance is necessary, even for a reclusive robot. I suppose I'm due for a little care.]"
     cedric:
       fed:
-        - "Ah, a delectable offering! My thanks, dear friend."
-        - "These pancakes are a delightful treat. You have my gratitude."
+      - "Ah, a delectable offering! My thanks, dear friend."
+      - "These pancakes are a delightful treat. You have my gratitude."
       pet:
-        - "Your kindness warms my heart. A gentle touch in trying times."
-        - "A moment of respite, I appreciate your companionship."
+      - "Your kindness warms my heart. A gentle touch in trying times."
+      - "A moment of respite, I appreciate your companionship."
       cleaned:
-        - "A spot of maintenance, much appreciated! A well-tended flying machine is a reliable one."
-        - "You honor me with your diligence. A clean apparatus functions optimally."
+      - "A spot of maintenance, much appreciated! A well-tended flying machine is a reliable one."
+      - "You honor me with your diligence. A clean apparatus functions optimally."
     the_world_machine:
       fed:
-        - "[Ah… Thank you.]"
-        - "[Oh, pancakes? I never thought I'd get to taste something like this.]"
+      - "[Ah… Thank you.]"
+      - "[Oh, pancakes? I never thought I'd get to taste something like this.]"
       pet:
-        - "[I can't feel it in the same way you do, but I sense your kindness. It's comforting in its own
-          unique way.]"
+      - "[I can't feel it in the same way you do, but I sense your kindness. It's comforting in its own unique way.]"
       cleaned:
-        - "[Cleaning me up? That's unexpected, but it feels… refreshing.]"
-        - "[I suppose even digital entities need a bit of care sometimes. You have my gratitude.]"
+      - "[Cleaning me up? That's unexpected, but it feels… refreshing.]"
+      - "[I suppose even digital entities need a bit of care sometimes. You have my gratitude.]"
 
 # ---------------------------------------------------------------
 
@@ -1057,29 +1005,18 @@ textbox:
     no_char: Character not found…
     no_faces: No faces found…
     no_faces_for_char: Faces not found for this character…
-    failed_to_render:
-      "[ I failed to render the image, please report this in our community discord server.
-      (you can find an invite to it in {/about}) ]"
+    failed_to_render: "[ I failed to render the image, please report this in our community discord server. (you can find an invite to it in {/about}) ]"
     unknown_frame: "Frame №{index} not found. Total frames: {total, pretty_num}"
     invalid_character: The character "{character_name}" doesn't exist
     invalid_face: Character "{character_name}" doesn't have the "{face_name}" face
     cutoff: "This text has been truncated to fit within Discord's limitations."
     failed_to_send: "[ Failed to send for some reason :[ ]"
-    failed_to_send_dm:
-      "[ Couldn't send message to our dms, are your dms open or have you [added me](https://discord.com/oauth2/authorize?client_id={twm,
-      user, id}) yet? ]"
+    failed_to_send_dm: "[ Couldn't send message to our dms, are your dms open or have you [added me](https://discord.com/oauth2/authorize?client_id={twm, user, id}) yet? ]"
     apng_preview_warn: |
       Discord doesn't show or let you download `.png`s as APNG.
       You can download the file, add .png to its name, open it in the browser and it should animate.
-    ephemeral_warnote:
-      If you're planning to ⭐ Favorite this - make sure to download it as file, and
-      send it elsewhere. Files in ephemeral messages (those only you can see) have a very short
-      lifespan, discord deletes them after like 15 minutes. So make sure to save it or it'll show up
-      as a blue square in your favorites list
-    toolong_for_image_warnote:
-      The text on the frame you entered does not fit within the output
-      *image*, it will fully show up if you change the output file type to something that can be
-      animated though.
+    ephemeral_warnote: If you're planning to ⭐ Favorite this - make sure to download it as file, and send it elsewhere. Files in ephemeral messages (those only you can see) have a very short lifespan, discord deletes them after like 15 minutes. So make sure to save it or it'll show up as a blue square in your favorites list
+    toolong_for_image_warnote: The text on the frame you entered does not fit within the output *image*, it will fully show up if you change the output file type to something that can be animated though.
     recovering:
       message: "[ State not found, trying to recover… ]"
       success: "[ {loading, emoji} Successfully recovered the state, loading editor… ]"
