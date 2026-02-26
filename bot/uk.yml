@@ -607,7 +607,7 @@ interact:
       - "{user_two} отримав неочікуваний тик від {user_one}!"
       - "{user_one} тикнув {user_two} залишивши його без слів!"
       - "{user_one} залишив {user_two} у задумі, чому його тиснули за носик"
-    - name: They're Cute
+    - name: Мило
       phrases:
       - "{user_one} дав {user_two} наймиліший маленький тик!"
       - "{user_one} тиснув носик {user_two} і мило захихотів!"
