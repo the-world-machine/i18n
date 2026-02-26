@@ -282,7 +282,7 @@ profile:
       title: "Профіль {target_id, user, mention+(@username)}"
       unlocked:
         stamps: "Розблоковані Значки:"
-      alt: "En la imágen está el perfil del usuario {username} en el sistema de la Máquina del Mundo. Tiene: Soles {suns}, Lana {wool}{description, notempty, 'Su descripción dice: {description}'}"
+      alt: "Профіль користувача {username} у системі Мирової Машини. Вони мають: {suns, plural,\n one {# сонце}\n few {# сонця}\n many {# сонць}\n other {# сонця}\n}, {wool, plural,\n one {# вовну}\n few {# вовни}\n many {# вовен}\n other {# вовни}\n}.{description, notempty, ' Опис: {description}'}"
   edit:
     text: "Ви можете редагувати свій профіль на нашому сайті!"
 
