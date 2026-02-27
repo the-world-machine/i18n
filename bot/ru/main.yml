@@ -715,7 +715,7 @@ nikogotchi:
       placeholder: "Выберете еду для кормления…"
       pancakes: Скормить (x{amount, pretty_num}) шт. Блинов
       golden_pancakes: Скормить (x{amount, pretty_num}) шт. Золотых Блинчиков
-      glitched_pancakes: Скормить (x{amount, pretty_num}) ???
+      glitched_pancakes: Скормить ??? (x{amount, pretty_num} шт.)
       glitched_powerup: "Сила вашего Никоготчи сильно возросла после поедания этого недо-блина…"
       no_food: "Еды нет... Вы можете купить её в магазине!"
       invalid: Вы не можете скормить это вашему Никоготчи! Пожалуйста, обновите кнопкой {refresh, emoji}!
