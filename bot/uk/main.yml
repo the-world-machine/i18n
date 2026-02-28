@@ -338,8 +338,6 @@ shop:
   loading: "[ {loading, emoji} Завантаження Крамниці... ]"
 
   user_wool: "**Ваш Баланс: {wool, pretty_num}**{wool, emoji}"
-  owned: "ви маєте **{amount, pretty_num}**"
-
   buttons:
     buy: Придбати
     buy_all: Придбати Все
@@ -457,9 +455,6 @@ shop:
         {stock_market}
         {selected_treasure}
         {user_wool}
-      placeholder: Оберіть скарб для придбання…
-      option: "«{name}» - вовни {price, pretty_num}"
-
     sell:
       title: Обміняти Скарби
       message: >
@@ -470,10 +465,6 @@ shop:
         {selected_treasure}
         {user_wool}
       #not_selected: "*Ви не обрали ніяких скарбів для придбання...*"
-      placeholder: Оберіть скарб для обміну…
-      no_treasures: У вас нема скарбів для обміну.
-      option: "«{name}» (x{amount, pretty_num})"
-
     selection: >
       **Обраний скарб:**
 

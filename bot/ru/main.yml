@@ -301,7 +301,6 @@ explode:
 shop:
   loading: "[ {loading, emoji} Загрузка Магазина... ]"
   user_wool: "**Ваш Баланс: {wool, emoji}{wool, pretty_num}**"
-  owned: "у вас **{amount, pretty_num}**"
   buttons:
     buy: Купить
     buy_all: Купить Всё
@@ -396,8 +395,6 @@ shop:
         Ты хочешь обменять свою {wool, emoji}**Шерсть** на сокровища? Тогда ты по адресу! У меня есть
         очень много сокровищ, которые я нашёл, или которые другие пользователи мне продали! {stock_market}
         {selected_treasure} {user_wool}
-      placeholder: Выберете сокровище для покупки…
-      option: '«{name}» — {price, pretty_num} Шерсти'
     sell:
       title: Обмен Сокровищ
       message: >
@@ -405,9 +402,6 @@ shop:
         я могу передать их другим игрокам, так что убедись, что ты действительно хочешь совершить обмен!
         {stock_market} {selected_treasure} {user_wool}
       #not_selected: "*You haven't selected any treasures to trade in...*"
-      placeholder: Выберете сокровища для обмена…
-      no_treasures: У вас нет никаких сокровищ.
-      option: '«{name}» (x{amount, pretty_num})'
     selection: >
       **Выбрано:**
 

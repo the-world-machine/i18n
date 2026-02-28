@@ -215,8 +215,6 @@ shop:
   loading: "[ {loading, emoji} Laden Laden?… ]"
 
   user_wool: "**Ihr Guthaben: {wool, emoji}[wool]**"
-  owned: "du hast **{amount, pretty_num}**"
-
   buttons:
     buy: Kaufen
     buy_all: Alles kaufen
@@ -319,16 +317,11 @@ shop:
       title: Schätze
       message: >
         Du willst deine {wool, emoji}**Wool** verkaufen für Schatzen!? Dann bist du hier richtig! Ich habe sehr viele Schatzen das ich habe gefunden ober andere verkauft bei mir! obwohl ich bin der einzige Verkäufer hier.. {stock_market} {selected_treasure} {user_wool}
-      placeholder: Wählen eine Schatz zu verkaufen…
     sell:
       title: Schatze verkaufen
       message: >
         Ah… du bist interessiert zum deine Schatze zu verkaufen! Das ist gut! Immer wann du verkaufst deine Schatzen, ich kann es zu anderen Leuten verkaufen, so stellen Sie sicher das sie es echt verkaufen will! {stock_market} {selected_treasure} {user_wool}
       #not_selected: "*Du hast nicht gewählt welche Schatze zu verkaufen...*"
-      placeholder: Wähl ein Schatz zu verkaufen…
-      no_treasures: Du hast keine Schatze zu verkaufen.
-      option: '"{name}" (x{amount, pretty_num})'
-
     selection: >
       **Aktuell ausgewählt:**
 
