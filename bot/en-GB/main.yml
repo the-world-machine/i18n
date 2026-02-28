@@ -344,11 +344,11 @@ shop:
 
   buttons:
     buy: Trade
-    buy_all: Trade All
+    buy_amount: "Trade {limit_reached, select, yes {{amount, pretty_num}} other {Remaining}}"
     too_poor: Cannot Afford
     too_poor_all: Cannot Afford All
     sell: Trade in
-    sell_all: Trade in All
+    sell_amount: "Trade in {limit_reached, select, yes {{amount, pretty_num}} other {Remaining}}"
     go_back: Go Back
     owned: Owned
 
@@ -476,11 +476,11 @@ shop:
     selection: |-
       **Currently Selected:**
 
-      - {treasure_icon} "**{treasure_name}**"{amount_selected, select, 0 {} other { (you've got x**{amount_selected}**)}}
+      - {treasure_icon} "**{treasure_name}**"{owned_count, select, 0 {} other { (you've got x**{owned_count, pretty_num}**)}}
 
       **Trade One**: {wool, emoji}**{price_one, pretty_num}**
 
-      **Trade All**: {wool, emoji}**{price_all, pretty_num}** (x**{amount, pretty_num}**)
+      **Trade {limit_reached, select, yes {{amount, pretty_num}} other {All}}**: {wool, emoji}**{price_all, pretty_num}** (x**{amount, pretty_num}**)
 
 # ---------------------------------------------------------------
 
