@@ -217,11 +217,9 @@ shop:
   user_wool: "**Ihr Guthaben: {wool, emoji}[wool]**"
   buttons:
     buy: Kaufen
-    buy_all: Alles kaufen
     too_poor: Kann es nicht leisten
     too_poor_all: Kann es nicht alles leisten
     sell: Verkaufen
-    sell_all: Verkaufen alles
     go_back: Wieder gehen
     owned: Schon Besitzt
 

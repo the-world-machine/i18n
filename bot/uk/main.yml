@@ -341,11 +341,9 @@ shop:
   user_wool: "-# поточний баланс: **{wool, pretty_num}**{wool, emoji}"
   buttons:
     buy: Придбати
-    buy_all: Придбати Все
     too_poor: Не по кишені
     too_poor_all: Все не по кишені
     sell: Обміняти
-    sell_all: Обміняти все
     go_back: Назад
     owned: Ви вже це маєте
 

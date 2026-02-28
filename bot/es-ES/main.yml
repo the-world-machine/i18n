@@ -134,11 +134,9 @@ explode:
 shop:
   buttons:
     buy: Intercambiar
-    buy_all: Intercambiar Todo
     too_poor: No puedes permitirlo
     too_poor_all: No puedes permitirte Todo
     sell: Ofrecer
-    sell_all: Ofrecer Todo
     go_back: Atras
     owned: Ya lo tienes
   main_title: ¡Bienvenido!

@@ -303,11 +303,9 @@ shop:
   user_wool: "**Ваш Баланс: {wool, emoji}{wool, pretty_num}**"
   buttons:
     buy: Купить
-    buy_all: Купить Всё
     too_poor: Не по карману
     too_poor_all: Всё не по карману
     sell: Продать
-    sell_all: Продать Всё
     go_back: Назад
     owned: Есть
   main_title: Добро пожаловать!
