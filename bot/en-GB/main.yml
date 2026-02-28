@@ -132,8 +132,8 @@ about:
     "DBL": DBL
 
   mes:
-  - "a discord bot based off oneshot"
-  - "a testing build for The World Machine, do not invite this bot if you want The World Machine in your server"
+    - "a discord bot based off oneshot"
+    - "a testing build for The World Machine, do not invite this bot if you want The World Machine in your server"
 
 # ---------------------------------------------------------------
 
@@ -317,11 +317,11 @@ profile:
 explode:
   dialogue:
     why:
-    - "[ Why? ]"
-    - "[ I have to clean up everytime someone does this. ]"
-    - "[ Wow… really? ]"
-    - "[  ]"
-    - 
+      - "[ Why? ]"
+      - "[ I have to clean up everytime someone does this. ]"
+      - "[ Wow… really? ]"
+      - "[  ]"
+      -
 
     sixninefourtwo: nice 👍
     nineninenineninenine: |
@@ -337,8 +337,7 @@ explode:
 shop:
   loading: "[ {loading, emoji} Loading Shop… ]"
 
-  user_wool: "**Your Balance: {wool, emoji}{wool, pretty_num}**"
-  owned: "you have **{amount, pretty_num}**"
+  user_wool: "-# current balance: **{wool, emoji}{wool, pretty_num}**"
 
   buttons:
     buy: Trade
@@ -352,38 +351,36 @@ shop:
 
   main_title: Welcome!
 
-  main: >
+  main: |-
     Hey, Hey! Welcome to my emporium. I'm willing to trade many shiny and colorful treasures, backgrounds,
     capsules and more in exchange for your {wool, emoji}**Wool**… think of it as a currency eh?
-
 
     To get started, simply open one of the categories shown below and then trade away! Keep in mind that
     there are some items that change **daily**, so keep an eye out on those!
 
-
     {motd}
-
 
     {user_wool}
 
   motds:
-  - The wool market changes everyday. Honestly, we bird people have a good intuition about it, and by intuition I mean I randomly increase it or decrease it to whatever I feel like.
-  - I may have *broken* the wool market once or twice. Let's keep that between us.
-  - "Words of wisdom as a friend: If you buy high and sell low, good fortune awaits..! Don't fact check that!"
-  - My poor trinket and treasures were washed away… perhaps you could find more for me?
+    - The wool market changes everyday. Honestly, we bird people have a good intuition about it, and by intuition I mean I randomly increase it or decrease it to whatever I feel like.
+    - I may have *broken* the wool market once or twice. Let's keep that between us.
+    - "Words of wisdom as a friend: If you buy high and sell low, good fortune awaits..! Don't fact check that!"
+    - My poor trinket and treasures were washed away… perhaps you could find more for me?
       # During the World Machine Edition AMA Nightmargin jokingly said that Magpie hid a body which has not been found yet. Considering the fact that the purple trader is nowhere to be found in the remake, it is the most likely victim of this alleged crime.
-  - You're asking about what happened to that one trader before me? I wouldn't know. *I wouldn't know at all…*
+    - You're asking about what happened to that one trader before me? I wouldn't know. *I wouldn't know at all…*
       # Magpie's drink of choice is hard liquor, but only so he can collect the bottles afterwards.
-  - 'Do you like my bottle collection? I like my bottle collection. What do you mean it''s all "Hard Liquor"? Is that what it says?'
+    - 'Do you like my bottle collection? I like my bottle collection. What do you mean it''s all "Hard Liquor"? Is that what it says?'
 
   traded: '> Successfully traded for {amount, pretty_num} of "{item_name}"!' # {price} is also available here
   traded_sell: '> Sucessfully traded in {amount, pretty_num} "{item_name}" for {price, pretty_num} Wool!'
   traded_fail: "> You cannot trade for this."
 
-  stocks: >
-    ```Stock Value: {value, pretty_num}
-
-    Stock Price: {price, pretty_num}```
+  stocks: |-
+    ```
+    Stock Value: {value, pretty_num}
+    Stock Price: {price, pretty_num}
+    ```
 
   nikogotchi:
     title: Capsules
@@ -418,7 +415,9 @@ shop:
 
   pancakes:
     title: Pancakes
-
+    pancake: |-
+      {pancake_emoji} **{name}** - {wool, emoji}**{cost, pretty_num}**{amount_owned, select, 0 {} other { (you've got x**{amount_owned}**)}}
+      {>description}
     main: >
       Nikogotchis absolutely adore pancakes, and thankfully, you can trade some with me!
 
@@ -431,15 +430,13 @@ shop:
   backgrounds:
     title: Backgrounds
 
-    main: >
+    main: |-
       Do you want to trade {wool, emoji}**{amount, pretty_num}** for this background?
-
 
       {user_wool}
 
-    newly_owned: >
+    newly_owned: |-
       Thanks! Now you are a proud owner of this background.
-
 
       {user_wool}
     traded: "> Successfully traded for this background!"
@@ -447,34 +444,40 @@ shop:
   treasures:
     buy:
       title: Treasures
-      message: >
+      message: |-
         You want to trade your {wool, emoji}**Wool** for treasures? Then you've come to the right place!
         I've got plenty of treasures I've found, or treasure other users have traded in!
+
         {stock_market}
         {selected_treasure}
         {user_wool}
-      placeholder: Choose a treasure to trade…
-      option: '"{name}" - {price, pretty_num} Wool'
+      select_menu:
+        no_treasures: There are no treasures to trade
+        placeholder: Choose a treasure to trade…
+        option: '"{name}" - {price, pretty_num} Wool'
 
     sell:
       title: Trade in Treasures
-      message: >
+      message: |-
         Ah… You're intrerested in trading in your treasures! That's great! Whenever you trade in treasures,
-        I can trade it to other people, so make sure you really want to trade it! {stock_market} {selected_treasure}
-        {user_wool}
-      placeholder: Choose a treasure to trade in…
-      no_treasures: You have no treasures to trade in.
-      option: '"{name}" (x{amount, pretty_num})'
+        I can trade it to other people, so make sure you really want to trade it!
 
-    selection: >
+        {stock_market}
+        {selected_treasure}
+        {user_wool}
+      select_menu:
+        no_treasures: You have no treasures to trade in
+        placeholder: Choose a treasure to trade in…
+        option: '"{name}" (x{amount, pretty_num})'
+
+    selection: |-
       **Currently Selected:**
 
-      - {treasure_icon} "**{treasure_name}**" - {owned}
-
+      - {treasure_icon} "**{treasure_name}**"{amount_selected, select, 0 {} other { (you've got x**{amount_selected}**)}}
 
       **Trade One**: {wool, emoji}**{price_one, pretty_num}**
 
-      **Trade All**: {wool, emoji}**{price_all, pretty_num}** (x{amount, pretty_num})
+      **Trade All**: {wool, emoji}**{price_all, pretty_num}** (x**{amount, pretty_num}**)
 
 # ---------------------------------------------------------------
 
@@ -511,25 +514,22 @@ items:
   pancakes:
     normal:
       name: Pancakes
-      description: >
+      description: |-
         The bare minimum for feeding a Nikogotchi.
-
         *+25 🥞*
-
         *+1 ❤️*
-
     golden:
       name: Golden Pancakes
-      description: >
+      description: |-
         Expensive, but worth it.
-
         *MAX 🥞*
-
         *+25 ❤️*
-
     glitched:
       name: "???"
-      description: I don't even know how this got here.
+      description: |-
+        I don't even know how this got here.
+        *MAX 🥞*
+        *MAX ❤️*
 
   capsules:
     blue: Barrens Capsule
@@ -565,122 +565,122 @@ interact:
     fail: Failed to send the interaction
 
   phrases:
-  - name: Boop
-    phrases:
-    - name: Basic
+    - name: Boop
       phrases:
-      - "{user_one} booped {user_two}"
-    - name: Playful
+        - name: Basic
+          phrases:
+            - "{user_one} booped {user_two}"
+        - name: Playful
+          phrases:
+            - "{user_one} pokes the nose of {user_two}!"
+            - "{user_one} reaches out and boops {user_two}!"
+            - "{user_one} felt silly and booped {user_two}!"
+            - "{user_one} playfully boops {user_two}!"
+        - name: Delicate
+          phrases:
+            - "{user_one} delicately boops and brushes the nose of {user_two}"
+            - "{user_one} delivers a dainty boop to {user_two}"
+            - "{user_one} gently taps {user_two}'s nose"
+            - "{user_one} places a delicate boop on {user_two}'s nose"
+        - name: Frustrated
+          phrases:
+            - "{user_one} aggressively booped {user_two}"
+            - "{user_one} booped {user_two} out of frustration"
+            - "{user_one} huffs and boops {user_two} in irritation"
+            - "{user_one} lets out their frustration with a firm boop on {user_two}"
+        - name: Irresistible
+          phrases:
+            - "{user_one} felt the need to give {user_two} a boop!"
+            - "{user_one} just wanted to give {user_two} a boop!"
+            - "{user_one} couldn't resist booping {user_two}"
+            - "{user_one} gives in to the urge and boops {user_two}"
+        - name: Confused
+          phrases:
+            - "{user_one} leaves {user_two} in confusion via a boop!"
+            - "{user_one} gives {user_two} an unexpected boop!"
+            - "{user_one} left {user_two} speechless post-boop!"
+            - "{user_one} leaves {user_two} wondering why they were booped"
+        - name: Cute
+          phrases:
+            - "{user_one} gives {user_two} the cutest little boop!"
+            - "{user_one} boops {user_two}'s nose and giggles cutely!"
+            - "{user_one} can't handle how adorable {user_two} is and boops them!"
+            - "{user_one} with a smile, delivers a heart-melting boop to {user_two}!"
+    - name: Slap
       phrases:
-      - "{user_one} pokes the nose of {user_two}!"
-      - "{user_one} reaches out and boops {user_two}!"
-      - "{user_one} felt silly and booped {user_two}!"
-      - "{user_one} playfully boops {user_two}!"
-    - name: Delicate
+        - "{user_one} slapped {user_two}, probably deserved."
+        - "{user_one} slaps {user_two}!"
+        - "{user_two} received a sudden slap from {user_one}!"
+    - name: Pet
       phrases:
-      - "{user_one} delicately boops and brushes the nose of {user_two}"
-      - "{user_one} delivers a dainty boop to {user_two}"
-      - "{user_one} gently taps {user_two}'s nose"
-      - "{user_one} places a delicate boop on {user_two}'s nose"
-    - name: Frustrated
+        - "{user_one} pet {user_two}!"
+    - name: Head Pat
       phrases:
-      - "{user_one} aggressively booped {user_two}"
-      - "{user_one} booped {user_two} out of frustration"
-      - "{user_one} huffs and boops {user_two} in irritation"
-      - "{user_one} lets out their frustration with a firm boop on {user_two}"
-    - name: Irresistible
+        - "{user_one} gave {user_two} a headpat!"
+    - name: Tickle
       phrases:
-      - "{user_one} felt the need to give {user_two} a boop!"
-      - "{user_one} just wanted to give {user_two} a boop!"
-      - "{user_one} couldn't resist booping {user_two}"
-      - "{user_one} gives in to the urge and boops {user_two}"
-    - name: Confused
+        - "{user_one} started tickling {user_two} a surprise tickle!"
+        - "{user_one} gave {user_two} a surprise tickle!"
+        - "{user_one} tickled {user_two} and sparked a tickle fight!"
+        - "{user_one} went for a tickle attack at {user_two}!"
+    - name: Hug
       phrases:
-      - "{user_one} leaves {user_two} in confusion via a boop!"
-      - "{user_one} gives {user_two} an unexpected boop!"
-      - "{user_one} left {user_two} speechless post-boop!"
-      - "{user_one} leaves {user_two} wondering why they were booped"
-    - name: Cute
+        - "{user_one} hugged {user_two}!"
+    - name: Cuddle
       phrases:
-      - "{user_one} gives {user_two} the cutest little boop!"
-      - "{user_one} boops {user_two}'s nose and giggles cutely!"
-      - "{user_one} can't handle how adorable {user_two} is and boops them!"
-      - "{user_one} with a smile, delivers a heart-melting boop to {user_two}!"
-  - name: Slap
-    phrases:
-    - "{user_one} slapped {user_two}, probably deserved."
-    - "{user_one} slaps {user_two}!"
-    - "{user_two} received a sudden slap from {user_one}!"
-  - name: Pet
-    phrases:
-    - "{user_one} pet {user_two}!"
-  - name: Head Pat
-    phrases:
-    - "{user_one} gave {user_two} a headpat!"
-  - name: Tickle
-    phrases:
-    - "{user_one} started tickling {user_two} a surprise tickle!"
-    - "{user_one} gave {user_two} a surprise tickle!"
-    - "{user_one} tickled {user_two} and sparked a tickle fight!"
-    - "{user_one} went for a tickle attack at {user_two}!"
-  - name: Hug
-    phrases:
-    - "{user_one} hugged {user_two}!"
-  - name: Cuddle
-    phrases:
-    - "{user_one} cuddled with {user_two}!"
-  - name: Kiss
-    phrases:
-    - name: Basic
+        - "{user_one} cuddled with {user_two}!"
+    - name: Kiss
       phrases:
-      - "{user_one} kissed {user_two}! ❤️"
-    - name: Warm
+        - name: Basic
+          phrases:
+            - "{user_one} kissed {user_two}! ❤️"
+        - name: Warm
+          phrases:
+            - "{user_one} gave {user_two} a warm kiss ❤️"
+        - name: Romantic
+          phrases:
+            - "{user_one} pulls {user_two} close and shares a slow, tender kiss"
+        - name: Cheek Kiss
+          phrases:
+            - "{user_one} plants a sweet peck on {user_two}'s cheek"
+            - "{user_one} leaves {user_two} blushing with an affectionate cheek kiss!"
+    - name: Attack
       phrases:
-      - "{user_one} gave {user_two} a warm kiss ❤️"
-    - name: Romantic
+        - name: Basic Punch
+          phrases:
+            - "{user_one} punched {user_two}, that hurts."
+        - name: Random Combo
+          phrases:
+            - "{user_one} delivers a rapid 1-2 punch combo to {user_two}!"
+            - "{user_one} lands three quick jabs followed by an overhand right on {user_two}!"
+            - "{user_one} goes full flurry mode on {user_two}!"
+        - name: Pillow
+          phrases:
+            - "{user_one} hits {user_two} behind their head with a fluffy pillow!"
+            - "{user_one} launches a pillow barrage at {user_two}! No feathers left!"
+            - "{user_one} swings a cushion at {user_two} in a soft attack!"
+    - name: 🔥
       phrases:
-      - "{user_one} pulls {user_two} close and shares a slow, tender kiss"
-    - name: Cheek Kiss
-      phrases:
-      - "{user_one} plants a sweet peck on {user_two}'s cheek"
-      - "{user_one} leaves {user_two} blushing with an affectionate cheek kiss!"
-  - name: Attack
-    phrases:
-    - name: Basic Punch
-      phrases:
-      - "{user_one} punched {user_two}, that hurts."
-    - name: Random Combo
-      phrases:
-      - "{user_one} delivers a rapid 1-2 punch combo to {user_two}!"
-      - "{user_one} lands three quick jabs followed by an overhand right on {user_two}!"
-      - "{user_one} goes full flurry mode on {user_two}!"
-    - name: Pillow
-      phrases:
-      - "{user_one} hits {user_two} behind their head with a fluffy pillow!"
-      - "{user_one} launches a pillow barrage at {user_two}! No feathers left!"
-      - "{user_one} swings a cushion at {user_two} in a soft attack!"
-  - name: 🔥
-    phrases:
-    - name: Rocks
-      phrases:
-      - "{user_one} threw a small rock at {user_two}!"
-      - "{user_one} threw a bunch of pebbles at {user_two}!"
-      - "{user_one} unearthed a giant rock out of the ground and launched it at {user_two} using brain power"
-    - name: Molotov
-      phrases:
-      - "{user_one} threw a Molotov Cocktail towards {user_two} ‼️"
-    - name: Empty Bottle (ow)
-      phrases:
-      - "{user_one} threw an empty bottle at {user_two}'s head"
-      - "{user_one} shattered a bottle on {user_two}'s head"
-      flags: bottle
-    - name: Piece of Wool
-      phrases:
-      - "{user_one} threw a piece of wool at {user_two}, and it fell on the ground mid-way"
-      - "{user_one} released a tiny 🤏 pinch of wool above {user_two}'s head"
-      - "{user_one} rubbed {user_two}'s face with a big clump of wool"
-      - "{user_one} tickled {user_two}'s ear with a small piece of wool"
-      flags: wool
+        - name: Rocks
+          phrases:
+            - "{user_one} threw a small rock at {user_two}!"
+            - "{user_one} threw a bunch of pebbles at {user_two}!"
+            - "{user_one} unearthed a giant rock out of the ground and launched it at {user_two} using brain power"
+        - name: Molotov
+          phrases:
+            - "{user_one} threw a Molotov Cocktail towards {user_two} ‼️"
+        - name: Empty Bottle (ow)
+          phrases:
+            - "{user_one} threw an empty bottle at {user_two}'s head"
+            - "{user_one} shattered a bottle on {user_two}'s head"
+          flags: bottle
+        - name: Piece of Wool
+          phrases:
+            - "{user_one} threw a piece of wool at {user_two}, and it fell on the ground mid-way"
+            - "{user_one} released a tiny 🤏 pinch of wool above {user_two}'s head"
+            - "{user_one} rubbed {user_two}'s face with a big clump of wool"
+            - "{user_one} tickled {user_two}'s ear with a small piece of wool"
+          flags: wool
   modifiers:
     no_item: "{user_one} ran out of {item} to throw at {user_two}!"
 # ---------------------------------------------------------------
@@ -844,158 +844,158 @@ nikogotchi:
   dialogue:
     niko:
       fed:
-      - "Ah… Pancakes!"
-      - "Wow, these are just a good as the ones my mama makes!"
-      - "Please tell me there are hazelnuts in this one!"
-      - "PANCAKES!"
-      - "Yummy!"
+        - "Ah… Pancakes!"
+        - "Wow, these are just a good as the ones my mama makes!"
+        - "Please tell me there are hazelnuts in this one!"
+        - "PANCAKES!"
+        - "Yummy!"
       pet:
-      - "Wow… thank you!"
-      - "Aw, that feels nice!"
-      - "*purr*"
+        - "Wow… thank you!"
+        - "Aw, that feels nice!"
+        - "*purr*"
       cleaned:
-      - "Feeling pretty refreshed!"
-      - "Squeaky clean!"
-      - "My fur's all nice and fluffy!"
+        - "Feeling pretty refreshed!"
+        - "Squeaky clean!"
+        - "My fur's all nice and fluffy!"
     nikonlanger:
       fed:
-      - "yum"
+        - "yum"
       pet:
-      - ","
+        - ","
       cleaned:
-      - "so qlean so lush"
+        - "so qlean so lush"
     prophet_bot:
       fed:
-      - "[My purpose is not to eat. But thank you.]"
-      - "[Thank you for the gesture.]"
+        - "[My purpose is not to eat. But thank you.]"
+        - "[Thank you for the gesture.]"
       pet:
-      - "[…]"
-      - "[I appreciate your attention.]"
+        - "[…]"
+        - "[I appreciate your attention.]"
       cleaned:
-      - "[Maintenance is necessary for my purpose. Thank you.]"
+        - "[Maintenance is necessary for my purpose. Thank you.]"
     silver:
       fed:
-      - "[Food is no longer necessary for me, but thank you for the gesture.]"
+        - "[Food is no longer necessary for me, but thank you for the gesture.]"
       pet:
-      - "[Your touch is comforting, though I lack the ability to feel.]"
+        - "[Your touch is comforting, though I lack the ability to feel.]"
       cleaned:
-      - "[I appreciate your efforts to maintain my function. Thank you.]"
+        - "[I appreciate your efforts to maintain my function. Thank you.]"
     alula:
       fed:
-      - "Yum! I much prefer fish though!"
-      - "Delicious! I was pretty hungry!"
-      - "Yum!"
+        - "Yum! I much prefer fish though!"
+        - "Delicious! I was pretty hungry!"
+        - "Yum!"
       pet:
-      - "Hee hee, that tickles!"
+        - "Hee hee, that tickles!"
       cleaned:
-      - "I feel so refreshed and clean! Whee!"
+        - "I feel so refreshed and clean! Whee!"
     calamus:
       fed:
-      - "Oh, pancakes? Thank you so much."
+        - "Oh, pancakes? Thank you so much."
       pet:
-      - "That's quite nice. Thanks for the attention."
+        - "That's quite nice. Thanks for the attention."
       cleaned:
-      - "I really needed that. These ruins can get quite dusty."
+        - "I really needed that. These ruins can get quite dusty."
     magpie:
       fed:
-      - "Ah, pancakes! Exactly the ones I sold you!"
-      - "Ah thank you! It is interesting becoming a Nikogotchi, but eating pancakes does get a little tiring."
+        - "Ah, pancakes! Exactly the ones I sold you!"
+        - "Ah thank you! It is interesting becoming a Nikogotchi, but eating pancakes does get a little tiring."
       pet:
-      - "A gentle touch, just what I like!"
-      - "Well, aren't you a friendly one? A pat on the feathers always brightens my day."
+        - "A gentle touch, just what I like!"
+        - "Well, aren't you a friendly one? A pat on the feathers always brightens my day."
       cleaned:
-      - "Ah, a little sprucing up, I appreciate it!"
+        - "Ah, a little sprucing up, I appreciate it!"
     lamplighter:
       fed:
-      - "Oh, thanks. Coffee's my usual, but I could use a change. Appreciate it."
-      - "Pancakes? Thanks. I could use a little extra fuel right now."
+        - "Oh, thanks. Coffee's my usual, but I could use a change. Appreciate it."
+        - "Pancakes? Thanks. I could use a little extra fuel right now."
       pet:
-      - "Oh, uh, thanks. Not used to this… but it's not bad."
-      - "Oh, uh, thanks. I, um, appreciate the gesture."
+        - "Oh, uh, thanks. Not used to this… but it's not bad."
+        - "Oh, uh, thanks. I, um, appreciate the gesture."
       cleaned:
-      - "Really? I mean, sure, I appreciate it. Thanks."
-      - "Cleanliness is… important. Thanks."
+        - "Really? I mean, sure, I appreciate it. Thanks."
+        - "Cleanliness is… important. Thanks."
     ling:
       fed:
-      - "Oh, thank you! You're too kind. Usually I'd be the one serving these!"
+        - "Oh, thank you! You're too kind. Usually I'd be the one serving these!"
       pet:
-      - "Ah, that's quite pleasant. Thank you for the little pick-me-up."
+        - "Ah, that's quite pleasant. Thank you for the little pick-me-up."
       cleaned:
-      - "I'm feeling quite refreshed. Thank you."
+        - "I'm feeling quite refreshed. Thank you."
     kip:
       fed:
-      - "Mmm, pancakes! You know the way to an engineer's heart. Thanks!"
+        - "Mmm, pancakes! You know the way to an engineer's heart. Thanks!"
       pet:
-      - "You've got a knack for this, my friend."
+        - "You've got a knack for this, my friend."
       cleaned:
-      - "A little sprucing up, eh? I feel ready to take on a whole assembly line now!"
+        - "A little sprucing up, eh? I feel ready to take on a whole assembly line now!"
     penguin:
       fed:
-      - "HELLO."
+        - "HELLO."
       pet:
-      - "HELLO."
+        - "HELLO."
       cleaned:
-      - "HELLO."
+        - "HELLO."
     george:
       fed:
-      - "George graciously accepts the offering of fluffy pancakes. George's heart is content."
-      - "I guess pancakes are fine. Don't expect me to be all sunshine and rainbows about it."
-      - "Oh, pancakes… I suppose they're alright. Nothing really matters anyway."
-      - "Wow, pancakes! I can't help but smile. Thanks a bunch!"
-      - "Oh dear, you shouldn't have. But thank you, sweetie. I appreciate it."
-      - "Pancakes? Rad choice, my friend! I'm all about that."
+        - "George graciously accepts the offering of fluffy pancakes. George's heart is content."
+        - "I guess pancakes are fine. Don't expect me to be all sunshine and rainbows about it."
+        - "Oh, pancakes… I suppose they're alright. Nothing really matters anyway."
+        - "Wow, pancakes! I can't help but smile. Thanks a bunch!"
+        - "Oh dear, you shouldn't have. But thank you, sweetie. I appreciate it."
+        - "Pancakes? Rad choice, my friend! I'm all about that."
       pet:
-      - "Your gentle touch pleases George greatly. George appreciates it."
-      - "What are you touching me for? Keep your hands to yourself."
-      - "Why bother petting me? I don't deserve it."
-      - "Awww, you're the best! I feel all warm and fuzzy now."
-      - "You're so caring. Thank you my dear!"
-      - "Chill vibes, dude! Your petting game is on point."
+        - "Your gentle touch pleases George greatly. George appreciates it."
+        - "What are you touching me for? Keep your hands to yourself."
+        - "Why bother petting me? I don't deserve it."
+        - "Awww, you're the best! I feel all warm and fuzzy now."
+        - "You're so caring. Thank you my dear!"
+        - "Chill vibes, dude! Your petting game is on point."
       cleaned:
-      - "George is pleased with the tidiness. It reflects well upon George."
-      - "Finally, someone does something right. About time."
-      - "Cleaning up after me won't make a difference in this bleak world."
-      - "You're so thoughtful! With a clean space, I can do anything!"
-      - "Thank you dear for keeping things tidy. It makes my life much easier!"
-      - "Thanks for keeping it chill and clean around here. I respect that."
+        - "George is pleased with the tidiness. It reflects well upon George."
+        - "Finally, someone does something right. About time."
+        - "Cleaning up after me won't make a difference in this bleak world."
+        - "You're so thoughtful! With a clean space, I can do anything!"
+        - "Thank you dear for keeping things tidy. It makes my life much easier!"
+        - "Thanks for keeping it chill and clean around here. I respect that."
     rue:
       fed:
-      - "Mmm, these pancakes are delightful. Thank you!"
-      - "Pancakes? My favorite! You're too kind."
+        - "Mmm, these pancakes are delightful. Thank you!"
+        - "Pancakes? My favorite! You're too kind."
       pet:
-      - "Ah, that's the spot! You're quite good at this, aren't you?"
-      - "A little scratch behind the ears is always appreciated."
+        - "Ah, that's the spot! You're quite good at this, aren't you?"
+        - "A little scratch behind the ears is always appreciated."
       cleaned:
-      - "Oh, you really didn't have to, but I appreciate the effort."
-      - "I may be a bit dusty, but it's nothing I can't handle. Thanks for caring"
+        - "Oh, you really didn't have to, but I appreciate the effort."
+        - "I may be a bit dusty, but it's nothing I can't handle. Thanks for caring"
     prototype:
       fed:
-      - "[This is…unexpected. Thank you.]"
+        - "[This is…unexpected. Thank you.]"
       pet:
-      - "[Hm, not bad, human. Your touch isn't as cold as your technology.]"
-      - "[I may not feel it, but I appreciate the gesture.]"
+        - "[Hm, not bad, human. Your touch isn't as cold as your technology.]"
+        - "[I may not feel it, but I appreciate the gesture.]"
       cleaned:
-      - "[I suppose even a machine like me needs some maintenance now and then. Carry on.]"
-      - "[Maintenance is necessary, even for a reclusive robot. I suppose I'm due for a little care.]"
+        - "[I suppose even a machine like me needs some maintenance now and then. Carry on.]"
+        - "[Maintenance is necessary, even for a reclusive robot. I suppose I'm due for a little care.]"
     cedric:
       fed:
-      - "Ah, a delectable offering! My thanks, dear friend."
-      - "These pancakes are a delightful treat. You have my gratitude."
+        - "Ah, a delectable offering! My thanks, dear friend."
+        - "These pancakes are a delightful treat. You have my gratitude."
       pet:
-      - "Your kindness warms my heart. A gentle touch in trying times."
-      - "A moment of respite, I appreciate your companionship."
+        - "Your kindness warms my heart. A gentle touch in trying times."
+        - "A moment of respite, I appreciate your companionship."
       cleaned:
-      - "A spot of maintenance, much appreciated! A well-tended flying machine is a reliable one."
-      - "You honor me with your diligence. A clean apparatus functions optimally."
+        - "A spot of maintenance, much appreciated! A well-tended flying machine is a reliable one."
+        - "You honor me with your diligence. A clean apparatus functions optimally."
     the_world_machine:
       fed:
-      - "[Ah… Thank you.]"
-      - "[Oh, pancakes? I never thought I'd get to taste something like this.]"
+        - "[Ah… Thank you.]"
+        - "[Oh, pancakes? I never thought I'd get to taste something like this.]"
       pet:
-      - "[I can't feel it in the same way you do, but I sense your kindness. It's comforting in its own unique way.]"
+        - "[I can't feel it in the same way you do, but I sense your kindness. It's comforting in its own unique way.]"
       cleaned:
-      - "[Cleaning me up? That's unexpected, but it feels… refreshing.]"
-      - "[I suppose even digital entities need a bit of care sometimes. You have my gratitude.]"
+        - "[Cleaning me up? That's unexpected, but it feels… refreshing.]"
+        - "[I suppose even digital entities need a bit of care sometimes. You have my gratitude.]"
 
 # ---------------------------------------------------------------
 
