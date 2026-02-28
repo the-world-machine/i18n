@@ -475,8 +475,7 @@ shop:
 
     selection: |-
       **Currently Selected:**
-
-      - {treasure_icon} "**{treasure_name}**"{owned_count, select, 0 {} other { (you've got x**{owned_count, pretty_num}**)}}
+      > {treasure_icon} "**{treasure_name}**"{owned_count, select, 0 {} other { (you've got x**{owned_count, pretty_num}**)}}
 
       **Trade One**: {wool, emoji}**{price_one, pretty_num}**
 
