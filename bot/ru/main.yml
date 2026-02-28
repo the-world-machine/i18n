@@ -620,7 +620,6 @@ treasure:
   item: '**`{spacer}{amount, pretty_num}`** {icon} {name}'
 nikogotchi:
   owned: Принадлежит {owner_id, user, displayname+(@username)}
-  loading: "[ {loading, emoji} Загрузка Никоготчи... ]"
   invalid: "[ У вас нет Никоготчи! ]"
   tipnvalid: "вы можете купить капсулу с Никоготчи в магазине" # tip:
   name:

@@ -474,7 +474,6 @@ treasure:
 
 nikogotchi:
   owned: "Besitzt von {owner_id, user, displayname+(@username)}"
-  loading: "[ {loading, emoji} Laden Nikogotchi… ]"
   invalid: "[ Du hast kein Nikogotchi! ]"
   tipnvalid: "du kannst eine Kapsel kaufen von den laden un entsperrt eine" # tip:
 

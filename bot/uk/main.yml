@@ -696,7 +696,6 @@ treasure:
   empty: '[ {user_id, user, mention} не має ніяких скарбів ]'
 nikogotchi:
   owned: "Належить до {owner_id, user, mention}"
-  loading: "[ {loading, emoji} Завантаження Нікоґотчі... ]"
   invalid: "[ У вас немає Нікоґотчі! ]"
   tipnvalid: "ви можете обмінятись на капсулу у магазинчику для одного з цих"
 
