@@ -195,7 +195,7 @@ wool:
     slots:
       title: 🎰 Slot Machine
       description_running: |
-        {bettor_id, user, mention} has bet {wool, emoji}**{amount, pretty_num}**.
+        {bettor_id, user, mention} has bet {wool, emoji}**{bet_amount, pretty_num}**.
         {ticker}
       description_result: |
         {bettor_id, user, mention} has bet {wool, emoji}**{bet_amount, pretty_num}**.
