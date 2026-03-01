@@ -740,18 +740,18 @@ OneShot (fan):
       _name: Blush
     Shrug:
       _name: Shrug
-  Jolly TWM:
-    _name: Jolly TWM
-    _description: "merry twmsmas (is it time)"
-    _credits: "[RitualDashh](https://x.com/RitualDashh)"
-    Normal:
-      _name: Normal
-    :3:
-      _name: :3
-    83c:
-      _name: 83c
-    snowballed:
-      _name: snowballed
+    Jolly TWM:
+      _name: Jolly TWM
+      _description: "merry twmsmas (is it time)"
+      _credits: "[RitualDashh](https://x.com/RitualDashh)"
+      Normal:
+        _name: Normal
+      :3:
+        _name: :3
+      83c:
+        _name: 83c
+      snowballed:
+        _name: snowballed
   Niko:
     _name: Niko
     _description: ""
