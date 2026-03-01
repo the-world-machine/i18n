@@ -487,7 +487,7 @@ OneShot:
     _description: "it depends"
     _credits: "[Eliza Velasquez](https://eliza.sh)"
     "1":
-      _name: "1"
+      _name: "George roll 1"
       _description: ""
       Normal:
         _name: Normal
@@ -502,7 +502,7 @@ OneShot:
         _name: Smug
         _description: ""
     "2":
-      _name: "2"
+      _name: "George roll 2"
       _description: ""
       Normal:
         _name: Normal
@@ -520,7 +520,7 @@ OneShot:
         _name: Stress
         _description: ""
     "3":
-      _name: "3"
+      _name: "George roll 3"
       _description: ""
       Normal:
         _name: Normal
@@ -538,7 +538,7 @@ OneShot:
         _name: Worry
         _description: ""
     "4":
-      _name: "4"
+      _name: "George roll 4"
       _description: ""
       Normal:
         _name: Normal
@@ -556,7 +556,7 @@ OneShot:
         _name: Smile
         _description: ""
     "5":
-      _name: "5"
+      _name: "George roll 5"
       _description: ""
       Normal:
         _name: Normal
@@ -580,7 +580,7 @@ OneShot:
         _name: Smile
         _description: ""
     "6":
-      _name: "6"
+      _name: "George roll 6"
       _description: ""
       Normal:
         _name: Normal
