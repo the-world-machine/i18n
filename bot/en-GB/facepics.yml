@@ -1,905 +1,905 @@
 OneShot:
-  name: OneShot
-  description: "The Official OneShot facepics taken from the game files"
-  credits: "[Nightmargin](https://nightmargin.com) · [Eliza Velasquez](https://eliza.sh)"
+  _name: OneShot
+  _description: "The Official OneShot facepics taken from the game files"
+  _credits: "[Nightmargin](https://nightmargin.com) · [Eliza Velasquez](https://eliza.sh)"
   The World Machine:
-    name: The World Machine
-    description: "twm oneshot"
-    credits: "[Nightmargin](https://nightmargin.com)"
+    _name: The World Machine
+    _description: "twm oneshot"
+    _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
-      name: Normal
-      description: ""
+      _name: Normal
+      _description: ""
     Speak:
-      name: Speak
-      description: ""
+      _name: Speak
+      _description: ""
     Ah:
-      name: Ah
-      description: ""
+      _name: Ah
+      _description: ""
     Hm:
-      name: Hm
-      description: ""
+      _name: Hm
+      _description: ""
     Alright:
-      name: Alright
-      description: ""
+      _name: Alright
+      _description: ""
     Looking Left:
-      name: Looking Left
-      description: ""
+      _name: Looking Left
+      _description: ""
     Looking Right:
-      name: Looking Right
-      description: ""
+      _name: Looking Right
+      _description: ""
     Yawn:
-      name: Yawn
-      description: ""
+      _name: Yawn
+      _description: ""
     Surprise:
-      name: Surprise
-      description: ""
+      _name: Surprise
+      _description: ""
     What,:
-      name: What,
-      description: ""
+      _name: What,
+      _description: ""
     Concerned:
-      name: Concerned
-      description: ""
+      _name: Concerned
+      _description: ""
     WTF:
-      name: WTF
-      description: ""
+      _name: WTF
+      _description: ""
     WTFear:
-      name: WTFear
-      description: ""
+      _name: WTFear
+      _description: ""
     Upset left:
-      name: Upset left
-      description: ""
+      _name: Upset left
+      _description: ""
     Upset meow:
-      name: Upset meow
-      description: ""
+      _name: Upset meow
+      _description: ""
     Upset right:
-      name: Upset right
-      description: ""
+      _name: Upset right
+      _description: ""
     Distressed:
-      name: Distressed
-      description: ""
+      _name: Distressed
+      _description: ""
     Distressed down:
-      name: Distressed down
-      description: ""
+      _name: Distressed down
+      _description: ""
     Distressed talk:
-      name: Distressed talk
-      description: ""
+      _name: Distressed talk
+      _description: ""
     Distressed meow:
-      name: Distressed meow
-      description: ""
+      _name: Distressed meow
+      _description: ""
     Distressed less sad:
-      name: Distressed less sad
-      description: ""
+      _name: Distressed less sad
+      _description: ""
     Distressed sad:
-      name: Distressed sad
-      description: ""
+      _name: Distressed sad
+      _description: ""
     Distressed cry:
-      name: Distressed cry
-      description: ""
+      _name: Distressed cry
+      _description: ""
     Eyes closed:
-      name: Eyes closed
-      description: ""
+      _name: Eyes closed
+      _description: ""
     Eyes closed speak:
-      name: Eyes closed speak
-      description: ""
+      _name: Eyes closed speak
+      _description: ""
     Smile:
-      name: Smile
-      description: ""
+      _name: Smile
+      _description: ""
     Gas mask:
-      name: Gas mask
-      description: ""
+      _name: Gas mask
+      _description: ""
     Huh:
-      name: Huh
-      description: ""
+      _name: Huh
+      _description: ""
     Shock:
-      name: Shock
-      description: ""
+      _name: Shock
+      _description: ""
     Pancakes:
-      name: Pancakes
-      description: ""
+      _name: Pancakes
+      _description: ""
     83c:
-      name: 83c
-      description: ""
+      _name: 83c
+      _description: ""
   Niko:
-    name: Niko
-    description: "niko oneshot"
-    credits: "[Nightmargin](https://nightmargin.com)"
+    _name: Niko
+    _description: "niko oneshot"
+    _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
-      name: Normal
-      description: ""
+      _name: Normal
+      _description: ""
     Speak:
-      name: Speak
-      description: ""
+      _name: Speak
+      _description: ""
     Ah:
-      name: Ah
-      description: ""
+      _name: Ah
+      _description: ""
     Hm:
-      name: Hm
-      description: ""
+      _name: Hm
+      _description: ""
     Alright:
-      name: Alright
-      description: ""
+      _name: Alright
+      _description: ""
     Looking Left:
-      name: Looking Left
-      description: ""
+      _name: Looking Left
+      _description: ""
     Looking Right:
-      name: Looking Right
-      description: ""
+      _name: Looking Right
+      _description: ""
     Yawn:
-      name: Yawn
-      description: ""
+      _name: Yawn
+      _description: ""
     Surprise:
-      name: Surprise
-      description: ""
+      _name: Surprise
+      _description: ""
     What,:
-      name: What,
-      description: ""
+      _name: What,
+      _description: ""
     Concerned:
-      name: Concerned
-      description: ""
+      _name: Concerned
+      _description: ""
     WTF:
-      name: WTF
-      description: ""
+      _name: WTF
+      _description: ""
     WTFear:
-      name: WTFear
-      description: ""
+      _name: WTFear
+      _description: ""
     Upset left:
-      name: Upset left
-      description: ""
+      _name: Upset left
+      _description: ""
     Upset meow:
-      name: Upset meow
-      description: ""
+      _name: Upset meow
+      _description: ""
     Upset right:
-      name: Upset right
-      description: ""
+      _name: Upset right
+      _description: ""
     Distressed:
-      name: Distressed
-      description: ""
+      _name: Distressed
+      _description: ""
     Distressed down:
-      name: Distressed down
-      description: ""
+      _name: Distressed down
+      _description: ""
     Distressed talk:
-      name: Distressed talk
-      description: ""
+      _name: Distressed talk
+      _description: ""
     Distressed meow:
-      name: Distressed meow
-      description: ""
+      _name: Distressed meow
+      _description: ""
     Distressed less sad:
-      name: Distressed less sad
-      description: ""
+      _name: Distressed less sad
+      _description: ""
     Distressed sad:
-      name: Distressed sad
-      description: ""
+      _name: Distressed sad
+      _description: ""
     Distressed cry:
-      name: Distressed cry
-      description: ""
+      _name: Distressed cry
+      _description: ""
     Eyes closed:
-      name: Eyes closed
-      description: ""
+      _name: Eyes closed
+      _description: ""
     Eyes closed speak:
-      name: Eyes closed speak
-      description: ""
+      _name: Eyes closed speak
+      _description: ""
     Smile:
-      name: Smile
-      description: ""
+      _name: Smile
+      _description: ""
     Gas mask:
-      name: Gas mask
-      description: ""
+      _name: Gas mask
+      _description: ""
     Huh:
-      name: Huh
-      description: ""
+      _name: Huh
+      _description: ""
     Shock:
-      name: Shock
-      description: ""
+      _name: Shock
+      _description: ""
     Pancakes:
-      name: Pancakes
-      description: ""
+      _name: Pancakes
+      _description: ""
     Crumbs:
-      name: Crumbs
-      description: ""
+      _name: Crumbs
+      _description: ""
     83c:
-      name: 83c
-      description: ""
+      _name: 83c
+      _description: ""
     af:
-      name: af
-      description: ""
+      _name: af
+      _description: ""
   Rue:
-    name: Rue
-    description: "<:rue:1459240705758335006>"
-    credits: "[Nightmargin](https://nightmargin.com)"
+    _name: Rue
+    _description: "<:rue:1459240705758335006>"
+    _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
-      name: Normal
-      description: ""
+      _name: Normal
+      _description: ""
     Speak:
-      name: Speak
-      description: ""
+      _name: Speak
+      _description: ""
     Smile:
-      name: Smile
-      description: ""
+      _name: Smile
+      _description: ""
     Oh:
-      name: Oh
-      description: ""
+      _name: Oh
+      _description: ""
     Sigh:
-      name: Sigh
-      description: ""
+      _name: Sigh
+      _description: ""
     Sad:
-      name: Sad
-      description: ""
+      _name: Sad
+      _description: ""
     ttt:
-      name: ttt
-      description: ""
+      _name: ttt
+      _description: ""
     Hidden:
-      name: Hidden
-      description: ""
+      _name: Hidden
+      _description: ""
   Alula:
-    name: Alula
-    description: "<:aluler:1477505523690508431>"
-    credits: "[Nightmargin](https://nightmargin.com)"
+    _name: Alula
+    _description: "<:aluler:1477505523690508431>"
+    _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
-      name: Normal
-      description: ""
+      _name: Normal
+      _description: ""
     Speak:
-      name: Speak
-      description: ""
+      _name: Speak
+      _description: ""
     Amazed:
-      name: Amazed
-      description: ""
+      _name: Amazed
+      _description: ""
     Eyes closed:
-      name: Eyes closed
-      description: ""
+      _name: Eyes closed
+      _description: ""
     Gasp:
-      name: Gasp
-      description: ""
+      _name: Gasp
+      _description: ""
     Oh:
-      name: Oh
-      description: ""
+      _name: Oh
+      _description: ""
     Pout:
-      name: Pout
-      description: ""
+      _name: Pout
+      _description: ""
   Calamus:
-    name: Calamus
-    description: "calamus. bird guy kid thing"
-    credits: "[Nightmargin](https://nightmargin.com)"
+    _name: Calamus
+    _description: "calamus. bird guy kid thing"
+    _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
-      name: Normal
-      description: ""
+      _name: Normal
+      _description: ""
     Speak:
-      name: Speak
-      description: ""
+      _name: Speak
+      _description: ""
     Smile:
-      name: Smile
-      description: ""
+      _name: Smile
+      _description: ""
     Slight Smile:
-      name: Slight Smile
-      description: ""
+      _name: Slight Smile
+      _description: ""
     Shock:
-      name: Shock
-      description: ""
+      _name: Shock
+      _description: ""
     Heh:
-      name: Heh
-      description: ""
+      _name: Heh
+      _description: ""
     Sad:
-      name: Sad
-      description: ""
+      _name: Sad
+      _description: ""
     Shame:
-      name: Shame
-      description: ""
+      _name: Shame
+      _description: ""
     Hidden:
-      name: Hidden
-      description: ""
+      _name: Hidden
+      _description: ""
   Maize:
-    name: Maize
-    description: "amaizeing plant person that gets reborn sometime if you dont forget"
-    credits: "[Eliza Velasquez](https://eliza.sh)"
+    _name: Maize
+    _description: "amaizeing plant person that gets reborn sometime if you dont forget"
+    _credits: "[Eliza Velasquez](https://eliza.sh)"
     Normal:
-      name: Normal
-      description: ""
+      _name: Normal
+      _description: ""
     Slight Smile:
-      name: Slight Smile
-      description: ""
+      _name: Slight Smile
+      _description: ""
     Smile:
-      name: Smile
-      description: ""
+      _name: Smile
+      _description: ""
     Strain:
-      name: Strain
-      description: ""
+      _name: Strain
+      _description: ""
     Stress:
-      name: Stress
-      description: ""
+      _name: Stress
+      _description: ""
     this is fine:
-      name: this is fine
-      description: ""
+      _name: this is fine
+      _description: ""
   Magpie:
-    name: Magpie
-    description: "the bird that runs the shop around here"
-    credits: "[Nightmargin](https://nightmargin.com)"
+    _name: Magpie
+    _description: "the bird that runs the shop around here"
+    _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
-      name: Normal
-      description: ""
+      _name: Normal
+      _description: ""
     Hm:
-      name: Hm
-      description: ""
+      _name: Hm
+      _description: ""
     Oh:
-      name: Oh
-      description: ""
+      _name: Oh
+      _description: ""
     Smile:
-      name: Smile
-      description: ""
+      _name: Smile
+      _description: ""
   Plight:
-    name: Plight
-    description: "Lam__p light__er. lights lamps"
-    credits: "[Nightmargin](https://nightmargin.com)"
+    _name: Plight
+    _description: "Lam__p light__er. lights lamps"
+    _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
-      name: Normal
-      description: ""
-      credits: ""
+      _name: Normal
+      _description: ""
+      _credits: ""
     Looking Down:
-      name: Looking Down
-      description: ""
-      credits: ""
+      _name: Looking Down
+      _description: ""
+      _credits: ""
     Looking Left:
-      name: Looking Left
-      description: ""
-      credits: ""
+      _name: Looking Left
+      _description: ""
+      _credits: ""
     Looking Right:
-      name: Looking Right
-      description: ""
-      credits: ""
+      _name: Looking Right
+      _description: ""
+      _credits: ""
     Talking:
-      name: Talking
-      description: ""
-      credits: ""
+      _name: Talking
+      _description: ""
+      _credits: ""
     Shock:
-      name: Shock
-      description: ""
-      credits: ""
+      _name: Shock
+      _description: ""
+      _credits: ""
     Scared:
-      name: Scared
-      description: ""
-      credits: ""
+      _name: Scared
+      _description: ""
+      _credits: ""
     Sigh:
-      name: Sigh
-      description: ""
-      credits: ""
+      _name: Sigh
+      _description: ""
+      _credits: ""
     Smile:
-      name: Smile
-      description: ""
-      credits: ""
+      _name: Smile
+      _description: ""
+      _credits: ""
     Worry Left:
-      name: Worry Left
-      description: ""
-      credits: ""
+      _name: Worry Left
+      _description: ""
+      _credits: ""
     Worry Right:
-      name: Worry Right
-      description: ""
-      credits: ""
+      _name: Worry Right
+      _description: ""
+      _credits: ""
     WTF:
-      name: WTF
-      description: ""
-      credits: ""
+      _name: WTF
+      _description: ""
+      _credits: ""
     Hidden:
-      name: Hidden
-      description: ""
-      credits: ""
+      _name: Hidden
+      _description: ""
+      _credits: ""
   Ling:
-    name: Ling
-    description: "he make-a da pancake for <:niko_pancakes:1394387107148992532> he make-a da coffee for <:plight_smile:1408263355512262738>"
-    credits: "[Nightmargin](https://nightmargin.com)"
+    _name: Ling
+    _description: "he make-a da pancake for <:niko_pancakes:1394387107148992532> he make-a da coffee for <:plight_smile:1408263355512262738>"
+    _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
-      name: Normal
-      description: ""
+      _name: Normal
+      _description: ""
     Slight Smile:
-      name: Slight Smile
-      description: ""
+      _name: Slight Smile
+      _description: ""
     Looking Left:
-      name: Looking Left
-      description: ""
+      _name: Looking Left
+      _description: ""
     Looking Right:
-      name: Looking Right
-      description: ""
+      _name: Looking Right
+      _description: ""
     Oh:
-      name: Oh
-      description: ""
+      _name: Oh
+      _description: ""
     Oh Left:
-      name: Oh Left
-      description: ""
+      _name: Oh Left
+      _description: ""
     Shock:
-      name: Shock
-      description: ""
+      _name: Shock
+      _description: ""
     Sigh:
-      name: Sigh
-      description: ""
+      _name: Sigh
+      _description: ""
     Smile:
-      name: Smile
-      description: ""
+      _name: Smile
+      _description: ""
     What:
-      name: What
-      description: ""
+      _name: What
+      _description: ""
   Cedric:
-    name: Cedric
-    description: "unlicensed pilot, probably hacked a plane into reality"
-    credits: "[Nightmargin](https://nightmargin.com)"
+    _name: Cedric
+    _description: "unlicensed pilot, probably hacked a plane into reality"
+    _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
-      name: Normal
-      description: ""
+      _name: Normal
+      _description: ""
     Speak:
-      name: Speak
-      description: ""
+      _name: Speak
+      _description: ""
     Normal Alt:
-      name: Normal Alt
-      description: ""
+      _name: Normal Alt
+      _description: ""
     Normal Alt²:
-      name: Normal Alt²
-      description: ""
+      _name: Normal Alt²
+      _description: ""
     Normal Alt³:
-      name: Normal Alt³
-      description: ""
+      _name: Normal Alt³
+      _description: ""
     Eek:
-      name: Eek
-      description: ""
+      _name: Eek
+      _description: ""
     Hmm:
-      name: Hmm
-      description: ""
+      _name: Hmm
+      _description: ""
     Sigh:
-      name: Sigh
-      description: ""
+      _name: Sigh
+      _description: ""
     Sigh Alt:
-      name: Sigh Alt
-      description: ""
+      _name: Sigh Alt
+      _description: ""
     Smile:
-      name: Smile
-      description: ""
+      _name: Smile
+      _description: ""
     Upset:
-      name: Upset
-      description: ""
+      _name: Upset
+      _description: ""
   Kip Silverpoint:
-    name: Kip Silverpoint
-    description: "kip"
-    credits: "[Nightmargin](https://nightmargin.com)"
+    _name: Kip Silverpoint
+    _description: "kip"
+    _credits: "[Nightmargin](https://nightmargin.com)"
     Ah:
-      name: Ah
-      description: ""
+      _name: Ah
+      _description: ""
     Slight Smile:
-      name: Slight Smile
-      description: ""
+      _name: Slight Smile
+      _description: ""
     Heh:
-      name: Heh
-      description: ""
+      _name: Heh
+      _description: ""
     Huh:
-      name: Huh
-      description: ""
+      _name: Huh
+      _description: ""
     Pout:
-      name: Pout
-      description: ""
+      _name: Pout
+      _description: ""
     Sad:
-      name: Sad
-      description: ""
+      _name: Sad
+      _description: ""
     Sigh:
-      name: Sigh
-      description: ""
+      _name: Sigh
+      _description: ""
     Wink:
-      name: Wink
-      description: ""
+      _name: Wink
+      _description: ""
     Worry:
-      name: Worry
-      description: ""
+      _name: Worry
+      _description: ""
   George:
-    name: George
-    description: "it depends"
-    credits: "[Eliza Velasquez](https://eliza.sh)"
+    _name: George
+    _description: "it depends"
+    _credits: "[Eliza Velasquez](https://eliza.sh)"
     "1":
-      name: "1"
-      description: ""
+      _name: "1"
+      _description: ""
       Normal:
-        name: Normal
-        description: ""
+        _name: Normal
+        _description: ""
       Hm:
-        name: Hm
-        description: ""
+        _name: Hm
+        _description: ""
       Smile:
-        name: Smile
-        description: ""
+        _name: Smile
+        _description: ""
       Smug:
-        name: Smug
-        description: ""
+        _name: Smug
+        _description: ""
     "2":
-      name: "2"
-      description: ""
+      _name: "2"
+      _description: ""
       Normal:
-        name: Normal
-        description: ""
+        _name: Normal
+        _description: ""
       Grr:
-        name: Grr
-        description: ""
+        _name: Grr
+        _description: ""
       "NO":
-        name: "NO"
-        description: ""
+        _name: "NO"
+        _description: ""
       Sigh:
-        name: Sigh
-        description: ""
+        _name: Sigh
+        _description: ""
       Stress:
-        name: Stress
-        description: ""
+        _name: Stress
+        _description: ""
     "3":
-      name: "3"
-      description: ""
+      _name: "3"
+      _description: ""
       Normal:
-        name: Normal
-        description: ""
+        _name: Normal
+        _description: ""
       Cry:
-        name: Cry
-        description: ""
+        _name: Cry
+        _description: ""
       Sad:
-        name: Sad
-        description: ""
+        _name: Sad
+        _description: ""
       Sigh:
-        name: Sigh
-        description: ""
+        _name: Sigh
+        _description: ""
       Worry:
-        name: Worry
-        description: ""
+        _name: Worry
+        _description: ""
     "4":
-      name: "4"
-      description: ""
+      _name: "4"
+      _description: ""
       Normal:
-        name: Normal
-        description: ""
+        _name: Normal
+        _description: ""
       Golly:
-        name: Golly
-        description: ""
+        _name: Golly
+        _description: ""
       Omg:
-        name: Omg
-        description: ""
+        _name: Omg
+        _description: ""
       Oops:
-        name: Oops
-        description: ""
+        _name: Oops
+        _description: ""
       Smile:
-        name: Smile
-        description: ""
+        _name: Smile
+        _description: ""
     "5":
-      name: "5"
-      description: ""
+      _name: "5"
+      _description: ""
       Normal:
-        name: Normal
-        description: ""
+        _name: Normal
+        _description: ""
       Aww:
-        name: Aww
-        description: ""
+        _name: Aww
+        _description: ""
       Heh:
-        name: Heh
-        description: ""
+        _name: Heh
+        _description: ""
       Hmm:
-        name: Hmm
-        description: ""
+        _name: Hmm
+        _description: ""
       Sad:
-        name: Sad
-        description: ""
+        _name: Sad
+        _description: ""
       Sigh:
-        name: Sigh
-        description: ""
+        _name: Sigh
+        _description: ""
       Smile:
-        name: Smile
-        description: ""
+        _name: Smile
+        _description: ""
     "6":
-      name: "6"
-      description: ""
+      _name: "6"
+      _description: ""
       Normal:
-        name: Normal
-        description: ""
+        _name: Normal
+        _description: ""
       Fingerguns:
-        name: Fingerguns
-        description: ""
+        _name: Fingerguns
+        _description: ""
       Point:
-        name: Point
-        description: ""
+        _name: Point
+        _description: ""
       Shrug:
-        name: Shrug
-        description: ""
+        _name: Shrug
+        _description: ""
       Smile:
-        name: Smile
-        description: ""
+        _name: Smile
+        _description: ""
   Robots:
-    name: Robots
-    description: "clankers of oneshot /pos"
+    _name: Robots
+    _description: "clankers of oneshot /pos"
     Silver:
-      name: Silver
-      description: "definitely real 2800 elo chess player"
+      _name: Silver
+      _description: "definitely real 2800 elo chess player"
       Normal:
-        name: Normal
-        description: ""
+        _name: Normal
+        _description: ""
       Look down:
-        name: Look down
-        description: ""
+        _name: Look down
+        _description: ""
       Ah:
-        name: Ah
-        description: ""
+        _name: Ah
+        _description: ""
       Eyes closed:
-        name: Eyes closed
-        description: ""
+        _name: Eyes closed
+        _description: ""
       Falling:
-        name: Falling
-        description: ""
+        _name: Falling
+        _description: ""
       Get out!:
-        name: Get out!
-        description: ""
+        _name: Get out!
+        _description: ""
       Look up:
-        name: Look up
-        description: ""
+        _name: Look up
+        _description: ""
       Rip:
-        name: Rip
-        description: ""
+        _name: Rip
+        _description: ""
       Rip0:
-        name: Rip0
-        description: ""
+        _name: Rip0
+        _description: ""
       Rip2:
-        name: Rip2
-        description: ""
+        _name: Rip2
+        _description: ""
       Squares:
-        name: Squares
-        description: ""
+        _name: Squares
+        _description: ""
       Too Many Squares:
-        name: Too Many Squares
-        description: ""
+        _name: Too Many Squares
+        _description: ""
       Worry:
-        name: Worry
-        description: ""
+        _name: Worry
+        _description: ""
     Prophet:
-      name: Prophet
-      description: "untamed stripped down version of a superior prophet"
+      _name: Prophet
+      _description: "untamed stripped down version of a superior prophet"
       Normal:
-        name: Normal
-        description: ""
+        _name: Normal
+        _description: ""
       Hmm:
-        name: Hmm
-        description: ""
+        _name: Hmm
+        _description: ""
       OMG:
-        name: OMG
-        description: ""
+        _name: OMG
+        _description: ""
       Sigh:
-        name: Sigh
-        description: ""
+        _name: Sigh
+        _description: ""
     Proto:
-      name: Proto
-      description: "the superior prophet"
+      _name: Proto
+      _description: "the superior prophet"
       Disk:
-        name: Disk
-        description: ""
+        _name: Disk
+        _description: ""
       Eyes closed:
-        name: Eyes closed
-        description: ""
+        _name: Eyes closed
+        _description: ""
       Jealous:
-        name: Jealous
-        description: ""
+        _name: Jealous
+        _description: ""
       Gasp:
-        name: Gasp
-        description: ""
+        _name: Gasp
+        _description: ""
       Gasp right:
-        name: Gasp right
-        description: ""
+        _name: Gasp right
+        _description: ""
       Right-up:
-        name: Right-up
-        description: ""
+        _name: Right-up
+        _description: ""
       Right-center:
-        name: Right-center
-        description: ""
+        _name: Right-center
+        _description: ""
       Right-right:
-        name: Right-right
-        description: ""
+        _name: Right-right
+        _description: ""
       Top-left:
-        name: Top-left
-        description: ""
+        _name: Top-left
+        _description: ""
       Bottom-right:
-        name: Bottom-right
-        description: ""
+        _name: Bottom-right
+        _description: ""
     Rowbot:
-      name: Rowbot
-      description: "niko's taxi driver"
+      _name: Rowbot
+      _description: "niko's taxi driver"
     Offbot:
-      name: Offbot
-      description: "niko's taxi driver"
+      _name: Offbot
+      _description: "niko's taxi driver"
     Blue Gatekeeper:
-      name: Blue Gatekeeper
-      description: "#0000ff gatekeeper"
+      _name: Blue Gatekeeper
+      _description: "#0000ff gatekeeper"
     Green Gatekeeper:
-      name: Green Gatekeeper
-      description: "#00ff00 gatekeeper"
+      _name: Green Gatekeeper
+      _description: "#00ff00 gatekeeper"
     Red Gatekeeper:
-      name: Red Gatekeeper
-      description: "#ff0000 gatekeeper"
+      _name: Red Gatekeeper
+      _description: "#ff0000 gatekeeper"
     Bookbot:
-      name: Bookbot
-      description: "the library's reception and security"
+      _name: Bookbot
+      _description: "the library's reception and security"
     Kelvin:
-      name: Kelvin
-      description: "kitty magnet"
+      _name: Kelvin
+      _description: "kitty magnet"
   Shepherd:
-    name: Shepherd
-    description: "became a millionaire by investing into RAM very early on"
-    credits: "[Eliza Velasquez](https://eliza.sh)"
+    _name: Shepherd
+    _description: "became a millionaire by investing into RAM very early on"
+    _credits: "[Eliza Velasquez](https://eliza.sh)"
   Watcher:
-    name: Watcher
-    description: "clock girl"
+    _name: Watcher
+    _description: "clock girl"
   Mason:
-    name: Mason
-    description: "plant guy"
+    _name: Mason
+    _description: "plant guy"
 OneShot (fan):
-  name: OneShot (fan)
-  description: "Unofficial OneShot facepic modifications/entire custom characters, submitted by people using the bot, or added by the developers with permission."
-  credits: "Various Artists and whatnot"
+  _name: OneShot (fan)
+  _description: "Unofficial OneShot facepic modifications/entire custom characters, submitted by people using the bot, or added by the developers with permission."
+  _credits: "Various Artists and whatnot"
   The World Machine:
-    name: The World Machine
-    credits: "Most of these are [OSCF](https://github.com/MaxBuster380/OneShot-Color-Filter)-processed Niko facepics with slight edits in GIMP"
+    _name: The World Machine
+    _credits: "Most of these are [OSCF](https://github.com/MaxBuster380/OneShot-Color-Filter)-processed Niko facepics with slight edits in GIMP"
     Crumbs:
-      name: Crumbs
+      _name: Crumbs
     Popcorn:
-      name: Popcorn
+      _name: Popcorn
     Wink:
-      name: Wink
+      _name: Wink
     Fed Up:
-      name: Fed Up
+      _name: Fed Up
     Blush:
-      name: Blush
+      _name: Blush
     Shrug:
-      name: Shrug
+      _name: Shrug
   Jolly TWM:
-    name: Jolly TWM
-    description: "merry twmsmas (is it time)"
-    credits: "[RitualDashh](https://x.com/RitualDashh)"
+    _name: Jolly TWM
+    _description: "merry twmsmas (is it time)"
+    _credits: "[RitualDashh](https://x.com/RitualDashh)"
     Normal:
-      name: Normal
+      _name: Normal
     :3:
-      name: :3
+      _name: :3
     83c:
-      name: 83c
+      _name: 83c
     snowballed:
-      name: snowballed
+      _name: snowballed
   Niko:
-    name: Niko
-    description: ""
-    credits: "Various artists (please tell us who made the uncredited one's, if you know, in our community server)"
+    _name: Niko
+    _description: ""
+    _credits: "Various artists (please tell us who made the uncredited one's, if you know, in our community server)"
     Popcorn:
-      name: Popcorn
+      _name: Popcorn
     Wink:
-      name: Wink
+      _name: Wink
     Fed Up:
-      name: Fed Up
+      _name: Fed Up
     Blush:
-      name: Blush
+      _name: Blush
     Shrug:
-      name: Shrug
+      _name: Shrug
   Kip Silverpoint:
-    name: Kip Silverpoint
-    description: ""
-    credits: "Various artists (please tell us who made the uncredited one's, if you know, in our community server)"
+    _name: Kip Silverpoint
+    _description: ""
+    _credits: "Various artists (please tell us who made the uncredited one's, if you know, in our community server)"
     Looking Left:
-      name: Looking Left
-      description: ""
-      credits: "[meqativ](https://meqativ.github.io/home) simple-ish edit in GIMP"
+      _name: Looking Left
+      _description: ""
+      _credits: "[meqativ](https://meqativ.github.io/home) simple-ish edit in GIMP"
     Looking Right:
-      name: Looking Right
-      description: ""
-      credits: "[meqativ](https://meqativ.github.io/home) simple-ish edit in GIMP"
+      _name: Looking Right
+      _description: ""
+      _credits: "[meqativ](https://meqativ.github.io/home) simple-ish edit in GIMP"
     Pensive:
-      name: Pensive
+      _name: Pensive
     cool.:
-      name: cool.
+      _name: cool.
   Plight:
-    name: Plight
-    credits: "Various artists (please tell us who made the uncredited one's, if you know, in our community server)"
+    _name: Plight
+    _credits: "Various artists (please tell us who made the uncredited one's, if you know, in our community server)"
     Sip:
-      name: Sip
+      _name: Sip
   Nikonlanger:
-    name: Nikonlanger
-    description: "ukrainini conlanger linguist"
-    credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1) · [meqativ](https://meqativ.github.io/home)"
+    _name: Nikonlanger
+    _description: "ukrainini conlanger linguist"
+    _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1) · [meqativ](https://meqativ.github.io/home)"
     Normal:
-      name: Normal
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Normal
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Annoyed:
-      name: Annoyed
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Annoyed
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Angrymeow:
-      name: Angrymeow
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Angrymeow
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Happy:
-      name: Happy
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Happy
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Oho:
-      name: Oho
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Oho
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Blush:
-      name: Blush
-      credits: "[meqativ](https://meqativ.github.io/home)"
+      _name: Blush
+      _credits: "[meqativ](https://meqativ.github.io/home)"
     What:
-      name: What
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: What
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Why:
-      name: Why
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Why
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Smug:
-      name: Smug
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Smug
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Sleepy:
-      name: Sleepy
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Sleepy
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Tired:
-      name: Tired
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Tired
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Concerned:
-      name: Concerned
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Concerned
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Huh:
-      name: Huh
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Huh
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Distressed:
-      name: Distressed
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Distressed
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     What the hell:
-      name: What the hell
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: What the hell
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Amaze:
-      name: Amaze
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Amaze
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Unamused:
-      name: Unamused
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Unamused
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Scared:
-      name: Scared
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Scared
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Crying:
-      name: Crying
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Crying
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     You Should:
-      name: You Should
-      credits: "[meqativ](https://meqativ.github.io/home)"
+      _name: You Should
+      _credits: "[meqativ](https://meqativ.github.io/home)"
     Wave:
-      name: Wave
-      credits: "[meqativ](https://meqativ.github.io/home)"
+      _name: Wave
+      _credits: "[meqativ](https://meqativ.github.io/home)"
     Blanket:
-      name: Blanket
-      credits: "[meqativ](https://meqativ.github.io/home)"
+      _name: Blanket
+      _credits: "[meqativ](https://meqativ.github.io/home)"
     Blob:
-      name: Blob
-      credits: "[meqativ](https://meqativ.github.io/home)"
+      _name: Blob
+      _credits: "[meqativ](https://meqativ.github.io/home)"
     Flag:
-      name: Flag
-      description: "nikonlanger with the conlangers flag"
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Flag
+      _description: "nikonlanger with the conlangers flag"
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Cookie:
-      name: Cookie
-      credits: "[meqativ](https://meqativ.github.io/home)"
+      _name: Cookie
+      _credits: "[meqativ](https://meqativ.github.io/home)"
     Jii:
-      name: Jii
-      description: "nikonlanger stares (jii is japanese for stare)"
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Jii
+      _description: "nikonlanger stares (jii is japanese for stare)"
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Stare:
-      name: Stare
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Stare
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Plush:
-      name: Plush
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Plush
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Plush Looking Right:
-      name: Plush Looking Right
-      credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
+      _name: Plush Looking Right
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Amazed Uncanny:
-      name: Amazed Uncanny
-      credits: "[meqativ](https://meqativ.github.io/home)"
-Your Avatar:
-  name: Your Avatar
-  description: "Your profile picture taken from your profile, maybe even the picture that is yours and is on your profile"
-  credits: "You (for uploading it)"
+      _name: Amazed Uncanny
+      _credits: "[meqativ](https://meqativ.github.io/home)"
 Other:
-  name: Other
-  description: "Other images not related to anything"
-  credits: "Various artists and whatnot"
+  _name: Other
+  _description: "Other images not related to anything"
+  _credits: "Various artists and whatnot"
+  Your Avatar:
+    _name: Your Avatar
+    _description: "Your profile picture taken from your profile, maybe even the picture that is yours and is on your profile"
+    _credits: "You (for uploading it)"
   NAVI:
-    name: NAVI
-    description: "her icon looks like a great placeholder"
-    credits: "[Urbanshade](https://urbanshade.org/wiki/File:NaviQuoteIcon.png)"
+    _name: NAVI
+    _description: "her icon looks like a great placeholder"
+    _credits: "[Urbanshade](https://urbanshade.org/wiki/File:NaviQuoteIcon.png)"
   Raised Eyebrow Emoji:
-    name: Raised Eyebrow Emoji
-    description: "i don tknow why this is here ask axii"
-    credits: "[Skype](https://emojipedia.org/skype/1.0/thinking-face)"
+    _name: Raised Eyebrow Emoji
+    _description: "i don tknow why this is here ask axii"
+    _credits: "[Skype](https://emojipedia.org/skype/1.0/thinking-face)"
   Empty:
-    name: Empty
-    description: "lost media (this keeps the text padded, unlike having no facepic at all)"
-    credits: "who?"
+    _name: Empty
+    _description: "lost media (this keeps the text padded, unlike having no facepic at all)"
+    _credits: "who?"
