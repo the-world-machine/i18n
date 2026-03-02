@@ -1,10 +1,12 @@
 OneShot:
   _name: OneShot
   _description: "The Official OneShot facepics taken from the game files"
+  # weblate-flags: read-only
   _credits: "[Nightmargin](https://nightmargin.com) · [Eliza Velasquez](https://eliza.sh)"
   The World Machine:
     _name: The World Machine
     _description: "twm oneshot"
+    # weblate-flags: read-only
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
@@ -71,6 +73,7 @@ OneShot:
   Niko:
     _name: Niko
     _description: "niko oneshot"
+    # weblate-flags: read-only
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
@@ -140,7 +143,9 @@ OneShot:
       _name: af
   Rue:
     _name: Rue
+    # weblate-flags: read-only
     _description: "<:rue:1459240705758335006>"
+    # weblate-flags: read-only
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
@@ -160,7 +165,9 @@ OneShot:
       _name: Hidden
   Alula:
     _name: Alula
+    # weblate-flags: read-only
     _description: "<:aluler:1477505523690508431>"
+    # weblate-flags: read-only
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
@@ -179,6 +186,7 @@ OneShot:
   Calamus:
     _name: Calamus
     _description: "calamus. bird guy kid thing"
+    # weblate-flags: read-only
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
@@ -201,6 +209,7 @@ OneShot:
   Maize:
     _name: Maize
     _description: "amaizeing plant person that gets reborn sometime if you dont forget"
+    # weblate-flags: read-only
     _credits: "[Eliza Velasquez](https://eliza.sh)"
     Normal:
       _name: Normal
@@ -217,6 +226,7 @@ OneShot:
   Magpie:
     _name: Magpie
     _description: "the bird that runs the shop around here"
+    # weblate-flags: read-only
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
@@ -229,6 +239,7 @@ OneShot:
   Plight:
     _name: Plight
     _description: "Lam__p light__er. lights lamps"
+    # weblate-flags: read-only
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
@@ -272,6 +283,7 @@ OneShot:
   Ling:
     _name: Ling
     _description: "he make-a da pancake for <:niko_pancakes:1394387107148992532> he make-a da coffee for <:plight_smile:1408263355512262738>"
+    # weblate-flags: read-only
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
@@ -296,6 +308,7 @@ OneShot:
   Cedric:
     _name: Cedric
     _description: "unlicensed pilot, probably hacked a plane into reality"
+    # weblate-flags: read-only
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
@@ -322,6 +335,7 @@ OneShot:
   Kip Silverpoint:
     _name: Kip Silverpoint
     _description: "kip"
+    # weblate-flags: read-only
     _credits: "[Nightmargin](https://nightmargin.com)"
     Ah:
       _name: Ah
@@ -344,6 +358,7 @@ OneShot:
   George:
     _name: George
     _description: "it depends"
+    # weblate-flags: read-only
     _credits: "[Eliza Velasquez](https://eliza.sh)"
     "1":
       _name: "George roll 1"
@@ -421,9 +436,11 @@ OneShot:
         _name: Smile
   Robots:
     _name: Robots
+    # /pos means positive connotation
     _description: "clankers of oneshot /pos"
     Silver:
       _name: Silver
+      # referring to how she's a robot
       _description: "definitely real 2800 elo chess player"
       Normal:
         _name: Normal
@@ -490,25 +507,32 @@ OneShot:
       _description: "niko's taxi driver"
     Offbot:
       _name: Offbot
-      _description: "niko's taxi driver"
+      _description: "niko's rusty taxi driver"
     Blue Gatekeeper:
-      _name: Blue Gatekeeper
+      _name: Blue Gatekeeper#
+      # Blue hex color
       _description: "#0000ff gatekeeper"
     Green Gatekeeper:
       _name: Green Gatekeeper
+      # Green hex color
       _description: "#00ff00 gatekeeper"
     Red Gatekeeper:
       _name: Red Gatekeeper
+      # Red hex color
       _description: "#ff0000 gatekeeper"
     Bookbot:
       _name: Bookbot
+      # security because it didn't let niko without a card
       _description: "the library's reception and security"
     Kelvin:
       _name: Kelvin
+
       _description: "kitty magnet"
   Shepherd:
     _name: Shepherd
+    # https://pcpartpicker.com/trends/price/memory/
     _description: "became a millionaire by investing into RAM very early on"
+    # weblate-flags: read-only
     _credits: "[Eliza Velasquez](https://eliza.sh)"
   Watcher:
     _name: Watcher
@@ -538,6 +562,7 @@ OneShot (fan):
     Jolly TWM:
       _name: Jolly TWM
       _description: "merry twmsmas (is it time)"
+      # weblate-flags: read-only
       _credits: "[RitualDashh](https://x.com/RitualDashh)"
       Normal:
         _name: Normal
@@ -565,10 +590,10 @@ OneShot (fan):
     _credits: "Various artists (please tell us who made the uncredited one's, if you know, in our community server)"
     Looking Left:
       _name: Looking Left
-      _credits: "[meqativ](https://meqativ.github.io/home) simple-ish edit in GIMP"
+      _credits: "simple-ish edit in GIMP by [meqativ](https://meqativ.github.io/home)"
     Looking Right:
       _name: Looking Right
-      _credits: "[meqativ](https://meqativ.github.io/home) simple-ish edit in GIMP"
+      _credits: "simple-ish edit in GIMP by [meqativ](https://meqativ.github.io/home)"
     Pensive:
       _name: Pensive
     cool.:
@@ -581,98 +606,129 @@ OneShot (fan):
   Nikonlanger:
     _name: Nikonlanger
     _description: "ukrainini conlanger linguist"
+    # weblate-flags: read-only
     _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1) · [meqativ](https://meqativ.github.io/home)"
     Normal:
       _name: Normal
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Annoyed:
       _name: Annoyed
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Angrymeow:
       _name: Angrymeow
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Happy:
       _name: Happy
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Oho:
       _name: Oho
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Blush:
       _name: Blush
+      # weblate-flags: read-only
       _credits: "[meqativ](https://meqativ.github.io/home)"
     What:
       _name: What
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Why:
       _name: Why
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Smug:
       _name: Smug
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Sleepy:
       _name: Sleepy
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Tired:
       _name: Tired
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Concerned:
       _name: Concerned
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Huh:
       _name: Huh
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Distressed:
       _name: Distressed
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     What the hell:
       _name: What the hell
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Amaze:
       _name: Amaze
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Unamused:
       _name: Unamused
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Scared:
       _name: Scared
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Crying:
       _name: Crying
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     You Should:
       _name: You Should
+      # weblate-flags: read-only
       _credits: "[meqativ](https://meqativ.github.io/home)"
     Wave:
       _name: Wave
+      # weblate-flags: read-only
       _credits: "[meqativ](https://meqativ.github.io/home)"
     Blanket:
       _name: Blanket
+      # weblate-flags: read-only
       _credits: "[meqativ](https://meqativ.github.io/home)"
     Blob:
       _name: Blob
+      # weblate-flags: read-only
       _credits: "[meqativ](https://meqativ.github.io/home)"
     Flag:
       _name: Flag
+      # weblate-flags: read-only
       _description: "nikonlanger with the conlangers flag"
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Cookie:
       _name: Cookie
+      # weblate-flags: read-only
       _credits: "[meqativ](https://meqativ.github.io/home)"
     Jii:
       _name: Jii
+      # weblate-flags: read-only
       _description: "nikonlanger stares (jii is japanese for stare)"
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Stare:
       _name: Stare
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Plush:
       _name: Plush
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Plush Looking Right:
       _name: Plush Looking Right
+      # weblate-flags: read-only
       _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Amazed Uncanny:
       _name: Amazed Uncanny
+      # weblate-flags: read-only
       _credits: "[meqativ](https://meqativ.github.io/home)"
 Other:
   _name: Other
@@ -685,12 +741,15 @@ Other:
   NAVI:
     _name: NAVI
     _description: "her icon looks like a great placeholder"
+    # weblate-flags: read-only
     _credits: "[Urbanshade](https://urbanshade.org/wiki/File:NaviQuoteIcon.png)"
   Raised Eyebrow Emoji:
     _name: Raised Eyebrow Emoji
     _description: "i don tknow why this is here ask axii"
+    # weblate-flags: read-only
     _credits: "[Skype](https://emojipedia.org/skype/1.0/thinking-face)"
   Empty:
     _name: Empty
+    # "text padded" refers to the Textbox Editor, it has a text input which will break lines whenever it reaches the corner of the Facepic (will go under it if it doesn't)
     _description: "lost media (this keeps the text padded, unlike having no facepic at all)"
     _credits: "who?"
