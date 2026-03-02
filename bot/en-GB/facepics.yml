@@ -8,377 +8,266 @@ OneShot:
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
-      _description: ""
     Speak:
       _name: Speak
-      _description: ""
     Ah:
       _name: Ah
-      _description: ""
     Hm:
       _name: Hm
-      _description: ""
     Alright:
       _name: Alright
-      _description: ""
     Looking Left:
       _name: Looking Left
-      _description: ""
     Looking Right:
       _name: Looking Right
-      _description: ""
     Yawn:
       _name: Yawn
-      _description: ""
     Surprise:
       _name: Surprise
-      _description: ""
     What,:
       _name: What,
-      _description: ""
     Concerned:
       _name: Concerned
-      _description: ""
     WTF:
       _name: WTF
-      _description: ""
     WTFear:
       _name: WTFear
-      _description: ""
     Upset left:
       _name: Upset left
-      _description: ""
     Upset meow:
       _name: Upset meow
-      _description: ""
     Upset right:
       _name: Upset right
-      _description: ""
     Distressed:
       _name: Distressed
-      _description: ""
     Distressed down:
       _name: Distressed down
-      _description: ""
     Distressed talk:
       _name: Distressed talk
-      _description: ""
     Distressed meow:
       _name: Distressed meow
-      _description: ""
     Distressed less sad:
       _name: Distressed less sad
-      _description: ""
     Distressed sad:
       _name: Distressed sad
-      _description: ""
     Distressed cry:
       _name: Distressed cry
-      _description: ""
     Eyes closed:
       _name: Eyes closed
-      _description: ""
     Eyes closed speak:
       _name: Eyes closed speak
-      _description: ""
     Smile:
       _name: Smile
-      _description: ""
     Gas mask:
       _name: Gas mask
-      _description: ""
     Huh:
       _name: Huh
-      _description: ""
     Shock:
       _name: Shock
-      _description: ""
     Pancakes:
       _name: Pancakes
-      _description: ""
     83c:
       _name: 83c
-      _description: ""
   Niko:
     _name: Niko
     _description: "niko oneshot"
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
-      _description: ""
     Speak:
       _name: Speak
-      _description: ""
     Ah:
       _name: Ah
-      _description: ""
     Hm:
       _name: Hm
-      _description: ""
     Alright:
       _name: Alright
-      _description: ""
     Looking Left:
       _name: Looking Left
-      _description: ""
     Looking Right:
       _name: Looking Right
-      _description: ""
     Yawn:
       _name: Yawn
-      _description: ""
     Surprise:
       _name: Surprise
-      _description: ""
     What,:
       _name: What,
-      _description: ""
     Concerned:
       _name: Concerned
-      _description: ""
     WTF:
       _name: WTF
-      _description: ""
     WTFear:
       _name: WTFear
-      _description: ""
     Upset left:
       _name: Upset left
-      _description: ""
     Upset meow:
       _name: Upset meow
-      _description: ""
     Upset right:
       _name: Upset right
-      _description: ""
     Distressed:
       _name: Distressed
-      _description: ""
     Distressed down:
       _name: Distressed down
-      _description: ""
     Distressed talk:
       _name: Distressed talk
-      _description: ""
     Distressed meow:
       _name: Distressed meow
-      _description: ""
     Distressed less sad:
       _name: Distressed less sad
-      _description: ""
     Distressed sad:
       _name: Distressed sad
-      _description: ""
     Distressed cry:
       _name: Distressed cry
-      _description: ""
     Eyes closed:
       _name: Eyes closed
-      _description: ""
     Eyes closed speak:
       _name: Eyes closed speak
-      _description: ""
     Smile:
       _name: Smile
-      _description: ""
     Gas mask:
       _name: Gas mask
-      _description: ""
     Huh:
       _name: Huh
-      _description: ""
     Shock:
       _name: Shock
-      _description: ""
     Pancakes:
       _name: Pancakes
-      _description: ""
     Crumbs:
       _name: Crumbs
-      _description: ""
     83c:
       _name: 83c
-      _description: ""
     af:
       _name: af
-      _description: ""
   Rue:
     _name: Rue
     _description: "<:rue:1459240705758335006>"
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
-      _description: ""
     Speak:
       _name: Speak
-      _description: ""
     Smile:
       _name: Smile
-      _description: ""
     Oh:
       _name: Oh
-      _description: ""
     Sigh:
       _name: Sigh
-      _description: ""
     Sad:
       _name: Sad
-      _description: ""
     ttt:
       _name: ttt
-      _description: ""
     Hidden:
       _name: Hidden
-      _description: ""
   Alula:
     _name: Alula
     _description: "<:aluler:1477505523690508431>"
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
-      _description: ""
     Speak:
       _name: Speak
-      _description: ""
     Amazed:
       _name: Amazed
-      _description: ""
     Eyes closed:
       _name: Eyes closed
-      _description: ""
     Gasp:
       _name: Gasp
-      _description: ""
     Oh:
       _name: Oh
-      _description: ""
     Pout:
       _name: Pout
-      _description: ""
   Calamus:
     _name: Calamus
     _description: "calamus. bird guy kid thing"
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
-      _description: ""
     Speak:
       _name: Speak
-      _description: ""
     Smile:
       _name: Smile
-      _description: ""
     Slight Smile:
       _name: Slight Smile
-      _description: ""
     Shock:
       _name: Shock
-      _description: ""
     Heh:
       _name: Heh
-      _description: ""
     Sad:
       _name: Sad
-      _description: ""
     Shame:
       _name: Shame
-      _description: ""
     Hidden:
       _name: Hidden
-      _description: ""
   Maize:
     _name: Maize
     _description: "amaizeing plant person that gets reborn sometime if you dont forget"
     _credits: "[Eliza Velasquez](https://eliza.sh)"
     Normal:
       _name: Normal
-      _description: ""
     Slight Smile:
       _name: Slight Smile
-      _description: ""
     Smile:
       _name: Smile
-      _description: ""
     Strain:
       _name: Strain
-      _description: ""
     Stress:
       _name: Stress
-      _description: ""
     this is fine:
       _name: this is fine
-      _description: ""
   Magpie:
     _name: Magpie
     _description: "the bird that runs the shop around here"
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
-      _description: ""
     Hm:
       _name: Hm
-      _description: ""
     Oh:
       _name: Oh
-      _description: ""
     Smile:
       _name: Smile
-      _description: ""
   Plight:
     _name: Plight
     _description: "Lam__p light__er. lights lamps"
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
-      _description: ""
       _credits: ""
     Looking Down:
       _name: Looking Down
-      _description: ""
       _credits: ""
     Looking Left:
       _name: Looking Left
-      _description: ""
       _credits: ""
     Looking Right:
       _name: Looking Right
-      _description: ""
       _credits: ""
     Talking:
       _name: Talking
-      _description: ""
       _credits: ""
     Shock:
       _name: Shock
-      _description: ""
       _credits: ""
     Scared:
       _name: Scared
-      _description: ""
       _credits: ""
     Sigh:
       _name: Sigh
-      _description: ""
       _credits: ""
     Smile:
       _name: Smile
-      _description: ""
       _credits: ""
     Worry Left:
       _name: Worry Left
-      _description: ""
       _credits: ""
     Worry Right:
       _name: Worry Right
-      _description: ""
       _credits: ""
     WTF:
       _name: WTF
-      _description: ""
       _credits: ""
     Hidden:
       _name: Hidden
-      _description: ""
       _credits: ""
   Ling:
     _name: Ling
@@ -386,217 +275,150 @@ OneShot:
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
-      _description: ""
     Slight Smile:
       _name: Slight Smile
-      _description: ""
     Looking Left:
       _name: Looking Left
-      _description: ""
     Looking Right:
       _name: Looking Right
-      _description: ""
     Oh:
       _name: Oh
-      _description: ""
     Oh Left:
       _name: Oh Left
-      _description: ""
     Shock:
       _name: Shock
-      _description: ""
     Sigh:
       _name: Sigh
-      _description: ""
     Smile:
       _name: Smile
-      _description: ""
     What:
       _name: What
-      _description: ""
   Cedric:
     _name: Cedric
     _description: "unlicensed pilot, probably hacked a plane into reality"
     _credits: "[Nightmargin](https://nightmargin.com)"
     Normal:
       _name: Normal
-      _description: ""
     Speak:
       _name: Speak
-      _description: ""
     Normal Alt:
       _name: Normal Alt
-      _description: ""
     Normal Alt²:
       _name: Normal Alt²
-      _description: ""
     Normal Alt³:
       _name: Normal Alt³
-      _description: ""
     Eek:
       _name: Eek
-      _description: ""
     Hmm:
       _name: Hmm
-      _description: ""
     Sigh:
       _name: Sigh
-      _description: ""
     Sigh Alt:
       _name: Sigh Alt
-      _description: ""
     Smile:
       _name: Smile
-      _description: ""
     Upset:
       _name: Upset
-      _description: ""
   Kip Silverpoint:
     _name: Kip Silverpoint
     _description: "kip"
     _credits: "[Nightmargin](https://nightmargin.com)"
     Ah:
       _name: Ah
-      _description: ""
     Slight Smile:
       _name: Slight Smile
-      _description: ""
     Heh:
       _name: Heh
-      _description: ""
     Huh:
       _name: Huh
-      _description: ""
     Pout:
       _name: Pout
-      _description: ""
     Sad:
       _name: Sad
-      _description: ""
     Sigh:
       _name: Sigh
-      _description: ""
     Wink:
       _name: Wink
-      _description: ""
     Worry:
       _name: Worry
-      _description: ""
   George:
     _name: George
     _description: "it depends"
     _credits: "[Eliza Velasquez](https://eliza.sh)"
     "1":
       _name: "George roll 1"
-      _description: ""
       Normal:
         _name: Normal
-        _description: ""
       Hm:
         _name: Hm
-        _description: ""
       Smile:
         _name: Smile
-        _description: ""
       Smug:
         _name: Smug
-        _description: ""
     "2":
       _name: "George roll 2"
-      _description: ""
       Normal:
         _name: Normal
-        _description: ""
       Grr:
         _name: Grr
-        _description: ""
       "NO":
         _name: "NO"
-        _description: ""
       Sigh:
         _name: Sigh
-        _description: ""
       Stress:
         _name: Stress
-        _description: ""
     "3":
       _name: "George roll 3"
-      _description: ""
       Normal:
         _name: Normal
-        _description: ""
       Cry:
         _name: Cry
-        _description: ""
       Sad:
         _name: Sad
-        _description: ""
       Sigh:
         _name: Sigh
-        _description: ""
       Worry:
         _name: Worry
-        _description: ""
     "4":
       _name: "George roll 4"
-      _description: ""
       Normal:
         _name: Normal
-        _description: ""
       Golly:
         _name: Golly
-        _description: ""
       Omg:
         _name: Omg
-        _description: ""
       Oops:
         _name: Oops
-        _description: ""
       Smile:
         _name: Smile
-        _description: ""
     "5":
       _name: "George roll 5"
-      _description: ""
       Normal:
         _name: Normal
-        _description: ""
       Aww:
         _name: Aww
-        _description: ""
       Heh:
         _name: Heh
-        _description: ""
       Hmm:
         _name: Hmm
-        _description: ""
       Sad:
         _name: Sad
-        _description: ""
       Sigh:
         _name: Sigh
-        _description: ""
       Smile:
         _name: Smile
-        _description: ""
     "6":
       _name: "George roll 6"
-      _description: ""
       Normal:
         _name: Normal
-        _description: ""
       Fingerguns:
         _name: Fingerguns
-        _description: ""
       Point:
         _name: Point
-        _description: ""
       Shrug:
         _name: Shrug
-        _description: ""
       Smile:
         _name: Smile
-        _description: ""
   Robots:
     _name: Robots
     _description: "clankers of oneshot /pos"
@@ -605,91 +427,64 @@ OneShot:
       _description: "definitely real 2800 elo chess player"
       Normal:
         _name: Normal
-        _description: ""
       Look down:
         _name: Look down
-        _description: ""
       Ah:
         _name: Ah
-        _description: ""
       Eyes closed:
         _name: Eyes closed
-        _description: ""
       Falling:
         _name: Falling
-        _description: ""
       Get out!:
         _name: Get out!
-        _description: ""
       Look up:
         _name: Look up
-        _description: ""
       Rip:
         _name: Rip
-        _description: ""
       Rip0:
         _name: Rip0
-        _description: ""
       Rip2:
         _name: Rip2
-        _description: ""
       Squares:
         _name: Squares
-        _description: ""
       Too Many Squares:
         _name: Too Many Squares
-        _description: ""
       Worry:
         _name: Worry
-        _description: ""
     Prophet:
       _name: Prophet
       _description: "untamed stripped down version of a superior prophet"
       Normal:
         _name: Normal
-        _description: ""
       Hmm:
         _name: Hmm
-        _description: ""
       OMG:
         _name: OMG
-        _description: ""
       Sigh:
         _name: Sigh
-        _description: ""
     Proto:
       _name: Proto
       _description: "the superior prophet"
       Disk:
         _name: Disk
-        _description: ""
       Eyes closed:
         _name: Eyes closed
-        _description: ""
       Jealous:
         _name: Jealous
-        _description: ""
       Gasp:
         _name: Gasp
-        _description: ""
       Gasp right:
         _name: Gasp right
-        _description: ""
       Right-up:
         _name: Right-up
-        _description: ""
       Right-center:
         _name: Right-center
-        _description: ""
       Right-right:
         _name: Right-right
-        _description: ""
       Top-left:
         _name: Top-left
-        _description: ""
       Bottom-right:
         _name: Bottom-right
-        _description: ""
     Rowbot:
       _name: Rowbot
       _description: "niko's taxi driver"
@@ -754,7 +549,6 @@ OneShot (fan):
         _name: snowballed
   Niko:
     _name: Niko
-    _description: ""
     _credits: "Various artists (please tell us who made the uncredited one's, if you know, in our community server)"
     Popcorn:
       _name: Popcorn
@@ -768,15 +562,12 @@ OneShot (fan):
       _name: Shrug
   Kip Silverpoint:
     _name: Kip Silverpoint
-    _description: ""
     _credits: "Various artists (please tell us who made the uncredited one's, if you know, in our community server)"
     Looking Left:
       _name: Looking Left
-      _description: ""
       _credits: "[meqativ](https://meqativ.github.io/home) simple-ish edit in GIMP"
     Looking Right:
       _name: Looking Right
-      _description: ""
       _credits: "[meqativ](https://meqativ.github.io/home) simple-ish edit in GIMP"
     Pensive:
       _name: Pensive
