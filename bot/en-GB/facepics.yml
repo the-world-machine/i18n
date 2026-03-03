@@ -559,8 +559,8 @@ OneShot (fan):
       _name: Blush
     Shrug:
       _name: Shrug
-    Jolly TWM:
-      _name: Jolly TWM
+    Jolly:
+      _name: Jolly
       _description: "merry twmsmas (is it time)"
       # weblate-flags: read-only
       _credits: "[RitualDashh](https://x.com/RitualDashh)"
