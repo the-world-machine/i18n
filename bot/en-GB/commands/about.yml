@@ -1,6 +1,3 @@
-# weblate-flags: read-only
-meow: "meow"
-
-meow:
-# weblate-flags: read-only
-  meow: blehhh
+command:
+  # weblate-flags: read-only
+  temporarykey: blehhh
