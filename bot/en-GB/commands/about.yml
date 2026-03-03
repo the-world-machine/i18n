@@ -1,1 +1,6 @@
+# weblate-flags: read-only
 meow: "meow"
+
+meow:
+# weblate-flags: read-only
+  meow: blehhh
