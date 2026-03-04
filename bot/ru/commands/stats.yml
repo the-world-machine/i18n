@@ -1,0 +1,46 @@
+commands:
+  about:
+    fields:
+      shards:
+        name: "Шарды"
+      avg_ping:
+        name: "Средний пинг"
+      latency:
+        name: "Задержка ответа"
+      server_count:
+        name: "Количество серверов"
+      user_installs:
+        name: "Установки пользователя"
+      host:
+        name: "Хост"
+      cpu_usg:
+        name: "Нагрузка ЦП"
+      mem_usg:
+        name: "Загруженность ОЗУ"
+      uptime:
+        name: "Время работы"
+
+    generic_values:
+      time: "**{sec}** сек."
+      percent: "**{percentage, number, percent}**"
+      failed_commit_hash: "N/A"
+
+    buttons:
+      dev server: Сервер Разработки
+      community: Сообщество
+      community server: Сервер Сообщества
+      support: Поддержка
+      support server: Сервер Поддержки
+      translate: Перевести
+      website: Сайт
+      weblate: Weblate
+      discord: Дискорд
+      vote: Проголосовать
+      voting: Голосование
+      "vote (no benefits)": Проголосовать (без выгод)
+      "top.gg": Top.gg
+      "DBL": DBL
+
+    mes:
+      - "discord бот основанный на oneshot"
+      - "тестовый билд для The World Machine, не приглашайте этого бота если вы хотите The World Machine на вашем сервере"

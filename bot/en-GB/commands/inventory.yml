@@ -1,0 +1,97 @@
+commands:
+  options:
+    target-user:
+      # weblate-flags: max-length:32
+      name: target
+      # weblate-flags: max-length:100
+      description: "Person the inventory of which to check instead"
+  treasures:
+    _metadata:
+      # Note: this command is part of a subcommand. Will look like this in the Discord UI: "/inventory {name}"
+      # weblate-flags: max-length:32
+      name: treasures
+      # weblate-flags: max-length:100
+      description: View the treasures you have in your inventory (or see someone else's!)
+    minis:
+      public: "you can use {/inventory/treasures} with `public: True`, to show off your treasures in chat!"
+      where_to_get_treasure: you can get more treasure by trading in the shop or sending Nikogotchis to find some!
+
+    loading: "[ {loading, emoji} Loading {target_type, select, current {your} other {their}} treasures… ]"
+    empty: "[ {user_id, user, mention} doesn't have any treasure ]"
+    message: >
+      ### {user}'s treasures
+
+      {treasures}
+
+items:
+  entry_template: "**`{spacer}{amount, pretty_num}`** {icon} {name}"
+
+  treasures:
+    amber:
+      name: Glowing Amber
+      description: It has a three-leaf clover pattern.
+    bottle:
+      name: Bottle of Alcohol
+      description: A bottle of alcohol. Perfect for making molotov cocktails.
+    card:
+      name: '"Real" Library Card'
+      description: Niko's own photo is glued on.
+    clover:
+      name: Glowing Clover
+      description: A glowing clover.
+    die:
+      name: Glowing Die
+      description: A die with glowing dots.
+    journal:
+      name: Mysterious Journal
+      description: It's written in an unknown language.
+    pen:
+      name: Glowing Feather
+      description: A long and slender feather with glowing edges.
+    shirt:
+      name: Novelty Shirt
+      description: '"I herded rams and all I got was this lousy T-shirt!"'
+    sun:
+      name: The Sun
+      description: A large lightbulb. It's the sun.
+
+  pancakes:
+    normal:
+      name: Pancakes
+      description: |-
+        The bare minimum for feeding a Nikogotchi.
+        *+25 🥞*
+        *+1 ❤️*
+    golden:
+      name: Golden Pancakes
+      description: |-
+        Expensive, but worth it.
+        *MAX 🥞*
+        *+25 ❤️*
+    glitched:
+      name: "???"
+      description: |-
+        I don't even know how this got here.
+        *MAX 🥞*
+        *MAX ❤️*
+
+  capsules:
+    blue: Barrens Capsule
+    green: Glens Capsule
+    red: Refuge Capsule
+    yellow: Solstice Capsule
+
+  backgrounds:
+    Alula and Calamus: Alula and Calamus
+    Barrens: Barrens
+    Glens: Glens
+    Refuge: Refuge
+    Pancakes: Pancakes
+    Magpie: Magpie
+    Catwalk: Catwalk
+    Ruins: Ruins
+    Factory: Factory
+    Lamplighter: Lamplighter
+    Library: Library
+    The World Machine: The World Machine
+    The Author: The Author

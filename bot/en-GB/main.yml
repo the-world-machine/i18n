@@ -95,48 +95,6 @@ misc:
         "disinterest": No interest.
         # 💔
         "nope": Not at all.
-# ---------------------------------------------------------------
-
-about:
-  names:
-    shards: "Shards"
-    avg_ping: "Average ping"
-    latency: "Response latency"
-    commit_hash: "Commit hash"
-    server_count: "Server count"
-    user_installs: "User installs"
-    host: "Host"
-    music_listeners: "Music Listeners"
-    played_time: "Played for"
-    played_songs: "Played songs"
-    cpu_usg: "CPU usage"
-    mem_usg: "Memory usage"
-    uptime: "Uptime"
-
-  values:
-    time: "**{sec}** s."
-    percent: "**{percentage, number, percent}**"
-    failed_commit_hash: "N/A"
-
-  buttons:
-    dev server: Dev Server
-    community: Community
-    community server: Community Server
-    support: Support
-    support server: Support Server
-    translate: Translate
-    website: Website
-    weblate: Weblate
-    discord: Discord
-    vote: Vote
-    voting: Voting
-    "vote (no benefits)": Vote (no benefits)
-    "top.gg": Top.gg
-    "DBL": DBL
-
-  mes:
-    - "a discord bot based off oneshot"
-    - "a testing build for The World Machine, do not invite this bot if you want The World Machine in your server"
 
 # ---------------------------------------------------------------
 
@@ -685,17 +643,6 @@ interact:
           flags: wool
   modifiers:
     no_item: "{user_one} ran out of {item} to throw at {user_two}!"
-# ---------------------------------------------------------------
-
-treasure:
-  empty: "[ {user_id, user, mention} doesn't have any treasure ]"
-  item: "**`{spacer}{amount, pretty_num}`** {icon} {name}"
-  message: >
-    ### {user}'s treasures
-
-    {treasures}
-
-  tip: you can get more treasure by trading in the shop or sending Nikogotchis to find some!
 
 # ---------------------------------------------------------------
 

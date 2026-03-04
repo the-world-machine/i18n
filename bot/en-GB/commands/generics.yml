@@ -1,0 +1,7 @@
+options:
+  non-ephemeral:
+    # weblate-flags: max-length:32
+    name: public
+    # The "True" and "False" are translated in the discord UI. make sure to check that
+    # weblate-flags: max-length:100
+    description: "Whether you want the command to send messages visible for others in the channel (default is {default, select, true {True} false {False}})"
