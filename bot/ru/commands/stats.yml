@@ -13,10 +13,6 @@ commands:
         name: "Установки пользователя"
       host:
         name: "Хост"
-      cpu_usg:
-        name: "Нагрузка ЦП"
-      mem_usg:
-        name: "Загруженность ОЗУ"
       uptime:
         name: "Время работы"
 
@@ -42,5 +38,5 @@ commands:
       "DBL": DBL
 
     mes:
-      - "discord бот основанный на oneshot"
-      - "тестовый билд для The World Machine, не приглашайте этого бота если вы хотите The World Machine на вашем сервере"
+    - "discord бот основанный на oneshot"
+    - "тестовый билд для The World Machine, не приглашайте этого бота если вы хотите The World Machine на вашем сервере"

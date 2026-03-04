@@ -13,10 +13,6 @@ commands:
         name: "Кількість користувачів"
       host:
         name: "Хост"
-      cpu_usg:
-        name: "Використання ЦП"
-      mem_usg:
-        name: "Використання пам'яті"
       uptime:
         name: "Час безперервної роботи"
 
@@ -42,5 +38,5 @@ commands:
       "DBL": DBL
 
     mes:
-      - "discord бот натхненний OneShot-ом"
-      - "тестова версія боту The World Machine, не додавайте цього бота якщо ви хочете The World Machine на вашому сервері"
+    - "discord бот натхненний OneShot-ом"
+    - "тестова версія боту The World Machine, не додавайте цього бота якщо ви хочете The World Machine на вашому сервері"
