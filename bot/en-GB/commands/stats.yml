@@ -17,7 +17,7 @@ commands:
         name: "Response latency"
       version:
         name: Version
-        value: "{commit_hash, notempty, '#{commit_hash}, '}build from {last_updated_at, date, long}"
+        value: "{version_type, select, tag {{version}} commit {#{commit_hash}}}, build from {last_updated_at, date, long}"
       server_count:
         name: "Server count"
       user_installs:
