@@ -24,18 +24,12 @@ commands:
         name: "User installs"
       host:
         name: "Host"
-      cpu_usg:
-        # avgs is short for averages
-        name: "CPU usage avgs"
+      load:
+        # load as in how busy the system is
+        name: "Load"
         value: |-
-          `right now`: `{usage_now, number, percent}`
-          `1m/5m/15m`: `{usage_1m, number, percent}/{usage_5m, number, percent}/{usage_15m, number, percent}`
-      mem_usg:
-        # avgs is short for averages
-        name: "Memory usage avgs"
-        value: |-
-          `right now`: `{usage_now, number, percent}`
-          `1m/5m/15m`: `{usage_1m, number, percent}/{usage_5m, number, percent}/{usage_15m, number, percent}`
+          CPU - {cpu_load, number, percent}
+          RAM - {mem_load, number, percent}
       uptime:
         name: "Uptime"
 
