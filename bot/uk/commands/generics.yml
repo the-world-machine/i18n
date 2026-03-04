@@ -1,4 +1,4 @@
 options:
   non-ephemeral:
     name: публічно
-    description: 'Чи хочете ви щоб команда відповіла повідомленням видимим для всіх у каналі (за замовчуванням: {default, select, true {True} false {False}})'
+    description: 'Чи хочете ви щоб відповідь команди була видима для всіх (за замовчуванням: {default, select, true {True} false {False}})'
