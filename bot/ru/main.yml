@@ -76,41 +76,7 @@ misc:
         "nope": Вообще нет. # 💔
 # ---------------------------------------------------------------
 about:
-  names:
-    shards: "Шарды"
-    avg_ping: "Средний пинг"
-    latency: "Задержка ответа"
-    commit_hash: "Хеш коммита"
-    server_count: "Количество серверов"
-    user_installs: "Установки пользователя"
-    host: "Хост"
-    music_listeners: "Слушателей музыки"
-    played_time: "Играет"
-    played_songs: "Проиграно песен"
-    cpu_usg: "Нагрузка ЦП"
-    mem_usg: "Загруженность ОЗУ"
-    uptime: "Время работы"
-  values:
-    time: "**{sec}** сек."
-    percent: "**{percentage, number, percent}**"
-    failed_commit_hash: "N/A"
-  buttons:
-    dev server: Сервер Разработки
-    community: Сообщество
-    community server: Сервер Сообщества
-    support: Поддержка
-    support server: Сервер Поддержки
-    translate: Перевести
-    website: Сайт
-    weblate: Weblate
-    discord: Дискорд
-    vote: Проголосовать
-    voting: Голосование
-    "vote (no benefits)": Проголосовать (без выгод)
-    "top.gg": Top.gg
-    "DBL": DBL # discord bot list
   mes:
-  - "discord бот основанный на oneshot"
   - "тестовый билд для The World Machine, не приглашайте этого бота если вы хотите The World Machine на вашем сервере"
 # ---------------------------------------------------------------
 wool:
@@ -607,15 +573,6 @@ interact:
   modifiers:
     no_item: "У {user_one} кончились все «{item}» для кидания в {user_two}!"
 # ---------------------------------------------------------------
-treasure:
-  message: >
-    ### сокровища {user}
-
-    {treasures}
-  tip: вы можете получить больше сокровищ торговлей в магазине или отправкой Никоготчи на поиски таковых! # tip:
-# ---------------------------------------------------------------
-  empty: '[ У {user_id, user, mention} нет ни единого сокровища ]'
-  item: '**`{spacer}{amount, pretty_num}`** {icon} {name}'
 nikogotchi:
   owned: Принадлежит {owner_id, user, displayname+(@username)}
   invalid: "[ У вас нет Никоготчи! ]"

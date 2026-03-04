@@ -54,30 +54,6 @@ misc:
 # ---------------------------------------------------------------
 
 about:
-  names:
-    shards: "Scherben"
-    avg_ping: "Durchschnittlich ping"
-    commit_hash: "Commit hash"
-    server_count: "Server zahl"
-    user_installs: "User installiert"
-    host: "Gastgeber"
-    music_listeners: "Musik Mithörer"
-    played_time: "Gespielt für"
-    played_songs: "Gespielte songs"
-    cpu_usg: "CPU Verwendung"
-    mem_usg: "Memory Verwendung"
-    uptime: "Betriebzeit"
-
-  values:
-    time: "**{sec}** sek."
-    percent: "**{percentage, number, percent}**"
-    failed_commit_hash: "N/A"
-
-  buttons:
-    support: Support
-    support server: Support Server
-    website: Website
-    weblate: Weblate
   mes: []
 wool:
   balance:
@@ -461,15 +437,6 @@ interact:
     - phrases:
       - "{user_one} wirft eine Molotov Cocktail in Richtung {user_two} ‼️"
     - phrases: []
-treasure:
-  message: >
-    ### {user}'s Schätze
-
-    {treasures}
-  tip: du kannst mehr Schätze bekommen in den Laden ober mit Nikogotchis!
-
-# ---------------------------------------------------------------
-
 nikogotchi:
   owned: "Besitzt von {owner_id, user, displayname+(@username)}"
   invalid: "[ Du hast kein Nikogotchi! ]"
