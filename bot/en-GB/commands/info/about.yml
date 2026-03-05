@@ -1,0 +1,57 @@
+_metadata:
+  # weblate-flags: max-length:32, ignore-same
+  name: about
+  # weblate-flags: max-length:100
+  description: "Information about the bot (ping, stats)"
+
+loading: "[ {loading, emoji} Measuring latency… ]"
+
+fields:
+  shards:
+    name: "Shards"
+  avg_ping:
+    name: "Average ping"
+  latency:
+    name: "Response latency"
+  version:
+    name: Version
+    value: "{version_type, select, tag {{version}} commit {#{commit_hash}}}, last updated {last_updated_at, date, relative}"
+  server_count:
+    name: "Server count"
+  user_installs:
+    name: "User installs"
+  host:
+    name: "Host"
+  load:
+    # load as in how busy the system is
+    name: "Load"
+    value: |-
+      CPU - {cpu_load, number, percent}
+      RAM - {mem_load, number, percent}
+  uptime:
+    name: "Uptime"
+
+generic_values:
+  time: "**{sec}** s."
+  percent: "**{percentage, number, percent}**"
+  failed_commit_hash: "N/A"
+
+buttons:
+  dev server: Dev Server
+  community: Community
+  community server: Community Server
+  support: Support
+  support server: Support Server
+  translate: Translate
+  website: Website
+  weblate: Weblate
+  discord: Discord
+  vote: Vote
+  voting: Voting
+  "vote (no benefits)": Vote (no benefits)
+  "top.gg": Top.gg
+  "DBL": DBL
+
+mes:
+  - "a discord bot based off oneshot"
+  - "a testing build for The World Machine, do not invite this bot if you want The World Machine in your server"
