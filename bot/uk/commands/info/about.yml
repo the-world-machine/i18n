@@ -1,0 +1,40 @@
+fields:
+  shards:
+    name: "Шарди"
+  avg_ping:
+    name: "Середній пінг"
+  latency:
+    name: "Задержка відповіді"
+  server_count:
+    name: "Кількість серверів"
+  user_installs:
+    name: "Кількість користувачів"
+  host:
+    name: "Хост"
+  uptime:
+    name: "Час безперервної роботи"
+
+generic_values:
+  time: "**{sec}** с."
+  percent: "**{percentage, number, percent}**"
+  failed_commit_hash: "N/A"
+
+buttons:
+  dev server: Дев Сервер
+  community: Суспільство
+  community server: Сервер суспільства
+  support: Підтримка
+  support server: Сервер підтримки
+  translate: Переклад
+  website: Сайт
+  weblate: Weblate
+  discord: Discord
+  vote: Голосувати
+  voting: Голосування
+  "vote (no benefits)": Голосувати (переваг нема)
+  "top.gg": Top.gg
+  "DBL": DBL
+
+mes:
+  - "discord бот натхненний OneShot-ом"
+  - "тестова версія боту The World Machine, не додавайте цього бота якщо ви хочете The World Machine на вашому сервері"
