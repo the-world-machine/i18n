@@ -78,7 +78,7 @@ contributors:
   contrib:
     layout:
       full: |-
-        >>> ## {name}{roles, notempty, ' - {roles}'}{country_flags, notempty, ' {country_flags}'}
+        >>> ## {name}{country_flags, notempty, ' {country_flags}'}{roles, notempty, ' - {roles}'}
         {links}
       # used for translators / credits
       simple: "- {country_flags, notempty, '{country_flags}: '}{name} ({links})"
