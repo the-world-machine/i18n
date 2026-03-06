@@ -33,8 +33,6 @@ buttons:
   voting: Голосование
   "vote (no benefits)": Проголосовать (без выгод)
   "top.gg": Top.gg
-  "DBL": DBL
-
 mes:
-  - "discord бот основанный на oneshot"
-  - "тестовый билд для The World Machine, не приглашайте этого бота если вы хотите The World Machine на вашем сервере"
+- "discord бот основанный на oneshot"
+- "тестовый билд для The World Machine, не приглашайте этого бота если вы хотите The World Machine на вашем сервере"
