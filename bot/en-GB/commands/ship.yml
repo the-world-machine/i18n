@@ -1,0 +1,20 @@
+_metadata:
+  name: ship
+  description: Ship two people together
+errors:
+  idk: "[ I dont know how to handle that… ]"
+  failed_mention: "[ Could you type out their names instead? ]"
+  cant_find_one: "[ Could not find entity one ('who' argument) ]"
+  cant_find_two: "[ Could not find entity two ('whomst' argument) ]"
+  hugs_you: "[ Do you need a hug? ]"
+compatibility:
+  description: |
+    {who} & {whomst} have a compatibility of:
+    # {emoji} **{percentage}%** {emoji}
+  footer:
+    "perfect": Perfect compatibility.
+    "love": In love.
+    "interest": There's interest!
+    "potential": Potentially?
+    "disinterest": No interest.
+    "nope": Not at all.

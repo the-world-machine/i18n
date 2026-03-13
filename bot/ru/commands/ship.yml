@@ -1,0 +1,17 @@
+errors:
+  idk: "[ Я без понятия как с этим работать... ]"
+  failed_mention: "[ Можете ли вы ввести в место этого их имена? ]"
+  cant_find_one: "[ Не удалось найти первую сущность (аргумент «who») ]"
+  cant_find_two: "[ Не удалось найти вторую сущность (аргумент «whomst») ]"
+  hugs_you: "[ Тебя нужно обнять? ]"
+compatibility:
+  description: |
+    {who} & {whomst} имеют совместимость в:
+    # {emoji} **{percentage}%** {emoji}
+  footer:
+    "perfect": Идеальная совместимость.
+    "love": Любовь.
+    "interest": Что-то есть!
+    "potential": Вероятно?
+    "disinterest": Нет заинтересованности.
+    "nope": Вообще нет.

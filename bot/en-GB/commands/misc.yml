@@ -1,0 +1,25 @@
+commands:
+  random_wikipedia:
+    _metadata:
+      name: random_wikipedia
+      description: A random wikipedia article
+    wikipedia: "[ [Here]({link}) is your random wikipedia article. It's about {title}… I think… ]"
+  amogus:
+    _metadata:
+      name: amogus
+      description: bogus
+  python:
+    _metadata:
+      name: python
+      description: rewrites the bot in python
+  cat:
+    _metadata:
+      name: cat
+      description: Show a picture of a kitty or a cat or a Catto
+    miaou:
+      title: "You found…"
+      finding:
+        noik: Niko!
+        note: a 1% chance! Lucky!
+        cat: a cat!
+        footer: ~

@@ -1,0 +1,17 @@
+errors:
+  idk: "[ Я не знаю як це розібрати… ]"
+  failed_mention: "[ Може напишеш їх імена замість цього? ]"
+  cant_find_one: "[ Не знайшов першу сутність ('who' argument) ]"
+  cant_find_two: "[ Не знайшов другу сутність ('whomst' argument) ]"
+  hugs_you: "[ Хочеш обійму? ]"
+compatibility:
+  description: |
+    {who} та {whomst} мають сумісність:
+    # {emoji} **{percentage}%** {emoji}
+  footer:
+    "perfect": Ідеальна сумісність.
+    "love": Закохані.
+    "interest": Є інтерес!
+    "potential": Імовірно?
+    "disinterest": Нема інтересу.
+    "nope": Нє-а.

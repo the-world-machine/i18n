@@ -1,0 +1,3 @@
+title: Кидаємо {amount}d{sides}…
+desc: "... отримали {result, pretty_num}."
+multi: "У сумі: **{total, pretty_num}**."

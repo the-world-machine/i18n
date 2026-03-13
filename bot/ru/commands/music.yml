@@ -1,8 +1,8 @@
 commands:
-	play:
-		loading:
-			search: "[ {loading, emoji} Поиск... ]"
-      
+  play:
+    loading:
+      search: "[ {loading, emoji} Поиск... ]"
+
   file:
     loading:
       file: "[ {loading, emoji} Загрузка вашего файла... ]"

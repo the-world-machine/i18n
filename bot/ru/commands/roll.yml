@@ -1,0 +1,3 @@
+title: Бросаем {amount}d{sides}…
+desc: "...выпало {result, pretty_num}."
+multi: "Суммарно **{total}**."

@@ -45,51 +45,6 @@ generic:
 
 # ---------------------------------------------------------------
 
-misc:
-  miaou:
-    title: "You found…"
-    finding:
-      noik: Niko!
-      note: a 1% chance! Lucky!
-      cat: a cat!
-
-  roll:
-    title: Rolling {amount}d{sides}…
-    desc: "…got {result, pretty_num}."
-    # adds on when more than 1 dice
-    multi: "Totaling at **{total, pretty_num}**."
-
-  welcome:
-    placeholder_text: "[ Welcome \\c[#c386ff]{user_name}\\c to \\c[#c386ff]{server_name}\\c! This server now has {member_count, plural, \n  one {# person} \n  other {# people}\n} here! ]"
-
-  wikipedia: "[ [Here]({link}) is your random wikipedia article. It's about {title}… I think… ]"
-  ship:
-    errors:
-      idk: "[ I dont know how to handle that… ]"
-      failed_mention: "[ Could you type out their names instead? ]"
-      cant_find_one: "[ Could not find entity one ('who' argument) ]"
-      cant_find_two: "[ Could not find entity two ('whomst' argument) ]"
-      hugs_you: "[ Do you need a hug? ]"
-    compatibility:
-      description: |
-        {who} & {whomst} have a compatibility of:
-        # {emoji} **{percentage}%** {emoji}
-      footer:
-        # 💛
-        "perfect": Perfect compatibility.
-        # 💖
-        "love": In love.
-        # ❤
-        "interest": There's interest!
-        # ❓
-        "potential": Potentially?
-        # ❌
-        "disinterest": No interest.
-        # 💔
-        "nope": Not at all.
-
-# ---------------------------------------------------------------
-
 wool:
   balance:
     you:

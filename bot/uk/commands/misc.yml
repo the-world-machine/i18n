@@ -1,0 +1,10 @@
+commands:
+  random_wikipedia:
+    wikipedia: "[ [Ось]({link}) що знайшлось… Це «{title}» ]"
+  cat:
+    miaou:
+      title: "Ви знайшли…"
+      finding:
+        noik: Ніко!
+        cat: кота!
+        note: 1% шанс! Пофортунило!

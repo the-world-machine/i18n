@@ -1,0 +1,6 @@
+_metadata:
+  name: roll
+  description: Roll an imaginary dice
+title: Rolling {amount}d{sides}…
+desc: "…got {result, pretty_num}."
+multi: "Totaling at **{total, pretty_num}**."
