@@ -2,11 +2,20 @@ commands:
   treasures:
     minis:
       where_to_get_treasure: "вы можете получить больше сокровищ торговлей в магазине или отправкой Никоготчи на поиски таковых!"
+      public: 'вы можете использовать {/inventory/treasures} с аргументом «public: True» чтобы показать свои сокровища в чате!'
     empty: "[ У {user_id, user, mention} нет ни единого сокровища ]"
     message: |
       ### сокровища {user}
       {treasures}
 
+    _metadata:
+      name: сокровища
+      description: Отобразить сокровища из вашего (или чужого!) инвентаря
+    loading: '[ {loading, emoji} Загрузка {target_type, select, current {ваши} other {чужие}} сокровища... ]'
+  options:
+    target-user:
+      name: цель
+      description: Лицо, у которого проверить инвентарь вместо этого
 items:
   entry_template: "**`{spacer}{amount, pretty_num}`** {icon} {name}"
 
@@ -42,19 +51,23 @@ items:
   pancakes:
     normal:
       name: Блинчики
-      description: |
+      description: |-
         Базовый минимум для кормления Никоготчи.
         *+25 🥞*
         *+1 ❤️*
     golden:
       name: Золотые Блинчики
-      description: |
+      description: |-
         Дорогущие, но того стоящие.
-        *MAX 🥞*
+        *МАКС. 🥞*
         *+25 ❤️*
     glitched:
       name: "???"
-      description: Я без понятия, как это здесь оказалось.
+      description: |-
+        Я без понятия, как это здесь оказалось.
+        *МАКС. 🥞*
+        *МАКС. ❤️*
+
 
   capsules:
     blue: Капсула Пустошь
