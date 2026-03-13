@@ -1,0 +1,65 @@
+_metadata:
+  name: music
+  description: Listen to music using The World Machine!
+
+commands:
+  options:
+    song:
+      name: song
+      description: Input a search term, or paste a link.
+    file:
+      name: file
+      description: Input a file to play.
+    position:
+      name: position
+      description: Which song to jump to
+    remove-position:
+      name: position
+      description: The position of the song you want to remove.
+    mine:
+      name: mine
+      description: Whether you want to browse only your songs.
+
+  play:
+    _metadata:
+      name: play
+      description: Play a song!
+    loading:
+      search: "[ {loading, emoji} Searching… ]"
+
+  file:
+    _metadata:
+      name: file
+      description: Play a file!
+    loading:
+      file: "[ {loading, emoji} Loading your file… ]"
+
+  stop:
+    _metadata:
+      name: stop
+      description: Stop the music!
+
+  jump:
+    _metadata:
+      name: jump
+      description: Go to a specific song in the queue!
+
+  remove:
+    _metadata:
+      name: remove
+      description: Remove a song from the queue.
+
+  remove_last:
+    _metadata:
+      name: remove_last
+      description: Remove the most recent song from the queue added by you.
+
+  get_lyrics:
+    _metadata:
+      name: get_lyrics
+      description: Get the lyrics of the current song playing.
+
+  fetch_player:
+    _metadata:
+      name: fetch_player
+      description: Get the player.

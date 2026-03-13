@@ -1,0 +1,7 @@
+commands:
+  file:
+    loading:
+      file: "[ {loading, emoji} Завантажую ваш файл... ]"
+	play:
+		loading:
+			search: "[ {loading, emoji} Шукаю... ]"

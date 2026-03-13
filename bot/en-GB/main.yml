@@ -7,7 +7,6 @@ generic:
     checking_developer_status: "[ {loading, emoji} Checking developer status… ]"
     failed: "[ {sleep, emoji} Loading… failed ]"
     nikogotchi: "[ {loading, emoji} Loading Nikogotchi… ]"
-    treasures: "[ {loading, emoji} Loading their treasures… ]"
     shop: "[ {loading, emoji} Loading Magpie's shop… ]"
   errors:
     not_a_developer: "[ Sorry, you are not one of my developers, can't letcha in ]"
@@ -43,13 +42,6 @@ generic:
   responses:
     timeout:
       yn: "[ You took too long to respond ]"
-
-# ---------------------------------------------------------------
-
-music:
-  loading:
-    search: "[ {loading, emoji} Searching… ]"
-    file: "[ {loading, emoji} Loading your file… ]"
 
 # ---------------------------------------------------------------
 
