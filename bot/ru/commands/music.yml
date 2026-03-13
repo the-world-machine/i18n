@@ -3,6 +3,55 @@ commands:
     loading:
       search: "[ {loading, emoji} Поиск... ]"
 
+    _metadata:
+      name: проиграть
+      description: Проиграть песню!
   file:
     loading:
       file: "[ {loading, emoji} Загрузка вашего файла... ]"
+    _metadata:
+      name: файл
+      description: Проиграть файл!
+  options:
+    song:
+      name: песня
+      description: Введите запрос или вставьте ссылку.
+    file:
+      name: файл
+      description: Вставьте файл для проигрывания.
+    position:
+      name: позиция
+      description: На какую песню переступить
+    remove-position:
+      name: позиция
+      description: Позиция песни, которую вы хотите убрать.
+    mine:
+      name: мои
+      description: Хотите ли просматривать исключительно свои песни.
+  stop:
+    _metadata:
+      name: стоп
+      description: Остановить музыку!
+  jump:
+    _metadata:
+      name: перепрыгнуть на
+      description: Перейти на конкретную песню в очереди!
+  remove:
+    _metadata:
+      name: убрать
+      description: Убрать песню из очереди.
+  remove_last:
+    _metadata:
+      name: убрать_последнюю
+      description: Убрать последнюю добавленную вами песню из очереди.
+  get_lyrics:
+    _metadata:
+      name: слова_песни
+      description: Отобразить текст текущей песни.
+  fetch_player:
+    _metadata:
+      name: получить_проигрыватель
+      description: Заполучить проигрыватель..
+_metadata:
+  name: музыка
+  description: Использовать The World Machine в качестве проигрывателя!
