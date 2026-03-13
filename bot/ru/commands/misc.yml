@@ -1,6 +1,9 @@
 commands:
   random_wikipedia:
     wikipedia: "[ {Вот}({link}) случайная статья из Википедии. Кажется, она про {title}… ]"
+    _metadata:
+      name: случайная_статья
+      description: Случайная статья из Википедии
   cat:
     miaou:
       title: "Вы нашли…"
@@ -8,3 +11,14 @@ commands:
         noik: Нико!
         note: Шанс 1 на 100! Повезло!
         cat: кота!
+    _metadata:
+      name: кот
+      description: Показать картинку котёнка, кота или котейки
+  amogus:
+    _metadata:
+      name: амогус
+      description: богус
+  python:
+    _metadata:
+      name: пайтон
+      description: переписывает бота на пайтоне
