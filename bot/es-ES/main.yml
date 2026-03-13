@@ -1,7 +1,4 @@
-music:
-  loading:
-    search: '[ {loading, emoji} Buscando… ]'
-    file: '[ {loading, emoji} Cargando tu archivo… ]'
+music: {}
 misc:
   miaou:
     title: Encontraste…

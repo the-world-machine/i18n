@@ -27,13 +27,7 @@ generic:
 
 # ---------------------------------------------------------------
 
-music:
-  loading:
-    search: "[ {loading, emoji} Suchen… ]"
-    file: "[ {loading, emoji} Lade deine Daten… ]"
-
-# ---------------------------------------------------------------
-
+music: {}
 misc:
   miaou:
     title: "Du hast gefunden…"

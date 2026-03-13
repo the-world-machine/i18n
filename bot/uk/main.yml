@@ -6,7 +6,6 @@ generic:
     evaluating: '[ {loading, emoji} Виконую… ]'
     checking_developer_status: '[ {loading, emoji} Перевіряю, чи є ви розробником… ]'
     failed: '[ {sleep, emoji} Завантаження… провалилося ]'
-    treasures: '[ {loading, emoji} Завантаження їхніх скарбів… ]'
   command_cooldown: "[ Будь ласка, не спамте цю команду. Ви зможете використати її {timestamp_relative}. ]"
 
   buttons:
@@ -46,13 +45,7 @@ generic:
 
 # ---------------------------------------------------------------
 
-music:
-  loading:
-    search: "[ {loading, emoji} Шукаю... ]"
-    file: "[ Завантажую ваш файл... {loading, emoji} ]"
-
-# ---------------------------------------------------------------
-
+music: {}
 misc:
   miaou:
     title: "Ви знайшли…"
