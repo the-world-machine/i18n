@@ -1,17 +1,5 @@
 misc:
-  miaou:
-    title: Encontraste…
-    finding:
-      noik: ¡Niko!
-      note: ¡una probabilidad del 1%! ¡Que suerte!
-      cat: ¡un gato!
-  roll:
-    title: Tirando dado de {amount}d{sides}…
-    desc: …salió {result, pretty_num}.
-    multi: Para un total de **{total, pretty_num}**.
-  welcome:
-    placeholder_text: "[ ¡Bienvenido a {server_name}, {user_name}! ¡Ahora hay {member_count, pretty_num} usuarios! ]"
-  wikipedia: "[ [Aquí]({link}) tienes tu artículo aleatorio de wikipedia. Es sobre {title}… Creo… ]"
+  miaou: {}
 wool:
   balance:
     you:
@@ -118,10 +106,10 @@ profile:
 explode:
   dialogue:
     why:
-      - "[ ¿Por qué? ]"
-      - "[ Tengo que limpiar cada vez que alguien hace esto. ]"
-      - "[ Wow... ¿en serio? ]"
-      - "[  ]"
+    - "[ ¿Por qué? ]"
+    - "[ Tengo que limpiar cada vez que alguien hace esto. ]"
+    - "[ Wow... ¿en serio? ]"
+    - "[  ]"
     nineninenineninenine: |
       [ Eso es suficiente. ¿¡Cómo `#######` llegaste hasta este número!? ¿Entiendes cuántos mundos has destruído? ]
 
@@ -137,9 +125,9 @@ shop:
     owned: Ya lo tienes
   main_title: ¡Bienvenido!
   motds:
-    - My poor trinket and treasures were washed away... perhaps you could find more for me?
-    - My poor trinket and treasures were washed away... perhaps you could find more for me?
-    - My poor trinket and treasures were washed away... perhaps you could find more for me?
+  - My poor trinket and treasures were washed away... perhaps you could find more for me?
+  - My poor trinket and treasures were washed away... perhaps you could find more for me?
+  - My poor trinket and treasures were washed away... perhaps you could find more for me?
   treasures: {}
 items:
   treasures:
@@ -166,20 +154,20 @@ nikogotchi:
   dialogue:
     niko:
       fed:
-        -
-        - PANCAKES!
-        - "PANCAKES!"
+      - 
+      - PANCAKES!
+      - "PANCAKES!"
       pet: []
       cleaned: []
     nikonlanger:
       fed: []
       pet:
-        - ","
+      - ","
       cleaned: []
     prophet_bot:
       fed: []
       pet:
-        - "[…]"
+      - "[…]"
       cleaned: []
     silver:
       fed: []
@@ -201,7 +189,7 @@ nikogotchi:
       fed: []
       pet: []
       cleaned:
-        - Cleanliness is... important. Thanks.
+      - Cleanliness is... important. Thanks.
     ling:
       fed: []
       pet: []
@@ -216,8 +204,8 @@ nikogotchi:
       cleaned: []
     george:
       fed:
-        -
-        - "Oh, pancakes... I suppose they're alright. Nothing really matters anyway."
+      - 
+      - "Oh, pancakes... I suppose they're alright. Nothing really matters anyway."
       pet: []
       cleaned: []
     rue:
