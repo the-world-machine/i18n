@@ -1,0 +1,136 @@
+OneShot:
+  _description: Официальные OneShot лица, взятые из файлов игры
+  The World Machine:
+    _name: Мировая Машина
+    _description: мир. машина ваншот
+    Normal:
+      _name: Обыкновенный
+    Speak:
+      _name: Говорить
+    Ah:
+      _name: Ах
+    Hm:
+      _name: Хмм
+    Alright:
+      _name: Хорошо
+    Looking Left:
+      _name: Взгляд влево
+    Looking Right:
+      _name: Взгляд вправо
+    Yawn:
+      _name: Зевок
+    Surprise:
+      _name: Сюрприз
+    What,:
+      _name: Что,
+    Concerned:
+      _name: Обеспокоенность
+    WTF:
+      _name: ЧЗХ
+    WTFear:
+      _name: ЧЗХоррор
+    Upset left:
+      _name: Расстроенный взгляд влево
+    Upset meow:
+      _name: Расстроенный мяу
+    Upset right:
+      _name: Расстроенный взгляд вправо
+    Distressed:
+      _name: Огорчённый
+    Distressed down:
+      _name: Огорчённый взгляд вниз
+    Distressed talk:
+      _name: Огорчённый говорящий
+    Distressed meow:
+      _name: Огорчённый мяу
+    Distressed less sad:
+      _name: Огорчённый, но менее грустный
+    Distressed sad:
+      _name: Огорчённый грустный
+    Distressed cry:
+      _name: Огорчённый плачущий
+    Eyes closed:
+      _name: С закрытыми глазами
+    Eyes closed speak:
+      _name: Говорящий с закрытыми глазами
+    Smile:
+      _name: Улыбающийся
+    Gas mask:
+      _name: Противогаз
+    Huh:
+      _name: Чё
+    Shock:
+      _name: В шоке
+    Pancakes:
+      _name: Блинчики
+    83c:
+      _name: =◑w◑∩=
+  Niko:
+    _name: Нико
+    _description: нико ваншот
+    Normal:
+      _name: Обыкновенное
+    Speak:
+      _name: Говорящий
+    Ah:
+      _name: Ах
+    Hm:
+      _name: Хмм
+    Alright:
+      _name: Хорошо
+    Looking Left:
+      _name: Взгляд Влево
+    Looking Right:
+      _name: Взгляд Вправо
+    Yawn:
+      _name: Зевок
+    Surprise:
+      _name: Сюрприз
+    What,:
+      _name: Что,
+    Concerned:
+      _name: Обеспокоенный
+    WTF:
+      _name: ЧЗХ
+    WTFear:
+      _name: ЧЗХоррор
+    Upset left:
+      _name: Расстроенный взгляд влево
+    Upset meow:
+      _name: Расстроенный мяу
+    Upset right:
+      _name: Расстроенный взгляд вправо
+    Distressed:
+      _name: Огорчённый
+    Distressed down:
+      _name: Огорчённый взгляд вниз
+    Distressed talk:
+      _name: Огорчённый говорящий
+    Distressed meow:
+      _name: Огорчённый мяу
+    Distressed less sad:
+      _name: Огорчённый, менее грустный
+    Distressed sad:
+      _name: Огорчённый грустный
+    Distressed cry:
+      _name: Огорчённый плачущий
+    Eyes closed:
+      _name: С закрытыми глазами
+    Eyes closed speak:
+      _name: Говорящий с закрытыми глазами
+    Smile:
+      _name: Улыбающийся
+    Gas mask:
+      _name: Противогаз
+    Huh:
+      _name: Чё
+    Shock:
+      _name: В шоке
+    Pancakes:
+      _name: Блинчики
+    Crumbs:
+      _name: Обляпанный крошками
+    83c:
+      _name: =◑w◑∩=
+    af:
+      _name: af.png
