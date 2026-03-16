@@ -941,11 +941,11 @@ textbox:
 
   facepic_picker:
     layout: |-
-      ### {location, select, root {Select a category} other {{name}}}
+      ### {location, select, root {Select a category} other {{name}{expression, notempty, ' / {expression}'}}}
       {description, notempty, '{description}'}
 
       {credits, notempty, '**Credits:** {credits}'}
-      -# Picking a face for frame #{frame_index}
+      -# targeting frame #{frame_index}
 
   frame_position: "editing frame {current, pretty_num} of {total, pretty_num} total"
 

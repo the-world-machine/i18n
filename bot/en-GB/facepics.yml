@@ -745,11 +745,13 @@ Other:
     _credits: "[Urbanshade](https://urbanshade.org/wiki/File:NaviQuoteIcon.png)"
   Raised Eyebrow Emoji:
     _name: Raised Eyebrow Emoji
-    _description: "i don tknow why this is here ask axii"
+    _description: "the winner"
     # weblate-flags: read-only
     _credits: "[Skype](https://emojipedia.org/skype/1.0/thinking-face)"
   Empty:
     _name: Empty
     # "text padded" refers to the Textbox Editor, it has a text input which will break lines whenever it reaches the corner of the Facepic (will go under it if it doesn't)
-    _description: "lost media (this keeps the text padded, unlike having no facepic at all)"
+    _description: |-
+      lost media
+      -# this keeps the text padded, unlike having no facepic at all
     _credits: "who?"
