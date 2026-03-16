@@ -411,11 +411,11 @@ OneShot:
       Look up:
         _name: Взгляд вверх
       Rip:
-        _name: Кердык
+        _name: Кирдык
       Rip0:
-        _name: Кердык0
+        _name: Кирдык0
       Rip2:
-        _name: Кердык2
+        _name: Кирдык2
       Squares:
         _name: Квадраты
       Too Many Squares:
@@ -452,3 +452,181 @@ OneShot:
         _name: Вправо центр
       Right-right:
         _name: Вправо вправо
+      Top-left:
+        _name: Прямо влево
+      Bottom-right:
+        _name: Вниз вправо
+    Rowbot:
+      _name: Веслобот
+      _description: личный водитель нико
+    Offbot:
+      _name: Выкл-бот
+      _description: ржавый личный водитель нико
+    Blue Gatekeeper:
+      _name: Синий Сторож
+      _description: '#0000ff сторож'
+    Green Gatekeeper:
+      _name: Зелёный Сторож
+      _description: '#00ff00 сторож'
+    Red Gatekeeper:
+      _name: Красный Сторож
+      _description: '#ff0000 сторож'
+    Bookbot:
+      _name: Бот-библиотекарь
+      _description: ресепшн и охрана библиотеки
+    Kelvin:
+      _name: Кельвин
+      _description: кошачий магнит
+  Shepherd:
+    _name: Пастушка
+    _description: стала миллионером, инвестируя одной из первых в кОЗУ
+  Watcher:
+    _name: Часовой
+    _description: женщина-часы
+  Mason:
+    _name: Мейсон
+    _description: чувак-растенье
+OneShot (fan):
+  _name: OneShot (фан.)
+  _description: Неофициальные картинки лиц модификаций OneShot и/или свои собственные, добавленные людьми, которые используют бота, или же разработчиками бота с позволения авторов.
+  _credits: Различные Художники и т.п.
+  The World Machine:
+    _name: Мировая Машина
+    _credits: Большая часть из них это [OSCF](https://github.com/MaxBuster380/OneShot-Color-Filter)-обработанные картинки Нико с некоторыми изменениями в GIMP'е
+    Crumbs:
+      _name: Обляпанный крошками
+    Popcorn:
+      _name: Попкорн
+    Wink:
+      _name: Подмигивание
+    Fed Up:
+      _name: Сытый по горло
+    Blush:
+      _name: Смущённый
+    Shrug:
+      _name: Пожимание плечами
+    Jolly:
+      _name: Праздничный
+      _description: с twm'ждеством (самое время)
+      Normal:
+        _name: Обычный
+      :3:
+        _name: ◑w◑
+      83c:
+        _name: =◑w◑∩=
+      snowballed:
+        _name: в снегу
+  Niko:
+    _name: Нико
+    _credits: Различные художники (если вы знаете, кто автор тех, что не окредитованы, пожалуйста, сообщите нам в нашем сервере сообщества)
+    Popcorn:
+      _name: Попкорн
+    Wink:
+      _name: Подмигивание
+    Fed Up:
+      _name: Сытый по горло
+    Blush:
+      _name: Смущённый
+    Shrug:
+      _name: Пожимание плечами
+  Kip Silverpoint:
+    _name: Кип Сильверпоинт
+    _credits: Различные художники (если вы знаете, кто автор тех, что не окредитованы, пожалуйста, сообщите нам в нашем сервере сообщества)
+    Looking Left:
+      _name: Взгляд влево
+      _credits: простецкий эдит в GIMP от [meqativ](https://meqativ.github.io/home)
+    Looking Right:
+      _name: Взгляд вправо
+      _credits: простецкий эдит в GIMP от [meqativ](https://meqativ.github.io/home)
+    Pensive:
+      _name: Задумчивая
+    cool.:
+      _name: круто.
+  Plight:
+    _name: Фонарщик
+    _credits: Различные художники (если вы знаете, кто автор тех, что не окредитованы, пожалуйста, сообщите нам в нашем сервере сообщества)
+    Sip:
+      _name: Пьёт
+  Nikonlanger:
+    _name: Никонлангер
+    _description: украинский лингвист-языкотворец
+    Normal:
+      _name: Обычный взгляд
+    Annoyed:
+      _name: Раздражённый взгляд
+    Angrymeow:
+      _name: Зломяу
+    Happy:
+      _name: Радостный взгляд
+    Oho:
+      _name: «Идея!»
+    Blush:
+      _name: Смущённый взгляд
+    What:
+      _name: Чего
+    Why:
+      _name: Зачем
+    Smug:
+      _name: Самодовольный взгляд
+    Sleepy:
+      _name: Сонный взгляд
+    Tired:
+      _name: Уставший взгляд
+    Concerned:
+      _name: Обеспокоенный взгляд
+    Huh:
+      _name: Чё
+    Distressed:
+      _name: Огорчённый взгляд
+    What the hell:
+      _name: Какого чёрта
+    Amaze:
+      _name: Восторг
+    Unamused:
+      _name: Угрюмый взгляд
+    Scared:
+      _name: В ужасе
+    Crying:
+      _name: Плачет
+    You Should:
+      _name: «Ты должен немедленно само-»
+    Wave:
+      _name: Машет
+    Blanket:
+      _name: Одеялко
+    Blob:
+      _name: Пузырь
+    Flag:
+      _name: Флаг
+      _credits: '[(Randall) Radioactive Radiant](https://x.com/radiorad1)'
+    Cookie:
+      _name: Печенька
+    Jii:
+      _credits: '[(Randall) Radioactive Radiant](https://x.com/radiorad1)'
+      _name: Дзи-и
+    Stare:
+      _name: Прямой взгляд
+    Plush:
+      _name: Плюш
+    Plush Looking Right:
+      _name: Плюш (Взгляд вправо)
+    Amazed Uncanny:
+      _name: Восторг (Сверхъестественный)
+Other:
+  _name: Другое
+  _description: Ни к чему не относящиеся другие картинки
+  _credits: Различные Художники и т.п.
+  Your Avatar:
+    _name: Ваш Аватар
+    _description: Картинка из вашего профиля, может даже картинка, которая вам принадлежит и у вас где-то в профиле
+    _credits: Вы (элемент выбора)
+  NAVI:
+    _name: NAVI
+    _description: её иконка выглядит как отличная заглушка
+  Raised Eyebrow Emoji:
+    _name: Эмоджи Приподнятой Брови
+    _description: я безп онятия, что оно тут делает, спрашивайте axii
+  Empty:
+    _name: Пусто
+    _description: лост медиа (удерживает место, куда мог бы налезать текст)
+    _credits: кто?
