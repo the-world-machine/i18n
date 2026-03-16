@@ -237,6 +237,8 @@ shop:
     sell: Продать
     go_back: Назад
     owned: Есть
+    buy_amount: Обменять {limit_reached, select, yes {{amount, pretty_num}} other {Оставшееся}}
+    sell_amount: Продать {limit_reached, select, yes {{amount, pretty_num}} other {Оставшееся}}
   main_title: Добро пожаловать!
   main: >-
     Эй-эй! Добро пожаловать в мою лавку. Я готов обменять кучу разноцветных блестящих сокровищ, фонов,
@@ -310,6 +312,10 @@ shop:
 
 
       {user_wool}
+    pancake: |-
+      {pancake_emoji} **{name}** — {wool, emoji}**{cost, pretty_num}**{amount_owned, select, 0 {} other { (у вас есть x**{amount_owned}**)}}
+
+      {>description}
   backgrounds:
     title: Фоны
     main: >-
@@ -337,6 +343,10 @@ shop:
         {selected_treasure} 
 
         {user_wool}
+      select_menu:
+        no_treasures: Нет сокровищ, которыми можно было бы торговать
+        placeholder: Выберите сокровище на продажу…
+        option: «{name}» — {price, pretty_num} Шерсти
     sell:
       title: Обмен Сокровищ
       message: >-
@@ -353,21 +363,27 @@ shop:
 
         {user_wool}
       #not_selected: "*You haven't selected any treasures to trade in...*"
-    selection: >
-      **Выбрано:**
+      select_menu:
+        no_treasures: У вас нет сокровищ, которые вы могли бы обменять
+        placeholder: Выберите сокровища на продажу…
+        option: «{name}» (x{amount, pretty_num})
+    selection: >-
+      **Сейчас Выбрано:**
 
-      — {treasure_icon} "**{treasure_name}**" — {owned}
+
+      > {treasure_icon} «**{treasure_name}**»{owned_count, select, 0 {} other { (у вас есть x**{owned_count, pretty_num}**)}}
 
 
-      **За Одну шт.**: {wool, emoji}**{price_one, pretty_num}**
+      **Обменять Одну**: {wool, emoji}**{price_one, pretty_num}**
 
-      **За Всё**: {wool, emoji}**{price_all, pretty_num}** (x{amount, pretty_num})
+
+      **Обменять {limit_reached, select, yes {{amount, pretty_num}} other {Все}}**: {wool, emoji}**{price_all, pretty_num}** (x**{amount, pretty_num}**)
 # ---------------------------------------------------------------
 items:
   treasures:
     amber:
       name: Светящийся Янтарь
-      description: На нем изображен трехлистный клевер.
+      description: На нем изображен трёхлистный клевер.
     bottle:
       name: Бутыль Спирта
       description: Бутылка спирта. Идеально подходит для приготовления коктейлей Молотова.
@@ -650,7 +666,7 @@ nikogotchi:
     find_treasure: Найти Сокровища
     call_back: Позвать Обратно
     feed:
-      placeholder: "Выберете еду для кормления…"
+      placeholder: "Выберите еду для кормления…"
       pancakes: Скормить (x{amount, pretty_num}) шт. Блинов
       golden_pancakes: Скормить (x{amount, pretty_num}) шт. Золотых Блинчиков
       glitched_pancakes: Скормить ??? (x{amount, pretty_num} шт.)
@@ -878,7 +894,7 @@ textbox:
   button:
     render: Рендер всего, как {type}
     rendersend: "Рендер всего, как {type} + Отправка"
-    face: Выберете картинку лица
+    face: Выберите картинку лица
     text:
       edit: Изменить Текст
       add: Добавить Текст
@@ -933,3 +949,10 @@ textbox:
       filename: "Текстбокс TWM ({frames}, {timestamp})"
   ttb:
     comment: "документацию на это можно найти здесь: {link}"
+  facepic_picker:
+    layout: |-
+      ### {location, select, root {Выберите категорию} other {{name}}}
+      {description, notempty, '{description}'}
+
+      {credits, notempty, '**Заслуга:** {credits}'}
+      -# Выбирается для кадра #{frame_index}
