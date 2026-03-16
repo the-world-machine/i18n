@@ -3,7 +3,7 @@ commands:
     minis:
       where_to_get_treasure: "вы можете получить больше сокровищ торговлей в магазине или отправкой Никоготчи на поиски таковых!"
       public: 'вы можете использовать {/inventory/treasures} с аргументом «public: True» чтобы показать свои сокровища в чате!'
-    empty: "[ У {user_id, user, mention} нет ни единого сокровища ]"
+    empty: "[ У {user_id, user, mention} нет ни одного сокровища ]"
     message: |
       ### сокровища {user}
       {treasures}
@@ -11,7 +11,7 @@ commands:
     _metadata:
       name: сокровища
       description: Отобразить сокровища из вашего (или чужого!) инвентаря
-    loading: '[ {loading, emoji} Загрузка {target_type, select, current {ваши} other {чужие}} сокровища... ]'
+    loading: '[ {loading, emoji} Загрузка {target_type, select, current {ваших} other {чужих}} сокровищ... ]'
   options:
     target-user:
       name: цель
@@ -22,7 +22,7 @@ items:
   treasures:
     amber:
       name: Светящийся Янтарь
-      description: На нем изображен трехлистный клевер.
+      description: На нем изображен трёхлистный клевер.
     bottle:
       name: Бутыль Спирта
       description: Бутылка спирта. Идеально подходит для приготовления коктейлей Молотова.
