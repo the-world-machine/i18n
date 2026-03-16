@@ -4,7 +4,7 @@ OneShot:
     _name: Мировая Машина
     _description: мир. машина ваншот
     Normal:
-      _name: Обыкновенный
+      _name: Обычный
     Speak:
       _name: Говорить
     Ah:
@@ -69,7 +69,7 @@ OneShot:
     _name: Нико
     _description: нико ваншот
     Normal:
-      _name: Обыкновенное
+      _name: Обычный
     Speak:
       _name: Говорящий
     Ah:
@@ -134,3 +134,321 @@ OneShot:
       _name: =◑w◑∩=
     af:
       _name: af.png
+  Rue:
+    _name: Рю
+    Normal:
+      _name: Обычная
+    Speak:
+      _name: Говорящая
+    Smile:
+      _name: Улыбающаяся
+    Oh:
+      _name: Ох
+    Sigh:
+      _name: Вздох
+    Sad:
+      _name: Грустная
+    ttt:
+      _name: ттт
+    Hidden:
+      _name: Спрятанная
+  Alula:
+    _name: Алула
+    Normal:
+      _name: Обычная
+    Speak:
+      _name: Говорящая
+    Amazed:
+      _name: Удивлённая
+    Eyes closed:
+      _name: С закрытыми глазами
+    Gasp:
+      _name: Восторженный вздох
+    Oh:
+      _name: Ох
+    Pout:
+      _name: Надутая
+  Calamus:
+    _name: Каламус
+    _description: каламус. птице-чувако-нечто
+    Normal:
+      _name: Обычный
+    Speak:
+      _name: Говорящий
+    Smile:
+      _name: Улыбающийся
+    Slight Smile:
+      _name: Слегка Улыбающийся
+    Shock:
+      _name: В шоке
+    Heh:
+      _name: Хех
+    Sad:
+      _name: Грустный
+    Shame:
+      _name: Стыдливый
+    Hidden:
+      _name: Спрятанный
+  Maize:
+    _name: Мейз
+    _description: МЕЙЗупречная растеньеподобная персона, которая, если не забыть, может переродиться
+    Normal:
+      _name: Обычная
+    Slight Smile:
+      _name: Слегка Улыбающаяся
+    Smile:
+      _name: Улыбающаяся
+    Strain:
+      _name: Напряжение
+    Stress:
+      _name: Стресс
+    this is fine:
+      _name: всё в порядке
+  Magpie:
+    _name: Мэгпай
+    _description: та птица, что рулит местным магазином
+    Normal:
+      _name: Обычный
+    Hm:
+      _name: Хмм
+    Oh:
+      _name: Ох
+    Smile:
+      _name: Улыбающийся
+  Plight:
+    _name: Фонарщик
+    _description: Лэм__п лайт__ер. зажигает лампы
+    Normal:
+      _name: Обычный
+    Looking Down:
+      _name: Взгляд вниз
+    Looking Left:
+      _name: Взгляд влево
+    Looking Right:
+      _name: Взгляд вправо
+    Talking:
+      _name: Говорящий
+    Shock:
+      _name: В шоке
+    Scared:
+      _name: В Ужасе
+    Sigh:
+      _name: Вздох
+    Smile:
+      _name: Улыбающийся
+    Worry Left:
+      _name: Волнующийся взгляд влево
+    Worry Right:
+      _name: Волнующийся взгляд вправо
+    WTF:
+      _name: ЧЗХ
+    Hidden:
+      _name: Спрятанный
+  Ling:
+    _name: Линг
+    _description: он делать блинчики для <:niko_pancakes:1394387107148992532>, он делать кофе для <:plight_smile:1408263355512262738>
+    Normal:
+      _name: Обычный
+    Slight Smile:
+      _name: Слегка Улыбающийся
+    Looking Left:
+      _name: Взгляд влево
+    Looking Right:
+      _name: Взгляд вправо
+    Oh:
+      _name: Ох
+    Oh Left:
+      _name: Ох (влево)
+    Shock:
+      _name: В шоке
+    Sigh:
+      _name: Вздох
+    Smile:
+      _name: Улыбающийся
+    What:
+      _name: Что
+  Cedric:
+    _name: Седрик
+    _description: пилот без прав, вероятно, хакнул самолёт в реальность
+    Normal:
+      _name: Обычный
+    Speak:
+      _name: Говорящий
+    Normal Alt:
+      _name: Обычный (Альт.)
+    Normal Alt²:
+      _name: Обычный (Альт.²)
+    Normal Alt³:
+      _name: Обычный (Альт.³)
+    Eek:
+      _name: Ой, ё!
+    Hmm:
+      _name: Хмм
+    Sigh:
+      _name: Вздох
+    Sigh Alt:
+      _name: Вздох²
+    Smile:
+      _name: Улыбающийся
+    Upset:
+      _name: Расстроенный
+  Kip Silverpoint:
+    _name: Кип Сильверпоинт
+    _description: кип
+    Ah:
+      _name: Ах
+    Slight Smile:
+      _name: Слегка Улыбающаяся
+    Heh:
+      _name: Хех
+    Huh:
+      _name: Чё
+    Pout:
+      _name: Надутая
+    Sad:
+      _name: Грустная
+    Sigh:
+      _name: Вздох
+    Wink:
+      _name: Подмигивание
+    Worry:
+      _name: Переживает
+  George:
+    _name: Джордж
+    _description: в зависимости от
+    "1":
+      _name: Джордж (ст. 1)
+      Normal:
+        _name: Обычная
+      Hm:
+        _name: Хм
+      Smile:
+        _name: Улыбающаяся
+      Smug:
+        _name: Самодовольная
+    "2":
+      _name: Джордж (ст. 2)
+      Normal:
+        _name: Обычная
+      Grr:
+        _name: Грр
+      "NO":
+        _name: НЕТ
+      Sigh:
+        _name: Вздох
+      Stress:
+        _name: Стресс
+    "3":
+      _name: Джордж (ст. 3)
+      Normal:
+        _name: Обычная
+      Cry:
+        _name: Плачущая
+      Sad:
+        _name: Грустная
+      Sigh:
+        _name: Вздох
+      Worry:
+        _name: Волнующаяся
+    "4":
+      _name: Джордж (ст. 4)
+      Normal:
+        _name: Обычная
+      Golly:
+        _name: «Боже мой!»
+      Omg:
+        _name: Омг
+      Oops:
+        _name: Упсс
+      Smile:
+        _name: Улыбающаяся
+    "5":
+      _name: Джордж (ст. 5)
+      Normal:
+        _name: Обычная
+      Aww:
+        _name: Оуу
+      Heh:
+        _name: Хех
+      Hmm:
+        _name: Хмм
+      Sad:
+        _name: Грустная
+      Sigh:
+        _name: Вздох
+      Smile:
+        _name: Улыбающаяся
+    "6":
+      _name: Джордж (ст. 6)
+      Normal:
+        _name: Обычная
+      Fingerguns:
+        _name: «Пистолетики»
+      Point:
+        _name: Указывает
+      Shrug:
+        _name: Пожатие плечами
+      Smile:
+        _name: Улыбающаяся
+  Robots:
+    _name: Роботы
+    _description: жёстянки ваншота /pos
+    Silver:
+      _name: Сильвер
+      _description: определённо 2800 эло гроссмейстер
+      Normal:
+        _name: Обычная
+      Look down:
+        _name: Взгляд вниз
+      Ah:
+        _name: Ах
+      Eyes closed:
+        _name: С закрытыми глазами
+      Falling:
+        _name: Обвал
+      Get out!:
+        _name: «Убирайтесь!»
+      Look up:
+        _name: Взгляд вверх
+      Rip:
+        _name: Кердык
+      Rip0:
+        _name: Кердык0
+      Rip2:
+        _name: Кердык2
+      Squares:
+        _name: Квадраты
+      Too Many Squares:
+        _name: Слишком Много Квадратов
+      Worry:
+        _name: Волнующаяся
+    Prophet:
+      _name: Пророк
+      _description: урезанная неприрученная версия более совершенного пророка
+      Normal:
+        _name: Обычный
+      Hmm:
+        _name: Хмм
+      OMG:
+        _name: ОМГ
+      Sigh:
+        _name: Вздох
+    Proto:
+      _name: Прото
+      _description: совершенный пророк
+      Disk:
+        _name: Диск
+      Eyes closed:
+        _name: С закрытыми глазами
+      Jealous:
+        _name: Завистливый
+      Gasp:
+        _name: «Чего?!»
+      Gasp right:
+        _name: «Чего?!» вправо
+      Right-up:
+        _name: Вправо вверх
+      Right-center:
+        _name: Вправо центр
+      Right-right:
+        _name: Вправо право
