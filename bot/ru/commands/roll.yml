@@ -1,6 +1,6 @@
 title: Бросаем {amount}d{sides}…
 desc: "...выпало {result, pretty_num}."
-multi: "Суммарно **{total}**."
+multi: "Суммарно **{total, pretty_num}**."
 _metadata:
   name: бросать кости
   description: Бросить воображаемые кости
