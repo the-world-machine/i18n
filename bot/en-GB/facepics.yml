@@ -509,7 +509,7 @@ OneShot:
       _name: Offbot
       _description: "niko's rusty taxi driver"
     Blue Gatekeeper:
-      _name: Blue Gatekeeper#
+      _name: Blue Gatekeeper
       # Blue hex color
       _description: "#0000ff gatekeeper"
     Green Gatekeeper:
@@ -604,6 +604,7 @@ OneShot (fan):
     Sip:
       _name: Sip
   Nikonlanger:
+    # Niko + Conlanger = Nikonlanger
     _name: Nikonlanger
     _description: "ukrainini conlanger linguist"
     # weblate-flags: read-only
