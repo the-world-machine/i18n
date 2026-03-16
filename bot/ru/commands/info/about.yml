@@ -5,10 +5,13 @@ fields:
     name: "Средний пинг"
   latency:
     name: "Задержка ответа"
+    value: |-
+      Доставлено — {send_latency_ms, number, ::duration-ms}
+      Отправлено — {edit_latency_ms, number, ::duration-ms}
   server_count:
     name: "Количество серверов"
   user_installs:
-    name: "Установки пользователя"
+    name: "Кол-во пользователей"
   host:
     name: "Хост"
   uptime:
@@ -44,7 +47,7 @@ buttons:
   contributors: Контрибьюторы
   other: Другое
 mes:
-- "discord бот основанный на oneshot"
+- "discord бот, основанный на oneshot"
 - "тестовый билд для The World Machine, не приглашайте этого бота если вы хотите The World Machine на вашем сервере"
 _metadata:
   name: описание (об)
@@ -56,7 +59,7 @@ contributors:
       full: |-
         >>> ## {name}{country_flags, notempty, ' {country_flags}'}{roles, notempty, ' - {roles}'}
         {links}
-      simple: "- {country_flags, notempty, '{country_flags}: '}{name} ({links})"
+      simple: "— {country_flags, notempty, '{country_flags}: '}{name} ({links})"
     pfp_alt_text: Их аватарка
   categories:
     developers: Мои разработчики
@@ -66,3 +69,4 @@ contributors:
     owner: Владелец
     funder: Спонсор
     translator: Переводчик
+    founder: Основоположник
