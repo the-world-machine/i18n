@@ -464,13 +464,13 @@ OneShot:
       _description: ржавый личный водитель нико
     Blue Gatekeeper:
       _name: Синий Сторож
-      _description: '#0000ff сторож'
+      _description: "#0000ff сторож"
     Green Gatekeeper:
       _name: Зелёный Сторож
-      _description: '#00ff00 сторож'
+      _description: "#00ff00 сторож"
     Red Gatekeeper:
       _name: Красный Сторож
-      _description: '#ff0000 сторож'
+      _description: "#ff0000 сторож"
     Bookbot:
       _name: Бот-библиотекарь
       _description: ресепшн и охрана библиотеки
@@ -598,11 +598,11 @@ OneShot (fan):
       _name: Пузырь
     Flag:
       _name: Флаг
-      _credits: '[(Randall) Radioactive Radiant](https://x.com/radiorad1)'
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
     Cookie:
       _name: Печенька
     Jii:
-      _credits: '[(Randall) Radioactive Radiant](https://x.com/radiorad1)'
+      _credits: "[(Randall) Radioactive Radiant](https://x.com/radiorad1)"
       _name: Дзи-и
     Stare:
       _name: Прямой взгляд

@@ -34,7 +34,7 @@ buttons:
   "vote (no benefits)": Голосувати (переваг нема)
   "top.gg": Top.gg
 mes:
-- "discord бот натхненний OneShot-ом"
-- "тестова версія боту The World Machine, не додавайте цього бота якщо ви хочете The World Machine на вашому сервері"
+  - "discord бот натхненний OneShot-ом"
+  - "тестова версія боту The World Machine, не додавайте цього бота якщо ви хочете The World Machine на вашому сервері"
 _metadata:
   name: about
