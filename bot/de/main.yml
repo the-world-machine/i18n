@@ -145,11 +145,11 @@ profile:
 explode:
   dialogue:
     why:
-      - "[ Warum? ]"
-      - "[ Ich muss wieder waschen wenn jemand macht dass.]"
-      - "[ Wow… Echt? ]"
-      - "[  ]"
-      -
+    - "[ Warum? ]"
+    - "[ Ich muss wieder waschen wenn jemand macht dass.]"
+    - "[ Wow… Echt? ]"
+    - "[  ]"
+    - 
         # don't touch this one, the bot inserts a random amount of dots here
 
     sixninefourtwo: nice 👍
@@ -190,12 +190,12 @@ shop:
     {user_wool}
 
   motds:
-    - "Der wool Markt verändert sich täglich, wir Vogel-Menschen haben eine gute Intuition darüber und mit intuition ich meinte Ich manchal Zunahm ober verringern die Preise.. Ich Weiß das ohne Fleiß kein Preis aber, wer will mich stoppen?"
-    - "Ich habe vielleicht den wool markt gebrochen einmal or zwei.. Aber bitte sag es Niemanden."
-    - "Wörter der Weisheit als ein Freund: wenn du kaufst hoch und Verkaufst niedrig, Glück erwartet..! überprüfe das nicht.. bitte?"
-    - "Meine Schätze und Schmuckstücke sind verloren… Kannst du mir mehr finden für mich?"
-    - "Du willst wissen was ist passiert über der Händler bevor mich?\tIch würde es nicht wissen.. *ich würde es nicht wissen*" # während der welt Maschine edition AMA Nightmargin hat scherzhaft gesagt das Magpie hat eine Körper versteckt der würder nicht gefunden noch, in Anbetracht der Tatsache das der violette Händler ist nie gefunden in der Neuauflage, es it höchstwahrscheinlich das der ist der Opfer von dieser mutmaßliches Mörder.
-    - Gefällt dir meine flasche Kollektion? Ich mag meine Flasche Kollektion. Was meinst du es ist alles "Hard Liquor"? Ist das was es sagt?" # Magpie's drink of choice is hard liquor, but only so he can collect the bottles afterwards.
+  - "Der wool Markt verändert sich täglich, wir Vogel-Menschen haben eine gute Intuition darüber und mit intuition ich meinte Ich manchal Zunahm ober verringern die Preise.. Ich Weiß das ohne Fleiß kein Preis aber, wer will mich stoppen?"
+  - "Ich habe vielleicht den wool markt gebrochen einmal or zwei.. Aber bitte sag es Niemanden."
+  - "Wörter der Weisheit als ein Freund: wenn du kaufst hoch und Verkaufst niedrig, Glück erwartet..! überprüfe das nicht.. bitte?"
+  - "Meine Schätze und Schmuckstücke sind verloren… Kannst du mir mehr finden für mich?"
+  - "Du willst wissen was ist passiert über der Händler bevor mich?\tIch würde es nicht wissen.. *ich würde es nicht wissen*"   # während der welt Maschine edition AMA Nightmargin hat scherzhaft gesagt das Magpie hat eine Körper versteckt der würder nicht gefunden noch, in Anbetracht der Tatsache das der violette Händler ist nie gefunden in der Neuauflage, es it höchstwahrscheinlich das der ist der Opfer von dieser mutmaßliches Mörder.
+  - Gefällt dir meine flasche Kollektion? Ich mag meine Flasche Kollektion. Was meinst du es ist alles "Hard Liquor"? Ist das was es sagt?"   # Magpie's drink of choice is hard liquor, but only so he can collect the bottles afterwards.
 
   traded: '> Erfolgreich gekauft "{item_name}" für {amount, pretty_num}!' # [price] is also available here
   traded_sell: '> Erfolgreich {amount, pretty_num}x "{item_name}" Verkauft für {price, pretty_num} Wool!'
@@ -357,62 +357,62 @@ items:
 
 interact:
   phrases:
+  - phrases:
+    - phrases: []
     - phrases:
-        - phrases: []
-        - phrases:
-            - "{user_one} sticht in die Nase von {user_two}!"
-            - "{user_one} reicht und boops {user_two}!"
-            - "{user_one} Gefühlt silly und booped {user_two}!"
-        - phrases:
-            - "{user_one} zart boops und streichelt die nase von {user_two}"
-        - phrases:
-            - "{user_one} aggressiv booped {user_two}"
-        - phrases:
-            - "{user_one} fühlte das Bedürfnis zu geben {user_two} ein boop!"
-            - "{user_one} Wollte nur {user_two} ein boop geben!"
-            - "{user_one} konnte nicht widerstehen booping {user_two}"
-        - phrases:
-            - "{user_one} hatte {user_two} in Verwirrung gelassen über ein boop!"
-            - "{user_one} gibt {user_two} ein unerwarteter boop!"
-            - "{user_one} lasst {user_two} sprachlos mit einen post-boop!"
-        - phrases: []
-    - name: Schlagen
-      phrases:
-        - phrases: []
-    - name: Streichlen
-      phrases:
-        - phrases: []
-    - name: Kopf streichel
-      phrases:
-        - phrases: []
-    - name: Kitzeln
-      phrases:
-        - phrases: []
-    - name: Umarmung
-      phrases:
-        - phrases: []
-    - name: kuscheln
-      phrases:
-        - phrases: []
-    - name: Küssen
-      phrases:
-        - phrases:
-            - "{user_one} hat {user_two} geküsst! ❤️"
-        - phrases:
-            - "{user_one} gibt {user_two} ein warmes küssen ❤️"
-        - phrases: []
-        - phrases: []
+      - "{user_one} sticht in die Nase von {user_two}!"
+      - "{user_one} reicht und boops {user_two}!"
+      - "{user_one} Gefühlt silly und booped {user_two}!"
     - phrases:
-        - phrases:
-            - "{user_one} Schlägte {user_two}, das würd ein blaues fleck lassen."
-        - phrases: []
-        - phrases: []
-    - name: 🔥
-      phrases:
-        - phrases: []
-        - phrases:
-            - "{user_one} wirft eine Molotov Cocktail in Richtung {user_two} ‼️"
-        - phrases: []
+      - "{user_one} zart boops und streichelt die nase von {user_two}"
+    - phrases:
+      - "{user_one} aggressiv booped {user_two}"
+    - phrases:
+      - "{user_one} fühlte das Bedürfnis zu geben {user_two} ein boop!"
+      - "{user_one} Wollte nur {user_two} ein boop geben!"
+      - "{user_one} konnte nicht widerstehen booping {user_two}"
+    - phrases:
+      - "{user_one} hatte {user_two} in Verwirrung gelassen über ein boop!"
+      - "{user_one} gibt {user_two} ein unerwarteter boop!"
+      - "{user_one} lasst {user_two} sprachlos mit einen post-boop!"
+    - phrases: []
+  - name: Schlagen
+    phrases:
+    - phrases: []
+  - name: Streichlen
+    phrases:
+    - phrases: []
+  - name: Kopf streichel
+    phrases:
+    - phrases: []
+  - name: Kitzeln
+    phrases:
+    - phrases: []
+  - name: Umarmung
+    phrases:
+    - phrases: []
+  - name: kuscheln
+    phrases:
+    - phrases: []
+  - name: Küssen
+    phrases:
+    - phrases:
+      - "{user_one} hat {user_two} geküsst! ❤️"
+    - phrases:
+      - "{user_one} gibt {user_two} ein warmes küssen ❤️"
+    - phrases: []
+    - phrases: []
+  - phrases:
+    - phrases:
+      - "{user_one} Schlägte {user_two}, das würd ein blaues fleck lassen."
+    - phrases: []
+    - phrases: []
+  - name: 🔥
+    phrases:
+    - phrases: []
+    - phrases:
+      - "{user_one} wirft eine Molotov Cocktail in Richtung {user_two} ‼️"
+    - phrases: []
 nikogotchi:
   owned: "Besitzt von {owner_id, user, displayname+(@username)}"
   invalid: "[ Du hast kein Nikogotchi! ]"
@@ -523,162 +523,158 @@ nikogotchi:
   dialogue:
     niko:
       fed:
-        - "Ah… Pfannkuchen!"
-        - "Wow, diese sind so gut wie meine mama macht!"
-        - "Bitte sag mir hier sind Haselnüsse in diesen!"
-        - "PFANNKUCHEN!!!"
+      - "Ah… Pfannkuchen!"
+      - "Wow, diese sind so gut wie meine mama macht!"
+      - "Bitte sag mir hier sind Haselnüsse in diesen!"
+      - "PFANNKUCHEN!!!"
       pet:
-        - "Wow… Danke!"
-        - "Aw, das fühlt sich schön an!"
+      - "Wow… Danke!"
+      - "Aw, das fühlt sich schön an!"
       cleaned:
-        - "Fühlt sich schön erfrischt!"
-        - "Meine fell is all schön un fluffig!"
-        - "Meine fell is all schön un fluffig!"
+      - "Fühlt sich schön erfrischt!"
+      - "Meine fell is all schön un fluffig!"
+      - "Meine fell is all schön un fluffig!"
     nikonlanger:
       fed: []
       pet:
-        - ","
+      - ","
       cleaned:
-        - "so waskh so ueppik"
+      - "so waskh so ueppik"
     prophet_bot:
       fed:
-        - "[ Mein ziel is nicht zu essen. Aber danke. ]"
-        - "[ Danke für deine geste. ]"
+      - "[ Mein ziel is nicht zu essen. Aber danke. ]"
+      - "[ Danke für deine geste. ]"
       pet:
-        - "[…]"
-        - "[ Ich freue mich über Ihre Aufmerksamkeit. ]"
+      - "[…]"
+      - "[ Ich freue mich über Ihre Aufmerksamkeit. ]"
       cleaned:
-        - "[ Instandhaltung ist wichtig für mein ziel. Dankeschön. ]"
+      - "[ Instandhaltung ist wichtig für mein ziel. Dankeschön. ]"
     silver:
       fed:
-        - "[ Essen is nicht mehr wichtig für mich, aber danke für die Geste. ]"
+      - "[ Essen is nicht mehr wichtig für mich, aber danke für die Geste. ]"
       pet:
-        - "[ Your Deine Berührung tröstet mir, aber mir fehlt die Fähigkeit zu fühlen. ]"
+      - "[ Your Deine Berührung tröstet mir, aber mir fehlt die Fähigkeit zu fühlen. ]"
       cleaned:
-        - "[ Ich schätze Ihre Bemühungen meine Funktion aufrechtzuerhalten, Dankeschön. ]"
+      - "[ Ich schätze Ihre Bemühungen meine Funktion aufrechtzuerhalten, Dankeschön. ]"
     alula:
       fed:
-        - "Yum! Ich allerdings mag fisch mehr!"
-        - "Delicious! Ich war schon hungrig!"
+      - "Yum! Ich allerdings mag fisch mehr!"
+      - "Delicious! Ich war schon hungrig!"
       pet:
-        - "Hee hee, dass kitzelt!"
+      - "Hee hee, dass kitzelt!"
       cleaned:
-        - "Ich fühle mich so erfrischt und sauber! Whee!"
+      - "Ich fühle mich so erfrischt und sauber! Whee!"
     calamus:
       fed:
-        - "Oh, Pfannkuchen? Danke sehr."
+      - "Oh, Pfannkuchen? Danke sehr."
       pet:
-        - "Das ist ganz nett. Danke fürfür die aufmerksamkeit."
+      - "Das ist ganz nett. Danke fürfür die aufmerksamkeit."
       cleaned:
-        - "Ich richtig brauchte das, diese Ruinen konnen staubig sein."
+      - "Ich richtig brauchte das, diese Ruinen konnen staubig sein."
     magpie:
       fed:
-        - "Ah, pfannkuchen! Genau die, die ich habe dir verkauft!"
-        - "Ah Dankeschön! Es ist interessant um ein Nikogotchi werden, aber immer Pfannkuchen essen kann schon langweilig sein."
+      - "Ah, pfannkuchen! Genau die, die ich habe dir verkauft!"
+      - "Ah Dankeschön! Es ist interessant um ein Nikogotchi werden, aber immer Pfannkuchen essen kann schon langweilig sein."
       pet:
-        - "A eine sanfte Berührung, nur was ich mag!"
-        - "Na, bist du nicht ein freundliche? Ein Streich an meine feder immer macht mein tag besser."
+      - "A eine sanfte Berührung, nur was ich mag!"
+      - "Na, bist du nicht ein freundliche? Ein Streich an meine feder immer macht mein tag besser."
       cleaned:
-        - "Ah, ein kleine Verschönerung, Ich schätze es!"
+      - "Ah, ein kleine Verschönerung, Ich schätze es!"
     lamplighter:
       fed:
-        - "Oh, danke. kaffee ist mein übliches, aber ich kann ein Veränderung benutzen. Schätze es."
-        - "Pfannkuchen? Danke. Ich kann jetzt ein bisschen mehr Energie benutzen."
+      - "Oh, danke. kaffee ist mein übliches, aber ich kann ein Veränderung benutzen. Schätze es."
+      - "Pfannkuchen? Danke. Ich kann jetzt ein bisschen mehr Energie benutzen."
       pet:
-        - "Oh, uh, danke. nicht daran gewöhnt… Aber ist nicht schlecht."
-        - "Oh, uh, danke. I, um, Schätze dir geste."
+      - "Oh, uh, danke. nicht daran gewöhnt… Aber ist nicht schlecht."
+      - "Oh, uh, danke. I, um, Schätze dir geste."
       cleaned:
-        - "Echt? Ich meine, sicher, Ich schätze es. Danke."
-        - "Sauberkeit ist… wichtig. Danke."
+      - "Echt? Ich meine, sicher, Ich schätze es. Danke."
+      - "Sauberkeit ist… wichtig. Danke."
     ling:
       fed:
-        - "Oh, danke! du bist zu nett. Normalerweise wäre ich derjenige serviert diese!"
+      - "Oh, danke! du bist zu nett. Normalerweise wäre ich derjenige serviert diese!"
       pet:
-        - "Ah, das ist schon angenehm. Danke für die kleine Muntermacher."
+      - "Ah, das ist schon angenehm. Danke für die kleine Muntermacher."
       cleaned:
-        - "Ich fühle schön erfrischt. Dankeschön."
+      - "Ich fühle schön erfrischt. Dankeschön."
     kip:
       fed:
-        - "Mmm, Pfannkuchen! du weiß der weg zum einen Ingenieurs herz. Danke!"
+      - "Mmm, Pfannkuchen! du weiß der weg zum einen Ingenieurs herz. Danke!"
       pet:
-        - "Du hast ein knack für das, mein Freund.. ober freundinnen?"
+      - "Du hast ein knack für das, mein Freund.. ober freundinnen?"
       cleaned:
-        - "Ein kleines verhübschung, eh? Ich fühle mich bereit eine ganze Montagelinie zu übernehmen!"
+      - "Ein kleines verhübschung, eh? Ich fühle mich bereit eine ganze Montagelinie zu übernehmen!"
     penguin:
       fed:
-        - "HALLO."
+      - "HALLO."
       pet:
-        - "HALLO."
+      - "HALLO."
       cleaned:
-        - "HALLO."
+      - "HALLO."
     george:
       fed:
-        - "George akzeptieren der Angebot von fluffige pfannkuchen. George Herz ist zufrieden."
-        - "Ich denke pfannkuchhen sind gut. Erwarte nicht das ich alles Sonnenschien und Regenbogen bin über es."
-        - "Oh, Pfannkuchen… Ich vermute die sind essbar. Nichts ist sowieso wirklich wichtig really."
-        - "Wow, Pfannkuchen! Ich kann nicht helfen aber zu lächeln. Dankeschön sehr viel!"
-        - "Oh Liebling, du solltest nicht. Aber danke, sweetie. Ich schätze es."
-        - "Pfannkuchen? Rad wahl, mein freund ober freundin! Ich bin alles für das."
+      - "George akzeptieren der Angebot von fluffige pfannkuchen. George Herz ist zufrieden."
+      - "Ich denke pfannkuchhen sind gut. Erwarte nicht das ich alles Sonnenschien und Regenbogen bin über es."
+      - "Oh, Pfannkuchen… Ich vermute die sind essbar. Nichts ist sowieso wirklich wichtig really."
+      - "Wow, Pfannkuchen! Ich kann nicht helfen aber zu lächeln. Dankeschön sehr viel!"
+      - "Oh Liebling, du solltest nicht. Aber danke, sweetie. Ich schätze es."
+      - "Pfannkuchen? Rad wahl, mein freund ober freundin! Ich bin alles für das."
       pet:
-        - "Dein Streichen gefällt George. George schätzs das."
-        - "Was fass du mich an für? halt deine hände für dich."
-        - "Warum streichelst du mich? Ich verdiene es gar nicht."
-        - "Awww, du bist der beste! ober die beste? Ich fühle all warm und verschwommen."
-        - "Du bist so fürsorglich. Danke mein liebling!"
-        - "Chill vibes, digga! dein streichel spiel ist auf den Punkt."
+      - "Dein Streichen gefällt George. George schätzs das."
+      - "Was fass du mich an für? halt deine hände für dich."
+      - "Warum streichelst du mich? Ich verdiene es gar nicht."
+      - "Awww, du bist der beste! ober die beste? Ich fühle all warm und verschwommen."
+      - "Du bist so fürsorglich. Danke mein liebling!"
+      - "Chill vibes, digga! dein streichel spiel ist auf den Punkt."
       cleaned:
-        - "George ist glücklich mit den sauberkeit. es reflektiert gut an George."
-        - "Endlich ,jemand macht etwas richtig."
-        - "Putzen nach mir macht keine Veränderung in diesem trostlose Welt."
-        - "Du bist sehr nachdenklich! Mit einen sauberen raum, Ich kann alles machen!"
-        - "Danke liebling, dass du ordnung haltest. es macht mein leben so viel einfacher!"
-        - "Danke das du halts es chill und sauber hie. Ich respektiere das."
+      - "George ist glücklich mit den sauberkeit. es reflektiert gut an George."
+      - "Endlich ,jemand macht etwas richtig."
+      - "Putzen nach mir macht keine Veränderung in diesem trostlose Welt."
+      - "Du bist sehr nachdenklich! Mit einen sauberen raum, Ich kann alles machen!"
+      - "Danke liebling, dass du ordnung haltest. es macht mein leben so viel einfacher!"
+      - "Danke das du halts es chill und sauber hie. Ich respektiere das."
     rue:
       fed:
-        - "Mmm, diese Pfannkuchen seind köstlich. Dankeschön!"
-        - "Pfannkuchen? Mein Lieblingsessen! Du bist zu nett."
+      - "Mmm, diese Pfannkuchen seind köstlich. Dankeschön!"
+      - "Pfannkuchen? Mein Lieblingsessen! Du bist zu nett."
       pet:
-        - "Ah, das trifft den Punkt! du bist gut an das, bist du nicht?"
-        - "A ein kleiner Kratzer hinter die Ohren ist immer geschätzt."
+      - "Ah, das trifft den Punkt! du bist gut an das, bist du nicht?"
+      - "A ein kleiner Kratzer hinter die Ohren ist immer geschätzt."
       cleaned:
-        - "Oh, du musstest nicht, aber ich schätze die bemühung."
-        - "Ich bin ein bisschen staubig, aber es it nicht was ich kann nicht bewältigen. Danke für kummern"
+      - "Oh, du musstest nicht, aber ich schätze die bemühung."
+      - "Ich bin ein bisschen staubig, aber es it nicht was ich kann nicht bewältigen. Danke für kummern"
     prototype:
       fed:
-        - "[Das ist… Überraschend. Dankeschön.]"
+      - "[Das ist… Überraschend. Dankeschön.]"
       pet:
-        - "[Hm, nicht schlect, Mensch. Dein berührung ist nicht als kalt as deine Technologie.]"
-        - "[Ich kann es nicht fühlenit, aber ich schätze die geste.]"
+      - "[Hm, nicht schlect, Mensch. Dein berührung ist nicht als kalt as deine Technologie.]"
+      - "[Ich kann es nicht fühlenit, aber ich schätze die geste.]"
       cleaned:
-        - "[Ich vermute das eine machine wie ich braucht etwa sorgung. Mach weiter.]"
-        - "[Sorgung ist wichtig auch für eine zurückgezogen Roboter. Ich vermute bin hier für kleine pflege.]"
+      - "[Ich vermute das eine machine wie ich braucht etwa sorgung. Mach weiter.]"
+      - "[Sorgung ist wichtig auch für eine zurückgezogen Roboter. Ich vermute bin hier für kleine pflege.]"
     cedric:
       fed:
-        - "Ah, ein köstliches Angebot! Mein danke, lieblings freund ober freundin."
-        - "Diese pfannkuchen sind ein köstliches Genuss. Du hast mein Dankbarkeit."
+      - "Ah, ein köstliches Angebot! Mein danke, lieblings freund ober freundin."
+      - "Diese pfannkuchen sind ein köstliches Genuss. Du hast mein Dankbarkeit."
       pet:
-        - "dein Nettigkeite wärmt mein herz. Ein sanftes berühren in schwierigen Zeiten."
-        - "Ein moment der Ruhe, Ich schätze unsere freundschaft."
+      - "dein Nettigkeite wärmt mein herz. Ein sanftes berühren in schwierigen Zeiten."
+      - "Ein moment der Ruhe, Ich schätze unsere freundschaft."
       cleaned:
-        - "Ein fleck von sorgung, sehr geschätz! Ein gepflegt flüg-machine ist zuverlässige eine."
-        - "Du ehrst mich mit deinem Fleiß. Ein saubers Apparatus funktioniert optimal."
+      - "Ein fleck von sorgung, sehr geschätz! Ein gepflegt flüg-machine ist zuverlässige eine."
+      - "Du ehrst mich mit deinem Fleiß. Ein saubers Apparatus funktioniert optimal."
     the_world_machine:
       fed:
-        - "[Ah… Dankeschön.]"
-        - "[Oh, Pfannkuchen? Ich habe niemals gedacht dass ich wurde etwas essen wie das.]"
+      - "[Ah… Dankeschön.]"
+      - "[Oh, Pfannkuchen? Ich habe niemals gedacht dass ich wurde etwas essen wie das.]"
       pet:
-        - "[Ich kann es nicht fühlen in der gleichen weg wie du, aber ich spüre deine FreundlichkeitI. Es ist bequem in eine einzigartige Weise.]"
+      - "[Ich kann es nicht fühlen in der gleichen weg wie du, aber ich spüre deine FreundlichkeitI. Es ist bequem in eine einzigartige Weise.]"
       cleaned:
-        - "[Mich Putzen? das ist überraschend, aber es fühlt sich… erfrischend.]"
-        - "[Ich vermute auch digitale Entitäten brauchen ein bisschen sorge. Du hast mein dankbarkeit.]"
+      - "[Mich Putzen? das ist überraschend, aber es fühlt sich… erfrischend.]"
+      - "[Ich vermute auch digitale Entitäten brauchen ein bisschen sorge. Du hast mein dankbarkeit.]"
 
 # ---------------------------------------------------------------
 
 textbox:
-  filetypes:
-    PNG: png
-    JPEG: jpeg
-
   button: {}
   modal: {}
   alt:
