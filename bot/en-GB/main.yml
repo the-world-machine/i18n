@@ -166,7 +166,7 @@ settings:
       disabled_note: "don't forget to enable them with {/settings/welcome/enabled}` value:True`"
       templates:
         default: |
-          [ Welcome \\c[#c386ff]{user_name}\\c to \\c[#c386ff]{server_name}\\c! {user_type, select,
+          [ Welcome \c[#c386ff]{user_name}\c to \c[#c386ff]{server_name}\c! {user_type, select,
             bot {This server now has {bot_count, plural,
               one {# bot}
               other {# bots}
@@ -174,7 +174,7 @@ settings:
             person {This server now has {human_count, plural,
               one {# person}
               other {# people}} here!}
-          } ]"
+          } ]
   transmissions:
     enabled:
       yah: "[ This server is now open for calls ]"
