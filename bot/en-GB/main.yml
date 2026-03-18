@@ -171,7 +171,7 @@ settings:
               one {# bot}
               other {# bots}
             }}
-            person {This server now has {human_count, plural,
+            human {This server now has {human_count, plural,
               one {# person}
               other {# people}} here!}
           } ]
