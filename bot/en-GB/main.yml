@@ -169,8 +169,7 @@ settings:
           [ Welcome \c[#c386ff]{user_name}\c to \c[#c386ff]{server_name}\c! {user_type, select,
             bot {This server now has {bot_count, plural,
               one {# bot}
-              other {# bots}
-            }}
+              other {# bots}}.}
             human {This server now has {human_count, plural,
               one {# person}
               other {# people}} here!}
