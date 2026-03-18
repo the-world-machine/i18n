@@ -1,0 +1,10 @@
+_metadata:
+  # weblate-flags: max-length:32, ignore-same
+  name: textbox
+  # weblate-flags: max-length:100
+  description: Commands related to Textboxes
+context_menus:
+  # weblate-flags: max-length:32
+  message_to_textbox: 📓 message to textbox
+  # weblate-flags: max-length:32
+  avatar_as_facepic: 📓 avatar as textbox facepic

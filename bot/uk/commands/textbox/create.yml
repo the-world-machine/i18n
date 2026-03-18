@@ -1,0 +1,84 @@
+errors:
+  nothing_passed: '[ Шлях не наданий команді локалі, \@[OneShot/Niko/83c] пивііііііііііііт ]'
+  no_chars: Персонажів не знайдено…
+  no_char: Персонажу не знайдено…
+  no_faces: Облич не знайдено…
+  no_faces_for_char: Облич для цього персонажу не знайдено…
+  failed_to_render: "[ Мені не вдалося відрендерити це зображення, будь ласка повідомте про це у сервері мого суспільства. (ви можете знайти запрошення до нього у {/about}, state ID: {sid}) ]"
+  unknown_frame: "Кадр №{index} не знайдено. Усього кадрів: {total, pretty_num}"
+  invalid_character: Персонаж "{character_name}" не існує
+  invalid_face: Персонаж "{character_name}" не має обличчя під назвою "{face_name}"
+  cutoff: "Цей текст обрізано через обмеження Discord."
+  failed_to_send: "[ Чогось не вийшло відправити :[ ]"
+  failed_to_send_dm: "[ Не вийшло відправити повідомлення до ПП, чи вони відкриті? Також можете просто [додати мене](https://discord.com/oauth2/authorize?client_id={twm, user, id}) до вашого акаунту ]"
+  apng_preview_warn: |
+    Discord не підтримує чи дозволяє завантажувати `.png` файл як АПНҐ (APNG).
+    Ви можете відкрити цей файл у You can open the attachment in the browser, and it should animate (if there's any animation).
+  ephemeral_warnote: Якщо ви збираєтеся додавати це в ⭐ Обране - переконайтеся що ви його завантажите, та відправите у якесь інше місце. Файли у ефемерних повідомленнях (які можете бачити лише ви) мають дуже короткий термін життя, Discord видалить їх десь після 15 хвилин. Переконайтеся що ви це зберегаєте, інакше воно потім появиться як блакитний квадратик у вашому обраному
+  toolong_for_image_warnote: Текст кадру який ви ввели не вписується у вихідне *зображення*, якщо ви зміните тип вихідного файлу на один з тих що може бути анімірованим – текст повністю з'явиться.
+  recovering:
+    message: "[ Стан не знайдено, намагаюсь відновити… ]"
+    success: "[ {loading, emoji} Cтан успішно відновлений, завантаження редактора... ]"
+filetypes:
+  GIF: ґіф
+  WEBP: вебп
+  APNG: апнг
+  PNG: пнг
+  JPEG: жипег
+button:
+  render: Відрендерити {type}
+  rendersend: "Відрендерити {type} та Відправити"
+  text:
+    edit: Редагувати Текст
+    add: Додати Текст
+  frame:
+    next: Наступний Кадр
+    add: Додати Кадр
+    previous: Минулий Кадр
+    manual: Вписати Кадр
+    delete: Видалити
+    clear: Очистити
+  face: Обрати обличчя
+  edit: Редагувати Кадри як текст
+frame_position: "редагуємо кадр {current, pretty_num} з {total, pretty_num}"
+select:
+  chars: Персонажі…
+  faces: Обличчя…
+  styles: Стилі…
+modal:
+  edit_text:
+    title: "Редагуємо текст для кадру #{index}!"
+    input:
+      label: Текст
+      placeholder: Текст вродє сюди
+    response: >
+      Текст змінився!
+
+      Новий текст: {new_text}
+
+      Минулий текст: {old_text}
+  edit_frames:
+    title: Редагуємо текстове вікно
+    input:
+      label: Код
+      placeholder: що сюди
+    accepted: Зміни текстового вікна прийняті
+    warning: Під час аналізу коду з'явилися попередження
+    declined: Щось пішло не так під час аналізу коду
+    response: Стан змінений!
+monologue:
+  char: "[ Оберіть персонажу для текстового вікна ]"
+  face: "[ Оберіть обличчя ]"
+  press_notext: "[ Переконайтеся що ви вписали якийсь текст… якщо бажаєте ]"
+  press: "[ Натисніть кнопку Відрендерити коли ви готові ]"
+  rendering: "[ {loading, emoji} Рендерю… ]"
+  sending: "[ {loading, emoji} Відправляю… ]"
+  done: "[ Готово ]"
+  debug: "(Зайняло: **{time, pretty_num}**мс., Sid: **{sid}**)"
+alt:
+  single_frame:
+    filename: "TWM текстове вікно ({timestamp})"
+  multi_frame:
+    filename: "TWM текстове вікно ({frames}, {timestamp})"
+ttb:
+  comment: "документацію для цього можна знайти тут: {link}"

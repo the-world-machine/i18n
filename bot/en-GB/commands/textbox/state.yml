@@ -1,0 +1,18 @@
+_metadata:
+  # weblate-flags: max-length:32
+  name: state
+  description: Debugging command for textboxes (bot developer only)
+options:
+  search:
+    # weblate-flags: max-length:32
+    name: search
+    description: |-
+      sid here, special: `all` all states, `user:userid/"me"` user's states. at end: `!Page:Amount` (ints)
+errors:
+  invalid_user_id: "Invalid user id"
+  not_found: "Couldn't find sid {sid}"
+  invalid_paging: "Invalid Paging syntax"
+  out_of_bounds: "Page out of bounds, max items: {max}"
+  nothing_found_empty: "Nothing found (there are no states)"
+  nothing_found_filter: "Nothing found (check your filter maybe?)"
+results: "Found results: {count}"

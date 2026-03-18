@@ -1,0 +1,142 @@
+_metadata:
+  # weblate-flags: max-length:32, ignore-same
+  name: create
+  # weblate-flags: max-length:100
+  description: Make a textbox or a GIF dialogue between characters, like in OneShot
+options:
+  text:
+    # weblate-flags: max-length:32
+    name: text
+    # weblate-flags: max-length:100
+    description: What you want the character to say?
+  facepic:
+    # weblate-flags: max-length:32
+    name: facepic
+    # weblate-flags: max-length:100
+    description: Which facepic do you want on the textbox? (go back to this option to continue serching)
+  animated:
+    # weblate-flags: max-length:32
+    name: animated
+    # weblate-flags: max-length:100
+    description: "Do you want the text to animate? (default: true)"
+  force_send:
+    # weblate-flags: max-length:32
+    name: force_send
+    # weblate-flags: max-length:100
+    description: "For sending empty textboxes with 'send_to' option (default: false)"
+  filetype:
+    # weblate-flags: max-length:32
+    name: filetype
+    # weblate-flags: max-length:100
+    description: What filetype do you want the output to be?
+    choices:
+      WEBP: WEBP (default)
+      GIF: GIF
+      APNG: APNG
+      PNG: PNG
+      JPEG: JPEG
+  send_to:
+    # weblate-flags: max-length:32
+    name: send_to
+    # weblate-flags: max-length:100
+    description: Where do you want the output to be sent? (pass all other options for it to render&send right away)
+    choices:
+      1: Don't (default)
+      2: DMs
+      3: This channel (here)
+  from_tbb_file:
+    # weblate-flags: max-length:32
+    name: from_tbb_file
+    # weblate-flags: max-length:100
+    description: Pass a file here to load a textbox dialogue from a file.tbb (overwrites any other options)
+errors:
+  nothing_passed: "[ Path not passed to the locale command, \\@[OneShot/Niko/83c] hiiiiiiiiii ]"
+  no_chars: No characters found…
+  no_char: Character not found…
+  no_faces: No faces found…
+  no_faces_for_char: Faces not found for this character…
+  failed_to_render: "[ I failed to render the image, please report this in our community discord server. (you can find an invite to it in {/about}) ]"
+  unknown_frame: "Frame №{index} not found. Total frames: {total, pretty_num}"
+  invalid_character: The character "{character_name}" doesn't exist
+  invalid_face: Character "{character_name}" doesn't have the "{face_name}" face
+  cutoff: "This text has been truncated to fit within Discord's limitations."
+  failed_to_send: "[ Failed to send for some reason :[ ]"
+  failed_to_send_dm: "[ Couldn't send message to our dms, are your dms open or have you [added me](https://discord.com/oauth2/authorize?client_id={twm, user, id}) yet? ]"
+  apng_preview_warn: |
+    Discord doesn't show or let you download `.png`s as APNG.
+    You can download the file, add .png to its name, open it in the browser and it should animate.
+  ephemeral_warnote: If you're planning to ⭐ Favorite this - make sure to download it as file, and send it elsewhere. Files in ephemeral messages (those only you can see) have a very short lifespan, discord deletes them after like 15 minutes. So make sure to save it or it'll show up as a blue square in your favorites list
+  toolong_for_image_warnote: The text on the frame you entered does not fit within the output *image*, it will fully show up if you change the output file type to something that can be animated though.
+  recovering:
+    message: "[ State not found, trying to recover… ]"
+    success: "[ {loading, emoji} Successfully recovered the state, loading editor… ]"
+filetypes:
+  GIF: gif
+  WEBP: webp
+  APNG: apng
+  PNG: png
+  JPEG: jpeg
+button:
+  render: Render everything as {type}
+  rendersend: "Render everything as {type} & Send"
+  face: Select facepic
+  text:
+    edit: Edit Text
+    add: Add Text
+  frame:
+    next: Next Frame
+    add: Add Frame
+    previous: Previous Frame
+    manual: Input Frame
+    delete: Delete
+    clear: Clear
+  edit: Edit Frames as text
+facepic_picker:
+  layout: |-
+    ### {location, select, root {Select a category} other {{name}{expression, notempty, ' / {expression}'}}}
+    {description, notempty, '{description}'}
+
+    {credits, notempty, '**Credits:** {credits}'}
+    -# targeting frame #{frame_index}
+frame_position: "editing frame {current, pretty_num} of {total, pretty_num} total"
+select:
+  chars: Characters…
+  faces: Faces…
+  styles: Styles…
+modal:
+  edit_frames:
+    title: "Editing textbox"
+    input:
+      label: Code
+      placeholder: what goes here
+    accepted: Textbox changes accepted
+    warning: Some warnings showed up while parsing the code
+    declined: Something went wrong while parsing the code
+    response: State changed!
+  edit_text:
+    title: "Editing text for frame #{index}!"
+    input:
+      label: Text
+      placeholder: Text probably goes here
+    response: >
+      Text changed!
+
+      New text: {new_text}
+
+      Old text: {old_text}
+monologue:
+  char: "[ Pick a character for the textbox ]"
+  face: "[ Pick a face ]"
+  press_notext: "[ Make sure you put some text… if you want ]"
+  press: "[ Press the Render button whenever you're ready ]"
+  rendering: "[ {loading, emoji} Rendering… ]"
+  sending: "[ {loading, emoji} Sending… ]"
+  done: "[ Done ]"
+  debug: "(Took: **{time, pretty_num}**ms., Sid: **{sid}**)"
+alt:
+  single_frame:
+    filename: "TWM textbox ({timestamp})"
+  multi_frame:
+    filename: "TWM textbox ({frames}, {timestamp})"
+ttb:
+  comment: "documentation on this can be found here: {link}"
