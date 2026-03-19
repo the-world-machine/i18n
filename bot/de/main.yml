@@ -164,8 +164,7 @@ explode:
 # ---------------------------------------------------------------
 
 shop:
-  motds:
-  - "Meine Schätze und Schmuckstücke sind verloren… Kannst du mir mehr finden für mich?"
+  motds: []
 items:
   treasures:
     amber:
