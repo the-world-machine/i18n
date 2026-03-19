@@ -165,10 +165,7 @@ explode:
 
 shop:
   motds:
-  - "Ich habe vielleicht den wool markt gebrochen einmal or zwei.. Aber bitte sag es Niemanden."
   - "Meine Schätze und Schmuckstücke sind verloren… Kannst du mir mehr finden für mich?"
-  - Gefällt dir meine flasche Kollektion? Ich mag meine Flasche Kollektion. Was meinst du es ist alles "Hard Liquor"? Ist das was es sagt?"   # Magpie's drink of choice is hard liquor, but only so he can collect the bottles afterwards.
-
 items:
   treasures:
     amber:

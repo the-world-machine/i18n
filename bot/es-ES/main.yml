@@ -116,8 +116,7 @@ explode:
       ⚠️ advertencia: Completamente despreciable.
   YouKilledNiko: "[ Mataste a Niko. ]"
 shop:
-  motds:
-  - My poor trinket and treasures were washed away... perhaps you could find more for me?
+  motds: []
   treasures: {}
 items:
   treasures:
