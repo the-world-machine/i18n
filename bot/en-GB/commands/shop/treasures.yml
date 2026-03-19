@@ -1,0 +1,39 @@
+stock_market: |-
+  Exchange:
+  ```
+  Market trend: {value, pretty_num}
+  Exchange rate: {price, pretty_num}
+  ```
+buying:
+  title: Treasures
+  description: |-
+    You want to trade your {wool, emoji}**Wool** for treasures? Then you've come to the right place!
+    I've got plenty of treasures I've found, or treasure other users have traded in!
+
+    {stock_market}
+    {selected_treasure}
+    {user_wool}
+  select_menu:
+    no_treasures: There are no treasures to trade
+    placeholder: Choose a treasure to trade…
+    option: '"{name}" - {price, pretty_num} Wool'
+selling:
+  title: Trade in Treasures
+  description: |-
+    Ah… You're intrerested in trading in your treasures! That's great! Whenever you trade in treasures,
+    I can trade it to other people, so make sure you really want to trade it!
+
+    {stock_market}
+    {selected_treasure}
+    {user_wool}
+  select_menu:
+    no_treasures: You have no treasures to trade in
+    placeholder: Choose a treasure to trade in…
+    option: '"{name}" (x{amount, pretty_num})'
+selection: |-
+  **Currently Selected:**
+  > {treasure_icon} "**{treasure_name}**"{owned_count, select, 0 {} other { (you've got x**{owned_count, pretty_num}**)}}
+
+  **Trade One**: {wool, emoji}**{price_one, pretty_num}**
+
+  **Trade {limit_reached, select, yes {{amount, pretty_num}} other {All}}**: {wool, emoji}**{price_all, pretty_num}** (x**{amount, pretty_num}**)

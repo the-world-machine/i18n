@@ -1,0 +1,10 @@
+title: Backgrounds
+description: |-
+  Do you want to trade {wool, emoji}**{amount, pretty_num}** for this background?
+
+  {user_wool}
+newly_owned: |-
+  Thanks! Now you are a proud owner of this background.
+
+  {user_wool}
+traded: "> Successfully traded for this background!"

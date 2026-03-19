@@ -1,0 +1,40 @@
+stock_market: |
+  ```
+  Коэф. измн.: {value, pretty_num}
+  Цена акций: {price, pretty_num}
+  ```
+buying:
+  title: Сокровища
+  description: |-
+    Ты хочешь обменять свою {wool, emoji}**Шерсть** на сокровища? Тогда ты по адресу! У меня есть
+    очень много сокровищ, которые я нашёл, или которые другие пользователи мне продали! 
+
+    {stock_market}
+    {selected_treasure} 
+    {user_wool}
+  select_menu:
+    no_treasures: Нет сокровищ, которыми можно было бы торговать
+    placeholder: Выберите сокровище на продажу…
+    option: «{name}» — {price, pretty_num} Шерсти
+selling:
+  title: Обмен Сокровищ
+  description: |-
+    А-а... Ты хочешь обменять сокровища! Замечательно! Когда ты обмениваешь сокровища, 
+    я могу передать их другим игрокам в будущем, так что убедись, что действительно хочешь 
+    совершить обмен! 
+
+    {stock_market} 
+    {selected_treasure} 
+    {user_wool}
+  select_menu:
+    no_treasures: У вас нет сокровищ, которые вы могли бы обменять
+    placeholder: Выберите сокровища на продажу…
+    option: «{name}» (x{amount, pretty_num})
+selection: >-
+  **Сейчас Выбрано:**
+
+  > {treasure_icon} «**{treasure_name}**»{owned_count, select, 0 {} other { (у вас есть x**{owned_count, pretty_num}**)}}
+
+  **Обменять Одну**: {wool, emoji}**{price_one, pretty_num}**
+
+  **Обменять {limit_reached, select, yes {{amount, pretty_num}} other {Все}}**: {wool, emoji}**{price_all, pretty_num}** (x**{amount, pretty_num}**)

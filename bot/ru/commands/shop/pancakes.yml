@@ -1,0 +1,12 @@
+title: Блинчики
+description: >
+  Никоготчи просто обожают блинчики, и, к счастью, вы можете купить их у меня!
+
+
+  {items}
+
+
+  {user_wool}
+item_template: |-
+  {pancake_emoji} **{name}** — {wool, emoji}**{cost, pretty_num}**{amount_owned, select, 0 {} other { (у вас есть x**{amount_owned}**)}}
+  {>description}

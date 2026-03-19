@@ -1,0 +1,24 @@
+_metadata:
+  name: shop
+  description: Открыть лавку Мэгпая
+loading: "[ {loading, emoji} Загрузка Магазина... ]"
+user_wool: "-# текущий баланс: **{wool, emoji}{wool, pretty_num}**"
+buttons:
+  buying:
+    single: Купить
+    multiple: "Обменять {limit_reached, select, yes {{amount, pretty_num}} other {Оставшееся}}"
+  selling:
+    single: Продать
+    multiple: "Продать {limit_reached, select, yes {{amount, pretty_num}} other {Оставшееся}}"
+  go_back: Назад
+  owned: Есть
+  cannot_afford:
+    single: Не по карману
+    all: Всё не по карману
+responses:
+  buying:
+    success: "> Успешно обменяно «{item_name}» за {amount, pretty_num}!"
+  selling:
+    success: '> Успешно продано {amount, pretty_num}x "{item_name}" за {price, pretty_num} Шерсти!'
+  errors:
+    generic_trade_fail: "> Вы не можете это продать."

@@ -1,0 +1,37 @@
+stock_market: |-
+  Біржа:
+  ```
+  Тенденція ринку: {value, pretty_num}
+  Обмінний курс: {price, pretty_num}
+  ```
+buying:
+  title: Скарби
+  description: >
+    Якщо ви бажаєте придбати скарбів за свою **Вовну** {wool, emoji}, тоді ви потрапили в правильне
+    місце! У мене є безліч скарбів, які знайшов я або інші!
+    {stock_market}
+    {selected_treasure}
+    {user_wool}
+  select_menu:
+    no_treasures:
+    placeholder:
+    option:
+selling:
+  title: Обміняти Скарби
+  description: >
+    Ааа... Ви бажаєте обміняти свої скарби на **Вовну** {wool, emoji}, чудово!
+    Якщо ви мені обміняєте, я можу продати їх комусь іншому! Тож переконайтеся, що ви дійсно хочете
+    їх обміняти!
+    {stock_market}
+    {selected_treasure}
+    {user_wool}
+  select_menu:
+    no_treasures:
+    placeholder:
+    option:
+selection: |-
+  **Обраний скарб:**
+  - {treasure_icon}«**{treasure_name}**» - {owned}
+
+  **За Один**: **{price_one, pretty_num}**{wool, emoji}
+  **За {amount} (усі): **{price_all, pretty_num}**{wool, emoji}

@@ -1,0 +1,24 @@
+_metadata:
+  name: shop
+  description: Відкрити крамничку Магпія
+loading: "[ {loading, emoji} Завантаження Крамниці... ]"
+user_wool: "-# поточний баланс: **{wool, pretty_num}**{wool, emoji}"
+buttons:
+  buying:
+    single: Придбати
+    multiple: "Trade {limit_reached, select, yes {{amount, pretty_num}} other {Remaining}}"
+  selling:
+    single: Обміняти
+    multiple: "Trade in {limit_reached, select, yes {{amount, pretty_num}} other {Remaining}}"
+  go_back: Назад
+  owned: Ви вже це маєте
+  cannot_afford:
+    single: Не по кишені
+    all: Все не по кишені
+responses:
+  buying:
+    success: "> Успішно отримано {amount, pretty_num} {item_name} за {price} Вовни!"
+  selling:
+    success: "> Успішно обмінено {amount, pretty_num} {item_name} на {price, pretty_num} Вовни!"
+  errors:
+    generic_trade_fail: "> Ви це вже не можете придбати або обміняти."

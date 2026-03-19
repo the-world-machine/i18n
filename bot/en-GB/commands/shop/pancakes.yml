@@ -1,0 +1,12 @@
+title: Pancakes
+description: >
+  Nikogotchis absolutely adore pancakes, and thankfully, you can trade some with me!
+
+
+  {items}
+
+
+  {user_wool}
+item_template: |-
+  {pancake_emoji} **{name}** - {wool, emoji}**{cost, pretty_num}**{amount_owned, select, 0 {} other { (you've got x**{amount_owned}**)}}
+  {>description}

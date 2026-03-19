@@ -1,0 +1,26 @@
+_metadata:
+  # weblate-flags: max-length:32, ignore-same
+  name: shop
+  # weblate-flags: max-length:100
+  description: Open Magpie's Shop
+loading: "[ {loading, emoji} Loading Shop… ]"
+user_wool: "-# current balance: **{wool, emoji}{wool, pretty_num}**"
+buttons:
+  buying:
+    single: Buy
+    multiple: "Buy {limit_reached, select, yes {{amount, pretty_num}} other {Remaining}}"
+  selling:
+    single: Sell
+    multiple: "Sell {limit_reached, select, yes {{amount, pretty_num}} other {Remaining}}"
+  go_back: Go Back
+  owned: Owned
+  cannot_afford:
+    single: Cannot Afford
+    all: Cannot Afford All
+responses:
+  buying:
+    success: '> Successfully traded for {amount, pretty_num} of "{item_name}"!' # {price} is also available here
+  selling:
+    success: '> Sucessfully traded in {amount, pretty_num} "{item_name}" for {price, pretty_num} Wool!'
+  errors:
+    generic_trade_fail: "> You cannot trade for this."
