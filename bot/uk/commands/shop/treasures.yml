@@ -1,8 +1,8 @@
 stock_market: |-
   Біржа:
   ```
-  Тенденція ринку: {value, pretty_num}
-  Обмінний курс: {price, pretty_num}
+  Тенденція ринку: {change, number, 0.00}
+  Обмінний курс: {rate, number, 0.00}
   ```
 buying:
   title: Скарби

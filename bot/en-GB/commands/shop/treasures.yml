@@ -1,8 +1,8 @@
 stock_market: |-
   Exchange:
   ```
-  Market trend: {value, pretty_num}
-  Exchange rate: {price, pretty_num}
+  Market trend: {change, number, 0.00}
+  Exchange rate: {rate, number, 0.00}
   ```
 buying:
   title: Treasures
