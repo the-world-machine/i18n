@@ -29,7 +29,8 @@ generic:
     top: "To the Top"
     down: "Down"
     bottom: "To the Bottom"
-
+    accept: "Accept"
+    decline: "Decline"
   minis:
     note: "❕ note:"
     tip: "❔ tip:"
@@ -522,14 +523,14 @@ nikogotchi:
         "{old_pronouns}" → "{new_pronouns}"
     trade:
       request: >
-        ### **{user_id, user, mention}** wants to trade their Nikogotchi ({name_one}) with you!
+        ### **{sender_id, user, mention}** wants to trade their Nikogotchi ({sender_nikogotchi_name}) with you!
 
-        Do you want to trade your Nikogotchi ({name_two}) with them?
+        Do you want to trade your Nikogotchi ({receiver_nikogotchi_name}) with them?
 
-      waiting: "[ Sent {user_id, user, mention} a trade offer! {loading, emoji} Waiting for their response… ]"
+      waiting: "[ Sent {receiver_id, user, mention} a trade offer! {loading, emoji} Waiting for their response… ]"
       declined: "[ Your trade request has been declined… ]"
       success_decline: "[ Trade request successfully declined. ]"
-      success: "[ Successfully traded with {user_id, user, mention}! Say hello to **{name}**! ]"
+      success: "[ Successfully traded with {user_id, user, mention}! Say hello to **{received_nikogotchi_name}**! ]"
 
   found:
     title: You found {name}!
