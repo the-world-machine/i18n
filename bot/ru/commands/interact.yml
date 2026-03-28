@@ -1,0 +1,139 @@
+_metadata:
+  name: interact
+  description: Interact with others in various ways (sends a message in chat)
+options:
+  with:
+    name: with
+    description: The interactee (can be @, won't ping everyone/here/roles though)
+  user_one:
+    name: user_one
+    description: Optional replacement for the first user (same as interactee, but message won't ping anyone)
+
+twm_not_being_very_happy: "[ {user_id, user, mention}, не трогай меня. ]"
+twm_questioning_if_youre_stupid_or_not: "[ {user_id, user, mention}, вы *не совсем* можете взаимодействовать с ботами. ]"
+twm_is_fed_up_with_you: "[ *вздох* Ты не можешь взаимодействовать с собой, {user_id, user, mention}. ]"
+
+errors:
+  no_path: "Не удалось найти взаимодействие, попробуйте использовать команду ещё раз. Если ошибка не устранится, пожалуйста, сообщите об этом на наш сервер сообщества (вы можете найти его в {/about})"
+  500: "Непредвиденная ошибка, попробуйте использовать команду ещё раз. Если ошибка не устранится, пожалуйста, сообщите об этом на наш сервер сообщества (вы можете найти его в {/about})"
+  fail: Не удалось выполнить взаимодействие
+
+phrases:
+  - name: Буп (Тыкнуть)
+    phrases:
+      - name: Обычно
+        phrases:
+          - "{user_one} тыкнул {user_two}"
+      - name: Игриво
+        phrases:
+          - "{user_one} бупает нос {user_two}!"
+          - "{user_one} протянул руку и бупает {user_two}!"
+          - "{user_one} с ничего бупает {user_two}!"
+          - "{user_one} игриво бупнул {user_two}!"
+      - name: Деликатно
+        phrases:
+          - "{user_one} нежно бупнул и погладил нос {user_two}"
+          - "{user_one} изящно доставляет буп {user_two}"
+          - "{user_one} нежно нажимает на нос {user_two}"
+          - "{user_one} деликатно бупнул нос {user_two}"
+      - name: Недовольно
+        phrases:
+          - "{user_one} агрессивно бупнул {user_two}"
+          - "{user_one} срывается на {user_two} и бупает"
+          - "{user_one} фыркнув, бупает {user_two} в раздражении"
+          - "{user_one} выпускает свой пар на {user_two} сильным бупом"
+      - name: Неудержимо
+        phrases:
+          - "{user_one} почувствовал, что нужно бупнуть {user_two}!"
+          - "{user_one} просто захотел бупнуть {user_two}!"
+          - "{user_one} не смог удержаться и бупнул {user_two}"
+          - "{user_one} поддаётся желанию и бупает {user_two}"
+      - name: Неожиданно
+        phrases:
+          - "{user_one} оставил в недоразумении {user_two} бупом в нос!"
+          - "{user_one} неожиданно бупнул {user_two}!"
+          - "{user_two} без слов после бупа в нос от {user_one}!"
+          - "{user_one} оставляет {user_two} в недоразумении бупом"
+      - name: С Умиления
+        phrases:
+          - "{user_one} делает {user_two} милейший маленький буп!"
+          - "{user_one} бупает нос {user_two}, мило хихикая!"
+          - "{user_one} не может смириться с милотой {user_two} после чего бупает!"
+          - "{user_one} с улыбкой доставляет трогательный до дрожи буп {user_two}!"
+  - name: Дать Леща
+    phrases:
+      - "{user_one} даёт пощёчину {user_two}, скорее всего, заслужено."
+      - "{user_one} даёт пощёчину {user_two}!"
+      - "{user_two} неожиданно получает пощёчину от {user_one}!"
+  - name: Погладить
+    phrases:
+      - "{user_one} погладил {user_two}!"
+  - name: Погладить по голове
+    phrases:
+      - "{user_one} погладил {user_two} по голове!"
+  - name: Пощекотать
+    phrases:
+      - "{user_one} неожиданно для {user_two} защекотал!"
+      - "{user_one} неожиданно защекотал {user_two}!"
+      - "{user_one} защекотал {user_two}, чем разжёг щекоточную войну!"
+      - "{user_one} атаковал щекоткой {user_two}!"
+  - name: Обнять
+    phrases:
+      - "{user_one} обнял {user_two}!"
+  - name: Нежно обнять
+    phrases:
+      - "{user_one} нежно обнял {user_two}!"
+  - name: Поцеловать
+    phrases:
+      - name: Обычно
+        phrases:
+          - "{user_one} поцеловал {user_two}! ❤️"
+      - name: Тепло
+        phrases:
+          - "{user_one} тепло поцеловал {user_two} ❤️"
+      - name: Романтично
+        phrases:
+          - "{user_one} тянет к себе {user_two} поближе, после чего разделяет медленный, нежный поцелуй"
+      - name: В Щёчку
+        phrases:
+          - "{user_one} нежно чмокает щёку {user_two}"
+          - "{user_one} заставляет {user_two} краснеть от любящего поцелуя в щёчку!"
+  - name: Атаковать
+    phrases:
+      - name: Ударить
+        phrases:
+          - "{user_one} ударяет {user_two}, больно же."
+      - name: Случайное комбо
+        phrases:
+          - "{user_one} прописывает {user_two} комбо из нескольких ударов!"
+          - "{user_one} наносит три быстрых удара, после чего прописывает хук правой в {user_two}!"
+          - "{user_one} включает режим берсерка на {user_two}!"
+      - name: Подушка
+        phrases:
+          - "{user_one} ударяет сзади голову {user_two} мягкой подушкой!"
+          - "{user_one} запускает шквал подушек на {user_two}! Все перья разлетелись!"
+          - "{user_one} замахивается подушкой на {user_two} в мягкой атаке!"
+  - name: "🔥"
+    phrases:
+      - name: Камни
+        phrases:
+          - "{user_one} кинул камешек в {user_two}!"
+          - "{user_one} кидает кучку камушков в {user_two}!"
+          - "{user_one} выгребает огромный булыжник прямо из земли и пуляет в {user_two} силой мысли"
+      - name: Молотов
+        phrases:
+          - "{user_one} бросает коктейль Молотова в {user_two} ‼️"
+      - name: Пустая Бутылка (ай)
+        phrases: # VIOLENCE
+          - "{user_one} кидает пустую бутылку на голову {user_two}"
+          - "{user_one} раскалывает бутылку об голову {user_two}"
+        flags: бутылка # do not translate
+      - name: Кусочек Шерсти
+        phrases:
+          - "{user_one} кидает шерстинку в {user_two}, но она упала на землю на половине пути"
+          - "{user_one} выпускает малюсенькую 🤏 шерстинку прямо над головой {user_two}"
+          - "{user_one} трёт лицо {user_two} большим комком шерсти"
+          - "{user_one} щекотит ушко {user_two} комочком шерсти"
+        flags: шерсть # do not translate
+modifiers:
+  no_item: "У {user_one} кончились все «{item}» для кидания в {user_two}!"

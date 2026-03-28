@@ -1,6 +1,11 @@
 owned: Owned by {owner_id, user, displayname+(@username)}
 invalid: "[ You don't have a Nikogotchi! ]"
-tipnvalid: "you can buy a capsule with one in the shop"
+minis:
+  tips:
+    no_nikogotchi: "you can buy a capsule with one in the shop"
+  notes:
+    rename: "you can also do this using {/nikogotchi/rename}"
+    sent_treasure: "their stats will decrease faster than normal, so don't forget to call them back"
 
 name:
   niko: Niko
@@ -74,7 +79,6 @@ other:
 found:
   title: You found {name}!
   description: "Want to give them a different a name?"
-  renamenote: you can also do this using {/nikogotchi/rename}
 
 status:
   template: "*{status}*"
@@ -129,7 +133,6 @@ treasured:
 
   dialogues:
     sent: "Your Nikogotchi was sent to find treasures!"
-    senote: "their stats will decrease faster than normal, so don't forget to call them back"
     none_found: "Your Nikogotchi didn't find any treasures… Maybe you should give them more time?"
 
 levelupped:

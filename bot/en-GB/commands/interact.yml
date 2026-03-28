@@ -1,0 +1,139 @@
+_metadata:
+  name: interact
+  description: Interact with others in various ways (sends a message in chat)
+options:
+  with:
+    name: with
+    description: The interactee (can be @, won't ping everyone/here/roles though)
+  user_one:
+    name: user_one
+    description: Optional replacement for the first user (same as interactee, but message won't ping anyone)
+
+twm_not_being_very_happy: "[ Don't touch me, {user_id, user, mention}. ]"
+twm_questioning_if_youre_stupid_or_not: "[ {user_id, user, mention}, you can't really interact with bots. ]"
+twm_is_fed_up_with_you: "[ *sigh* You cannot interact with yourself, {user_id, user, mention}. ]"
+
+errors:
+  no_path: "Couldn't find the interaction, try running the command again. If the error persists, please report it in my community server (you can an invite to it in {/about})"
+  500: "Unexpected error, try running the command again. If the error persists, please report it in my community server (you can find an invite to it in {/about})"
+  fail: Failed to send the interaction
+
+phrases:
+  - name: Boop
+    phrases:
+      - name: Basic
+        phrases:
+          - "{user_one} booped {user_two}"
+      - name: Playful
+        phrases:
+          - "{user_one} pokes the nose of {user_two}!"
+          - "{user_one} reaches out and boops {user_two}!"
+          - "{user_one} felt silly and booped {user_two}!"
+          - "{user_one} playfully boops {user_two}!"
+      - name: Delicate
+        phrases:
+          - "{user_one} delicately boops and brushes the nose of {user_two}"
+          - "{user_one} delivers a dainty boop to {user_two}"
+          - "{user_one} gently taps {user_two}'s nose"
+          - "{user_one} places a delicate boop on {user_two}'s nose"
+      - name: Frustrated
+        phrases:
+          - "{user_one} aggressively booped {user_two}"
+          - "{user_one} booped {user_two} out of frustration"
+          - "{user_one} huffs and boops {user_two} in irritation"
+          - "{user_one} lets out their frustration with a firm boop on {user_two}"
+      - name: Irresistible
+        phrases:
+          - "{user_one} felt the need to give {user_two} a boop!"
+          - "{user_one} just wanted to give {user_two} a boop!"
+          - "{user_one} couldn't resist booping {user_two}"
+          - "{user_one} gives in to the urge and boops {user_two}"
+      - name: Confused
+        phrases:
+          - "{user_one} leaves {user_two} in confusion via a boop!"
+          - "{user_one} gives {user_two} an unexpected boop!"
+          - "{user_one} left {user_two} speechless post-boop!"
+          - "{user_one} leaves {user_two} wondering why they were booped"
+      - name: Cute
+        phrases:
+          - "{user_one} gives {user_two} the cutest little boop!"
+          - "{user_one} boops {user_two}'s nose and giggles cutely!"
+          - "{user_one} can't handle how adorable {user_two} is and boops them!"
+          - "{user_one} with a smile, delivers a heart-melting boop to {user_two}!"
+  - name: Slap
+    phrases:
+      - "{user_one} slapped {user_two}, probably deserved."
+      - "{user_one} slaps {user_two}!"
+      - "{user_two} received a sudden slap from {user_one}!"
+  - name: Pet
+    phrases:
+      - "{user_one} pet {user_two}!"
+  - name: Head Pat
+    phrases:
+      - "{user_one} gave {user_two} a headpat!"
+  - name: Tickle
+    phrases:
+      - "{user_one} started tickling {user_two} a surprise tickle!"
+      - "{user_one} gave {user_two} a surprise tickle!"
+      - "{user_one} tickled {user_two} and sparked a tickle fight!"
+      - "{user_one} went for a tickle attack at {user_two}!"
+  - name: Hug
+    phrases:
+      - "{user_one} hugged {user_two}!"
+  - name: Cuddle
+    phrases:
+      - "{user_one} cuddled with {user_two}!"
+  - name: Kiss
+    phrases:
+      - name: Basic
+        phrases:
+          - "{user_one} kissed {user_two}! ❤️"
+      - name: Warm
+        phrases:
+          - "{user_one} gave {user_two} a warm kiss ❤️"
+      - name: Romantic
+        phrases:
+          - "{user_one} pulls {user_two} close and shares a slow, tender kiss"
+      - name: Cheek Kiss
+        phrases:
+          - "{user_one} plants a sweet peck on {user_two}'s cheek"
+          - "{user_one} leaves {user_two} blushing with an affectionate cheek kiss!"
+  - name: Attack
+    phrases:
+      - name: Basic Punch
+        phrases:
+          - "{user_one} punched {user_two}, that hurts."
+      - name: Random Combo
+        phrases:
+          - "{user_one} delivers a rapid 1-2 punch combo to {user_two}!"
+          - "{user_one} lands three quick jabs followed by an overhand right on {user_two}!"
+          - "{user_one} goes full flurry mode on {user_two}!"
+      - name: Pillow
+        phrases:
+          - "{user_one} hits {user_two} behind their head with a fluffy pillow!"
+          - "{user_one} launches a pillow barrage at {user_two}! No feathers left!"
+          - "{user_one} swings a cushion at {user_two} in a soft attack!"
+  - name: 🔥
+    phrases:
+      - name: Rocks
+        phrases:
+          - "{user_one} threw a small rock at {user_two}!"
+          - "{user_one} threw a bunch of pebbles at {user_two}!"
+          - "{user_one} unearthed a giant rock out of the ground and launched it at {user_two} using brain power"
+      - name: Molotov
+        phrases:
+          - "{user_one} threw a Molotov Cocktail towards {user_two} ‼️"
+      - name: Empty Bottle (ow)
+        phrases:
+          - "{user_one} threw an empty bottle at {user_two}'s head"
+          - "{user_one} shattered a bottle on {user_two}'s head"
+        flags: bottle
+      - name: Piece of Wool
+        phrases:
+          - "{user_one} threw a piece of wool at {user_two}, and it fell on the ground mid-way"
+          - "{user_one} released a tiny 🤏 pinch of wool above {user_two}'s head"
+          - "{user_one} rubbed {user_two}'s face with a big clump of wool"
+          - "{user_one} tickled {user_two}'s ear with a small piece of wool"
+        flags: wool
+modifiers:
+  no_item: "{user_one} ran out of {item} to throw at {user_two}!"
