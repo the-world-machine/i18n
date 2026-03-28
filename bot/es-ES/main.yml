@@ -130,11 +130,6 @@ items:
     The World Machine: The World Machine
     The Author: The Author
 nikogotchi:
-  name:
-    silver: Silver
-    kip: Kip
-    george: George
-    the_world_machine: The World Machine
   other:
     error: {}
     renaming: {}
@@ -144,19 +139,16 @@ nikogotchi:
     niko:
       fed:
       - 
-      - PANCAKES!
       - "PANCAKES!"
       pet: []
       cleaned: []
     nikonlanger:
       fed: []
-      pet:
-      - ","
+      pet: []
       cleaned: []
     prophet_bot:
       fed: []
-      pet:
-      - "[…]"
+      pet: []
       cleaned: []
     silver:
       fed: []
@@ -177,8 +169,7 @@ nikogotchi:
     lamplighter:
       fed: []
       pet: []
-      cleaned:
-      - Cleanliness is... important. Thanks.
+      cleaned: []
     ling:
       fed: []
       pet: []
@@ -194,7 +185,6 @@ nikogotchi:
     george:
       fed:
       - 
-      - "Oh, pancakes... I suppose they're alright. Nothing really matters anyway."
       pet: []
       cleaned: []
     rue:
