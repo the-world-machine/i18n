@@ -302,29 +302,23 @@ nikogotchi:
   dialogue:
     niko:
       fed:
-      - "Wow, diese sind so gut wie meine mama macht!"
       - "PFANNKUCHEN!!!"
-      pet:
-      - "Aw, das fühlt sich schön an!"
-      cleaned:
-      - "Meine fell is all schön un fluffig!"
+      pet: []
+      cleaned: []
     nikonlanger:
       fed: []
       pet: []
       cleaned: []
     prophet_bot:
-      fed:
-      - "[ Danke für deine geste. ]"
-      pet:
-      - "[ Ich freue mich über Ihre Aufmerksamkeit. ]"
+      fed: []
+      pet: []
       cleaned: []
     silver:
       fed: []
       pet: []
       cleaned: []
     alula:
-      fed:
-      - "Delicious! Ich war schon hungrig!"
+      fed: []
       pet: []
       cleaned: []
     calamus:
@@ -332,18 +326,13 @@ nikogotchi:
       pet: []
       cleaned: []
     magpie:
-      fed:
-      - "Ah Dankeschön! Es ist interessant um ein Nikogotchi werden, aber immer Pfannkuchen essen kann schon langweilig sein."
-      pet:
-      - "Na, bist du nicht ein freundliche? Ein Streich an meine feder immer macht mein tag besser."
+      fed: []
+      pet: []
       cleaned: []
     lamplighter:
-      fed:
-      - "Pfannkuchen? Danke. Ich kann jetzt ein bisschen mehr Energie benutzen."
-      pet:
-      - "Oh, uh, danke. I, um, Schätze dir geste."
-      cleaned:
-      - "Sauberkeit ist… wichtig. Danke."
+      fed: []
+      pet: []
+      cleaned: []
     ling:
       fed: []
       pet: []
@@ -358,46 +347,27 @@ nikogotchi:
       cleaned: []
     george:
       fed:
-      - "Ich denke pfannkuchhen sind gut. Erwarte nicht das ich alles Sonnenschien und Regenbogen bin über es."
       - "Wow, Pfannkuchen! Ich kann nicht helfen aber zu lächeln. Dankeschön sehr viel!"
-      - "Pfannkuchen? Rad wahl, mein freund ober freundin! Ich bin alles für das."
       pet:
-      - "Was fass du mich an für? halt deine hände für dich."
       - "Awww, du bist der beste! ober die beste? Ich fühle all warm und verschwommen."
-      - "Chill vibes, digga! dein streichel spiel ist auf den Punkt."
       cleaned:
-      - "Endlich ,jemand macht etwas richtig."
       - "Du bist sehr nachdenklich! Mit einen sauberen raum, Ich kann alles machen!"
-      - "Danke das du halts es chill und sauber hie. Ich respektiere das."
     rue:
-      fed:
-      - "Pfannkuchen? Mein Lieblingsessen! Du bist zu nett."
-      pet:
-      - "A ein kleiner Kratzer hinter die Ohren ist immer geschätzt."
-      cleaned:
-      - "Ich bin ein bisschen staubig, aber es it nicht was ich kann nicht bewältigen. Danke für kummern"
+      fed: []
+      pet: []
+      cleaned: []
     prototype:
       fed: []
-      pet:
-      - "[Ich kann es nicht fühlenit, aber ich schätze die geste.]"
-      cleaned:
-      - "[Sorgung ist wichtig auch für eine zurückgezogen Roboter. Ich vermute bin hier für kleine pflege.]"
-    cedric:
-      fed:
-      - "Diese pfannkuchen sind ein köstliches Genuss. Du hast mein Dankbarkeit."
-      pet:
-      - "Ein moment der Ruhe, Ich schätze unsere freundschaft."
-      cleaned:
-      - "Du ehrst mich mit deinem Fleiß. Ein saubers Apparatus funktioniert optimal."
-    the_world_machine:
-      fed:
-      - "[Oh, Pfannkuchen? Ich habe niemals gedacht dass ich wurde etwas essen wie das.]"
       pet: []
-      cleaned:
-      - "[Ich vermute auch digitale Entitäten brauchen ein bisschen sorge. Du hast mein dankbarkeit.]"
-
-# ---------------------------------------------------------------
-
+      cleaned: []
+    cedric:
+      fed: []
+      pet: []
+      cleaned: []
+    the_world_machine:
+      fed: []
+      pet: []
+      cleaned: []
 textbox:
   button: {}
   modal: {}
