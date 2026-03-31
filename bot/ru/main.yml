@@ -58,8 +58,7 @@ profile:
     badge: {}
 explode:
   dialogue:
-    why:
-    - "[  ]"
+    why: []
 shop:
   motds: []
   treasures:

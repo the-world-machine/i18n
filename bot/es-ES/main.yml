@@ -13,8 +13,7 @@ profile:
   view: {}
 explode:
   dialogue:
-    why:
-    - "[  ]"
+    why: []
 shop:
   motds: []
   treasures: {}

@@ -44,10 +44,7 @@ profile:
   view: {}
 explode:
   dialogue:
-    why:
-    - "[  ]"
-        # don't touch this one, the bot inserts a random amount of dots here
-
+    why: []
 shop:
   motds: []
 items:
