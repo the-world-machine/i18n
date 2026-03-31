@@ -7,69 +7,15 @@ wool:
   pray: {}
 transmit: {}
 settings:
-  errors:
-    missing_permissions: '[ Debes tener el permiso "Gestionar Servidor" para cambiar los ajustes ]'
-    channel_insufficient_perms: "[ No tengo los permisos suficientes para ese canal. Asegúrate de que tengó todos estos: **Enviar Mensajes**, **Ver canal** and **Adjuntar archivos**. ]"
-    invalid_server_id: "[ ID del servidor inválida. ]"
-    uncached_server: no pude encontrar el nombre del servidor (quizás fui expulsado de él)
-    get_server_id: (Ajustes de Discord -> Avanzado -> activar 'Modo desarrollador', y mira abajo del todo del menú del servidor)
-    channel_lost_warn: Algo salió mal la última vez que intenté enviar un cuadro de texto de bienvenida en el canal que seleccionaste. Asegúrate de que tengo los permisos necesarios y que el canal existe. Puedes cambiar el canal usando {/settings/welcome/channel}. o en Ajustes del Servidor → Interacciones → Canal De Mensajes Del Sistema
-  welcome:
-    enabled:
-      yah: "[ Cuadros de texto de bienvenida activados ]"
-      nah: "[ Cuadros de texto de bienvenida desactivados ]"
-      default_tip: puedes cambiar el mensaje del cuadro de texto con {/settings/welcome/edit}
-    channel:
-      auto: "[ El canal de cuadros de texto de bienvenida fue reiniciado ]"
-      Changed: "[ El canal de cuadros de texto de bienvenida ahora es {channel} ]"
-    ping:
-      yah: "[ Cuadros de texto de bienvenida ahora mencionaran a los nuevos usuarios ]"
-      nah: "[ Cuadros de texto de bienvenida ya no mencionaran a los nuevos usuarios ]"
-    editor:
-      title: Editando el mensaje de cuadro de texto de bienvenida…
-      input: Mensaje de Bienvenida
-      placeholder: "Variables que puedes usar: {user_name} {server_name} {member_count}"
-      done: "[ Se actualizó el mensaje de cuadro de texto de bienvenida con éxito ]"
-      disabled_note: no te olvides de activarlos con {/settings/welcome/enabled}` value:True`
-  transmissions:
-    enabled:
-      yah: "[ El servidor ahora está cerrado a llamadas ]"
-      nah: "[ El servidor ahora está abierto a llamadas ]"
-    channel:
-      auto: "[ Canal de transmisión fue reiniciado ]"
-      Changed: "[ Canal de transmisión ahora es {channel} ]"
-    images:
-      enabled: "[ Activado imágenes de transmisión ]"
-      disabled: "[ Desactivado imágenes de transmisión ]"
-    anonymous:
-      enabled: "[ Activado modo anónimo ]"
-      disabled: "[ Desactivado modo anónimo ]"
-    blocked:
-      yah: "[ El servidor `{server_name}` fue bloqueado ]"
-      nah: "[ El servidor fue desbloqueado ]"
+  welcome: {}
+  transmissions: {}
 profile:
-  view:
-    message: Viendo el perfil de {target_id, user, mention}
-    bots: "[ ¡Los bots no tienen perfiles! ]"
-    loading: "[ {loading, emoji} Cargando el perfil de {target_id, user, mention}… ]"
-    image:
-      unlocked:
-        stamps: "Estampillas desbloqueadas:"
-      name: perfil de {target_id}
-  edit:
-    text: ¡Puedes editar tu perfil en la página web!
+  view: {}
 explode:
   dialogue:
     why:
-    - "[ ¿Por qué? ]"
     - "[ Tengo que limpiar cada vez que alguien hace esto. ]"
-    - "[ Wow... ¿en serio? ]"
     - "[  ]"
-    nineninenineninenine: |
-      [ Eso es suficiente. ¿¡Cómo `#######` llegaste hasta este número!? ¿Entiendes cuántos mundos has destruído? ]
-
-      ⚠️ advertencia: Completamente despreciable.
-  YouKilledNiko: "[ Mataste a Niko. ]"
 shop:
   motds: []
   treasures: {}

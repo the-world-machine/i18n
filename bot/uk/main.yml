@@ -57,148 +57,21 @@ wool:
     to: {}
   pray: {}
   gamble:
-    errors:
-      not_enough_wool: "[ У вас нема стільки вовни для такої ставки. ]"
-    slots:
-      title: 🎰 Ігровий Автомат
-      description_running: |
-        {bettor_id, user, mention} поставив **{amount, pretty_num}**{wool, emoji}.
-        {ticker}
-      description_result: |
-        {bettor_id, user, mention} поставив **{bet_amount, pretty_num}**{wool, emoji}.
-        {ticker}
-        -# {result, select,
-          jackpot {ДЖЕКПОТ! 🎉 {bettor_id, user, mention} виграв {win_amount, pretty_num} шерсті!}
-          won_some {{bettor_id, user, mention} виграв назад {win_amount, pretty_num} шерсті!}
-          lost_some {{bettor_id, user, mention} виграв назад лише {win_amount, pretty_num} шерсті…}
-          lost_all {{bettor_id, user, mention} все програв… наступного разу пощастить!}
-          pain {ДЖЕКПОТ! 🎉 {bettor_id, user, mention} все програв! Наступного разу пощастить!}
-          other {{bettor_id, user, mention} обдурив автомат!}
-        }
-      guide:
-        description: |
-          Грайте на будь-яку кількість вовни, яку можете собі дозволити.
-          Ось слоти, які можуть випасти, та їхня вартість:
-          {slot_values}
-          Очки додаються, а потім множаться на вашу ставку.
-          Ви також отримуєте вдвічі більше очок, якщо виб'єте джекпот!
-        value_entry: "- {icon} **{value_sign, select, negative {зменшення на } other {}}{value, plural, one {# очко} few {# очка} many {# очок} other {# очка}}**"
+    slots: {}
 transmit: {}
 settings:
-  errors:
-    weird_edgecase_number_0: Або ви або {twm, user, mention} нема у цьому сервері. Якщо ви менеджер серверу, будь ласка додайте {twm, user, mention} до серверу ще раз.
-    missing_permissions: '[ Вам потрібен дозвіл "Manage Server" щоб змінювати налаштування боту ]'
-    channel_not_messageable: "[ Я не можу віпдправляти повідомлення у тому каналу ]"
-    channel_insufficient_perms: "[ В мене немає достатньо дозвілів у тому каналі. Переконайтеся що мені надані ці дозволи: **Відправляти повідомлення**, **Дивитися канал** та **Прикріпляти файли**. ]"
-    invalid_server_id: "[ Некорректний ID сервера. ]"
-    uncached_server: "-# ніяк знайти назву сервера (мене в ньому нема)"
-    get_server_id: "(Налаштування Discord -> Додаткові налаштування -> увімкніть 'Режим розробника', потім появиться опція 'Копіювати ID сервера' у контекстному меню серверу)"
-    channel_lost_warn: "Щось зламалося в останній раз коли я намагався відправити вітальне текстове вікно, у канал котрий ви обрали. Переконайтеся що в мене є достатньо дозволів у тому каналі та він ще існує. Ви можете змінити канал використовуючи {/settings/welcome/channel}, чи у Налаштуваннях Серверу → Залучення → Канал Системних Повідомлень"
-
-  welcome:
-    enabled:
-      yah: "[ Вітальні текстові вікна увімкнені ]"
-      nah: "[ Вітальні текстові вікна вимкнені ]"
-      default_tip: "ви можете змінити текст цього вікна за допомогою {/settings/welcome/edit}"
-    channel:
-      auto: "[ Канал вітальних текстових вікон зкинутий ]"
-      Changed: "[ Канал вітальних текстових вікон було встановлено на {channel} ]"
-    ping:
-      yah: "[ Вітальні текстові вікна тепер будуть відправлятися з сповіщенням ]"
-      nah: "[ Вітальні текстові вікна тепер будуть відправлятися без сповіщень ]"
-    editor:
-      title: "Ви редагуєте текст вікна вітального повідомлення…"
-      input: "Вітальний Текст"
-      placeholder: "Змінні: {user_name} ім'я користувача, {server_name} назва серверу, {member_count} кол-во учасників"
-      done: "[ Текст вікна вітального повідомлення успішно оновлений ]"
-      new_none: "[ Скинуто до замовчувань ]"
-      Changed: |
-        Попередній: {old_text}
-
-        Новий (поточний): {new_text}
-      disabled_note: "не забудьте увімкнути їх використовуючи {/settings/welcome/enabled}` value:True`"
-  transmissions:
-    enabled:
-      yah: "[ Міжсерверні дзвінки тепер приймаються у цьому сервері ]"
-      nah: "[ Міжсерверні дзвінки тепер не приймаються у цьому сервері ]"
-    channel:
-      auto: "[ Міжсерверний канал скинутий ]"
-      Changed: "[ Міжсерверний канал було встановлено на {channel} ]"
-    images:
-      enabled: "[ Міжсерверні фото увімкнені ]"
-      disabled: "[ Міжсерверні фото вимкнені ]"
-    anonymous:
-      enabled: "[ Анонімний режим увімкнений ]"
-      disabled: "[ Анонімний режим вимкнений ]"
-    blocked:
-      yah: "[ Успішно заблоковано сервер `{server_name}` ]"
-      nah: "[ Цей сервер був успішно розблокований ]" # you can use server_name here also if you wish
-
-# ---------------------------------------------------------------
-
+  welcome: {}
+  transmissions: {}
 profile:
-  view:
-    message: "Переглядуємо профіль {target_id, user, mention}"
-    button: "Редагувати Свій Профіль"
-    bots: "[ Боти не мають профілів! ]"
-    loading: "[ {loading, emoji} Завантаження профіля {target_id, user, mention}… ]"
-
-    image:
-      name: "профіль {target_id}"
-      title: "Профіль {target_id, user, mention+(@username)}"
-      unlocked:
-        stamps: "Розблоковані Значки:"
-      alt: "Профіль користувача {username} у системі Мирової Машини. Вони мають: {suns, plural,\n one {# сонце}\n few {# сонця}\n many {# сонць}\n other {# сонця}\n}, {wool, plural,\n one {# вовну}\n few {# вовни}\n many {# вовен}\n other {# вовни}\n}.{description, notempty, ' Опис: {description}'}"
-  edit:
-    text: "Ви можете редагувати свій профіль на нашому сайті!"
-
-    # ---------------------------------------------------------------
-
-    down: \s[10]\@[OneShot/The World Machine/What,][ \s[1.2]Ой,\d[500] вибачте,\d[250]\@[OneShot/The World Machine/Upset left],\d[250],\d[250] сайт зараз не працює. \@[OneShot/The World Machine/Speak]Минулого тижня, коли я завершував тех обслуговування сайту, я вийшов зробити невелику перерву та \@[OneShot/Robots/Kelvin]\c[lightcoral]Кельвін\c[]\@[OneShot/The World Machine/Looking Left] підійшов попросити допомоги на заводі. Тиждень спустя, мене озорило, так замахався що аж забув закрити \@[OneShot/The World Machine/Looking Right]двері до серверної кімнати… \d[500]\d[1000]коти туди дібралися та \@[OneShot/The World Machine/Looking Left]попортили усе.\d[175] \d[175] \d[175] \d[175] \d[175] \d[175] \d[175] \@[OneShot/The World Machine/Looking Right]Для виправлення оцього всого мені знадобиться немало часу, мої розробники надсилатимуть оновлення про сайт на сервері спільноти\@[OneShot/The World Machine/Normal]\d[200],\@[OneShot/The World Machine/Speak] приєднуйтесь, якщо хочете\s[1000]. ]
+  view: {}
   notifications:
-    badge:
-      content: -# [ Ви отримали значок! Подивитись усі що у вас є, можна у {/profile/view} ]
-      title: ‹ {emoji} {badge_name} ›
-      description: "{target_id, user, mention} {badge_message}"
-      settings_note: Ви можете налаштувати це повідомлення, у {/settings/badge_notifications}
-      types:
-        times_shattered: |-
-          зламав лампочку **{amount, pretty_num}** {amount, plural,
-            one {раз}
-            few {рази}
-            many {разів}
-            other {рази}
-          }…
-        times_asked: |
-          заважив The World Machine **{amount, pretty_num}** {amount, plural,
-            one {раз}
-            few {рази}
-            many {разів}
-            other {рази}
-          }
-        wool: наздобув більш ніж **{amount, pretty_num}** Вовни!
-        times_transmitted: започаткував більш ніж **{amount, pretty_num}** міжсерверних передач!
-        suns: дав/получив більш ніж **{amount, pretty_num}** сонць
+    badge: {}
 explode:
   dialogue:
     why:
-    - "[ Чому? ]"
     - "[ Мені треба ще й прибиратися кожен раз. ]"
-    - "[ Воу... серйозно?]"
     - "[  ]"
-    - 
         # don't touch this one, the bot inserts a random amount of dots here
-
-    sixninefourtwo: найс 👍
-    nineninenineninenine: |
-      [ Це достатньо. Як ви `#####` змогли цього навіть досягти!? Ви що, не розумієте скільки всесвітів ви знищили? . ]
-
-      ⚠️ увага: ви абсолютно мерзенні.
-
-  info: "Кількість розбитих вами Сонць: {amount, pretty_num}"
-  YouKilledNiko: "[ Ви вбили Ніко. ]"
-
-# ---------------------------------------------------------------
 
 shop:
   motds: []

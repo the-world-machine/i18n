@@ -38,80 +38,16 @@ wool:
   pray: {}
 transmit: {}
 settings:
-  errors:
-    weird_edgecase_number_0: Ober du bist {twm, user, mention} nicht in der server. Wenn du bist der server Manager bitte nochmal {twm, user, mention} zu dem Server einladen.
-    missing_permissions: '[ Du musst die "Manage Server" Erlaubnis haben bevor du die Einstellungen verändert]'
-    channel_not_messageable: "[ Ich kann nicht eine Nachricht in diesem Kanal senden. ]"
-    channel_insufficient_perms: "[ Ich hab nicht genug erlaubnisse für diesem Kannal. stell doch sicher ich habe alle von diesem: **Send Messages**, **View Channel** und **Attach Files**. ]"
-    invalid_server_id: "[ Invaliden server ID. ]"
-    uncached_server: "-# Ich konnte nicht den server namen finden (ich bin nicht drin)"
-    get_server_id: "(Discord Einstellungen -> Erweitert-> 'Entwicklermodus' aktivieren, dann guck unterm von der Server menü )"
-    channel_lost_warn: "Etwas ist kaputt gegangen leste mal och probierte eine willkommen textbox in der Kanal du hast ausgewählt. stell fich sicher ich habe genug Erlaubnisse in dem Kanal und es existiert. Du kannst den Kanal verändern indem du benutzt {/settings/welcome/channel}, ober in den Server Einstellungen -> Overview -> ꜱʏꜱᴛᴇᴍ ᴍᴇꜱꜱᴀɢᴇꜱ ᴄʜᴀɴɴᴇʟ"
-
-  welcome:
-    enabled:
-      yah: "[ Willkommen textboxen sind aktiviert ]"
-      nah: "[ Willkommen textboxen sind Deaktiviert ]"
-      default_tip: "du kannst die textbox message verändern mit {/settings/welcome/edit}" # tip:
-    editor:
-      title: "Du verändert die Willkommen Nachricht…"
-      input: "Willkommen Nachricht"
-      placeholder: "Du kannst die Variablen benutzen: {user_name} {server_name} {member_count}"
-      done: "[ Erfolgreich Verändert die Willkommen Nachricht ]"
-  transmissions:
-    channel:
-      auto: "[ Übertragungs kanal zurücksetzet]"
-      Changed: "[Übertragungs Kanal wurde eingestellt auf {channel} ]"
-    images:
-      enabled: "[ Aktiviert Übertragungs Bilder ]"
-      disabled: "[ Deaktiviert Übertragungs Bilder ]"
-    anonymous:
-      enabled: "[ Erfolgreich aktiviert anonymer modus ]"
-      disabled: "[ Erfolgreich deaktiviert anonymer modus ]"
-    blocked:
-      yah: "[ Erfolgreich `{server_name}` blockiert ]"
-      nah: "[ Erfolgreich `[server_name]` Blockierung aufgehebt]" # you can use server_name here also if you wish
-
-# ---------------------------------------------------------------
-
+  welcome: {}
+  transmissions: {}
 profile:
-  view:
-    message: v Anzeige {target_id, user, mention}'s profil
-    button: "Verändere deine Profil"
-    bots: "[ Bots haben keine profilen! ]"
-    loading: "[ {loading, emoji} Laden {target_id, user, mention}'s Profil… ]"
-
-    image:
-      name: "{target_id} profil"
-      title: "{target_id, user, display_name}'s (@{target_id, user, username}) Profil"
-      unlocked:
-        stamps: "Entsperrte Stempeln:"
-      alt: "In der Bilde ist der profil von {username} in der Welt Machine system. Sie besitzen: Sonnen {suns}, Woolen {wool}. {description, notempty, 'Ihre Beschreibung lautet: {description}'}"
-  edit:
-    text: "Du kannst dein Profil verändern über diese Website!"
-
-# ---------------------------------------------------------------
-
+  view: {}
 explode:
   dialogue:
     why:
-    - "[ Warum? ]"
     - "[ Ich muss wieder waschen wenn jemand macht dass.]"
-    - "[ Wow… Echt? ]"
     - "[  ]"
-    - 
         # don't touch this one, the bot inserts a random amount of dots here
-
-    sixninefourtwo: nice 👍
-    nineninenineninenine: |
-      [ Das reicht jetzt, wie in der Gottes grüne welt hast du dieser nummer erreicht?! Verstehst du wie viele Welten hast du zerstört?! ]
-
-      ⚠️ warnung: Unglaublich von dir.
-
-  info: "Shatter zahl: {amount, pretty_num}"
-  YouKilledNiko: "[ Du hast Niko getötet. ]"
-
-# ---------------------------------------------------------------
 
 shop:
   motds: []

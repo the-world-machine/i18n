@@ -47,139 +47,20 @@ wool:
   transfer:
     to: {}
   pray: {}
-  gamble:
-    errors:
-      not_enough_wool: "[ У вас нет необходимого кол-ва шерсти для этой ставки. ]"
-    slots:
-      title: 🎰 Слот Машина
-      guide:
-        description: |
-          Поставьте любое кол-во шерсти в рамках вашего баланса.
-          Вот слоты и их ценность, которые вы можете покрутить:
-          {slot_values}
-          Очки суммируются и умножаются на вашу ставку.
-          Также при джекпоте очки удваиваются
-        value_entry: "- {icon} **{value_sign, select, negative {уменьшение на } other {}}{value, plural, one {# очко} few {# очка} many {# очков} other {# очка}}**"
-      description_running: |
-        {bettor_id, user, mention} ставит {wool, emoji}**{bet_amount, pretty_num}**.
-        {ticker}
-      description_result: |
-        {bettor_id, user, mention} has bet {wool, emoji}**{bet_amount, pretty_num}**.
-        {ticker}
-        -# {result, select,
-          jackpot {ДЖЕКПОТ! 🎉 {bettor_id, user, mention} выигрывает {win_amount, pretty_num} шерсти!}
-          won_some {{bettor_id, user, mention} выигрывает {win_amount, pretty_num} шерсти!}
-          lost_some {{bettor_id, user, mention} возвращает только {win_amount, pretty_num} шерсти…}
-          lost_all {{bettor_id, user, mention} проигрывает всё до копейки… удачи в след. раз!}
-          pain {ДЖЕКПОТ! 🎉 {bettor_id, user, mention} всё проигрывает до копейки! Удачи в след. раз!}
-          other {{bettor_id, user, mention} обводит машину вокруг пальца!}
-        }
+  gamble: {}
 transmit: {}
 settings:
-  errors:
-    weird_edgecase_number_0: Вы или {twm, user, mention} не находитесь на сервере. Если вы являетесь менеджером сервера, пожалуйста, добавьте {twm, user, mention} заново на сервер.
-    missing_permissions: '[ Вы должны иметь право "Управлять сервером" для изменения настроек ]'
-    channel_not_messageable: "[ Я не могу отправлять сообщения в данный канал ]"
-    channel_insufficient_perms: "[ У меня недостаточно прав для этого канала. Убедитесь, что у меня есть права на: **Отправка Сообщений**, **Просмотр Канала** и **Прикрепление Файлов**. ]"
-    invalid_server_id: "[ Неверный ID сервера. ]"
-    uncached_server: "не найдено имя сервера (может, меня оттуда кикнули)"
-    get_server_id: "(Настройки Discord -> Расширенные -> включите «Режим разработчика», затем посмотрите на нижнюю часть контекстного меню сервера)"
-    channel_lost_warn: "Что-то сломалось в предыдущий раз после отправки мною сообщения о приветствии в выбранный вами канал. Убедитесь, что у меня достаточно прав и выбранный канал существует. Вы можете поменять канал через {/settings/welcome/channel}, или же через Настройки Сервера → Вовлечённость → ᴋᴀнᴀл cиcᴛᴇмныx ᴄᴏᴏбщᴇний"
-  welcome:
-    enabled:
-      yah: "[ Сообщения о приветствии включены ]"
-      nah: "[ Сообщения о приветствии выключены ]"
-      default_tip: "вы можете изменить сообщение в диалоговом окне через {/settings/welcome/edit}" # tip:
-    channel:
-      auto: "[ Канал сообщений о приветствии был сброшен ]"
-      Changed: "[ Канал сообщений о приветствии был установлен на {channel} ]"
-    ping:
-      yah: "[ Сообщения о приветствии будут пинговать пришедших ]"
-      nah: "[ Сообщения о приветствии НЕ будут пинговать пришедших ]"
-    editor:
-      title: "Вы изменяете сообщение о приветствии…"
-      input: "Сообщение о приветствии"
-      placeholder: "Вы можете использовать переменные: {user_name} (имя пользователя), {server_name} (название сервера), {member_count} (кол-во участников)"
-      done: "[ Успешно обновлено сообщение о приветствии ]"
-      new_none: "[ Сброс «по умолчанию» ]"
-      Changed: |
-        Предыдущий: {old_text}
-
-        Новый (current): {new_text}
-      disabled_note: "не забудьте включить их через {/settings/welcome/enabled}` value:True`" # note:
-  transmissions:
-    enabled:
-      yah: "[ Теперь сервер принимает межсерверные звонки ]"
-      nah: "[ Теперь сервер НЕ принимает межсерверные звонки ]"
-    channel:
-      auto: "[ Межсерверный канал только что был сброшен ]"
-      Changed: "[ Межсерверный канал был установлен на канал {channel} ]"
-    images:
-      enabled: "[ Межсерверные картинки включены ]"
-      disabled: "[ Межсерверные картинки выключены ]"
-    anonymous:
-      enabled: "[ Анонимный режим успешно включен ]"
-      disabled: "[ Анонимный режим успешно выключен ]"
-    blocked:
-      yah: "[ Сервер `{server_name}` успешно заблокирован ]"
-      nah: "[ Сервер успешно разблокирован ]" # you can use server_name here also if you wish
-# ---------------------------------------------------------------
+  welcome: {}
+  transmissions: {}
 profile:
-  view:
-    message: Отображается профиль {target_id, user, mention}
-    button: "Редактировать Свой Профиль"
-    bots: "[ У ботов нет профилей! ]"
-    loading: "[ {loading, emoji} Загрузка профиля {target_id, user, mention}… ]"
-    image:
-      name: "{target_id} профиль"
-      title: "Профиль {target_id, user, display_name}'s (@{target_id, user, username})"
-      unlocked:
-        stamps: "Разблокированные Штампы:"
-      alt: "На изображение изображен профиль {username} в системе Мировой Машины. У них есть: {suns, plural,\none {# солнце}\nfew {# солнца}\nmany {# солнц}\nother {# солнц} }, {wool, plural,\none {# шерсть}\nfew {# шерсти}\nmany {# шерсти}\nother {# шерсти} }. {description, notempty, ' Описание гласит: {description}'}"
-  edit:
-    text: "Вы можете изменить свой профиль на сайте!"
-    down: \s[10]\@[OneShot/The World Machine/What,][ \s[1.2]Ой,\d[500] извините,\d[250]\@[OneShot/The World Machine/Upset left],\d[250],\d[250] сейчас сайт лежит. \@[OneShot/The World Machine/Speak] В последний раз, когда на мне был его ремонт, мне нужно было взять небольшой перерыв и \@[OneShot/Robots/Kelvin]\c[lightcoral]Kelvin\c[]\@[OneShot/The World Machine/Looking Left] попросил помочь на заводе. Неделю спустя, как оказалось, из-за работы у меня совершенно вылетело из головы закрыть \@[OneShot/The World Machine/Looking Right]дверь в серверную… \d[500]\d[1000]туда добрались усатые-полосатые \@[OneShot/The World Machine/Looking Left]да переворошили всё..\d[1400] Полюбас понадобится немало времени, чтобы всё привести в порядок, \@[OneShot/The World Machine/Looking Right]мои разработчики отправят обновления об сайте на сервер сообщества\@[OneShot/The World Machine/Normal]\d[200],\@[OneShot/The World Machine/Speak], так что, если хотите, — заходите\s[1000]. ]
+  view: {}
   notifications:
-    badge:
-      content: "-# [ Вы получили значок! Вы можете просмотреть все свои значки через {/profile/view} ]"
-      title: "‹ {emoji} {badge_name} ›"
-      description: "{target_id, user, mention} {badge_message}"
-      settings_note: "Вы можете изменить это уведомление, используя {/settings/badge_notifications}"
-      types:
-        times_shattered: |-
-          лампа была разбита **{amount, pretty_num}** {amount, plural,
-            one {раз}
-            few {раза}
-            many {раз}
-            other {раз}
-          }…
-        times_asked: |
-          **Мировую Машину потревожили **{amount, pretty_num}** {amount, plural,
-            one {раз}
-            few {раза}
-            many {раз}
-            other {раз}
-          }
-        wool: заработано более **{amount, pretty_num}** шерсти!
-        times_transmitted: инициировано более **{amount, pretty_num}** межсерверных передач!
-        suns: выдано/заработано более **{amount, pretty_num}** солнц
-# ---------------------------------------------------------------
+    badge: {}
 explode:
   dialogue:
     why:
-    - "[ Зачем? ]"
     - "[ Мне всё время приходится прибирать осколки, когда так делают. ]"
-    - "[ Ого... Серьёзно что ли? ]"
     - "[  ]"
-    - 
-    sixninefourtwo: найс 👍
-    nineninenineninenine: |
-      [ Хватит. Как ты, '#####', вообще достиг(ла) ТАКОГО числа?! Ты хоть знаешь, сколько миров было уничтожено? ]
-
-      ⚠️ предупреждение: Это ПРОСТО омерзительно.
-  info: "Солнце было расколото {amount, pretty_num} раз"
-  YouKilledNiko: "[ Вы убили Нико. ]"
-# ---------------------------------------------------------------
 shop:
   motds: []
   treasures:
