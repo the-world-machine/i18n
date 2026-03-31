@@ -24,13 +24,11 @@ transfer:
   errors:
     self_transfer: "[ Готово... ]"
     not_enough: "[ У вас нет столько {wool, emoji} шерсти! ]"
-    note_nuf: "у вас есть только {wool, emoji}**{balance, pretty_num}**"
   to:
     bot:
       none: "{sender_id, user, mention} дал {wool, emoji}**{amount, pretty_num}** пользователю {receiver_id, user, mention}, не так уж и щедро!"
       some: "{sender_id, user, mention} дал {wool, emoji}**{amount, pretty_num}** пользователю {receiver_id, user, mention}, как щедро…"
       confirmation: "[ Вы точно хотите дать шерсть... боту?]"
-      notefirmation: "вы потом не сможете вернуть её, знаете?…"
     user:
       none: "{sender_id, user, mention} дал {wool, emoji}**{amount, pretty_num}** пользователю {receiver_id, user, mention}, в конце концов не так уж и щедро…"
       some: "{sender_id, user, mention} дал {wool, emoji}**{amount, pretty_num}** пользователю {receiver_id, user, mention}, как щедро!"
@@ -49,3 +47,7 @@ pray:
   Change:
     gain: "вы также получили {wool, emoji}**{amount, pretty_num}** шерсти!"
     loss: "вы также потеряли {wool, emoji}**{amount, pretty_num}** шерсти…"
+minis:
+  notes:
+    bot_transfer: "вы потом не сможете вернуть её, знаете?…"
+    not_enough_wool: "у вас есть только {wool, emoji}**{balance, pretty_num}**"

@@ -24,13 +24,11 @@ transfer:
   errors:
     self_transfer: "[ Готово... ]"
     not_enough: "[ У вас немає стільки {wool, emoji} Вовни! ]"
-    note_nuf: "у вас є **{balance, pretty_num}**{wool, emoji}"
   to:
     bot:
       none: "{sender_id, user, mention} передали **{amount, pretty_num}**{wool, emoji} користувачу {receiver_id, user, mention}, не дуже щедро!"
       some: "{sender_id, user, mention} передали **{amount, pretty_num}**{wool, emoji} користувачу {receiver_id, user, mention}, як щедро…"
       confirmation: "[ Ви впевнені що бажаєте передати вовну... боту? ]"
-      notefirmation: "ви ж не зможете її повернути…"
     user:
       none: "{sender_id, user, mention} передав {wool, emoji}**{amount, pretty_num}** користувачу {receiver_id, user, mention}, все-таки не дуже щедро…"
       some: "{sender_id, user, mention} передав {wool, emoji}**{amount, pretty_num}** користувачу {receiver_id, user, mention}, як щедро!"
@@ -49,3 +47,7 @@ pray:
   Change:
     gain: "ви також здобули **{amount, pretty_num}**{wool, emoji}!"
     loss: "ви також втратили **{amount, pretty_num}**{wool, emoji}…"
+minis:
+  notes:
+    not_enough_wool: "у вас є **{balance, pretty_num}**{wool, emoji}"
+    bot_transfer: "ви ж не зможете її повернути…"

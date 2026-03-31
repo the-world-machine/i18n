@@ -27,7 +27,6 @@ notifications:
     content: "-# [ You got a badge! See each one you've earned at {/profile/view} ]"
     title: "‹ {emoji} {badge_name} ›"
     description: "{target_id, user, mention} {badge_message}"
-    settings_note: "You can change this notification using {/settings/badge_notifications}"
     types:
       times_shattered: |-
         shatterred a lightbulb **{amount, pretty_num}** {amount, select,
@@ -42,3 +41,6 @@ notifications:
       wool: earned over **{amount, pretty_num}** wool!
       times_transmitted: initiated over **{amount, pretty_num}** transmissions!
       suns: gave/earnt over **{amount, pretty_num}** suns
+minis:
+  notes:
+    badge_settings: "You can change this notification using {/settings/badge_notifications}"

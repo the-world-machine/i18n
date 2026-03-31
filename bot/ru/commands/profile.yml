@@ -17,7 +17,6 @@ notifications:
     content: "-# [ Вы получили значок! Вы можете просмотреть все свои значки через {/profile/view} ]"
     title: "‹ {emoji} {badge_name} ›"
     description: "{target_id, user, mention} {badge_message}"
-    settings_note: "Вы можете изменить это уведомление, используя {/settings/badge_notifications}"
     types:
       times_shattered: |-
         лампа была разбита **{amount, pretty_num}** {amount, plural,
@@ -36,3 +35,6 @@ notifications:
       wool: заработано более **{amount, pretty_num}** шерсти!
       times_transmitted: инициировано более **{amount, pretty_num}** межсерверных передач!
       suns: выдано/заработано более **{amount, pretty_num}** солнц
+minis:
+  notes:
+    badge_settings: "Вы можете изменить это уведомление, используя {/settings/badge_notifications}"
