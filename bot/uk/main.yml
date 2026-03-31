@@ -69,7 +69,6 @@ profile:
 explode:
   dialogue:
     why:
-    - "[ Мені треба ще й прибиратися кожен раз. ]"
     - "[  ]"
         # don't touch this one, the bot inserts a random amount of dots here
 

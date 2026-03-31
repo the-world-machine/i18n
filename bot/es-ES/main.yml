@@ -14,7 +14,6 @@ profile:
 explode:
   dialogue:
     why:
-    - "[ Tengo que limpiar cada vez que alguien hace esto. ]"
     - "[  ]"
 shop:
   motds: []

@@ -45,7 +45,6 @@ profile:
 explode:
   dialogue:
     why:
-    - "[ Ich muss wieder waschen wenn jemand macht dass.]"
     - "[  ]"
         # don't touch this one, the bot inserts a random amount of dots here
 
