@@ -18,6 +18,7 @@ welcome:
     "none": "[ Welcome textboxes channel has been reset ]"
     "some": "[ Welcome textboxes channel has been set to {channel} ]"
   editor:
+    # weblate-flags: max-length:45
     title: "Editing the welcome textbox message…"
     input: "Welcome Message"
     placeholder: "Variables you can use: {user_name} {server_name} {member_count}"
