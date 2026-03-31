@@ -43,54 +43,10 @@ generic:
 about:
   mes: []
 wool:
-  balance:
-    you:
-      none: "[ У вас нет **{wool, emoji}Шерсти** ]"
-      some: "[ У вас есть **{balance}**{wool, emoji} ]"
-    other:
-      none: "[ У **{account_holder_id, user, mention}** нет **{wool, emoji}Шерсти** ]"
-      some: "[ У **{account_holder_id, user, mention}** есть **{balance, pretty_num}**{wool, emoji} ]"
-    bot:
-      none: |
-        [ Боты обычно не взаимодействуют со мной, хотя они даже не могут,
-
-        так что у {account_holder_id, user, mention} нету {wool, emoji}**Шерсти** ]
-      some: |
-        [ Боты обычно не взаимодействуют со мной, хотя они даже не могут, но…
-
-        {account_holder_id, user, mention} владеет {wool, emoji}**{balance, pretty_num}** ]
-    twm:
-      none: "[ Я стараюсь не влиять на экономику, поэтому у меня **нет {wool, emoji}Шерсти** ]"
-      some: "[ Я стараюсь не влиять на экономику, но у меня есть {wool, emoji}**{balance, pretty_num}** ]"
+  balance: {}
   transfer:
-    errors:
-      self_transfer: "[ Готово... ]"
-      not_enough: "[ У вас нет столько {wool, emoji} шерсти! ]"
-      note_nuf: "у вас есть только {wool, emoji}**{balance, pretty_num}**" # note:
-    to:
-      bot:
-        none: "{sender_id, user, mention} дал {wool, emoji}**{amount, pretty_num}** пользователю {receiver_id, user, mention}, не так уж и щедро!"
-        some: "{sender_id, user, mention} дал {wool, emoji}**{amount, pretty_num}** пользователю {receiver_id, user, mention}, как щедро…"
-        confirmation: "[ Вы точно хотите дать шерсть... боту?]"
-        notefirmation: "вы потом не сможете вернуть её, знаете?…" # note:
-      user:
-        none: "{sender_id, user, mention} дал {wool, emoji}**{amount, pretty_num}** пользователю {receiver_id, user, mention}, в конце концов не так уж и щедро…"
-        some: "{sender_id, user, mention} дал {wool, emoji}**{amount, pretty_num}** пользователю {receiver_id, user, mention}, как щедро!"
-    steal: "{sender_id, user, mention} украл кусочек шерсти у {receiver_id, user, mention}, зачем!?"
-  pray:
-    errors:
-      timeout: "[ Вы уже молились за эти 24 часа. Вы сможете помолиться ещё через {unable_until, time, relative} ]"
-    finds:
-      misdeed: "...но они видели ваш проступок на днях."
-      unhappy: "...но они не довольны сегодня вами."
-      despise: "…и они вас сегодня презирают… Не хорошо…"
-      ogie: "…и они видят что у вас всё в порядке."
-      yippie: "…и сегодня они вами довольны! Да будет хвала Мировой Машине!"
-      devoted: "…и они видят, что вы истинный последователь. Да будет хвала Мировой Машине!"
-    title: "Вы помолились Мировой Машине…"
-    Change:
-      gain: "вы также получили {wool, emoji}**{amount, pretty_num}** шерсти!"
-      loss: "вы также потеряли {wool, emoji}**{amount, pretty_num}** шерсти…"
+    to: {}
+  pray: {}
   gamble:
     errors:
       not_enough_wool: "[ У вас нет необходимого кол-ва шерсти для этой ставки. ]"
@@ -118,10 +74,7 @@ wool:
           pain {ДЖЕКПОТ! 🎉 {bettor_id, user, mention} всё проигрывает до копейки! Удачи в след. раз!}
           other {{bettor_id, user, mention} обводит машину вокруг пальца!}
         }
-transmit:
-  autocomplete:
-    unknown_server: Неизвестный ({server_id})
-# ---------------------------------------------------------------
+transmit: {}
 settings:
   errors:
     weird_edgecase_number_0: Вы или {twm, user, mention} не находитесь на сервере. Если вы являетесь менеджером сервера, пожалуйста, добавьте {twm, user, mention} заново на сервер.
@@ -214,11 +167,11 @@ profile:
 explode:
   dialogue:
     why:
-      - "[ Зачем? ]"
-      - "[ Мне всё время приходится прибирать осколки, когда так делают. ]"
-      - "[ Ого... Серьёзно что ли? ]"
-      - "[  ]"
-      -
+    - "[ Зачем? ]"
+    - "[ Мне всё время приходится прибирать осколки, когда так делают. ]"
+    - "[ Ого... Серьёзно что ли? ]"
+    - "[  ]"
+    - 
     sixninefourtwo: найс 👍
     nineninenineninenine: |
       [ Хватит. Как ты, '#####', вообще достиг(ла) ТАКОГО числа?! Ты хоть знаешь, сколько миров было уничтожено? ]

@@ -1,56 +1,11 @@
 misc:
   miaou: {}
 wool:
-  balance:
-    you:
-      some: "[ Tienes **{balance, pretty_num}**{wool, emoji} ]"
-      none: "[ No tienes **{wool, emoji}Lana** ]"
-    other:
-      none: "[ **{account_holder_id, user, mention}** no tiene **{wool, emoji}Wool** ]"
-      some: "[ **{account_holder_id, user, mention}** tiene **{balance, pretty_num}**{wool, emoji} ]"
-    bot:
-      none: |
-        [ Bots normalmente no interactúan conmigo, no es que ni puedan,
-
-        así que {account_holder_id, user, mention} no tiene **{wool, emoji}Wool** ]
-      some: |
-        [ Bots normalmente no interactúan conmigo, no es que ni puedan, pero…
-
-        {account_holder_id, user, mention} ha recibido {wool, emoji}**{balance, pretty_num}** ]
-    twm:
-      none: "[ Intento no influenciar la economía, así que no tengo **{wool, emoji}Wool** ]"
-      some: "[ Intento no incluenciar la economía, pero tengo {wool, emoji}**{balance, pretty_num}** ]"
+  balance: {}
   transfer:
-    errors:
-      self_transfer: "[ Hecho... ]"
-      not_enough: "[ ¡No tienes tanta {wool, emoji} lana! ]"
-    to:
-      bot:
-        none: "{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id, user, mention}, ¡no es muy generoso!"
-        some: "{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id, user, mention}, que generoso…"
-        confirmation: "[ ¿Estás seguro de que le quieres dar lana... a un bot? ]"
-        notefirmation: sabes, no podrás volver a conseguirla…
-      user:
-        none: "{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id, user, mention}, en fín, no es muy generoso…"
-        some: "{sender_id, user, mention} le dió {wool, emoji}**{amount, pretty_num}** a {receiver_id, user, mention}, ¡que generoso!"
-    steal: "{sender_id, user, mention} robó una pieza de lana de {receiver_id, user, mention}, ¿¡por qué!?"
-  pray:
-    errors:
-      timeout: "[ Ya has rezado en las últimas 24 horas. Puedes volver a rezar {timestamp_relative}]"
-    finds:
-      misdeed: …pero vieron tu malhecho el otro día.
-      unhappy: …pero no estan contentos contigo hoy.
-      despise: …y hoy te odian… Que pena…
-      ogie: …y ven que estás haciendo bien.
-      yippie: …y están contentos contigo! ¡Alabado sea La Máquina del Mundo!
-      devoted: …y ven que eres un seguidor verdaderamente devoto… ¡Alabado sea La Máquina del Mundo!
-    title: Rezaste a La Máquina del Mundo…
-    Change:
-      gain: ¡también conseguiste {wool, emoji}**{amount, pretty_num}** lana!
-      loss: también perdiste {wool, emoji}**{amount, pretty_num}** lana…
-transmit:
-  autocomplete:
-    unknown_server: Desconocido ({server_id})
+    to: {}
+  pray: {}
+transmit: {}
 settings:
   errors:
     missing_permissions: '[ Debes tener el permiso "Gestionar Servidor" para cambiar los ajustes ]'

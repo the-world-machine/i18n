@@ -32,61 +32,11 @@ misc:
 about:
   mes: []
 wool:
-  balance:
-    you:
-      none: "[ Du hast **no{wool, emoji}Wool** ]"
-      some: "[ Du hast **{balance, pretty_num}**{wool, emoji} ]"
-    other:
-      none: "[ **{account_holder_id, user, mention}** hat **no{wool, emoji}Wool** ]"
-      some: "[ **{account_holder_id, user, mention}** hat **{balance, pretty_num}**{wool, emoji} ]"
-    bot:
-      none: |
-        [ Bots normalerweise interaktiern nicht mit mir, nicht das sie können mal.
-
-        so {account_holder_id, user, mention} hat keine {wool, emoji}**Wool** ]
-      some: |
-        [ Bots normalerweise interaktiern nicht mit mir, nicht das sie können mal, aber…
-
-        {account_holder_id, user, mention} war gegeben {wool, emoji}**{balance, pretty_num}** ]
-    twm:
-      none: "[ Ich probiere nicht die wirtschaft beeinflussen, so ich habe **no{wool, emoji}Wool** ]"
-      some: "[ Ich probiere nicht die wirtschaft beeinflussen, aber ich habe {wool, emoji}**{balance, pretty_num}** ]"
+  balance: {}
   transfer:
-    errors:
-      self_transfer: "[ Fertig… ]"
-      not_enough: "[ Du hast nicht so viel {wool, emoji} wool! (du hast nur {wool, emoji}**[balance]**) ]"
-    to:
-      bot:
-        none: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, nicht sehr großzügig!"
-        some: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, wie großzügig…"
-        confirmation: "[ Bist du sicherer das du will woole geben zu ein bot…? Du kannst es nicht wieder haben, du weißt dass…? ]"
-      user:
-        none: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, nicht sehr großzügig schließlich…"
-        some: "{sender_id, user, mention} verschenkt {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, wie großzügig!"
-    steal: "{sender_id, user, mention} hat eine singulare stück wool gestohlen von {receiver_id, user, mention}, warum!?"
-  pray:
-    errors:
-      timeout: "[ Du hast schon gebetet in der 24. Du kannst nochmal beten {timestamp_relative}]" # example: in a day, in 5 hours # discord automatically translates
-    finds:
-      misdeed: "…aber Sie sahen deine Missetat der andere tage."
-      unhappy: "…aber sie sind nicht glücklich mit dir heute."
-      despise: "…und sie hassen die… zu schlect…"
-      ogie: "…und sie sehen das du bist okay."
-      yippie: "…und sie sind glücklich mir dir! Lob sei die Welt Maschine!"
-      devoted: "…und sie sehen du bist ein echetr they see you're truly a devoted follower. Lob sei die Welt maschine!"
-    title: "Du betete zu die Welt maschine…"
-    Change:
-      gain: "Du also hast bekommen {wool, emoji}**{amount, pretty_num}** wool!"
-      loss: "Du also hast verloren {wool, emoji}**{amount, pretty_num}** wool…"
-
-# ---------------------------------------------------------------
-
-transmit:
-  autocomplete:
-    unknown_server: Unerkannt ({server_id})
-
-# ---------------------------------------------------------------
-
+    to: {}
+  pray: {}
+transmit: {}
 settings:
   errors:
     weird_edgecase_number_0: Ober du bist {twm, user, mention} nicht in der server. Wenn du bist der server Manager bitte nochmal {twm, user, mention} zu dem Server einladen.
@@ -301,8 +251,7 @@ nikogotchi:
   treasured: {}
   dialogue:
     niko:
-      fed:
-      - "PFANNKUCHEN!!!"
+      fed: []
       pet: []
       cleaned: []
     nikonlanger:
@@ -346,12 +295,9 @@ nikogotchi:
       pet: []
       cleaned: []
     george:
-      fed:
-      - "Wow, Pfannkuchen! Ich kann nicht helfen aber zu lächeln. Dankeschön sehr viel!"
-      pet:
-      - "Awww, du bist der beste! ober die beste? Ich fühle all warm und verschwommen."
-      cleaned:
-      - "Du bist sehr nachdenklich! Mit einen sauberen raum, Ich kann alles machen!"
+      fed: []
+      pet: []
+      cleaned: []
     rue:
       fed: []
       pet: []
