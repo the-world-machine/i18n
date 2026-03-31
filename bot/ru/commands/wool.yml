@@ -1,0 +1,51 @@
+_metadata:
+  name: шерсть
+  description: Все, что связано с шерстью
+balance:
+  you:
+    none: "[ У вас нет **{wool, emoji}Шерсти** ]"
+    some: "[ У вас есть **{balance}**{wool, emoji} ]"
+  other:
+    none: "[ У **{account_holder_id, user, mention}** нет **{wool, emoji}Шерсти** ]"
+    some: "[ У **{account_holder_id, user, mention}** есть **{balance, pretty_num}**{wool, emoji} ]"
+  bot:
+    none: |
+      [ Боты обычно не взаимодействуют со мной, хотя они даже не могут,
+
+      так что у {account_holder_id, user, mention} нету {wool, emoji}**Шерсти** ]
+    some: |
+      [ Боты обычно не взаимодействуют со мной, хотя они даже не могут, но…
+
+      {account_holder_id, user, mention} владеет {wool, emoji}**{balance, pretty_num}** ]
+  twm:
+    none: "[ Я стараюсь не влиять на экономику, поэтому у меня **нет {wool, emoji}Шерсти** ]"
+    some: "[ Я стараюсь не влиять на экономику, но у меня есть {wool, emoji}**{balance, pretty_num}** ]"
+transfer:
+  errors:
+    self_transfer: "[ Готово... ]"
+    not_enough: "[ У вас нет столько {wool, emoji} шерсти! ]"
+    note_nuf: "у вас есть только {wool, emoji}**{balance, pretty_num}**"
+  to:
+    bot:
+      none: "{sender_id, user, mention} дал {wool, emoji}**{amount, pretty_num}** пользователю {receiver_id, user, mention}, не так уж и щедро!"
+      some: "{sender_id, user, mention} дал {wool, emoji}**{amount, pretty_num}** пользователю {receiver_id, user, mention}, как щедро…"
+      confirmation: "[ Вы точно хотите дать шерсть... боту?]"
+      notefirmation: "вы потом не сможете вернуть её, знаете?…"
+    user:
+      none: "{sender_id, user, mention} дал {wool, emoji}**{amount, pretty_num}** пользователю {receiver_id, user, mention}, в конце концов не так уж и щедро…"
+      some: "{sender_id, user, mention} дал {wool, emoji}**{amount, pretty_num}** пользователю {receiver_id, user, mention}, как щедро!"
+  steal: "{sender_id, user, mention} украл кусочек шерсти у {receiver_id, user, mention}, зачем!?"
+pray:
+  errors:
+    timeout: "[ Вы уже молились за эти 24 часа. Вы сможете помолиться ещё через {unable_until, time, relative} ]"
+  finds:
+    misdeed: "...но они видели ваш проступок на днях."
+    unhappy: "...но они не довольны сегодня вами."
+    despise: "…и они вас сегодня презирают… Не хорошо…"
+    ogie: "…и они видят что у вас всё в порядке."
+    yippie: "…и сегодня они вами довольны! Да будет хвала Мировой Машине!"
+    devoted: "…и они видят, что вы истинный последователь. Да будет хвала Мировой Машине!"
+  title: "Вы помолились Мировой Машине…"
+  Change:
+    gain: "вы также получили {wool, emoji}**{amount, pretty_num}** шерсти!"
+    loss: "вы также потеряли {wool, emoji}**{amount, pretty_num}** шерсти…"

@@ -1,0 +1,51 @@
+_metadata:
+  name: вовна
+  description: Усе, що пов'язано з вовною
+balance:
+  you:
+    none: "[ У вас **немає{wool, emoji}Вовни** ]"
+    some: "[ У вас є **{balance, pretty_num}**{wool, emoji} ]"
+  other:
+    none: "[ У **{account_holder_id, user, mention}** **немає{wool, emoji}Вовни** ]"
+    some: "[ **{account_holder_id, user, mention}** має **{balance, pretty_num}**{wool, emoji} ]"
+  bot:
+    none: |
+      [ Боти зазвичай зі мною не взаємодіють, вони якби взагалі не можуть мовити,
+
+      тому у {account_holder_id, user, mention} **немає{wool, emoji}Вовни** ]
+    some: |
+      [ Боти зазвичай зі мною не взаємодіють, вони якби взагалі не можуть мовити, але…
+
+      {account_holder_id, user, mention} хтось дав **{balance, pretty_num}**{wool, emoji} ]
+  twm:
+    none: "[ Я намагаюся не впливати на економіку, тому в мене **немає{wool, emoji}Вовни** ]"
+    some: "[ Я намагаюся не впливати на економіку, але мені надали **{balance, pretty_num}**{wool, emoji} ]"
+transfer:
+  errors:
+    self_transfer: "[ Готово... ]"
+    not_enough: "[ У вас немає стільки {wool, emoji} Вовни! ]"
+    note_nuf: "у вас є **{balance, pretty_num}**{wool, emoji}"
+  to:
+    bot:
+      none: "{sender_id, user, mention} передали **{amount, pretty_num}**{wool, emoji} користувачу {receiver_id, user, mention}, не дуже щедро!"
+      some: "{sender_id, user, mention} передали **{amount, pretty_num}**{wool, emoji} користувачу {receiver_id, user, mention}, як щедро…"
+      confirmation: "[ Ви впевнені що бажаєте передати вовну... боту? ]"
+      notefirmation: "ви ж не зможете її повернути…"
+    user:
+      none: "{sender_id, user, mention} передав {wool, emoji}**{amount, pretty_num}** користувачу {receiver_id, user, mention}, все-таки не дуже щедро…"
+      some: "{sender_id, user, mention} передав {wool, emoji}**{amount, pretty_num}** користувачу {receiver_id, user, mention}, як щедро!"
+  steal: "Користувач {sender_id, user, mention} вкрав один шматок вовни у {receiver_id, user, mention}, навіщо!?"
+pray:
+  errors:
+    timeout: "[ Ви вже молились за останні 24 години. Наступний раз ви сможете {timestamp_relative}]"
+  finds:
+    misdeed: "...але вони недавно бачили ваші погані вчинки."
+    unhappy: "...але сьогодні вони вами незадоволені."
+    despise: "…та вони вас сьогодні зневажають… Шкода…"
+    ogie: "...та вони бачать, що з вами все добре."
+    yippie: "...та вони щасливі з вами! Перемога за Світовою Машиною!"
+    devoted: "...та вони бачать, що ви справжній відданий послідовник. Хвала Світовій Машині!"
+  title: "Ви помолилися до Світової Машини…"
+  Change:
+    gain: "ви також здобули **{amount, pretty_num}**{wool, emoji}!"
+    loss: "ви також втратили **{amount, pretty_num}**{wool, emoji}…"

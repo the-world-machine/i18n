@@ -47,55 +47,6 @@ generic:
 # ---------------------------------------------------------------
 
 wool:
-  balance:
-    you:
-      none: "[ You have **no{wool, emoji}Wool** ]"
-      some: "[ You have **{balance, pretty_num}**{wool, emoji} ]"
-    other:
-      none: "[ **{account_holder_id, user, mention}** has **no{wool, emoji}Wool** ]"
-      some: "[ **{account_holder_id, user, mention}** has **{balance, pretty_num}**{wool, emoji} ]"
-    bot:
-      none: |
-        [ Bots usually don't interact with me, not that they even can,
-
-        so {account_holder_id, user, mention} has **no{wool, emoji}Wool** ]
-      some: |
-        [ Bots usually don't interact with me, not that they even can, but…
-
-        {account_holder_id, user, mention} was given {wool, emoji}**{balance, pretty_num}** ]
-    twm:
-      none: "[ I try not to influence the economy, so i have **no{wool, emoji}Wool** ]"
-      some: "[ I try not to influence the economy, but i've got {wool, emoji}**{balance, pretty_num}** ]"
-  transfer:
-    errors:
-      self_transfer: "[ Done… ]"
-      not_enough: "[ You don't have that much {wool, emoji} wool! ]"
-      note_nuf: "you have {wool, emoji}**{balance, pretty_num}**"
-
-    to:
-      bot:
-        none: "{sender_id, user, mention} gave away {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, not very generous!"
-        some: "{sender_id, user, mention} gave away {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, how generous…"
-        confirmation: "[ Are you sure you want to give wool to… a bot? ]"
-        notefirmation: "you won't be able get it back yk…"
-      user:
-        none: "{sender_id, user, mention} gave away {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, not very generous after all…"
-        some: "{sender_id, user, mention} gave away {wool, emoji}**{amount, pretty_num}** to {receiver_id, user, mention}, how generous!"
-    steal: "{sender_id, user, mention} stole a single piece of wool from {receiver_id, user, mention}, why!?"
-  pray:
-    errors:
-      timeout: "[ You've already prayed in the past 24 hours. You can pray again {unable_until, time, relative}]"
-    finds:
-      misdeed: "…but they saw your misdeed the other day."
-      unhappy: "…but they aren't happy with you today."
-      despise: "…and they despise you today… Too bad…"
-      ogie: "…and they see you're doing okay."
-      yippie: "…and they're happy with you! Praise be The World Machine!"
-      devoted: "…and they see you're truly a devoted follower. Praise be The World Machine!"
-    title: "You prayed to The World Machine…"
-    Change:
-      gain: "you also got {wool, emoji}**{amount, pretty_num}** wool!"
-      loss: "you also lost {wool, emoji}**{amount, pretty_num}** wool…"
   gamble:
     errors:
       not_enough_wool: "[ You don't have enough wool to bet that amount. ]"
@@ -123,12 +74,6 @@ wool:
           Points are added up and then multiplied by your bet.
           You also get double the points when you hit a jackpot
         value_entry: "- {icon} **{value, plural, one {# point} other {# points}}{value_sign, select, negative { reduction} positive {}}**"
-
-# ---------------------------------------------------------------
-
-transmit:
-  autocomplete:
-    unknown_server: Unknown ({server_id})
 
 # ---------------------------------------------------------------
 

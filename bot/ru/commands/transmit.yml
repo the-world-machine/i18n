@@ -1,0 +1,5 @@
+_metadata:
+  name: transmit
+  description: Transmit to other servers!
+autocomplete:
+  unknown_server: "Неизвестный ({server_id})"
