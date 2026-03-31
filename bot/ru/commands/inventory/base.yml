@@ -1,22 +1,8 @@
-commands:
-  treasures:
-    minis:
-      tips:
-        where_to_get_treasure: "вы можете получить больше сокровищ торговлей в магазине или отправкой Никоготчи на поиски таковых!"
-        public: "вы можете использовать {/inventory/treasures} с аргументом «public: True» чтобы показать свои сокровища в чате!"
-    empty: "[ У {user_id, user, mention} нет ни одного сокровища ]"
-    message: |
-      ### сокровища {user}
-      {treasures}
+options:
+  target-user:
+    name: цель
+    description: Лицо, у которого проверить инвентарь вместо этого
 
-    _metadata:
-      name: сокровища
-      description: Отобразить сокровища из вашего (или чужого!) инвентаря
-    loading: "[ {loading, emoji} Загрузка {target_type, select, current {ваших} other {чужих}} сокровищ... ]"
-  options:
-    target-user:
-      name: цель
-      description: Лицо, у которого проверить инвентарь вместо этого
 items:
   entry_template: "**`{spacer}{amount, pretty_num}`** {icon} {name}"
 

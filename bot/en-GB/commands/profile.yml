@@ -1,0 +1,44 @@
+_metadata:
+  name: profile
+  description: All things to do with profiles
+view:
+  _metadata:
+    name: view
+    description: View a profile
+  message: Viewing {target_id, user, mention}'s profile
+  button: "Edit Your Profile"
+  bots: "[ Bots don't have profiles! ]"
+  loading: "[ {loading, emoji} Loading {target_id, user, mention}'s profile… ]"
+
+  image:
+    alt: "Profile of user {username} in The World Machine's system. They own: {suns, plural, one {# sun} other {# suns}}, {wool, plural, one {# wool} other {# wool}}.{description, notempty, ' Their description says: {description}'}"
+    name: "{target_id} profile"
+    title: "{target_id, user, display_name}'s (@{target_id, user, username}) Profile"
+    unlocked:
+      stamps: "Unlocked Stamps:"
+edit:
+  _metadata:
+    name: edit
+    description: Edit your profile
+  down: "\\s[10]\\@[OneShot/The World Machine/What,][ \\s[1.2]Oh,\\d[500] apologies,\\d[250]\\@[OneShot/The World Machine/Upset left],\\d[250],\\d[250] the website is down right now. \\@[OneShot/The World Machine/Speak]As i was finishing up maintenance on it last time, i went out to take a short break and \\@[OneShot/Robots/Kelvin]\\c[lightcoral]Kelvin\\c[]\\@[OneShot/The World Machine/Looking Left] came up asking for help at the factory. A week later, i find out that i got so carried away, that i forgot to close the \\@[OneShot/The World Machine/Looking Right]door to the server room… \\d[500]\\d[1000]the cats apparently got in there \\@[OneShot/The World Machine/Looking Left]and messed everything up..\\d[1400] It's def gonna take some time to fix it all up, \\@[OneShot/The World Machine/Looking Right]my developers will send updates on it in the community server\\@[OneShot/The World Machine/Normal]\\d[200],\\@[OneShot/The World Machine/Speak] so join if you want\\s[1000]. ]"
+  text: "You can edit your profile over on the website!"
+notifications:
+  badge:
+    content: "-# [ You got a badge! See each one you've earned at {/profile/view} ]"
+    title: "‹ {emoji} {badge_name} ›"
+    description: "{target_id, user, mention} {badge_message}"
+    settings_note: "You can change this notification using {/settings/badge_notifications}"
+    types:
+      times_shattered: |-
+        shatterred a lightbulb **{amount, pretty_num}** {amount, select,
+          1 {time}
+          other {times}
+        }…
+      times_asked: |
+        bothered The World Machine **{amount, pretty_num}** {amount, select,
+          1 {time}
+          other {times}
+        }!
+      wool: earned over **{amount, pretty_num}** wool!
+      times_transmitted: initiated over **{amount, pretty_num}** transmissions!
+      suns: gave/earnt over **{amount, pretty_num}** suns

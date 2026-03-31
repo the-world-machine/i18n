@@ -1,0 +1,26 @@
+errors:
+  not_enough_wool: "[ У вас нет необходимого кол-ва шерсти для этой ставки. ]"
+slots:
+  title: 🎰 Слот Машина
+  guide:
+    description: |
+      Поставьте любое кол-во шерсти в рамках вашего баланса.
+      Вот слоты и их ценность, которые вы можете покрутить:
+      {slot_values}
+      Очки суммируются и умножаются на вашу ставку.
+      Также при джекпоте очки удваиваются
+    value_entry: "- {icon} **{value_sign, select, negative {уменьшение на } other {}}{value, plural, one {# очко} few {# очка} many {# очков} other {# очка}}**"
+  description_running: |
+    {bettor_id, user, mention} ставит {wool, emoji}**{bet_amount, pretty_num}**.
+    {ticker}
+  description_result: |
+    {bettor_id, user, mention} has bet {wool, emoji}**{bet_amount, pretty_num}**.
+    {ticker}
+    -# {result, select,
+      jackpot {ДЖЕКПОТ! 🎉 {bettor_id, user, mention} выигрывает {win_amount, pretty_num} шерсти!}
+      won_some {{bettor_id, user, mention} выигрывает {win_amount, pretty_num} шерсти!}
+      lost_some {{bettor_id, user, mention} возвращает только {win_amount, pretty_num} шерсти…}
+      lost_all {{bettor_id, user, mention} проигрывает всё до копейки… удачи в след. раз!}
+      pain {ДЖЕКПОТ! 🎉 {bettor_id, user, mention} всё проигрывает до копейки! Удачи в след. раз!}
+      other {{bettor_id, user, mention} обводит машину вокруг пальца!}
+    }

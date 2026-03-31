@@ -1,0 +1,33 @@
+_metadata:
+  name: gamble
+  description: Commands related to gambling
+wool:
+  _metadata:
+    name: wool
+    description: Waste your wool away with slots. Totally not a scheme by Magpie
+  errors:
+    not_enough_wool: "[ You don't have enough wool to bet that amount. ]"
+  slots:
+    title: 🎰 Slot Machine
+    description_running: |
+      {bettor_id, user, mention} has bet {wool, emoji}**{bet_amount, pretty_num}**.
+      {ticker}
+    description_result: |
+      {bettor_id, user, mention} has bet {wool, emoji}**{bet_amount, pretty_num}**.
+      {ticker}
+      -# {result, select,
+        jackpot {JACKPOT! 🎉 {bettor_id, user, mention} won back {win_amount, pretty_num} wool!}
+        won_some {{bettor_id, user, mention} won back {win_amount, pretty_num} wool!}
+        lost_some {{bettor_id, user, mention} got back only {win_amount, pretty_num} wool…}
+        lost_all {{bettor_id, user, mention} lost it all… better luck next time!}
+        pain {JACKPOT! 🎉 {bettor_id, user, mention} lost it all! Better luck next time!}
+        other {{bettor_id, user, mention} tricked the machine!}
+      }
+    guide:
+      description: |
+        Gamble any amount of wool as long as you can afford it.
+        Here are the slots you can roll and their values:
+        {slot_values}
+        Points are added up and then multiplied by your bet.
+        You also get double the points when you hit a jackpot
+      value_entry: "- {icon} **{value, plural, one {# point} other {# points}}{value_sign, select, negative { reduction} positive {}}**"

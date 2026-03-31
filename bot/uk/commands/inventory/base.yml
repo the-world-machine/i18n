@@ -1,13 +1,3 @@
-commands:
-  treasures:
-    minis:
-      tips:
-        where_to_get_treasure: "ви можете отримати більше скарбів обмінюючись у крамничці, чи відправляючи Нікоґотчі на пошуки!"
-    empty: "[ {user_id, user, mention} не має ніяких скарбів ]"
-    message: |
-      ### Скарби {user}
-      {treasures}
-
 items:
   entry_template: "**`{spacer}{amount, pretty_num}`** {icon} {name}"
 

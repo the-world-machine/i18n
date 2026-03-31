@@ -1,0 +1,38 @@
+view:
+  message: "Переглядуємо профіль {target_id, user, mention}"
+  button: "Редагувати Свій Профіль"
+  bots: "[ Боти не мають профілів! ]"
+  loading: "[ {loading, emoji} Завантаження профіля {target_id, user, mention}… ]"
+  image:
+    name: "профіль {target_id}"
+    title: "Профіль {target_id, user, displayname+(@username)}"
+    unlocked:
+      stamps: "Розблоковані Значки:"
+    alt: "Профіль користувача {username} у системі Мирової Машини. Вони мають: {suns, plural,\n one {# сонце}\n few {# сонця}\n many {# сонць}\n other {# сонця}\n}, {wool, plural,\n one {# вовну}\n few {# вовни}\n many {# вовен}\n other {# вовни}\n}.{description, notempty, ' Опис: {description}'}"
+edit:
+  text: "Ви можете редагувати свій профіль на нашому сайті!"
+  down: \s[10]\@[OneShot/The World Machine/What,][ \s[1.2]Ой,\d[500] вибачте,\d[250]\@[OneShot/The World Machine/Upset left],\d[250],\d[250] сайт зараз не працює. \@[OneShot/The World Machine/Speak]Минулого тижня, коли я завершував тех обслуговування сайту, я вийшов зробити невелику перерву та \@[OneShot/Robots/Kelvin]\c[lightcoral]Кельвін\c[]\@[OneShot/The World Machine/Looking Left] підійшов попросити допомоги на заводі. Тиждень спустя, мене озорило, так замахався що аж забув закрити \@[OneShot/The World Machine/Looking Right]двері до серверної кімнати… \d[500]\d[1000]коти туди дібралися та \@[OneShot/The World Machine/Looking Left]попортили усе.\d[175] \d[175] \d[175] \d[175] \d[175] \d[175] \d[175] \@[OneShot/The World Machine/Looking Right]Для виправлення оцього всого мені знадобиться немало часу, мої розробники надсилатимуть оновлення про сайт на сервері спільноти\@[OneShot/The World Machine/Normal]\d[200],\@[OneShot/The World Machine/Speak] приєднуйтесь, якщо хочете\s[1000]. ]
+notifications:
+  badge:
+    content: -# [ Ви отримали значок! Подивитись усі що у вас є, можна у {/profile/view} ]
+    title: ‹ {emoji} {badge_name} ›
+    description: "{target_id, user, mention} {badge_message}"
+    settings_note: Ви можете налаштувати це повідомлення, у {/settings/badge_notifications}
+    types:
+      times_shattered: |-
+        зламав лампочку **{amount, pretty_num}** {amount, plural,
+          one {раз}
+          few {рази}
+          many {разів}
+          other {рази}
+        }…
+      times_asked: |
+        заважив The World Machine **{amount, pretty_num}** {amount, plural,
+          one {раз}
+          few {рази}
+          many {разів}
+          other {рази}
+        }
+      wool: наздобув більш ніж **{amount, pretty_num}** Вовни!
+      times_transmitted: започаткував більш ніж **{amount, pretty_num}** міжсерверних передач!
+      suns: дав/получив більш ніж **{amount, pretty_num}** сонць

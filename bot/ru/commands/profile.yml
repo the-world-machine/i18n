@@ -1,0 +1,38 @@
+view:
+  message: Отображается профиль {target_id, user, mention}
+  button: "Редактировать Свой Профиль"
+  bots: "[ У ботов нет профилей! ]"
+  loading: "[ {loading, emoji} Загрузка профиля {target_id, user, mention}… ]"
+  image:
+    name: "{target_id} профиль"
+    title: "Профиль {target_id, user, displayname+(@username)}"
+    unlocked:
+      stamps: "Разблокированные Штампы:"
+    alt: "На изображение изображен профиль {username} в системе Мировой Машины. У них есть: {suns, plural,\none {# солнце}\nfew {# солнца}\nmany {# солнц}\nother {# солнц} }, {wool, plural,\none {# шерсть}\nfew {# шерсти}\nmany {# шерсти}\nother {# шерсти} }. {description, notempty, ' Описание гласит: {description}'}"
+edit:
+  text: "Вы можете изменить свой профиль на сайте!"
+  down: \s[10]\@[OneShot/The World Machine/What,][ \s[1.2]Ой,\d[500] извините,\d[250]\@[OneShot/The World Machine/Upset left],\d[250],\d[250] сейчас сайт лежит. \@[OneShot/The World Machine/Speak] В последний раз, когда на мне был его ремонт, мне нужно было взять небольшой перерыв и \@[OneShot/Robots/Kelvin]\c[lightcoral]Kelvin\c[]\@[OneShot/The World Machine/Looking Left] попросил помочь на заводе. Неделю спустя, как оказалось, из-за работы у меня совершенно вылетело из головы закрыть \@[OneShot/The World Machine/Looking Right]дверь в серверную… \d[500]\d[1000]туда добрались усатые-полосатые \@[OneShot/The World Machine/Looking Left]да переворошили всё..\d[1400] Полюбас понадобится немало времени, чтобы всё привести в порядок, \@[OneShot/The World Machine/Looking Right]мои разработчики отправят обновления об сайте на сервер сообщества\@[OneShot/The World Machine/Normal]\d[200],\@[OneShot/The World Machine/Speak], так что, если хотите, — заходите\s[1000]. ]
+notifications:
+  badge:
+    content: "-# [ Вы получили значок! Вы можете просмотреть все свои значки через {/profile/view} ]"
+    title: "‹ {emoji} {badge_name} ›"
+    description: "{target_id, user, mention} {badge_message}"
+    settings_note: "Вы можете изменить это уведомление, используя {/settings/badge_notifications}"
+    types:
+      times_shattered: |-
+        лампа была разбита **{amount, pretty_num}** {amount, plural,
+          one {раз}
+          few {раза}
+          many {раз}
+          other {раз}
+        }…
+      times_asked: |
+        **Мировую Машину потревожили **{amount, pretty_num}** {amount, plural,
+          one {раз}
+          few {раза}
+          many {раз}
+          other {раз}
+        }
+      wool: заработано более **{amount, pretty_num}** шерсти!
+      times_transmitted: инициировано более **{amount, pretty_num}** межсерверных передач!
+      suns: выдано/заработано более **{amount, pretty_num}** солнц
