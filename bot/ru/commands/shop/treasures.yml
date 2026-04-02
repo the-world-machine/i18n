@@ -1,7 +1,7 @@
-stock_market: |
+stock_market: |-
   ```
-  Коэф. измн.: {value, pretty_num}
-  Цена акций: {price, pretty_num}
+  Коэф. измн.: {change, number, 0.00}
+  Цена акций: {rate, number, 0.00}
   ```
 buying:
   title: Сокровища
