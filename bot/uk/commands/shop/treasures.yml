@@ -6,32 +6,42 @@ stock_market: |-
   ```
 buying:
   title: Скарби
-  description: >
-    Якщо ви бажаєте придбати скарбів за свою **Вовну** {wool, emoji}, тоді ви потрапили в правильне
-    місце! У мене є безліч скарбів, які знайшов я або інші!
+  description: >-
+    Якщо ви бажаєте придбати скарбів за свою **Вовну** {wool, emoji}, тоді ви потрапили в правильне місце!
+
+    У мене є безліч скарбів, які знайшов я або інші!
+
+
     {stock_market}
+
     {selected_treasure}
+
     {user_wool}
   select_menu:
-    no_treasures:
-    placeholder:
-    option:
+    no_treasures: Немає скарбів для обміну
+    placeholder: Оберіть скарб для обміну…
+    option: '"{name}" - {price, pretty_num} {price, plural, one {вовна} few {вовни} many {вовен} other {вовен}}'
 selling:
   title: Обміняти Скарби
-  description: >
-    Ааа... Ви бажаєте обміняти свої скарби на **Вовну** {wool, emoji}, чудово!
-    Якщо ви мені обміняєте, я можу продати їх комусь іншому! Тож переконайтеся, що ви дійсно хочете
-    їх обміняти!
+  description: >-
+    Ааа... Ви бажаєте обміняти свої скарби на **Вовну** {wool, emoji}, чудово! Якщо ви мені обміняєте,
+
+    я можу продати їх комусь іншому! Тож переконайтеся, що ви дійсно хочете їх обміняти!
+
+
     {stock_market}
+
     {selected_treasure}
+
     {user_wool}
   select_menu:
-    no_treasures:
+    no_treasures: У вас немає скарбів для обміну
     placeholder:
-    option:
+    option: '"{name}" ({amount, pretty_num} шт.)'
 selection: |-
   **Обраний скарб:**
-  - {treasure_icon}«**{treasure_name}**» - {owned}
+  - {treasure_icon}«**{treasure_name}**»{owned_count, select, 0 {} other { (ви маєте **{owned_count, pretty_num}**)}}
 
   **За Один**: **{price_one, pretty_num}**{wool, emoji}
-  **За {amount} (усі): **{price_all, pretty_num}**{wool, emoji}
+
+  **За {limit_reached, select, yes {{amount, pretty_num}} other {Усі **{amount, pretty_num}**}}: **{price_all, pretty_num}**{wool, emoji}
