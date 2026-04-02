@@ -6,7 +6,7 @@ generic:
     evaluating: "[ {loading, emoji} Виконую… ]"
     checking_developer_status: "[ {loading, emoji} Перевіряю, чи є ви розробником… ]"
     failed: "[ {sleep, emoji} Завантаження… провалилося ]"
-  command_cooldown: "[ Будь ласка, не спамте цю команду. Ви зможете використати її {timestamp_relative}. ]"
+  command_cooldown: "[ Будь ласка, не спамте цю команду. Ви зможете використати її {cooldown_end, time, relative}. ]"
 
   buttons:
     "yes": "Так"
