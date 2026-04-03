@@ -33,16 +33,16 @@ items:
   pancakes:
     normal:
       name: Млинці
-      description: >
+      description: >-
         Мінімальна доза їжі для Нікоґотчі.
 
         *+25 🥞*
 
-        *+1 ❤️*s
+        *+1 ❤️*
 
     golden:
       name: Золоті Млинці
-      description: >
+      description: >-
         Коштовне, але варте цього.
 
         *УСЕ 🥞*
