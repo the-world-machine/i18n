@@ -63,13 +63,13 @@ other:
       «{old_pronouns}» → «{new_pronouns}»
   trade:
     request: >
-      ### **{user_id, user, mention}** хочет обменять вам ({name_one})!
+      ### **{sender_id, user, mention}** хочет обменять вам ({sender_nikogotchi_name})!
 
-      Хотите ли вы обменять своего ({name_two}) с ними?
-    waiting: "[ Предложение было отправлено {user_id, user, mention}! {loading, emoji} Ожидание ответа... ]"
+      Хотите ли вы обменять своего ({receiver_nikogotchi_name}) с ними?
+    waiting: "[ Предложение было отправлено {receiver_id, user, mention}! {loading, emoji} Ожидание ответа... ]"
     declined: "[ Ваше предложение было отклонено... ]"
     success_decline: "[ Предложение успешно отклонено. ]"
-    success: "[ Торговля с {user_id, user, mention} прошла успешно! Поздоровайтесь с **{name}**! ]"
+    success: "[ Торговля с {user_id, user, mention} прошла успешно! Поздоровайтесь с **{received_nikogotchi_name}**! ]"
 found:
   title: Вы нашли {name}!
   description: "Хотите дать Никоготчи новое имя?"

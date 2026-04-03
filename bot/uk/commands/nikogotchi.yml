@@ -68,14 +68,14 @@ other:
 
   trade:
     request: >
-      ### **{user_id, user, mention}** бажають обмінятись їхнім Нікоґотчі ({name_one}) з вами!
+      ### **{sender_id, user, mention}** бажають обмінятись їхнім Нікоґотчі ({sender_nikogotchi_name}) з вами!
 
-      А ви бажаєте обміняти свій? ({name_two})
+      А ви бажаєте обміняти свій? ({receiver_nikogotchi_name})
 
-    waiting: "[ Запит на обмін відправлений до {user_id, user, mention}! Очікуємо їх відповіді... {loading, emoji} ]"
+    waiting: "[ Запит на обмін відправлений до {receiver_id, user, mention}! Очікуємо їх відповіді... {loading, emoji} ]"
     declined: "[ Ваш запит на обмін був відхилений… ]"
     success_decline: "[ Запит на обмін успішно відхилений. ]"
-    success: "[ Запит на обмін з {user_id, user, mention} був прийнятий та успішно виконаний! Привітайте нового Нікоґотчі: **{name}**! ]"
+    success: "[ Запит на обмін з {user_id, user, mention} був прийнятий та успішно виконаний! Привітайте нового Нікоґотчі: **{received_nikogotchi_name}**! ]"
 
   insufficient_pronouns: "[ Будь ласка введіть хочаб дві форми займенників, (наприклад: «вони/їх»), чи просто введіть слеш, щоб прибрати ]"
 found:
