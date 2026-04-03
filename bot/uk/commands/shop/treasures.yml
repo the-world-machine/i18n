@@ -44,4 +44,4 @@ selection: |-
 
   **За Один**: **{price_one, pretty_num}**{wool, emoji}
 
-  **За {limit_reached, select, yes {{amount, pretty_num}} other {Усі **{amount, pretty_num}**}}: **{price_all, pretty_num}**{wool, emoji}
+  **За {limit_reached, select, yes {{amount, pretty_num}} other {Усі {amount, pretty_num}}}**: **{price_all, pretty_num}**{wool, emoji}

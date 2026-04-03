@@ -36,4 +36,4 @@ selection: |-
 
   **Trade One**: {wool, emoji}**{price_one, pretty_num}**
 
-  **Trade {limit_reached, select, yes {{amount, pretty_num}} other {All **{amount, pretty_num}**}}**: {wool, emoji}**{price_all, pretty_num}**
+  **Trade {limit_reached, select, yes {{amount, pretty_num}} other {All {amount, pretty_num}}}**: {wool, emoji}**{price_all, pretty_num}**
