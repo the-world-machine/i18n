@@ -3,3 +3,5 @@ _metadata:
   name: eval
   # weblate-flags: max-length:100
   description: eval code in slash context (bot developer only)
+
+loading: "[ {icons.loading, emoji} Evaluating… ]"
