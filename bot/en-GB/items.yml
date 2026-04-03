@@ -1,0 +1,69 @@
+treasure:
+  amber:
+    name: Glowing Amber
+    description: It has a three-leaf clover pattern.
+  bottle:
+    name: Bottle of Alcohol
+    description: A bottle of alcohol. Perfect for making molotov cocktails.
+  card:
+    name: '"Real" Library Card'
+    description: Niko's own photo is glued on.
+  clover:
+    name: Glowing Clover
+    description: A glowing clover.
+  die:
+    name: Glowing Die
+    description: A die with glowing dots.
+  journal:
+    name: Mysterious Journal
+    description: It's written in an unknown language.
+  pen:
+    name: Glowing Feather
+    description: A long and slender feather with glowing edges.
+  shirt:
+    name: Novelty Shirt
+    description: '"I herded rams and all I got was this lousy T-shirt!"'
+  sun:
+    name: The Sun
+    description: A large lightbulb. It's the sun.
+
+pancake:
+  normal:
+    name: Pancakes
+    description: |-
+      The bare minimum for feeding a Nikogotchi.
+      *+25 🥞*
+      *+1 ❤️*
+  golden:
+    name: Golden Pancakes
+    description: |-
+      Expensive, but worth it.
+      *MAX 🥞*
+      *+25 ❤️*
+  glitched:
+    name: "???"
+    description: |-
+      I don't even know how this got here.
+      *MAX 🥞*
+      *MAX ❤️*
+
+capsule:
+  blue: Barrens Capsule
+  green: Glens Capsule
+  red: Refuge Capsule
+  yellow: Solstice Capsule
+
+background:
+  Alula and Calamus: Alula and Calamus
+  Barrens: Barrens
+  Glens: Glens
+  Refuge: Refuge
+  Pancakes: Pancakes
+  Magpie: Magpie
+  Catwalk: Catwalk
+  Ruins: Ruins
+  Factory: Factory
+  Lamplighter: Lamplighter
+  Library: Library
+  The World Machine: The World Machine
+  The Author: The Author

@@ -3,7 +3,7 @@ commands:
     _metadata:
       name: random_wikipedia
       description: A random wikipedia article
-    wikipedia: "[ [Here]({link}) is your random wikipedia article. It's about {title}… I think… ]"
+    template: "[ [Here]({link}) is your random wikipedia article. It's about {title}… I think… ]"
   amogus:
     _metadata:
       name: amogus
