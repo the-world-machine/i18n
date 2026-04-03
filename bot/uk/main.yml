@@ -2,7 +2,6 @@ generic:
   loading:
     hint: "[ {loading, emoji} ]"
     generic: "[ {loading, emoji} Завантаження… ]"
-    textbox: "[ {loading, emoji} Завантаження редактору текстових вікон… ]"
     evaluating: "[ {loading, emoji} Виконую… ]"
     checking_developer_status: "[ {loading, emoji} Перевіряю, чи є ви розробником… ]"
     failed: "[ {sleep, emoji} Завантаження… провалилося ]"

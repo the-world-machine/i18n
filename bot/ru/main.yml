@@ -2,11 +2,9 @@ generic:
   loading:
     hint: "[ Загрузка... {loading, emoji} ]"
     generic: "[ Загрузка... {loading, emoji} ]"
-    textbox: "[ {loading, emoji} Загрузка редактора диалоговых окон... ]"
     checking_developer_status: "[ {loading, emoji} Проверка статуса разработчика... ]"
     evaluating: "[ {loading, emoji} В процессе… ]"
     failed: "[ {sleep, emoji} Загрузка... не удалась ]"
-    nikogotchi: "[ {loading, emoji} Загрузка Никоготчи... ]"
   errors:
     expired: "Текущее взаимодействие истекло. Перезапустите команду или сообщите об ошибке в наш дискорд сервер если ошибка останется. (приглашение в {/about})"
     not_a_developer: "[ Извините, вы не являетесь моим разработчиком, не могу пустить ]"
