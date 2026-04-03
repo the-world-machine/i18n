@@ -2,6 +2,11 @@ _metadata:
   name: gamble
   description: Commands related to gambling
 wool:
+  loading:
+    slots:
+      - "[ {loading, emoji} Magpie is definitely not rigging the machine… ]"
+      - "[ {loading, emoji} Forcing wool into the coin slot… ]"
+      - "[ {loading, emoji} Loading up the slot machine… ]"
   _metadata:
     name: wool
     description: Waste your wool away with slots. Totally not a scheme by Magpie

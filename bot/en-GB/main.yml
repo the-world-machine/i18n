@@ -2,11 +2,9 @@ generic:
   loading:
     hint: "[ {loading, emoji} ]"
     generic: "[ {loading, emoji} Loading… ]"
-    textbox: "[ {loading, emoji} Loading textbox editor… ]"
     evaluating: "[ {loading, emoji} Evaluating… ]"
     checking_developer_status: "[ {loading, emoji} Checking developer status… ]"
     failed: "[ {sleep, emoji} Loading… failed ]"
-    nikogotchi: "[ {loading, emoji} Loading Nikogotchi… ]"
   errors:
     not_a_developer: "[ Sorry, you are not one of my developers, can't letcha in ]"
     expired: "This interaction has expired. Run the command again, or report this error in our community discord server if it keeps happening. (you can find an invite to it in {/about})"
@@ -30,6 +28,7 @@ generic:
     bottom: "To the Bottom"
     accept: "Accept"
     decline: "Decline"
+
   minis:
     note: "❕ note:"
     tip: "❔ tip:"

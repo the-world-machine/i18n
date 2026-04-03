@@ -8,7 +8,7 @@ options:
   user_one:
     name: user_one
     description: Optional replacement for the first user (same as interactee, but message won't ping anyone)
-
+loading: "[ {loading, emoji} Loading interactions… ]"
 twm_not_being_very_happy: "[ Don't touch me, {user_id, user, mention}. ]"
 twm_questioning_if_youre_stupid_or_not: "[ {user_id, user, mention}, you can't really interact with bots. ]"
 twm_is_fed_up_with_you: "[ *sigh* You cannot interact with yourself, {user_id, user, mention}. ]"

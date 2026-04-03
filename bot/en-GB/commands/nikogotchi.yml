@@ -7,6 +7,7 @@ minis:
     rename: "you can also do this using {/nikogotchi/rename}"
     sent_treasure: "their stats will decrease faster than normal, so don't forget to call them back"
 
+loading: "[ {loading, emoji} Waiting for the Nikogotchi{multiple, select, yes {s} other {}}… ]"
 name:
   niko: Niko
   nikonlanger: Nikonlanger

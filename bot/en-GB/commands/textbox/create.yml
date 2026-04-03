@@ -3,6 +3,7 @@ _metadata:
   name: create
   # weblate-flags: max-length:100
   description: Make a textbox or a GIF dialogue between characters, like in OneShot
+loading: "[ {loading, emoji} Loading textbox editor… ]"
 options:
   text:
     # weblate-flags: max-length:32
