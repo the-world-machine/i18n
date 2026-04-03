@@ -54,14 +54,11 @@ interact:
   phrases:
   - phrases:
     - phrases: []
-    - phrases:
-      - "{user_one} reicht und boops {user_two}!"
     - phrases: []
     - phrases: []
-    - phrases:
-      - "{user_one} Wollte nur {user_two} ein boop geben!"
-    - phrases:
-      - "{user_one} gibt {user_two} ein unerwarteter boop!"
+    - phrases: []
+    - phrases: []
+    - phrases: []
     - phrases: []
   - phrases:
     - phrases: []
