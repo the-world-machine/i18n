@@ -3,7 +3,7 @@ _metadata:
   name: shop
   # weblate-flags: max-length:100
   description: Open Magpie's Shop
-loading: "[ {loading, emoji} Loading Shop… ]"
+loading: "[ {loading, emoji} Loading Magpie's shop… ]"
 user_wool: "-# current balance: **{wool, emoji}{wool, pretty_num}**"
 buttons:
   buying:
