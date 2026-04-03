@@ -1,6 +1,5 @@
 commands:
   random_wikipedia:
-    wikipedia: "[ [Вот]({link}) случайная статья из Википедии. Кажется, она про {title}… ]"
     _metadata:
       name: random_wikipedia
       description: Случайная статья из Википедии

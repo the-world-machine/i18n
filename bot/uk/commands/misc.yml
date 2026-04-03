@@ -1,6 +1,4 @@
 commands:
-  random_wikipedia:
-    wikipedia: "[ [Ось]({link}) що знайшлось… Це «{title}» ]"
   cat:
     miaou:
       title: "Ви знайшли…"
