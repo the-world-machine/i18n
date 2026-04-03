@@ -1,12 +1,10 @@
 title: Фони
-description: >
+description: |-
   Хочеш придбати цей фон за **{amount, pretty_num}**{wool, emoji}?
 
-
   {user_wool}
-newly_owned: >
+newly_owned: |-
   Дякую! Відтепер ви щасливий власник цього фону.
-
 
   {user_wool}
 traded: "> Успішно придбано фон!"

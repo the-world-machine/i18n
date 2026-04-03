@@ -11,6 +11,7 @@ buying:
 
     {stock_market}
     {selected_treasure} 
+
     {user_wool}
   select_menu:
     no_treasures: Нет сокровищ, которыми можно было бы торговать
@@ -24,7 +25,8 @@ selling:
     совершить обмен! 
 
     {stock_market} 
-    {selected_treasure} 
+    {selected_treasure}
+     
     {user_wool}
   select_menu:
     no_treasures: У вас нет сокровищ, которые вы могли бы обменять

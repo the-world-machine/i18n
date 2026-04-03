@@ -1,10 +1,8 @@
 title: Блинчики
-description: >
+description: |-
   Никоготчи просто обожают блинчики, и, к счастью, вы можете купить их у меня!
 
-
   {items}
-
 
   {user_wool}
 item_template: |-

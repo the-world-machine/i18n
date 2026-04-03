@@ -1,22 +1,14 @@
 title: Capsules
-description: >
-  I see you're interested in this weird capsule thingamajig! If I recall correctly, this is used to
-  unlock **Nikogotchis!** What are *Nikogotchis* you might ask? Well my dear customer, they are simple
-  pets you can take care off, based of me, or any other…
-
+description: |-
+  I see you're interested in this weird capsule thingamajig! If I recall correctly, this is used to unlock **Nikogotchis!** What are *Nikogotchis* you might ask? Well my dear customer, they are simple pets you can take care off, based of me, or any other…
 
   …
 
-
-  *AHEM* existential dread aside, feeding them with pancakes and taking good care of them will allow
-  you to gather treasures! Which you can trade to me! Pretty cool right?
-
+  *AHEM* existential dread aside, feeding them with pancakes and taking good care of them will allow you to gather treasures! Which you can trade to me! Pretty cool right?
 
   So why not trade for a capsule today? Only {wool, emoji}**{cost, pretty_num}**!
 
-
-  *Do keep in mind that you can only have **one capsule** per Nikogotchi.*
-
+  *Do keep in mind that you can have only one nikogotchi at a time, for now.*
 
   {user_wool}
 result:

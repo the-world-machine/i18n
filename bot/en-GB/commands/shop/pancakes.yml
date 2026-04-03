@@ -1,10 +1,8 @@
 title: Pancakes
-description: >
+description: |-
   Nikogotchis absolutely adore pancakes, and thankfully, you can trade some with me!
 
-
   {items}
-
 
   {user_wool}
 item_template: |-

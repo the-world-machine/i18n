@@ -1,12 +1,10 @@
 title: Фоны
-description: >-
+description: |-
   Хотите ли вы обменять {wool, emoji}**{amount, pretty_num}** взамен на этот фон?
 
-
   {user_wool}
-newly_owned: >-
+newly_owned: |-
   Благодарю! Теперь ты являешься гордым обладателем этого фона.
-
 
   {user_wool}
 traded: "> Успешно обменяно на этот фон!"
