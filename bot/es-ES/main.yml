@@ -18,16 +18,8 @@ shop:
   motds: []
   treasures: {}
 items:
-  treasures:
-    sun:
-      name: The Sun
-  pancakes:
-    glitched:
-      name: ???
-  backgrounds:
-    Glens: Glens
-    The World Machine: The World Machine
-    The Author: The Author
+  treasures: {}
+  pancakes: {}
 nikogotchi:
   other:
     error: {}

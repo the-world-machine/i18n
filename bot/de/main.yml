@@ -48,133 +48,45 @@ explode:
 shop:
   motds: []
 items:
-  treasures:
-    amber:
-      name: Leuchtende Amber
-      description: Es hat ein drei blätter Klee Muster.
-    bottle:
-      name: Flasce Alkohol
-      description: Eine Flasche Alkohol. Perfekt für molotov cocktails.
-    card:
-      name: '"Echtes" Bibliothekausweis'
-      description: Niko's eigenes foto ist geklebt.
-    clover:
-      name: Leuchtende Klee
-      description: Ein Leuchtenden Klee.
-    die:
-      name: Leuchtendes Würfel
-      description: Ein Würfel mit leuchtenden Punkten.
-    journal:
-      name: Mysteriöse Journal
-      description: Es ist geschreiben in eine unbekannte Sprache.
-    pen:
-      name: Leuchtendes Feder
-      description: Ein langes Feder mit Leuchtenden Kanten.
-    shirt:
-      description: '"Ich have widder gehüttet und alles was ich kriege ist diese lousy T-shirt?"'
-    sun:
-      name: Die Sonne
-      description: Eine große Glühbirne, Es ist die Sonne.
-
-  pancakes:
-    normal:
-      name: Pfannkuchen
-      description: >
-        Das absolute Minimum zum Füttern a Nikogotchi.
-
-        *+25 🥞*
-
-        *+1 ❤️*
-
-    golden:
-      name: Goldene Pfannkuchen
-      description: >
-        Teuer, aber Wert es.
-
-        *MAX 🥞*
-
-        *+25 ❤️*
-
-    glitched:
-      name: "???"
-      description: Ich weiß nicht was das ist und wie es ist gekommen.
-
-  capsules:
-    blue: Barrens Kapseln
-    green: Glens Kapseln
-    red: Refuge Kapseln
-    yellow: Solstice Kapseln
-
-  backgrounds:
-    Glens: Glens
-    Pancakes: Pfannkuchen
-    Catwalk: Laufsteg
-    Ruins: Ruinen
-    Factory: Kraftwerk
-    Lamplighter: Laternenanzünder
-    Library: Bibliotheke
-    The World Machine: Die Welt Maschine
-    The Author: Der Autor
-
-# ---------------------------------------------------------------
-
+  treasures: {}
+  pancakes: {}
 interact:
   phrases:
   - phrases:
     - phrases: []
     - phrases:
-      - "{user_one} sticht in die Nase von {user_two}!"
       - "{user_one} reicht und boops {user_two}!"
-      - "{user_one} Gefühlt silly und booped {user_two}!"
+    - phrases: []
+    - phrases: []
     - phrases:
-      - "{user_one} zart boops und streichelt die nase von {user_two}"
-    - phrases:
-      - "{user_one} aggressiv booped {user_two}"
-    - phrases:
-      - "{user_one} fühlte das Bedürfnis zu geben {user_two} ein boop!"
       - "{user_one} Wollte nur {user_two} ein boop geben!"
-      - "{user_one} konnte nicht widerstehen booping {user_two}"
     - phrases:
-      - "{user_one} hatte {user_two} in Verwirrung gelassen über ein boop!"
       - "{user_one} gibt {user_two} ein unerwarteter boop!"
-      - "{user_one} lasst {user_two} sprachlos mit einen post-boop!"
     - phrases: []
-  - name: Schlagen
-    phrases:
+  - phrases:
     - phrases: []
-  - name: Streichlen
-    phrases:
+  - phrases:
     - phrases: []
-  - name: Kopf streichel
-    phrases:
+  - phrases:
     - phrases: []
-  - name: Kitzeln
-    phrases:
+  - phrases:
     - phrases: []
-  - name: Umarmung
-    phrases:
+  - phrases:
     - phrases: []
-  - name: kuscheln
-    phrases:
+  - phrases:
     - phrases: []
-  - name: Küssen
-    phrases:
-    - phrases:
-      - "{user_one} hat {user_two} geküsst! ❤️"
-    - phrases:
-      - "{user_one} gibt {user_two} ein warmes küssen ❤️"
+  - phrases:
+    - phrases: []
+    - phrases: []
     - phrases: []
     - phrases: []
   - phrases:
-    - phrases:
-      - "{user_one} Schlägte {user_two}, das würd ein blaues fleck lassen."
     - phrases: []
     - phrases: []
-  - name: 🔥
-    phrases:
     - phrases: []
-    - phrases:
-      - "{user_one} wirft eine Molotov Cocktail in Richtung {user_two} ‼️"
+  - phrases:
+    - phrases: []
+    - phrases: []
     - phrases: []
 nikogotchi:
   other:
