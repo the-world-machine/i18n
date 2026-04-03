@@ -13,13 +13,12 @@ description: |-
 
   {user_wool}
 result:
-  message: |-
+  message: |
     > Ви надали Магпію {amount, plural, 
      one {# вовну} 
      few {# вовни} 
      many {# вовен} 
      other {# вовни}
     }, він крутить гашапон-машину та…
-
     > Він вручає вам {capsule_name}!
   footer: Використайте {/nikogotchi/check} щоб побачити свого нового Нікоґотчі!
