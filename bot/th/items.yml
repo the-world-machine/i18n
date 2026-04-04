@@ -1,0 +1,60 @@
+treasure:
+  amber:
+    name: ''
+    description: ''
+  bottle:
+    name: ''
+    description: ''
+  card:
+    name: ''
+    description: ''
+  clover:
+    name: ''
+    description: ''
+  die:
+    name: ''
+    description: ''
+  journal:
+    name: ''
+    description: ''
+  pen:
+    name: ''
+    description: ''
+  shirt:
+    name: ''
+    description: ''
+  sun:
+    name: ''
+    description: ''
+
+pancake:
+  normal:
+    name: ''
+    description: |
+  golden:
+    name: ''
+    description: |
+  glitched:
+    name: ""
+    description: |
+
+capsule:
+  blue: ''
+  green: ''
+  red: ''
+  yellow: ''
+
+background:
+  Alula and Calamus: ''
+  Barrens: ''
+  Glens: ''
+  Refuge: ''
+  Pancakes: ''
+  Magpie: ''
+  Catwalk: ''
+  Ruins: ''
+  Factory: ''
+  Lamplighter: ''
+  Library: ''
+  The World Machine: ''
+  The Author: ''
