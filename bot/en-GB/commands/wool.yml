@@ -35,7 +35,7 @@ transfer:
   steal: "{sender_id, user, mention} stole a single piece of wool from {receiver_id, user, mention}, why!?"
 pray:
   errors:
-    timeout: "[ You've already prayed in the past 24 hours. You can pray again {unable_until, time, relative}]"
+    timeout: "[ You've already prayed in the past 24 hours. You can pray again {unable_until, time, relative} ]"
   finds:
     misdeed: "…but they saw your misdeed the other day."
     unhappy: "…but they aren't happy with you today."

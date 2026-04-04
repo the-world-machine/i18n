@@ -7,7 +7,7 @@ minis:
     where_to_get_treasure: you can get more treasure by trading in the shop or sending Nikogotchis to find some!
 loading: "[ {loading, emoji} Loading {target_type, select, current {your} other {their}} treasures… ]"
 empty: "[ {user_id, user, mention} doesn't have any treasure ]"
-message: >
+message: |-
   ### {user}'s treasures
 
   {treasures}

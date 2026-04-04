@@ -1,0 +1,14 @@
+_metadata:
+  # weblate-flags: max-length:32, ignore-same
+  name: sun
+  # weblate-flags: max-length:100
+  description: All things to do with Suns
+give:
+  _metadata:
+    # weblate-flags: max-length:32, ignore-same
+    name: give
+    # weblate-flags: max-length:100
+    description: Give someone a sun!
+  cooldown: "[ You've already given a sun to someone today! You can give one again {unable_until, time, relative} ]"
+  self: "[ {doer, user, mention} did a flip with the sun {sun, emoji} in their hands!! ]"
+  message: "[ {giver, user, mention} gave {receiver, user, mention} a sun!! ]"

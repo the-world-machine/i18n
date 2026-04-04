@@ -35,7 +35,7 @@ transfer:
   steal: "Користувач {sender_id, user, mention} вкрав один шматок вовни у {receiver_id, user, mention}, навіщо!?"
 pray:
   errors:
-    timeout: "[ Ви вже молились за останні 24 години. Наступний раз ви сможете {timestamp_relative}]"
+    timeout: "[ Ви вже молились за останні 24 години. Наступний раз ви сможете {unable_until, time, relative} ]"
   finds:
     misdeed: "...але вони недавно бачили ваші погані вчинки."
     unhappy: "...але сьогодні вони вами незадоволені."
